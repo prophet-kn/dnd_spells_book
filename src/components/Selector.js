@@ -4,7 +4,28 @@ import Data from './../data/spells.json';
 
 class SchoolSelector extends Component {
   state = {};
-  render() {
+
+  parseData (response) {
+    return response.data;
+  }
+
+  onLoad = (data) => {
+    this.setState({
+      data: this.parseData(Data)
+    });
+  }
+
+  render () {
+    return (
+      <div>
+        {Data.map((name, i)=>{
+          return <option name={name.s_name} key={i}>{name.s_name}</option>
+        })}
+      </div>
+    );
+  }
+
+  /*render() {
     return (
       <div className={"dndapp-selectors"}>
         <select className="selector">
@@ -34,7 +55,7 @@ class SchoolSelector extends Component {
       </div>
     );
 
-  }
+  }*/
 
 }
 

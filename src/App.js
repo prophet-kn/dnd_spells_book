@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  console.log('quert');
   return (
 
     <div className="dndapp">

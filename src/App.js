@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
+const spells_json = require('./spells_list/spells.json');
 
+console.log(spells_json);
 function App() {
   return (
 

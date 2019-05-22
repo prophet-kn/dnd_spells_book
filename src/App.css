@@ -7,3 +7,13 @@
   color: #ffffff;
   font-size: 50px;
 }
+
+.dndapp-selectors {
+  display: flex;
+  flex-flow: column;
+}
+
+.dndapp-selectors .selector {
+  padding: 15px 5px;
+  margin: 15px 0;
+}

@@ -1,7 +1,5 @@
 import React from 'react';
-import ClassSelector from './components/classSelector';
-import LevelSelector from './components/levelSelector';
-import SchoolSelector from './components/schoolSelector';
+import Selector from './components/Selector';
 import './App.css';
 
 function App() {
@@ -11,9 +9,7 @@ function App() {
       <header className="dndapp-header">
         D&#38;D Spellbook
       </header>
-      <ClassSelector />
-      <LevelSelector />
-      <SchoolSelector />
+      <Selector />
     </div>
 
   );

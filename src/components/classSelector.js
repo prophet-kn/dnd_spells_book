@@ -5,15 +5,19 @@ import ClassData from './../data/spells.json';
 class ClassSelector extends Component {
   render() {
     return (
-      <div className="class-selector">
+      <select className="class-selector">
+        <option value="">Select Class</option>
         {ClassData.map((classes, i)=>{
           return classes.s_class_usage.map((key, k)=>{
-            return key.c_class;
+            return <option value={key.c_class} key={k}>{key.c_class}</option>;
           });
         })}
-      </div>
+      </select>
     );
   }
 }
 
 export default ClassSelector;
+
+
+

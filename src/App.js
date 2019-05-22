@@ -1,5 +1,7 @@
 import React from 'react';
-import ClassSelector from './components/spells';
+import ClassSelector from './components/classSelector';
+import LevelSelector from './components/levelSelector';
+import SchoolSelector from './components/schoolSelector';
 import './App.css';
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
         D&#38;D Spellbook
       </header>
       <ClassSelector />
+      <LevelSelector />
+      <SchoolSelector />
     </div>
 
   );

@@ -27,6 +27,9 @@
         "c_class": "Paladin"
       },
       {
+        "c_class": "Sorcerer"
+      },
+      {
         "c_class": "Cleric"
       }
     ],

@@ -27,9 +27,6 @@
         "c_class": "Paladin"
       },
       {
-        "c_class": "Sorcerer"
-      },
-      {
         "c_class": "Cleric"
       }
     ],
@@ -41,5 +38,31 @@
     "s_school": "Abjuration",
     "s_name": "Aid",
     "s_description": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration. At Higher LeveIs. When you cast this spell using a spell slot of 3rd leveI or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
+  },
+  {
+    "s_id": 2,
+    "s_lvl": 2,
+    "s_class_usage": [
+      {
+        "c_class": "derp test"
+      },
+      {
+        "c_class": "test class"
+      },
+      {
+        "c_class": "Paladin"
+      },
+      {
+        "c_class": "Cleric"
+      }
+    ],
+    "s_type": "test",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "ayy",
+    "s_duration": "8 hours",
+    "s_school": "Abjuration",
+    "s_name": "thing",
+    "s_description": "lul"
   }
 ]

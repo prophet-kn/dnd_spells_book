@@ -6,9 +6,11 @@ class SchoolSelector extends Component {
   render() {
     return (
       <select className="school-selector">
-        <option value="">School of Magic</option>
+        <option school={"none"}>School of Magic</option>
         {SchoolData.map((school, i)=>{
-          return <option school={school.s_school} key={i}>{school.s_school}</option>;
+          return (
+            <option school={school.s_school} key={i}>{school.s_school}</option>
+          );
         })}
       </select>
     );

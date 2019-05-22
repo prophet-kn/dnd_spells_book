@@ -1,5 +1,5 @@
 {
-  "name": "dnd-spells",
+  "name": "dnd_spells_book",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://prophet-kn.github.io/dnd_spells_book/",
@@ -10,12 +10,12 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

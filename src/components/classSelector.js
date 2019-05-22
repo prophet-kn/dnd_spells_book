@@ -9,7 +9,7 @@ class ClassSelector extends Component {
         <option value="">Select Class</option>
         {ClassData.map((classes, i)=>{
           return classes.s_class_usage.map((key, k)=>{
-            return <option value={key.c_class} key={k}>{key.c_class}</option>;
+            return <option classType={key.c_class} key={k}>{key.c_class}</option>;
           });
         })}
       </select>
@@ -18,6 +18,3 @@ class ClassSelector extends Component {
 }
 
 export default ClassSelector;
-
-
-

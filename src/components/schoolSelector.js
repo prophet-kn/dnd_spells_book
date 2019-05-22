@@ -8,7 +8,7 @@ class SchoolSelector extends Component {
       <select className="school-selector">
         <option value="">School of Magic</option>
         {SchoolData.map((school, i)=>{
-          return <option value={school.s_school} key={i}>{school.s_school}</option>;
+          return <option school={school.s_school} key={i}>{school.s_school}</option>;
         })}
       </select>
     );

@@ -9,9 +9,7 @@ function App() {
       <header className="dndapp-header">
         D&#38;D Spellbook
       </header>
-      <div className="class-selector">
-        <ClassSelector />
-      </div>
+      <ClassSelector />
     </div>
 
   );

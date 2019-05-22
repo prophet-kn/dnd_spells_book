@@ -4,9 +4,9 @@ import './App.css';
 function App() {
   return (
 
-    <div className="App">
-      <header className="App-header">
-        Hello world!
+    <div className="dndapp">
+      <header className="dndapp-header">
+        D&#38;D Spellbook
       </header>
     </div>
 

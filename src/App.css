@@ -4,11 +4,11 @@
 }
 
 .dndapp-header {
-  font-size: 20px;
-  color: white;
+  color: #ffffff;
+  font-size: 50px;
 }
 
-.testingtest {
-  color: white;
-  font-size: 30px;
+.class-selector {
+  color: #ffffff;
+  font-size: 50px;
 }

@@ -1,8 +1,8 @@
 {
   "name": "dnd_spells_book",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
-  "homepage": "https://prophet-kn.github.io/dnd_spells_book/",
+  "homepage": "https://prophet-kn.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

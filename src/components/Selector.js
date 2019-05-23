@@ -19,7 +19,7 @@ class SchoolSelector extends Component {
     return (
       <div>
         {Data.map((name, i)=>{
-          return <option name={name.s_name} key={i}>{name.s_name}</option>
+          return <div>{name.s_name}</div>
         })}
       </div>
     );

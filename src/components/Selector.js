@@ -19,7 +19,23 @@ class SchoolSelector extends Component {
     return (
       <div>
         {Data.map((name, i)=>{
-          return <div>{name.s_name}</div>
+          return (
+            <div className={"spell-info"}>
+              <div className={"spell-dropdown"}>
+                <div className={"spell-name"}>
+                  {name.s_name}
+                </div>
+                <div className={"spell-definitions"}>
+                  <div className={"spell-top-level"}>Level {name.s_lvl} {name.s_school} spell</div>
+                  <div>Casting Time: {name.s_cast_time}</div>
+                  <div>Range: {name.s_range} feet</div>
+                  <div>Components: {name.s_components}</div>
+                  <div>Duration {name.s_duration}</div>
+                  <div>{name.s_description}</div>
+                </div>
+              </div>
+            </div>
+          );
         })}
       </div>
     );

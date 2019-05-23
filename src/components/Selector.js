@@ -9,9 +9,9 @@ class SchoolSelector extends Component {
     return response.data;
   }
 
-  onLoad = (data) => {
+  onLoad = (Data) => {
     this.setState({
-      data: this.parseData(Data)
+      Data: this.parseData(Data)
     });
   }
 
@@ -20,7 +20,7 @@ class SchoolSelector extends Component {
       <div>
         {Data.map((name, i)=>{
           return (
-            <div className={"spell-info"}>
+            <div className={"spell-info"} key={i}>
               <div className={"spell-dropdown"}>
                 <div className={"spell-name"}>
                   {name.s_name}

@@ -78,3 +78,25 @@ class SchoolSelector extends Component {
 export default SchoolSelector;
 // https://moduscreate.com/blog/ext-js-to-react-load-sort-and-filter-data-with-react/
 // https://jsbin.com/witokulefu/edit?html,js,output
+/*
+
+const items = [{"s_cast_time": "1 action", "s_class_usage": [{"c_class": "Wizard"}, {"c_class": "Sorcerer"} ], "s_components": "V, S", "s_description": "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or lake 1d6 acid damage. This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th leveI (3d6), and 17th level (4d6).", "s_duration": "Instantaneous", "s_id": 0, "s_lvl": 0, "s_name": "Acid Splash", "s_range": "60 feet", "s_school": "Conjuration", "s_type": "damage"}, {"s_cast_time": "1 action", "s_class_usage": [{"c_class": "Paladin"}, {"c_class": "Cleric"} ], "s_components": "V, S, M (a tiny strip of white cloth)", "s_description": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration. At Higher LeveIs. When you cast this spell using a spell slot of 3rd leveI or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.", "s_duration": "8 hours", "s_id": 1, "s_lvl": 2, "s_name": "Aid", "s_range": "30 feet", "s_school": "Abjuration", "s_type": "support"}, {"s_cast_time": "1 action", "s_class_usage": [{"c_class": "derp test"}, {"c_class": "test class"}, {"c_class": "Paladin"}, {"c_class": "Cleric"} ], "s_components": "ayy", "s_description": "lul", "s_duration": "8 hours", "s_id": 2, "s_lvl": 2, "s_name": "thing", "s_range": "30 feet", "s_school": "Abjuration", "s_type": "test"} ]
+
+
+
+const schools = _.uniqBy(items, 's_school')
+
+const classes = _.chain(items)
+.map(function(item){
+   return item.s_class_usage.map(c => c.c_class)
+})
+.flatten()
+.uniq()
+.value()
+
+console.log('schools', schools.map((item) => item.s_school))
+
+console.log('classes', classes)
+*/
+// lodash 4 
+// https://cdn.jsdelivr.net/lodash/4/lodash.min.js

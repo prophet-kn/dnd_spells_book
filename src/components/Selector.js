@@ -15,7 +15,7 @@ class SchoolSelector extends Component {
     });
   }
 
-  render () {
+  /*render () {
     return (
       <div>
         {Data.map((name, i)=>{
@@ -39,9 +39,9 @@ class SchoolSelector extends Component {
         })}
       </div>
     );
-  }
+  }*/
 
-  /*render() {
+  render() {
     return (
       <div className={"dndapp-selectors"}>
         <select className="selector">
@@ -71,9 +71,10 @@ class SchoolSelector extends Component {
       </div>
     );
 
-  }*/
+  }
 
 }
 
 export default SchoolSelector;
 // https://moduscreate.com/blog/ext-js-to-react-load-sort-and-filter-data-with-react/
+// https://jsbin.com/witokulefu/edit?html,js,output

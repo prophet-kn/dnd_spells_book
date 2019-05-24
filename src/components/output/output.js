@@ -54,16 +54,6 @@ class Output extends Component {
       <div className={"dndapp-wrapper"}>
         <div className={"dndapp-selectors"}>
 
-          <h2>School of Magic</h2>
-          <select className="selector">
-            <option school={"all"}>All</option>
-            {uniqueSchool.map((school, i) => {
-              return (
-                <option school={school.s_school} key={i}>{school.s_school}</option>
-              );
-            })}
-          </select>
-
           <h2>Class</h2>
           <select className="selector">
             <option classtype={"all"}>All</option>
@@ -81,6 +71,17 @@ class Output extends Component {
               );
             })}
           </select>
+
+          <h2>School of Magic</h2>
+          <select className="selector">
+            <option school={"all"}>All</option>
+            {uniqueSchool.map((school, i) => {
+              return (
+                <option school={school.s_school} key={i}>{school.s_school}</option>
+              );
+            })}
+          </select>
+
         </div>
 
         <div className={"dndapp-data"}>

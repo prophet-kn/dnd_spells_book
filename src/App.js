@@ -1,5 +1,5 @@
 import React from 'react';
-import Selector from './components/Selector';
+import Output from './components/output/output';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <header className="dndapp-header">
         D&#38;D Spellbook
       </header>
-      <Selector />
+      <Output />
     </div>
 
   );

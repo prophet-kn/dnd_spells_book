@@ -4,7 +4,6 @@
 }
 
 .dndapp-header {
-  color: #ffffff;
   font-size: 50px;
 }
 
@@ -14,6 +13,10 @@
 }
 
 .dndapp-selectors .selector {
-  padding: 15px 5px;
-  margin: 15px 0;
+  padding: 15px 5px 0 5px;
+  margin: 15px 0 5px 0;
+}
+
+.hidden {
+  display: none;
 }

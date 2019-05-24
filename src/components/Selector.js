@@ -18,7 +18,7 @@ let printUniqueClass = uniqueClass.map(function(classes) {
 .value();
 
 
-class SchoolSelector extends Component {
+class Selector extends Component {
   state = {};
 
   parseData (response) {
@@ -91,4 +91,4 @@ class SchoolSelector extends Component {
 
 }
 
-export default SchoolSelector;
+export default Selector;

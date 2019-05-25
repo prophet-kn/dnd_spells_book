@@ -12,19 +12,18 @@ class DataTable extends Component {
       data: Data
     }
 
-    this.filterData = this.filterData.bind(this);
-  }
-
-  filterData() {
-    //this.setState({data: ''})
+    this.filterState = {
+      filterData: 'dd'
+    }
   }
 
   render() {
+    console.log(this.filterState)
     return (
       <div className={"dndapp-table"}>
 
         <div className={"dndapp-selectors"}>
-          <ClassSelector onChange={this.filterData()}/>
+          <ClassSelector onChange={(e) => {this.setState({filterData: e.target.value})}}/>
           <LevelSelector/>
           <SchoolSelector/>
         </div>

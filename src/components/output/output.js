@@ -14,9 +14,23 @@ class Output extends Component {
     };
 
     this.classFilter = this.classFilter.bind(this);
+    this.levelFilter = this.levelFilter.bind(this);
+    this.schoolFilter = this.schoolFilter.bind(this);
   };
 
-  classFilter(c_class) {
+  classFilter(classFilter) {
+    this.setState({
+      data: this.data
+    });
+  };
+
+  levelFilter(levelFilter) {
+    this.setState({
+      data: this.data
+    });
+  };
+
+  schoolFilter(schoolFilter) {
     this.setState({
       data: this.data
     });
@@ -28,6 +42,8 @@ class Output extends Component {
         <DataTable
           data={this.state.data}
           classFilter={this.classFilter}
+          levelFilter={this.levelFilter}
+          schoolFilter={this.schoolFilter}
         />
       </div>
     );

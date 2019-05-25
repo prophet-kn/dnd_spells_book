@@ -17,8 +17,8 @@ class DataTable extends Component {
 
         <div className={"dndapp-selectors"}>
           <ClassSelector onClick={() => Data.classFilter('c_class')}/>
-          <LevelSelector/>
-          <SchoolSelector/>
+          <LevelSelector onClick={() => Data.classFilter('s_lvl')}/>
+          <SchoolSelector onClick={() => Data.classFilter('s_school')}/>
         </div>
 
         <div className={"dndapp-data"}>

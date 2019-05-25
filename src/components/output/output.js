@@ -18,19 +18,19 @@ class Output extends Component {
     this.schoolFilter = this.schoolFilter.bind(this);
   };
 
-  classFilter(classFilter) {
+  classFilter(filter) {
     this.setState({
       data: this.data
     });
   };
 
-  levelFilter(levelFilter) {
+  levelFilter(filter) {
     this.setState({
       data: this.data
     });
   };
 
-  schoolFilter(schoolFilter) {
+  schoolFilter(filter) {
     this.setState({
       data: this.data
     });

@@ -5,11 +5,13 @@ import './App.css';
 function App() {
   return (
 
-    <div className="dndapp">
-      <header className="dndapp-header">
+    <div className={"dndapp"}>
+      <header className={"dndapp-header"}>
         D&#38;D Spellbook
       </header>
-      <Output />
+      <div className={"dndapp-body"}>
+        <Output />
+      </div>
     </div>
 
   );

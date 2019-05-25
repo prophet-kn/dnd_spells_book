@@ -65,7 +65,7 @@ class DataTable extends Component {
     )
   }
 
-  dataPrint() {
+  dataTable() {
     return (
       <div className={"spell-wrap"}>
         {this.state.data.map((spell, i) => {
@@ -102,7 +102,7 @@ class DataTable extends Component {
         </div>
 
         <div className={"dndapp-data"}>
-          {this.dataPrint()}
+          {this.dataTable()}
         </div>
 
       </div>

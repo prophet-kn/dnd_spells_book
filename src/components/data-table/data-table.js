@@ -69,7 +69,18 @@ class DataTable extends Component {
     return (
       <div className={"spell-wrap"}>
         {this.state.data.map((spell, i) => {
-          if (this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool)) {
+          /*console.log(this.state.data.map(s => spell.s_lvl))
+          console.log(this.state.filterLevel)
+          classes.s_class_usage.map(c => c.c_class)
+          console.log(
+            this.state.data.map(s => spell.s_lvl).indexOf(this.state.filterLevel) ? 'yes' : 'no'
+          )*/
+          console.log(this.state.data.map(c => c.s_class_usage))
+          console.log(this.state.data.map(c => c.s_class_usage.map(d => d.c_class)))
+          console.log(
+            this.state.data.map(c => c.s_class_usage.map(d => d.c_class)).indexOf(this.state.filterClass) ? 'yes' : 'no'
+          )
+          /*if (this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool)) {
             return (
               <div className={"spell-info"} key={i}>
                 <div className={"spell-dropdown"}>
@@ -90,7 +101,7 @@ class DataTable extends Component {
           }
           else {
             return ''
-          }
+          }*/
 
         })}
       </div>

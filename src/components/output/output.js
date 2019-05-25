@@ -12,28 +12,6 @@ class Output extends Component {
     this.state = {
       data: Data
     };
-
-    this.classFilter = this.classFilter.bind(this);
-    this.levelFilter = this.levelFilter.bind(this);
-    this.schoolFilter = this.schoolFilter.bind(this);
-  };
-
-  classFilter(filter) {
-    this.setState({
-      data: this.data
-    });
-  };
-
-  levelFilter(filter) {
-    this.setState({
-      data: this.data
-    });
-  };
-
-  schoolFilter(filter) {
-    this.setState({
-      data: this.data
-    });
   };
 
   render() {
@@ -41,9 +19,6 @@ class Output extends Component {
       <div className={"dndapp-wrapper"}>
         <DataTable
           data={this.state.data}
-          classFilter={this.classFilter}
-          levelFilter={this.levelFilter}
-          schoolFilter={this.schoolFilter}
         />
       </div>
     );

@@ -13,16 +13,17 @@ class DataTable extends Component {
       showList: false
     }
 
-    this.handleClick = this.handleClick.bind(this)
+    this.addClassName = this.addClassName.bind(this)
     this.selectorClass = this.selectorClass.bind(this)
     this.selectorLevel = this.selectorLevel.bind(this)
     this.selectorSchool = this.selectorSchool.bind(this)
   }
 
-  handleClick(e) {
+  addClassName(e, i) {
+    console.log(i)
     this.setState({
       showList: !this.state.showList
-    })
+    });
   }
 
    selectorClass() {
@@ -33,6 +34,7 @@ class DataTable extends Component {
           <div className={'btn class'} classtype={"all"}>All</div>
           <div className={'btn class'} classtype={"Bard"}>Bard</div>
           <div className={'btn class'} classtype={"Cleric"}>Cleric</div>
+          <div className={'btn class'} classtype={"Druid"}>Druid</div>
           <div className={'btn class'} classtype={"Paladin"}>Paladin</div>
           <div className={'btn class'} classtype={"Sorcerer"}>Sorcerer</div>
           <div className={'btn class'} classtype={"Wizard"}>Wizard</div>
@@ -115,8 +117,7 @@ class DataTable extends Component {
             return (
               <div className={"spell-info"} key={i}>
                 <div className={this.state.showList ? "spell-dropdown" : "spell-dropdown hide-child"}
-                  //onClick={(e) => {this.handleClick(e)}}
-                  onClick={this.handleClick}
+                  onClick={(e) => {this.addClassName(e, spell.s_id)}}
                 >
                   <div className={"spell-name"}>
                     {spell.s_name}

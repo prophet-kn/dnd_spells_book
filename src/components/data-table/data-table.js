@@ -10,7 +10,7 @@ class DataTable extends Component {
       filterClass: 'All',
       filterLevel: 'All',
       filterSchool: 'All',
-      condition: false
+      showList: false
     }
 
     this.handleClick = this.handleClick.bind(this)
@@ -19,13 +19,13 @@ class DataTable extends Component {
     this.selectorSchool = this.selectorSchool.bind(this)
   }
 
-  handleClick() {
+  handleClick(e) {
     this.setState({
-      condition: !this.state.condition
+      showList: !this.state.showList
     })
   }
 
-  selectorClass() {
+   selectorClass() {
     return (
       <div>
         <h2>Class</h2>
@@ -114,13 +114,13 @@ class DataTable extends Component {
             ) {
             return (
               <div className={"spell-info"} key={i}>
-                <div className={this.state.condition ? "spell-dropdown" : "spell-dropdown hide-child"}
-                  onClick={(e) => {this.handleClick()}}
+                <div className={this.state.showList ? "spell-dropdown" : "spell-dropdown hide-child"}
+                  onClick={(e) => {this.handleClick(e)}}
                 >
                   <div className={"spell-name"}>
                     {spell.s_name}
                   </div>
-                  <div className={"spell-definitions hidden"}>
+                  <div className={"spell-definitions"}>
                     <div className={"spell-top-level"}>Level {spell.s_lvl} {spell.s_school} spell</div>
                     <div className={"spell-casting-time"}>Casting Time: {spell.s_cast_time}</div>
                     <div className={"spell-range"}>Range: {spell.s_range} feet</div>

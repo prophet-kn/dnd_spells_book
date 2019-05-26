@@ -97,6 +97,7 @@ class DataTable extends Component {
   dataTable() {
     return (
       <div className={"spell-wrap"}>
+        <h2>Results</h2>
         {this.state.data.map((spell, i) => {
           if (
             (this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool) > -1 || this.state.filterSchool === 'All') &&

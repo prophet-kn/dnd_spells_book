@@ -14,8 +14,56 @@
 
 .dndapp-selectors .selector {
   padding: 5px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  border: 2px solid #d6d6d6;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 5px;
+}
+
+.btn:hover {
+  background-color: #d6d6d6;
+  color: #000000;
 }
 
 .hidden {
   display: none;
+}
+
+.dndapp-data .spell-wrap {
+  padding: 5px;
+}
+
+.spell-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 5px;
+  border: 2px solid #d6d6d6;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.spell-info:hover {
+  background-color: #d6d6d6;
+  color: #000000;
+}
+
+.spell-dropdown {
+  position: relative;
+}
+
+.spell-name::after {
+  content: '+';
+  position: absolute;
+  right: 0;
 }

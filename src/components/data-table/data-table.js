@@ -115,7 +115,8 @@ class DataTable extends Component {
             return (
               <div className={"spell-info"} key={i}>
                 <div className={this.state.showList ? "spell-dropdown" : "spell-dropdown hide-child"}
-                  onClick={(e) => {this.handleClick(e)}}
+                  //onClick={(e) => {this.handleClick(e)}}
+                  onClick={this.handleClick}
                 >
                   <div className={"spell-name"}>
                     {spell.s_name}

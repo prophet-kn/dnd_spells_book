@@ -1,7 +1,7 @@
 [
   {
     "s_id": 0,
-    "s_lvl": 0,
+    "s_lvl": "0",
     "s_class_usage": [
       {
         "c_class": "Wizard"
@@ -21,7 +21,7 @@
   },
   {
     "s_id": 1,
-    "s_lvl": 2,
+    "s_lvl": "2",
     "s_class_usage": [
       {
         "c_class": "Paladin"
@@ -41,7 +41,7 @@
   },
   {
     "s_id": 2,
-    "s_lvl": 2,
+    "s_lvl": "2",
     "s_class_usage": [
       {
         "c_class": "derp test"

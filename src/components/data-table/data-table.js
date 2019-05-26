@@ -9,12 +9,29 @@ class DataTable extends Component {
       data: Data,
       filterClass: 'All',
       filterLevel: 'All',
-      filterSchool: 'All'
+      filterSchool: 'All',
+      displayDropdown: false
     }
 
     this.selectorClass = this.selectorClass.bind(this)
     this.selectorLevel = this.selectorLevel.bind(this)
     this.selectorSchool = this.selectorSchool.bind(this)
+    this.showDropdownMenu = this.showDropdownMenu.bind(this);
+    this.hideDropdownMenu = this.hideDropdownMenu.bind(this);
+  }
+
+  showDropdownMenu(event) {
+    event.preventDefault();
+
+    this.setState({ displayMenu: true }, () => {
+      document.addEventListener('click', this.hideDropdownMenu);
+    });
+  }
+
+  hideDropdownMenu() {
+    this.setState({ displayMenu: false }, () => {
+      document.removeEventListener('click', this.hideDropdownMenu);
+    });
   }
 
   selectorClass() {
@@ -56,7 +73,7 @@ class DataTable extends Component {
   }
 
   selectorSchool() {
-    /*return (
+    return (
       <div className={"selector"}>
         <h2>School of Magic</h2>
         <div onClick={(e) => {this.setState({filterSchool: e.target.innerHTML})}}>
@@ -66,8 +83,8 @@ class DataTable extends Component {
 
         </div>
       </div>
-    )*/
-    return (
+    )
+    /*return (
       <div className={"selector"}>
         <h2>School of Magic</h2>
         <select onChange={(e) => {this.setState({filterSchool: e.target.value})}}>
@@ -77,7 +94,7 @@ class DataTable extends Component {
 
         </select>
       </div>
-    )
+    )*/
   }
 
   dataTable() {

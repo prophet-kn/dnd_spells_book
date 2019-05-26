@@ -22,7 +22,7 @@ class DataTable extends Component {
   addClassName(e, i) {
     console.log(i)
     this.setState({
-      showList: !this.state.showList
+      showList: i
     });
   }
 
@@ -117,7 +117,7 @@ class DataTable extends Component {
             return (
               <div className={"spell-info"} key={i}>
                 <div className={this.state.showList ? "spell-dropdown" : "spell-dropdown hide-child"}
-                  onClick={(e) => {this.addClassName(e, spell.s_id)}}
+                  onClick={(e) => {this.addClassName(e, i)}}
                 >
                   <div className={"spell-name"}>
                     {spell.s_name}

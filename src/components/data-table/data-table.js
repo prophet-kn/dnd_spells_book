@@ -10,32 +10,29 @@ class DataTable extends Component {
       filterClass: 'All',
       filterLevel: 'All',
       filterSchool: 'All',
-      displayDropdown: false
     }
 
     this.selectorClass = this.selectorClass.bind(this)
     this.selectorLevel = this.selectorLevel.bind(this)
     this.selectorSchool = this.selectorSchool.bind(this)
-    this.showDropdownMenu = this.showDropdownMenu.bind(this);
-    this.hideDropdownMenu = this.hideDropdownMenu.bind(this);
-  }
-
-  showDropdownMenu(event) {
-    event.preventDefault();
-
-    this.setState({ displayMenu: true }, () => {
-      document.addEventListener('click', this.hideDropdownMenu);
-    });
-  }
-
-  hideDropdownMenu() {
-    this.setState({ displayMenu: false }, () => {
-      document.removeEventListener('click', this.hideDropdownMenu);
-    });
   }
 
   selectorClass() {
     return (
+      <div>
+        <h2>Class</h2>
+        <div className={"selector"} onClick={(e) => {this.setState({filterClass: e.target.innerHTML})}}>
+          <div className={'btn class'} classtype={"all"}>All</div>
+          <div className={'btn class'} classtype={"Bard"}>Bard</div>
+          <div className={'btn class'} classtype={"Wizard"}>Wizard</div>
+          <div className={'btn class'} classtype={"Sorcerer"}>Sorcerer</div>
+          <div className={'btn class'} classtype={"Paladin"}>Paladin</div>
+          <div className={'btn class'} classtype={"Cleric"}>Cleric</div>
+
+        </div>
+      </div>
+    )
+    /*return (
       <div className={"selector"}>
         <h2>Class</h2>
         <select onChange={(e) => {this.setState({filterClass: e.target.value})}}>
@@ -48,25 +45,25 @@ class DataTable extends Component {
 
         </select>
       </div>
-    )
+    )*/
   }
 
   selectorLevel() {
     return (
-      <div className={"selector"}>
+      <div>
         <h2>Spell level</h2>
-          <div onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>
-            <div value={"all"}>All</div>
-            <div value={"0"}>Cantrip</div>
-            <div value={"1"}>1st</div>
-            <div value={"2"}>2nd</div>
-            <div value={"3"}>3rd</div>
-            <div value={"4"}>4th</div>
-            <div value={"5"}>5th</div>
-            <div value={"6"}>6th</div>
-            <div value={"7"}>7th</div>
-            <div value={"8"}>8th</div>
-            <div value={"9"}>9th</div>
+          <div className={"selector"} onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>
+            <div className={'btn lvl'} value={"all"}>All</div>
+            <div className={'btn lvl'} value={"0"}>Cantrip</div>
+            <div className={'btn lvl'} value={"1"}>1st</div>
+            <div className={'btn lvl'} value={"2"}>2nd</div>
+            <div className={'btn lvl'} value={"3"}>3rd</div>
+            <div className={'btn lvl'} value={"4"}>4th</div>
+            <div className={'btn lvl'} value={"5"}>5th</div>
+            <div className={'btn lvl'} value={"6"}>6th</div>
+            <div className={'btn lvl'} value={"7"}>7th</div>
+            <div className={'btn lvl'} value={"8"}>8th</div>
+            <div className={'btn lvl'} value={"9"}>9th</div>
           </div>
       </div>
     )
@@ -74,12 +71,12 @@ class DataTable extends Component {
 
   selectorSchool() {
     return (
-      <div className={"selector"}>
+      <div>
         <h2>School of Magic</h2>
-        <div onClick={(e) => {this.setState({filterSchool: e.target.innerHTML})}}>
-          <div school={"all"}>All</div>
-          <div school={"Conjuration"}>Conjuration</div>
-          <div school={"Abjuration"}>Abjuration</div>
+        <div className={"selector"} onClick={(e) => {this.setState({filterSchool: e.target.innerHTML})}}>
+          <div className={'btn school'} school={"all"}>All</div>
+          <div className={'btn school'} school={"Conjuration"}>Conjuration</div>
+          <div className={'btn school'} school={"Abjuration"}>Abjuration</div>
 
         </div>
       </div>

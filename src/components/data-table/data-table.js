@@ -40,16 +40,16 @@ class DataTable extends Component {
         <h2>Spell level</h2>
         <select onChange={(e) => {this.setState({filterLevel: e.target.value})}}>
           <option level={"all"}>All</option>
-          <option level={"0"}>0</option>
-          <option level={"1"}>1</option>
-          <option level={"2"}>2</option>
-          <option level={"3"}>3</option>
-          <option level={"4"}>4</option>
-          <option level={"5"}>5</option>
-          <option level={"6"}>6</option>
-          <option level={"7"}>7</option>
-          <option level={"8"}>8</option>
-          <option level={"9"}>9</option>
+          <option level={"0"}>Cantrip</option>
+          <option level={"1"}>1st</option>
+          <option level={"2"}>2nd</option>
+          <option level={"3"}>3rd</option>
+          <option level={"4"}>4th</option>
+          <option level={"5"}>5th</option>
+          <option level={"6"}>6th</option>
+          <option level={"7"}>7th</option>
+          <option level={"8"}>8th</option>
+          <option level={"9"}>9th</option>
         </select>
       </div>
     )
@@ -73,10 +73,12 @@ class DataTable extends Component {
     return (
       <div className={"spell-wrap"}>
         {this.state.data.map((spell, i) => {
+          /*console.log (
+            this.state.data.map(c => c.s_class_usage.map(d => d.c_class)).flat().indexOf(this.state.filterClass) > -1
+          )*/
           if (
-            this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool) > -1 &&
-            this.state.data.map(s => spell.s_lvl).indexOf(this.state.filterLevel) > -1 &&
-            this.state.data.map(c => c.s_class_usage.map(d => d.c_class)).flat().indexOf(this.state.filterClass)
+            (this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool) > -1 || this.state.filterSchool === 'All') &&
+            (this.state.data.map(s => spell.s_lvl).indexOf(this.state.filterLevel) > -1 || this.state.filterLevel === 'All')
             ) {
             return (
               <div className={"spell-info"} key={i}>

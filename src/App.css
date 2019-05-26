@@ -73,3 +73,28 @@
 .hide-child .spell-definitions {
   display: none;
 }
+
+.spell-definitions {
+  border: 2px solid #d6d6d6;
+  margin: 0 5px 15px 5px;
+  padding: 10px;
+  text-align: left;
+}
+
+.spell-definitions > div {
+  padding: 2px 0;
+}
+
+.spell-details {
+  border-top: 2px solid #d6d6d6;
+  border-bottom: 2px solid #d6d6d6;
+  margin: 10px 0;
+}
+
+.spell-details > div {
+  padding: 2px 0;
+}
+
+.spell-description {
+  line-height: 20px;
+}

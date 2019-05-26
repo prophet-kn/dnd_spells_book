@@ -32,10 +32,10 @@ class DataTable extends Component {
         <div className={"selector"} onClick={(e) => {this.setState({filterClass: e.target.innerHTML})}}>
           <div className={'btn class'} classtype={"all"}>All</div>
           <div className={'btn class'} classtype={"Bard"}>Bard</div>
-          <div className={'btn class'} classtype={"Wizard"}>Wizard</div>
-          <div className={'btn class'} classtype={"Sorcerer"}>Sorcerer</div>
-          <div className={'btn class'} classtype={"Paladin"}>Paladin</div>
           <div className={'btn class'} classtype={"Cleric"}>Cleric</div>
+          <div className={'btn class'} classtype={"Paladin"}>Paladin</div>
+          <div className={'btn class'} classtype={"Sorcerer"}>Sorcerer</div>
+          <div className={'btn class'} classtype={"Wizard"}>Wizard</div>
 
         </div>
       </div>
@@ -83,8 +83,8 @@ class DataTable extends Component {
         <h2>School of Magic</h2>
         <div className={"selector"} onClick={(e) => {this.setState({filterSchool: e.target.innerHTML})}}>
           <div className={'btn school'} school={"all"}>All</div>
-          <div className={'btn school'} school={"Conjuration"}>Conjuration</div>
           <div className={'btn school'} school={"Abjuration"}>Abjuration</div>
+          <div className={'btn school'} school={"Conjuration"}>Conjuration</div>
 
         </div>
       </div>
@@ -121,11 +121,13 @@ class DataTable extends Component {
                     {spell.s_name}
                   </div>
                   <div className={"spell-definitions"}>
-                    <div className={"spell-top-level"}>Level {spell.s_lvl} {spell.s_school} spell</div>
-                    <div className={"spell-casting-time"}>Casting Time: {spell.s_cast_time}</div>
-                    <div className={"spell-range"}>Range: {spell.s_range} feet</div>
-                    <div className={"spell-components"}>Components: {spell.s_components}</div>
-                    <div className={"spell-duration"}>Duration {spell.s_duration}</div>
+                    <div className={"spell-top-level"}><i>{spell.s_lvl} Level {spell.s_school} spell</i></div>
+                    <div className={"spell-details"}>
+                      <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
+                      <div className={"spell-range"}><b>Range:</b> {spell.s_range} feet</div>
+                      <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
+                      <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
+                    </div>
                     <div className={"spell-description"}>{spell.s_description}</div>
                   </div>
                 </div>

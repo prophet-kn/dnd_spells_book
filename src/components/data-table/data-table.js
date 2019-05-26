@@ -10,11 +10,19 @@ class DataTable extends Component {
       filterClass: 'All',
       filterLevel: 'All',
       filterSchool: 'All',
+      condition: false
     }
 
+    this.handleClick = this.handleClick.bind(this)
     this.selectorClass = this.selectorClass.bind(this)
     this.selectorLevel = this.selectorLevel.bind(this)
     this.selectorSchool = this.selectorSchool.bind(this)
+  }
+
+  handleClick() {
+    this.setState({
+      condition: !this.state.condition
+    })
   }
 
   selectorClass() {
@@ -106,7 +114,9 @@ class DataTable extends Component {
             ) {
             return (
               <div className={"spell-info"} key={i}>
-                <div className={"spell-dropdown"}>
+                <div className={this.state.condition ? "spell-dropdown" : "spell-dropdown hide-child"}
+                  onClick={(e) => {this.handleClick()}}
+                >
                   <div className={"spell-name"}>
                     {spell.s_name}
                   </div>

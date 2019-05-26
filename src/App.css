@@ -35,15 +35,20 @@
   color: #000000;
 }
 
-.hidden {
-  display: none;
-}
-
 .dndapp-data .spell-wrap {
   padding: 5px;
 }
 
-.spell-info {
+.spell-name:hover {
+  background-color: #d6d6d6;
+  color: #000000;
+}
+
+.spell-dropdown {
+  position: relative;
+}
+
+.spell-name {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -53,17 +58,18 @@
   cursor: pointer;
 }
 
-.spell-info:hover {
-  background-color: #d6d6d6;
-  color: #000000;
-}
-
-.spell-dropdown {
-  position: relative;
+.hide-child .spell-name::after {
+  content: '+';
+  position: absolute;
+  right: 20px;
 }
 
 .spell-name::after {
-  content: '+';
+  content: '-';
   position: absolute;
-  right: 0;
+  right: 20px;
+}
+
+.hide-child .spell-definitions {
+  display: none;
 }

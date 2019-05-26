@@ -7,6 +7,16 @@
   font-size: 50px;
 }
 
+.dndapp-footer {
+  display: flex;
+  position: sticky;
+  flex-flow: column;
+  font-size: 10px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  color: #d6d6d645;
+}
+
 .dndapp-selectors {
   display: flex;
   flex-flow: column;

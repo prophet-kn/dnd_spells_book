@@ -38,24 +38,35 @@ class DataTable extends Component {
     return (
       <div className={"selector"}>
         <h2>Spell level</h2>
-        <select onChange={(e) => {this.setState({filterLevel: e.target.value})}}>
-          <option level={"all"}>All</option>
-          <option level={"0"}>Cantrip</option>
-          <option level={"1"}>1st</option>
-          <option level={"2"}>2nd</option>
-          <option level={"3"}>3rd</option>
-          <option level={"4"}>4th</option>
-          <option level={"5"}>5th</option>
-          <option level={"6"}>6th</option>
-          <option level={"7"}>7th</option>
-          <option level={"8"}>8th</option>
-          <option level={"9"}>9th</option>
-        </select>
+          <div onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>
+            <div value={"all"}>All</div>
+            <div value={"0"}>Cantrip</div>
+            <div value={"1"}>1st</div>
+            <div value={"2"}>2nd</div>
+            <div value={"3"}>3rd</div>
+            <div value={"4"}>4th</div>
+            <div value={"5"}>5th</div>
+            <div value={"6"}>6th</div>
+            <div value={"7"}>7th</div>
+            <div value={"8"}>8th</div>
+            <div value={"9"}>9th</div>
+          </div>
       </div>
     )
   }
 
   selectorSchool() {
+    /*return (
+      <div className={"selector"}>
+        <h2>School of Magic</h2>
+        <div onClick={(e) => {this.setState({filterSchool: e.target.innerHTML})}}>
+          <div school={"all"}>All</div>
+          <div school={"Conjuration"}>Conjuration</div>
+          <div school={"Abjuration"}>Abjuration</div>
+
+        </div>
+      </div>
+    )*/
     return (
       <div className={"selector"}>
         <h2>School of Magic</h2>

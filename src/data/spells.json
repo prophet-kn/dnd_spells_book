@@ -3,12 +3,8 @@
     "s_id": 0,
     "s_lvl": "Cantrip",
     "s_class_usage": [
-      {
-        "c_class": "Wizard"
-      },
-      {
-        "c_class": "Sorcerer"
-      }
+      "Wizard",
+      "Sorcerer"
     ],
     "s_type": "damage",
     "s_cast_time": "1 action",
@@ -23,12 +19,8 @@
     "s_id": 1,
     "s_lvl": "2nd",
     "s_class_usage": [
-      {
-        "c_class": "Paladin"
-      },
-      {
-        "c_class": "Cleric"
-      }
+      "Paladin",
+      "Cleric"
     ],
     "s_type": "support",
     "s_cast_time": "1 action",
@@ -43,18 +35,10 @@
     "s_id": 2,
     "s_lvl": "2nd",
     "s_class_usage": [
-      {
-        "c_class": "derp test"
-      },
-      {
-        "c_class": "test class"
-      },
-      {
-        "c_class": "Paladin"
-      },
-      {
-        "c_class": "Cleric"
-      }
+      "derp test",
+      "test class",
+      "Paladin",
+      "Cleric"
     ],
     "s_type": "test",
     "s_cast_time": "1 action",

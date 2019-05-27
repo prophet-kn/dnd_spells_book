@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import '.././../App.css'
 import Data from './../../data/spells.json'
+import _ from 'lodash'
+
+let uniqueLevel = _.uniqBy(Data, 's_lvl');
 
 class DataTable extends Component {
   constructor() {
@@ -61,6 +64,17 @@ class DataTable extends Component {
     return (
       <div>
         <h2>Spell level</h2>
+        <div className={"selector"}>
+          <div className={'btn lvl'} value={"all"} onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>All</div>
+          {uniqueLevel.map((levels, i) => {
+            return (
+              <div className={'btn lvl'} value={levels.s_lvl} key={i} onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>{levels.s_lvl}</div>
+            );
+          })}
+        </div>
+      </div>
+      /*<div>
+        <h2>Spell level</h2>
           <div className={"selector"} onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>
             <div className={'btn lvl'} value={"all"}>All</div>
             <div className={'btn lvl'} value={"0"}>Cantrip</div>
@@ -74,7 +88,7 @@ class DataTable extends Component {
             <div className={'btn lvl'} value={"8"}>8th</div>
             <div className={'btn lvl'} value={"9"}>9th</div>
           </div>
-      </div>
+      </div>*/
     )
   }
 

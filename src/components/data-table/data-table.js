@@ -20,10 +20,9 @@ class DataTable extends Component {
   }
 
   addClassName(e, i) {
-    console.log(i)
-    this.setState({
-      showList: i
-    });
+    let spellState = this.state
+    spellState.showList = spellState.showList === i ? false : i
+    this.setState(spellState)
   }
 
    selectorClass() {
@@ -116,7 +115,7 @@ class DataTable extends Component {
             ) {
             return (
               <div className={"spell-info"} key={i}>
-                <div className={this.state.showList ? "spell-dropdown" : "spell-dropdown hide-child"}
+                <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}
                   onClick={(e) => {this.addClassName(e, i)}}
                 >
                   <div className={"spell-name"}>

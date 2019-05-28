@@ -4,9 +4,9 @@ import Data from './../../data/spells.json'
 import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
 
-let uniqueLevel = _.uniqBy(Data, 's_lvl');
-let uniqueSchool = _.uniqBy(Data, 's_school');
-let uniqueType = _.uniqBy(Data, 's_type');
+let uniqueLevel = _.uniqBy(Data, 's_lvl')
+let uniqueSchool = _.uniqBy(Data, 's_school')
+let uniqueType = _.uniqBy(Data, 's_type')
 let uniqueClass = _.chain(Data)
 let printUniqueClass = uniqueClass.map(function(classes) {
   return classes.s_class_usage
@@ -84,6 +84,7 @@ class DataTable extends Component {
           {uniqueType.map((type, i) => {
             return (
               <div className={this.state.selectedSelector === i ? "btn type selected" : "btn type"} value={type.s_type} key={i} onClick={(e) => {
+                console.log(uniqueType)
                 this.addSelectionSelectorClass(e, i)
                 this.setState({filterType: e.target.innerHTML})
               }}>{type.s_type}</div>

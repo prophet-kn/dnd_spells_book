@@ -4,9 +4,15 @@ import Data from './../../data/spells.json'
 import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
 
-let uniqueLevel = _.uniqBy(Data, 's_lvl')
-let uniqueSchool = _.uniqBy(Data, 's_school')
-let uniqueType = _.uniqBy(Data, 's_type')
+let sortLevel = _.orderBy(Data, 's_lvl')
+let uniqueLevel = _.uniqBy(sortLevel, 's_lvl')
+
+let sortSchool = _.orderBy(Data, 's_school')
+let uniqueSchool = _.uniqBy(sortSchool, 's_school')
+
+let sortType = _.orderBy(Data, 's_type')
+let uniqueType = _.uniqBy(sortType, 's_type')
+
 let uniqueClass = _.chain(Data)
 let printUniqueClass = uniqueClass.map(function(classes) {
   return classes.s_class_usage
@@ -84,7 +90,6 @@ class DataTable extends Component {
           {uniqueType.map((type, i) => {
             return (
               <div className={this.state.selectedSelector === i ? "btn type selected" : "btn type"} value={type.s_type} key={i} onClick={(e) => {
-                console.log(uniqueType)
                 this.addSelectionSelectorClass(e, i)
                 this.setState({filterType: e.target.innerHTML})
               }}>{type.s_type}</div>
@@ -104,7 +109,7 @@ class DataTable extends Component {
             this.setState({filterClass: e.target.innerHTML})
             this.setState({selectedClass: false})
             }}>All</div>
-          {printUniqueClass.map((usedClasses, c) => {
+          {_.orderBy(printUniqueClass).map((usedClasses, c) => {
             return <div className={this.state.selectedClass === c ? "btn class selected" : "btn class"} classtype={usedClasses} key={c} onClick={(e) => {
               this.addClassSelectorClass(e, c)
               this.setState({filterClass: e.target.innerHTML})
@@ -163,7 +168,7 @@ class DataTable extends Component {
     return (
       <div className={"spell-wrap"}>
         <h1>Spell list</h1>
-        {this.state.data.map((spell, i) => {
+        {_.orderBy(Data, 's_name').map((spell, i) => {
           if (
             (this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool) > -1 || this.state.filterSchool === 'All') &&
             (this.state.data.map(s => spell.s_lvl).indexOf(this.state.filterLevel) > -1 || this.state.filterLevel === 'All') &&

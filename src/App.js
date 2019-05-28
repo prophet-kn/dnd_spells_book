@@ -7,7 +7,7 @@ function App() {
 
     <div className={"dndapp"}>
       <header className={"dndapp-header"}>
-        D&#38;D Spellbook v0.0.5a
+        D&#38;D Spellbook v0.0.6a
       </header>
       <div className={"dndapp-body"}>
         <Output />

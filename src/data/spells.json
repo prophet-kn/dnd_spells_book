@@ -84,5 +84,39 @@
     "s_ritual": false,
     "s_name": "Animal Friendship",
     "s_description": "This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends. <br><b>At Higher Levels.</b> When you cast this spell using a spell slot of 2nd leveI or higher, you can affect one additional beast for each slot level above 1st."
+  },
+  {
+    "s_id": 5,
+    "s_lvl": "2nd",
+    "s_class_usage": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "s_type": "Utility",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V, S, M (a morsel of food)",
+    "s_duration": "24 hours",
+    "s_school": "Enchantment",
+    "s_ritual": true,
+    "s_name": "Animal Messenger",
+    "s_description": "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as -a man or woman dressed in the uniform of lhe town guard- or -a red-haired dwarf wearing a pointed hat.- You also speak a message of up twenty-five words. The target beast travels for the duralion of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals. When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell. <br><b>At Higher LeveIs.</b> If you cast this spell using a spell slot of 2nd level or higher, the duration of the spell increases by 48 hours for each slol level above 2nd."
+  },
+  {
+    "s_id": 6,
+    "s_lvl": "8th",
+    "s_class_usage": [
+      "Druid"
+    ],
+    "s_type": "Utility",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 24 hours",
+    "s_school": "Transmutation",
+    "s_ritual": false,
+    "s_name": "Animal Shapes",
+    "s_description": "Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a Large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your action to transform affected creatures into new forms. The transformation lasts for the duration for each target, or until the target drops to O hit points or dies. You can choose a different form for each target. A target's game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit points it had before ir rransformed. If it reverts as a result of dropping to O hit poinls, any excess damage carries over to its normal form long as the excess damage doesn't reduce the creature's normal form to O hit poinlt, it isn't knocked unconscious. The creature is limiled in the actions it can perform by the nature of its new form, and it can't speak or cast spells. <br>The target's gear melds into the new form. The target can't activate, wield, or otherwise benefit from any of its equipment."
   }
 ]

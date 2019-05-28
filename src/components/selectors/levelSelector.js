@@ -8,21 +8,26 @@ let uniqueLevel = _.uniqBy(Data, 's_lvl');
 class LevelSelector extends Component {
   constructor(props) {
     super(props);
-    this.state = {Data};
+    this.state = {
+      data: Data,
+      filterClass: 'All',
+    };
+
+    this.selectorLevel = this.selectorLevel.bind(this)
   }
 
   render() {
     return (
-      <div className={"selector"}>
+      <div>
         <h2>Spell level</h2>
-        <select>
-          <option level={"all"}>All</option>
+        <div className={"selector"}>
+          <div className={'btn lvl'} value={"all"} onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>All</div>
           {uniqueLevel.map((levels, i) => {
             return (
-              <option levels={levels.s_lvl} key={i}>{levels.s_lvl}</option>
+              <div className={'btn lvl'} value={levels.s_lvl} key={i} onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>{levels.s_lvl}</div>
             );
           })}
-        </select>
+        </div>
       </div>
     )
   }

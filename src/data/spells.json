@@ -6,12 +6,13 @@
       "Wizard",
       "Sorcerer"
     ],
-    "s_type": "damage",
+    "s_type": "Damage",
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_name": "Acid Splash",
     "s_description": "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or lake 1d6 acid damage. This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th leveI (3d6), and 17th level (4d6)."
   },
@@ -22,31 +23,66 @@
       "Paladin",
       "Cleric"
     ],
-    "s_type": "support",
+    "s_type": "Support",
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a tiny strip of white cloth)",
     "s_duration": "8 hours",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_name": "Aid",
     "s_description": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration. At Higher LeveIs. When you cast this spell using a spell slot of 3rd leveI or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
   },
   {
     "s_id": 2,
-    "s_lvl": "2nd",
+    "s_lvl": "1st",
     "s_class_usage": [
-      "derp test",
-      "test class",
-      "Paladin",
-      "Cleric"
+      "Ranger",
+      "Wizard"
     ],
-    "s_type": "test",
+    "s_type": "Utility",
     "s_cast_time": "1 action",
     "s_range": "30 feet",
-    "s_components": "ayy",
+    "s_components": "V, S, M (a tiny bell and a piece of fine silver wire)",
     "s_duration": "8 hours",
     "s_school": "Abjuration",
-    "s_name": "thing",
-    "s_description": "lul"
+    "s_ritual": true,
+    "s_name": "Alarm",
+    "s_description": "You set an alarm against unwanted intrusion. Choose a door. a window, or an area wilhin range that is no larger lhan a 20-foot cube. Until lhe spell ends. an alarm alerts you whenever a Tiny or larger creature touches or enters lhe warded area. When you cast the spell, you can designate creatures lhat won't set off the alarm. You also choose whether the alarm is mental or audible. A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. An audible alarm produces the sound of a hand bell for 10 seconds within 60 feel."
+  },
+  {
+    "s_id": 3,
+    "s_lvl": "2nd",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_cast_time": "1 action",
+    "s_range": "Self",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_school": "Transmutation",
+    "s_ritual": false,
+    "s_name": "Alter Self",
+    "s_description": "You assume a different formo When you cast lhe spell. choose one of the following options, the effects of which last for the duralion of the spell. While lhe spell lasts, you can end one option as an aclion lo gain the benefils of a differenl one. <br><b>Aquatic Adaptation</b>. You adapt your body to an aquatic environment, sprouting gills and growing webbing belween your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed. <br><b>Change Appearance.</b> You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair lenglh, coloration, and distinguishing characteristics, if any, You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a differenl size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duralion of the spell, you can use your action to change your appearance in this way again. <br><b>Natural Weapons.</b> You grow claws, fangs, spines, horns, or a differenl natural weapon of your choice. Your unarmed strikes deal ld6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient wilh your unarmed strikes. Finally, lhe natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it."
+  },
+  {
+    "s_id": 4,
+    "s_lvl": "1st",
+    "s_class_usage": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "s_type": "Utility",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V, S, M (a morsel of food)",
+    "s_duration": "24 hours",
+    "s_school": "Enchantment",
+    "s_ritual": false,
+    "s_name": "Animal Friendship",
+    "s_description": "This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends. <br><b>At Higher Levels.</b> When you cast this spell using a spell slot of 2nd leveI or higher, you can affect one additional beast for each slot level above 1st."
   }
 ]

@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import '.././../App.css'
 import Data from './../../data/spells.json'
+import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
 
 let uniqueLevel = _.uniqBy(Data, 's_lvl');
 let uniqueSchool = _.uniqBy(Data, 's_school');
+let uniqueType = _.uniqBy(Data, 's_type');
 let uniqueClass = _.chain(Data)
 let printUniqueClass = uniqueClass.map(function(classes) {
   return classes.s_class_usage
@@ -18,6 +20,7 @@ class DataTable extends Component {
     super();
     this.state = {
       data: Data,
+      filterType: 'All',
       filterClass: 'All',
       filterLevel: 'All',
       filterSchool: 'All',
@@ -25,6 +28,7 @@ class DataTable extends Component {
     }
 
     this.addClassName = this.addClassName.bind(this)
+    this.selectorType = this.selectorType.bind(this)
     this.selectorClass = this.selectorClass.bind(this)
     this.selectorLevel = this.selectorLevel.bind(this)
     this.selectorSchool = this.selectorSchool.bind(this)
@@ -34,6 +38,22 @@ class DataTable extends Component {
     let spellState = this.state
     spellState.showList = spellState.showList === i ? false : i
     this.setState(spellState)
+  }
+
+  selectorType() {
+    return (
+      <div>
+        <h2>Effect Type</h2>
+        <div className={"selector"}>
+          <div className={'btn type'} value={"all"} onClick={(e) => {this.setState({filterType: e.target.innerHTML})}}>All</div>
+          {uniqueType.map((type, i) => {
+            return (
+              <div className={'btn type'} value={type.s_type} key={i} onClick={(e) => {this.setState({filterType: e.target.innerHTML})}}>{type.s_type}</div>
+            );
+          })}
+        </div>
+      </div>
+    )
   }
 
    selectorClass() {
@@ -85,11 +105,12 @@ class DataTable extends Component {
   dataTable() {
     return (
       <div className={"spell-wrap"}>
-        <h2>Spell list</h2>
+        <h1>Spell list</h1>
         {this.state.data.map((spell, i) => {
           if (
             (this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool) > -1 || this.state.filterSchool === 'All') &&
             (this.state.data.map(s => spell.s_lvl).indexOf(this.state.filterLevel) > -1 || this.state.filterLevel === 'All') &&
+            (this.state.data.map(s => spell.s_type).indexOf(this.state.filterType) > -1 || this.state.filterType === 'All') &&
             (this.state.data.map(s => spell.s_class_usage).flat().indexOf(this.state.filterClass) > -1 || this.state.filterClass === 'All')
             ) {
             return (
@@ -99,14 +120,14 @@ class DataTable extends Component {
                     {spell.s_name}
                   </div>
                   <div className={"spell-definitions"}>
-                    <div className={"spell-top-level"}><i>{spell.s_lvl} Level {spell.s_school} spell</i></div>
+                    <div className={"spell-top-level"}><i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i></div>
                     <div className={"spell-details"}>
                       <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
                       <div className={"spell-range"}><b>Range:</b> {spell.s_range} feet</div>
                       <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
                       <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
                     </div>
-                    <div className={"spell-description"}>{spell.s_description}</div>
+                    <div className={"spell-description"}>{ReactHtmlParser(spell.s_description)}</div>
                   </div>
                 </div>
               </div>
@@ -129,6 +150,7 @@ class DataTable extends Component {
           {this.selectorClass()}
           {this.selectorLevel()}
           {this.selectorSchool()}
+          {this.selectorType()}
         </div>
 
         <div className={"dndapp-data"}>

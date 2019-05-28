@@ -24,9 +24,17 @@ class DataTable extends Component {
       filterClass: 'All',
       filterLevel: 'All',
       filterSchool: 'All',
-      showList: false
+      showList: false,
+      selectedSelector: false,
+      selectedClass: false,
+      selectedLevel: false,
+      selectedSchool: false
     }
 
+    this.addSelectionSelectorClass = this.addSelectionSelectorClass.bind(this)
+    this.addClassSelectorClass = this.addClassSelectorClass.bind(this)
+    this.addLevelSelectorClass = this.addLevelSelectorClass.bind(this)
+    this.addSchoolSelectorClass = this.addSchoolSelectorClass.bind(this)
     this.addClassName = this.addClassName.bind(this)
     this.selectorType = this.selectorType.bind(this)
     this.selectorClass = this.selectorClass.bind(this)
@@ -40,15 +48,45 @@ class DataTable extends Component {
     this.setState(spellState)
   }
 
+  addSelectionSelectorClass(e, i) {
+    let currentSelection = this.state
+    currentSelection.selectedSelector = currentSelection.selectedSelector === i ? false : i
+    this.setState(currentSelection)
+  }
+
+  addClassSelectorClass(e, i) {
+    let currentSelection = this.state
+    currentSelection.selectedClass = currentSelection.selectedClass === i ? false : i
+    this.setState(currentSelection)
+  }
+
+  addLevelSelectorClass(e, i) {
+    let currentSelection = this.state
+    currentSelection.selectedLevel = currentSelection.selectedLevel === i ? false : i
+    this.setState(currentSelection)
+  }
+
+  addSchoolSelectorClass(e, i) {
+    let currentSelection = this.state
+    currentSelection.selectedSchool = currentSelection.selectedSchool === i ? false : i
+    this.setState(currentSelection)
+  }
+
   selectorType() {
     return (
       <div>
         <h2>Effect Type</h2>
         <div className={"selector"}>
-          <div className={'btn type'} value={"all"} onClick={(e) => {this.setState({filterType: e.target.innerHTML})}}>All</div>
+          <div className={'btn type'} value={"all"} onClick={(e) => {
+            this.setState({filterType: e.target.innerHTML})
+            this.setState({selectedSelector: false})
+            }}>All</div>
           {uniqueType.map((type, i) => {
             return (
-              <div className={'btn type'} value={type.s_type} key={i} onClick={(e) => {this.setState({filterType: e.target.innerHTML})}}>{type.s_type}</div>
+              <div className={this.state.selectedSelector === i ? "btn type selected" : "btn type"} value={type.s_type} key={i} onClick={(e) => {
+                this.addSelectionSelectorClass(e, i)
+                this.setState({filterType: e.target.innerHTML})
+              }}>{type.s_type}</div>
             );
           })}
         </div>
@@ -61,9 +99,15 @@ class DataTable extends Component {
       <div>
         <h2>Class</h2>
         <div className={"selector"}>
-          <div className={'btn class'} classtype={"all"} onClick={(e) => {this.setState({filterClass: e.target.innerHTML})}}>All</div>
+          <div className={'btn class'} classtype={"all"} onClick={(e) => {
+            this.setState({filterClass: e.target.innerHTML})
+            this.setState({selectedClass: false})
+            }}>All</div>
           {printUniqueClass.map((usedClasses, c) => {
-            return <div className={'btn class'} classtype={usedClasses} key={c} onClick={(e) => {this.setState({filterClass: e.target.innerHTML})}}>{usedClasses}</div>
+            return <div className={this.state.selectedClass === c ? "btn class selected" : "btn class"} classtype={usedClasses} key={c} onClick={(e) => {
+              this.addClassSelectorClass(e, c)
+              this.setState({filterClass: e.target.innerHTML})
+            }}>{usedClasses}</div>
           })}
         </div>
       </div>
@@ -75,10 +119,16 @@ class DataTable extends Component {
       <div>
         <h2>Spell level</h2>
         <div className={"selector"}>
-          <div className={'btn lvl'} value={"all"} onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>All</div>
+          <div className={'btn lvl'} value={"all"} onClick={(e) => {
+            this.setState({filterLevel: e.target.innerHTML})
+            this.setState({selectedLevel: false})
+            }}>All</div>
           {uniqueLevel.map((levels, i) => {
             return (
-              <div className={'btn lvl'} value={levels.s_lvl} key={i} onClick={(e) => {this.setState({filterLevel: e.target.innerHTML})}}>{levels.s_lvl}</div>
+              <div className={this.state.selectedLevel === i ? "btn lvl selected" : "btn lvl"} value={levels.s_lvl} key={i} onClick={(e) => {
+                this.addLevelSelectorClass(e, i)
+                this.setState({filterLevel: e.target.innerHTML})
+              }}>{levels.s_lvl}</div>
             );
           })}
         </div>
@@ -91,10 +141,16 @@ class DataTable extends Component {
       <div>
         <h2>School of Magic</h2>
         <div className={"selector"}>
-          <div className={'btn lvl'} value={"all"} onClick={(e) => {this.setState({filterSchool: e.target.innerHTML})}}>All</div>
+          <div className={'btn school'} value={"all"} onClick={(e) => {
+            this.setState({filterSchool: e.target.innerHTML})
+            this.setState({selectedSchool: false})
+            }}>All</div>
           {uniqueSchool.map((school, i) => {
             return (
-              <div className={'btn school'} school={school.s_school} key={i} onClick={(e) => {this.setState({filterSchool: e.target.innerHTML})}}>{school.s_school}</div>
+              <div className={this.state.selectedSchool === i ? "btn school selected" : "btn school"} school={school.s_school} key={i} onClick={(e) => {
+                this.addSchoolSelectorClass(e, i)
+                this.setState({filterSchool: e.target.innerHTML})
+              }}>{school.s_school}</div>
             );
           })}
         </div>

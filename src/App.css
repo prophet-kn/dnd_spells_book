@@ -40,7 +40,8 @@
   margin-right: 5px;
 }
 
-.btn:hover {
+.btn:hover,
+.selected {
   background-color: #d6d6d6;
   color: #000000;
 }

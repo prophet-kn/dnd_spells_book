@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import '.././../App.css'
-
-// Load selector somponents.
 import DataTable from './../data-table/data-table'
 
 // Output Component

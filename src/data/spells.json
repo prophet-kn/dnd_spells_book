@@ -797,7 +797,957 @@
     ],
     "s_type": "Damage",
     "s_description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one. <br><br>The fire ignites any flammable objects in the area that aren’t being worn or carried. <br><br><b>At higher level<b><br>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+  },
+  {
+    "s_id": 45,
+    "s_name": "Call Lightning",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "3rd",
+    "s_cast_time": "1 action",
+    "s_range": "120 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 10 minutes",
+    "s_class_usage": [
+      "Druid"
+    ],
+    "s_type": "Damage",
+    "s_description": "A storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see 100 feet directly above you. The spell fails if you can’t see a point in the air where the storm cloud could appear (for example, if you are in a room that can’t accommodate the cloud). <br><br>When you cast the spell, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. Each creature within 5 feet of that point must make a Dexterity saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, you can use your action to call down lightning in this way again, targeting the same point or a different one. <br><br>If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1d10 for each slot level above 3rd."
+  },
+  {
+    "s_id": 46,
+    "s_name": "Calm Emotions",
+    "s_ritual": false,
+    "s_school": "Enchantment",
+    "s_lvl": "2nd",
+    "s_cast_time": "1 action",
+    "s_range": "60 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_class_usage": [
+      "Bard",
+      "Cleric"
+    ],
+    "s_type": "Utility",
+    "s_description": "You attempt to suppress strong emotions in a group of people. <br>Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime. <br><br>Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise."
+  },
+  {
+    "s_id": 47,
+    "s_name": "Catapult",
+    "s_ritual": false,
+    "s_school": "Transmutation",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "150 feet",
+    "s_components": "S",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_description": "Choose one object weighing 1 to 5 pounds within range that isn’t being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. In either case, both the object and the creature or solid surface take 3d8 bludgeoning damage.<br><b>At Higher Levels.</b><br> When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by 1d8, for each slot level above 1st."
+  },
+  {
+    "s_id": 48,
+    "s_name": "Catnap",
+    "s_ritual": false,
+    "s_school": "Enchantment",
+    "s_lvl": "3rd",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "S, M (a pinch of sand)",
+    "s_duration": "10 minutes",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard",
+      "Bard"
+    ],
+    "s_type": "Utility",
+    "s_description": "You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell’s duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can’t be affected by this spell again until it finishes a long rest.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd."
+  },
+  {
+    "s_id": 49,
+    "s_name": "Cause Fear",
+    "s_ritual": false,
+    "s_school": "Necromancy",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "60 feet",
+    "s_components": "V",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_class_usage": [
+      "Wizard",
+      "Warlock"
+    ],
+    "s_type": "Utility",
+    "s_description": "You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above lst. The creatures must be within 30 feet of each other when you target them."
+  },
+  {
+    "s_id": 50,
+    "s_name": "Ceremony",
+    "s_ritual": true,
+    "s_school": "Abjuration",
+    "s_lvl": "1st",
+    "s_cast_time": "1 hour",
+    "s_range": "Touch",
+    "s_components": "V, S, M (25 gp worth of powdered silver, which the spell consumes)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Cleric",
+      "Paladin"
+    ],
+    "s_type": "Utility",
+    "s_description": "You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.<br><b>Atonement.</b><br> You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a successful check, you restore the target to its original alignment.<br><b>Bless Water.</b><br> You touch one vial of water and cause it to become holy water.<br><b>Coming of Age.</b><br> You touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number rolled to the ability check. A creature can benefit from this rite only once.<br><b>Dedication.</b><br> You touch one humanoid who wishes to be dedicated to your god’s service. For the next 24 hours, whenever the target makes a saving throw, it can roll a d4 and add the number rolled to the save. A creature can benefit from this rite only once.<br><b>Funeral Rite.</b><br> You touch one corpse, and for the next 7 days, the target can’t become undead by any means short of a wish spell.<br><b>Wedding.</b><br> You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed."
+  },
+  {
+    "s_id": 51,
+    "s_name": "Chain Lightning",
+    "s_ritual": false,
+    "s_school": "Evocation",
+    "s_lvl": "6th",
+    "s_cast_time": "1 action",
+    "s_range": "150 feet",
+    "s_components": "V, S, M (a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_description": "You create a bolt of lightning that arcs toward a target of your choice that you can see within range. Three bolts then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts. <br><br>A target must make a Dexterity saving throw. The target takes 10d8 lightning damage on a failed save, or half as much on a successful one. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th."
+  },
+  {
+    "s_id": 52,
+    "s_name": "Chaos Bolt",
+    "s_ritual": false,
+    "s_school": "Evocation",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "120 feet",
+    "s_components": "V, S",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Sorcerer"
+    ],
+    "s_type": "Damage",
+    "s_description": "You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the dSs. The number rolled on that die determines the attacks damage type, as shown below.<br>d8 / Damage Type<br>1 / Acid<br>2 / Cold<br>3 / Fire<br>4 / Force<br>5 / Lightning<br>6 / Poison<br>7 / Psychic<br>8 / Thunder<br>If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each casting of this spell.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st."
+  },
+  {
+    "s_id": 53,
+    "s_name": "Charm Monster",
+    "s_ritual": false,
+    "s_school": "Enchantment",
+    "s_lvl": "4th",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V, S",
+    "s_duration": "1 hour",
+    "s_class_usage": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature is friendly to you. When the spell ends, the creature knows it was charmed by you.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
+  },
+  {
+    "s_id": 54,
+    "s_name": "Charm Person",
+    "s_ritual": false,
+    "s_school": "Enchantment",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V, S",
+    "s_duration": "1 hour",
+    "s_class_usage": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "You attempt to charm a humanoid you can see within range. <br>It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it.The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
+  },
+  {
+    "s_id": 55,
+    "s_name": "Chill Touch",
+    "s_ritual": false,
+    "s_school": "Necromancy",
+    "s_lvl": "Cantrip",
+    "s_cast_time": "1 action",
+    "s_range": "120 feet",
+    "s_components": "V, S",
+    "s_duration": "1 round",
+    "s_class_usage": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_description": "You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can’t regain hit points until the start of your next turn. Until then, the hand clings to the target. If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn. <b>At higher level</b>This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+  },
+  {
+    "s_id": 56,
+    "s_name": "Chromatic Orb",
+    "s_ritual": false,
+    "s_school": "Evocation",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "90 feet",
+    "s_components": "V, S, M (a diamond worth at least 50 gp)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_description": "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st."
+  },
+  {
+    "s_id": 57,
+    "s_name": "Circle of Death",
+    "s_ritual": false,
+    "s_school": "Necromancy",
+    "s_lvl": "6th",
+    "s_cast_time": "1 action",
+    "s_range": "150 feet",
+    "s_components": "V, S, M (the powder of a crushed black pearl worth at least 500 gp)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_description": "A sphere of negative energy ripples out in a 60-foot-radius sphere from a point within range. Each creature in that area must make a Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th."
+  },
+  {
+    "s_id": 58,
+    "s_name": "Circle of Power",
+    "s_ritual": false,
+    "s_school": "Abjuration",
+    "s_lvl": "5th",
+    "s_cast_time": "1 action",
+    "s_range": "Self (30-foot radius)",
+    "s_components": "V",
+    "s_duration": "Concentration, up to 10 minutes",
+    "s_class_usage": [
+      "Paladin"
+    ],
+    "s_type": "Support",
+    "s_description": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. <br>Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. <br><br>Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throws."
+  },
+  {
+    "s_id": 59,
+    "s_name": "Clairvoyance",
+    "s_ritual": false,
+    "s_school": "Divination",
+    "s_lvl": "3rd",
+    "s_cast_time": "10 minutes",
+    "s_range": "1 mile",
+    "s_components": "V, S, M (a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for seeing",
+    "s_duration": "Concentration, up to 10 minutes",
+    "s_class_usage": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can’t be attacked or otherwise interacted with. <br><br>When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing. A creature that can see the sensor (such as a creature benefitting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist."
+  },
+  {
+    "s_id": 60,
+    "s_name": "Clone",
+    "s_ritual": false,
+    "s_school": "Necromancy",
+    "s_lvl": "8th",
+    "s_cast_time": "1 hour",
+    "s_range": "Touch",
+    "s_components": "V, S, M (a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a sarcophagus",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "This spell grows an inert duplicate of a living creature as a safeguard against death. <br>This clone forms inside a sealed vessel and grows to full size and maturity after 120 days; you can also choose to have the clone be a younger version of the same creature. It remains inert and endures indefinitely, as long as its vessel remains undisturbed.<br><br>At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original’s equipment. The original creature’s physical remains, if they still exist, becom e inert and can’t thereafter be restored to life, since the creature’s soul is elsewhere."
+  },
+  {
+    "s_id": 61,
+    "s_name": "Cloud of Daggers",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "2nd",
+    "s_cast_time": "1 action",
+    "s_range": "60 feet",
+    "s_components": "V, S, M (a sliver of glass)",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_class_usage": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_description": "You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes 4d4 slashing damage when it enters the spell’s area for the first time on a turn or starts its turn there. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd."
+  },
+  {
+    "s_id": 62,
+    "s_name": "Cloudkill",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "5th",
+    "s_cast_time": "1 action",
+    "s_range": "120 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 10 minutes",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_description": "You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind dispereses the fog, ending the spell. Its area is heavily obscured. <br><br>When a creature enters the spell’s area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 5d8 poison damageon a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don’t need to breathe. <br><br>The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th."
+  },
+  {
+    "s_id": 63,
+    "s_name": "Color Spray",
+    "s_ritual": false,
+    "s_school": "Illusion",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "Self (15-foot cone)",
+    "s_components": "V, S, M (A pinch of powder or sand that is colored red, yellow, and blue)",
+    "s_duration": "1 round",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "A dazzling array of flashing, colored light springs from your hand. <br>Roll 6d10, the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can’t see). <br><br>Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for the creature to be affected. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st."
+  },
+  {
+    "s_id": 64,
+    "s_name": "Command",
+    "s_ritual": false,
+    "s_school": "Enchantment",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "60 feet",
+    "s_components": "V",
+    "s_duration": "1 round",
+    "s_class_usage": [
+      "Cleric",
+      "Paladin"
+    ],
+    "s_type": "Utility",
+    "s_description": "You speak a one-word command to a creature you can see within range. <br>The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it. Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can’t follow your command, the spell ends.<br>Approach The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.<br><b>Drop</b> The target drops whatever it is holding and then ends its turn.<br><b>Flee</b> The target spends its turn moving away from you by the fastest available means.<br><b>Grovel</b> The target falls prone and then ends its turn.<br><b>Halt</b> The target doesn’t move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them"
+  },
+  {
+    "s_id": 65,
+    "s_name": "Commune",
+    "s_ritual": true,
+    "s_school": "Divination",
+    "s_lvl": "5th",
+    "s_cast_time": "1 minute",
+    "s_range": "Self",
+    "s_components": "V, S, M (incense and a vial of holy or unholy water",
+    "s_duration": "1 minute",
+    "s_class_usage": [
+      "Cleric"
+    ],
+    "s_type": "Utility",
+    "s_description": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question. <br><br>Divine beings aren’t necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity’s knowledge. In a case where a one-word answer could be misleading or contrary to the deity’s interests, the DM might offer a short phrase as an answer instead. <br><br>If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret."
+  },
+  {
+    "s_id": 66,
+    "s_name": "Commune with Nature",
+    "s_ritual": true,
+    "s_school": "Divination",
+    "s_lvl": "5th",
+    "s_cast_time": "1 minute",
+    "s_range": "Self",
+    "s_components": "V, S",
+    "s_duration": "1 minute",
+    "s_class_usage": [
+      "Druid",
+      "Ranger"
+    ],
+    "s_type": "Utility",
+    "s_description": "You briefly become one with nature and gain knowledge of the surrounding territory. <br>In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function where nature has been replaced by construction, such as in dungeons and towns. <br><br>You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area: <br><br>• terrain and bodies of water <br>• prevalent plants, minerals, animals, or peoples <br>• powerful celestials, fey, fiends, elementals, or undead <br>• influence from other planes of existence <br>• buildings <br><br>For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns."
+  },
+  {
+    "s_id": 67,
+    "s_name": "Compelled Duel",
+    "s_ritual": false,
+    "s_school": "Enchantment",
+    "s_lvl": "1st",
+    "s_cast_time": "1 bonus action",
+    "s_range": "30 feet",
+    "s_components": "V",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_class_usage": [
+      "Paladin"
+    ],
+    "s_type": "Utility",
+    "s_description": "You attempt to compel a creature into a duel. <br>One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you; if it succeeds on this saving throw, this spell doesn’t restrict the target’s movement for that turn. <br><br>The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target."
+  },
+  {
+    "s_id": 68,
+    "s_name": "Comprehend Languages",
+    "s_ritual": true,
+    "s_school": "Divination",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "Self",
+    "s_components": "V, S, M (a pinch of soot and salt)",
+    "s_duration": "1 hour",
+    "s_class_usage": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "For the duration, you understand the literal meaning of any spoken language that you hear. <br>You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface of which the words are written. It takes about 1 minute to read one page of text. <br><br>This spell doesn’t decode secret messages in a text or glyph, such as an arcane sigil, that isn’t part of a written language."
+  },
+  {
+    "s_id": 69,
+    "s_name": "Compulsion",
+    "s_ritual": false,
+    "s_school": "Enchantment",
+    "s_lvl": "4th",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_class_usage": [
+      "Bard"
+    ],
+    "s_type": "Utility",
+    "s_description": "Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. <br>A target automatically succeeds on this saving throw if it can’t be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving throw to try to end the effect. <br><br>A target isn’t compelled to move into an obviously deadly hazard, such as a fire pit, but it will provoke opportunity attacks to move in the designated direction."
+  },
+  {
+    "s_id": 70,
+    "s_name": "Cone of Cold",
+    "s_ritual": false,
+    "s_school": "Evocation",
+    "s_lvl": "5th",
+    "s_cast_time": "1 action",
+    "s_range": "Self (60-foot cone)",
+    "s_components": "V, S, M (a small crystal or glass cone)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_description": "A blast of cold air erupts from your hands. <br>Each creature in a 60-foot cone must make a Constitution saving throw. <br><br>A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th."
+  },
+  {
+    "s_id": 71,
+    "s_name": "Confusion",
+    "s_ritual": false,
+    "s_school": "Enchantment",
+    "s_lvl": "4th",
+    "s_cast_time": "1 action",
+    "s_range": "90 feet",
+    "s_components": "V, S, M (three nut shells)",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_class_usage": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "This spell assaults and twists creatures’ minds, spawning delusions and provoking uncontrolled actions. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it. <br><br>An affected target can’t take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn. <br><b>d10 Behavior </b><br>1. The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn’t take an action this turn. <br>2-6. The creature doesn’t move or take actions this turn. <br>7-8. The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn. <br>9-10. The creature can act and move normally. <br><br>At the end of its turns, an affected target can make a Wisdom saving throw. It it succeeds, this effect ends for that target.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th"
+  },
+  {
+    "s_id": 72,
+    "s_name": "Conjure Animals",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "3rd",
+    "s_cast_time": "1 action",
+    "s_range": "60 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_class_usage": [
+      "Druid",
+      "Ranger"
+    ],
+    "s_type": "Utility",
+    "s_description": "You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. <br><br>Choose one of the following options for what appears: <br><br>• One beast of challenge rating 2 or lower <br>• Two beasts of challenge rating 1 or lower <br>• Four beasts of challenge rating 1/2 or lower <br>• Eight beasts of challenge rating 1/4 or lower <br><br>Each beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends. <br><br>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. <br>The DM has the creatures’ statistics.<br><br><b>At higher level</b><br>When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: <br><br>twice as many with a 5th-level slot<br>three times as many with a 7th-level slot <br>four times as many with a 9th-level slot."
+  },
+  {
+    "s_id": 73,
+    "s_name": "Conjure Barrage",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "3rd",
+    "s_cast_time": "1 action",
+    "s_range": "Self (60-foot cone)",
+    "s_components": "V, S, M (one piece of ammunition or a thrown weapon)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Ranger"
+    ],
+    "s_type": "Damage",
+    "s_description": "You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes 3d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component."
+  },
+  {
+    "s_id": 74,
+    "s_name": "Conjure Celestial",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "7th",
+    "s_cast_time": "1 minute",
+    "s_range": "90 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_class_usage": [
+      "Cleric"
+    ],
+    "s_type": "Utility",
+    "s_description": "You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends. <br><br>The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don’t violate its alignment. If you don’t issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions <br>The DM has the celestial’s statistics. <br><br><br>At higher level</br><br>When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower."
+  },
+  {
+    "s_id": 75,
+    "s_name": "Conjure Elemental",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "5th",
+    "s_cast_time": "1 minute",
+    "s_range": "90 feet",
+    "s_components": "V, S, M (burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water)",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_class_usage": [
+      "Druid",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "You call forth an elemental servant. <br>Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends. <br><br>The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions. <br><br>If your concentration is broken, the elemental doesn’t disappear. Instead, you lose control of the elemental, it becom es hostile toward you and your companions, and it might attack. An uncontrolled elemental can’t be dismissed by you, and it disappears 1 hour after you summoned it. The DM has the elemental’s statistics. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
+  },
+  {
+    "s_id": 76,
+    "s_name": "Conjure Fey",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "6th",
+    "s_cast_time": "1 minute",
+    "s_range": "90 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_class_usage": [
+      "Druid",
+      "Warlock"
+    ],
+    "s_type": "Utility",
+    "s_description": "You summon a fey creature of challenge rating 6 or lower, or a fey spirit that takes the form of a beast of challenge rating 6 or lower. <br>It appears in an unoccupied space that you can see within range. The fey creature disappears when it drops to 0 hit points or when the spell ends. <br><br>The fey creature is friendly to you and your companions for the duration. Roll initiative for the creature, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don’t violate its alignment. If you don’t issue any commands to the fey creature, it defends itself from hostile creatures but otherwise takes no actions. <br><br>If your concentration is broken, the fey creature doesn’t disappear. Instead, you lose control of the fey creature, it becomes hostile toward you and your companions, and it might attack. An uncontrolled fey creature can’t be dismissed by you, and it disappears 1 hour after you summoned it. <br>The DM has the fey creature’s statistics. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th"
+  },
+  {
+    "s_id": 77,
+    "s_name": "Conjure Minor Elementals",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "4th",
+    "s_cast_time": "1 minute",
+    "s_range": "90 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_class_usage": [
+      "Druid",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "You summon elementals that appear in unoccupied spaces that you can see within range.<br>You choose one the following options for what appears: <br>- One elemental of challenge rating 2 or lower <br>- Two elementals of challenge rating 1 or lower <br>- Four elementals of challenge rating 1/2 or lower <br>- Eight elementals of challenge rating 1/4 or lower. <br><br>An elemental summoned by this spell disappears when it drops to 0 hit points or when the spell ends. <br><br>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. <br>The DM has the creatures’ statistics. <br><br><b>At higher level</b><br>When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot."
+  },
+  {
+    "s_id": 78,
+    "s_name": "Conjure Volley",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "5th",
+    "s_cast_time": "1 action",
+    "s_range": "150 feet",
+    "s_components": "V, S, M (one piece of ammunition or one thrown weapon)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Ranger"
+    ],
+    "s_type": "Damage",
+    "s_description": "You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. <br>Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40-foot-radius. 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes 8d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the ammunition or weapon."
+  },
+  {
+    "s_id": 79,
+    "s_name": "Conjure Woodland Beings",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "4th",
+    "s_cast_time": "1 action",
+    "s_range": "60 feet",
+    "s_components": "V, S, M (one holly berry per creature summoned)",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_class_usage": [
+      "Ranger",
+      "Druid"
+    ],
+    "s_type": "Utility",
+    "s_description": "You summon fey creatures that appear in unoccupied spaces that you can see within range. <br><br>Choose one of the following options for what appears: <br> • One fey creature of challenge rating 2 or lower <br> • Two fey creatures of challenge rating 1 or lower <br> • Four fey creatures of challenge rating 1/2 or lower <br> • Eight fey creatures of challenge rating 1/4 or lower <br><br>A summoned creature disappears when it drops to 0 hit points or when the spell ends. <br><br>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. <br>The DM has the creatures’ statistics. <br><br><b>At higher level</b><br>When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: <br>twice as many with a 6th-level slot<br>three times as many with an 8th-level slot."
+  },
+  {
+    "s_id": 80,
+    "s_name": "Contact Other Plane",
+    "s_ritual": true,
+    "s_school": "Divination",
+    "s_lvl": "5th",
+    "s_cast_time": "1 minute",
+    "s_range": "Self",
+    "s_components": "V",
+    "s_duration": "1 minute",
+    "s_class_usage": [
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. <br>Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take 6d6 psychic damage and are insane until you finish a long rest. While insane, you can’t take actions, can’t understand what other creatures say, can’t read, and speak only in gibberish. A greater restoration spell cast on you ends this effect. <br><br>On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as -yes-, -no-,-maybe-,-never-,-irrelevant-,or -unclear- (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer."
+  },
+  {
+    "s_id": 81,
+    "s_name": "Contagion",
+    "s_ritual": false,
+    "s_school": "Necromancy",
+    "s_lvl": "5th",
+    "s_cast_time": "1 action",
+    "s_range": "Touch",
+    "s_components": "V, S",
+    "s_duration": "7 days",
+    "s_class_usage": [
+      "Cleric",
+      "Druid"
+    ],
+    "s_type": "Utility",
+    "s_description": "Your touch inflicts disease. <br>Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below. <br><br>At the end of each of the target’s turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease’s effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends. <br><br>Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease’s effects apply to it. <br><br><b>Blinding Sickness </b><br>Pain grips the creature’s mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is blinded. <br><br><b>Filth Fever </b><br>A raging fever sweeps through the creature’s body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength. <br><br><b>Flesh Rot</b><br>The creature’s flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage. <br><br><b>Mindfire </b><br>The creature’s mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the confusion spell during combat. <br><br><b>Seizure </b><br>The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity. <br><br><b>Slimy Doom </b><br>The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn."
+  },
+  {
+    "s_id": 82,
+    "s_name": "Contingency",
+    "s_ritual": false,
+    "s_school": "Evocation",
+    "s_lvl": "6th",
+    "s_cast_time": "10 minutes",
+    "s_range": "Self",
+    "s_components": "V, S, M (a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp)",
+    "s_duration": "10 days",
+    "s_class_usage": [
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. <br>You cast that spell -called the contingent spell- as part of casting contingency, expending spell slots for both, but the contingent spell doesn’t come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with water breathing might stipulate that water breathing comes into effect when you are engulfed in water or a similar liquid. <br><br>The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to. and then contingency ends. <br><br>The contingent spell takes effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person."
+  },
+  {
+    "s_id": 83,
+    "s_name": "Continual Flame",
+    "s_ritual": false,
+    "s_school": "Evocation",
+    "s_lvl": "2nd",
+    "s_cast_time": "1 action",
+    "s_range": "Touch",
+    "s_components": "V, S, M (ruby dust worth 50 gp, which the spell consumes)",
+    "s_duration": "Until dispelled",
+    "s_class_usage": [
+      "Wizard",
+      "Cleric"
+    ],
+    "s_type": "Utility",
+    "s_description": "A flame, equivalent in brightness to a torch, springs forth from an object that you touch. <br>The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A continual flame can be covered or hidden but not smothered or quenched."
+  },
+  {
+    "s_id": 84,
+    "s_name": "Control Flames",
+    "s_ritual": false,
+    "s_school": "Transmutation",
+    "s_lvl": "Cantrip",
+    "s_cast_time": "1 action",
+    "s_range": "60 feet",
+    "s_components": "S",
+    "s_duration": "Instantaneous or 1 hour",
+    "s_class_usage": [
+      "Wizard",
+      "Druid",
+      "Sorcerer"
+    ],
+    "s_type": "Utility",
+    "s_description": "You choose a nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:<br>- You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.<br>- You instantaneously extinguish the flames within the cube.<br>- You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.<br>- You cause simple shapes — such as the vague form of a creature, an inanimate object, or a location — to appear within the flames and animate as you like. The shapes last for 1 hour.<br>If you cast this spell multiple times, you can have up to three non-instantaneous"
+  },
+  {
+    "s_id": 85,
+    "s_name": "Control Water",
+    "s_ritual": false,
+    "s_school": "Transmutation",
+    "s_lvl": "4th",
+    "s_cast_time": "1 action",
+    "s_range": "300 feet",
+    "s_components": "V, S, M (a drop of water and a pinch of dust)",
+    "s_duration": "Concentration, up to 10 minutes",
+    "s_class_usage": [
+      "Wizard",
+      "Druid",
+      "Cleric"
+    ],
+    "s_type": "Utility",
+    "s_description": "Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. <br>You can choose from any of the following effects when you cast this spell. As an action on your turn, you can repeat the same effect or choose a different one. <br><br><b>Flood </b><br>You cause the water level of all standing water in the area to rise by as much as 20 feet. If the area includes a shore, the flooding water spills over onto dry land. If you choose an area in a large body of water, you instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes down. Any Huge or smaller vehicles in the wave’s path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing. The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts. <br><br><b>Part Water</b> <br>You cause water in the area to move apart and create a trench. The trench extends across the spell’s area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored. <br><br><b>Redirect Flow</b> <br>You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell’s area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose until the spell ends or you choose a different effect. <br><br><b>Whirlpool </b><br>This effect requires a body of water at least 50 feet square and 25 feet deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by making a Strength (Athletics) check against your spell save DC. <br>When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn’t caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so. <br>The first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage, this damage occurs each round it remains in the vortex."
+  },
+  {
+    "s_id": 86,
+    "s_name": "Control Weather",
+    "s_ritual": false,
+    "s_school": "Transmutation",
+    "s_lvl": "8th",
+    "s_cast_time": "10 minutes",
+    "s_range": "Self (5-mile radius)",
+    "s_components": "V, S, M (burning incense and bits of earth and wood mixed in water)",
+    "s_duration": "Concentration, up to 8 hours",
+    "s_class_usage": [
+      "Wizard",
+      "Druid",
+      "Cleric"
+    ],
+    "s_type": "Utility",
+    "s_description": "You take control of the weather within 5 miles of you for the duration. <br>You must be outdoors to cast this spell. Moving to a place where you don’t have a clear path to the sky ends the spell early. <br><br>When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal. <br><br>When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction. <br><br><b>Precipitation</b> <br>Stage 1 – Clear, <br>Stage 2 – Light clouds, <br>Stage 3 – Overcast or ground fog, <br>Stage 4 – Rain, hail or snow, <br>Stage 5 – Torrential rain, driving hail or blizzard <br><br><b>Temperature</b> <br>Stage 1 – Unbearable heat, <br>Stage 2 – Hot, <br>Stage 3 – Warm, <br>Stage 4 – Cool, <br>Stage 5 – Cold, <br>Stage 6 – Arctic cold <br><br><b>Wind</b> <br>Stage 1 – Calm, <br>Stage 2 – Moderate wind, <br>Stage 3 – Strong wind, <br>Stage 4 – Gale, <br>Stage 5 – Storm"
+  },
+  {
+    "s_id": 87,
+    "s_name": "Control Winds",
+    "s_ritual": false,
+    "s_school": "Transmutation",
+    "s_lvl": "5th",
+    "s_cast_time": "1 action",
+    "s_range": "300 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_class_usage": [
+      "Wizard",
+      "Druid",
+      "Sorcerer"
+    ],
+    "s_type": "Utility",
+    "s_description": "You take control of the air in a 100-foot cube that you can see within range. Choose one of the following effects when you cast the spell. The effect lasts for the spell’s duration, unless you use your action on a later turn to switch to a different effect. You can also use your action to temporarily halt the effect or to restart one you’ve halted.<br>Gusts. A wind picks up within the cube, continually blowing in a horizontal direction that you choose. You choose the intensity of the wind: calm, moderate, or strong. If the wind is moderate or strong, ranged weapon attacks that pass through it or that are made against targets within the cube have disadvantage on their attack rolls. If the wind is strong, any creature moving against the wind must spend 1 extra foot of movement for each foot moved.<br><br>Downdraft. You cause a sustained blast of strong wind to blow downward from the top of the cube. Ranged weapon attacks that pass through the cube<br>or that are made against targets within it have disadvantage on their attack rolls. A creature must make a Strength saving throw if it flies into the cube for the first time on a turn or starts its turn there flying. On a failed save, the creature is knocked prone.<br><br>Updraft. You cause a sustained updraft within the cube, rising upward from the cube’s bottom edge. Creatures that end a fall within the cube take only half damage from the fall. When a creature in the cube makes a vertical jump, the creature can jump up to 10 feet higher than normal."
+  },
+  {
+    "s_id": 88,
+    "s_name": "Cordon of Arrows",
+    "s_ritual": false,
+    "s_school": "Transmutation",
+    "s_lvl": "2nd",
+    "s_cast_time": "1 action",
+    "s_range": "5 feet",
+    "s_components": "V, S, M (four or more arrows or bolts)",
+    "s_duration": "8 hours",
+    "s_class_usage": [
+      "Ranger"
+    ],
+    "s_type": "Utility",
+    "s_description": "You plant four pieces of nonmagical ammunition – arrows or crossbow bolts – in the ground within range and lay magic upon them to protect an area. <br>Until the spell ends, whenever a creature other than you comes within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity saving throw or take 1d6 piercing damage. The piece of ammunition is then destroyed. The spell ends when no ammunition remains. <br><br>When you cast this spell, you can designate any creatures you choose, and the spell ignores them. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 3rd level or higher, the amount of ammunition that can be affected increases by two for each slot level above 2nd."
+  },
+  {
+    "s_id": 89,
+    "s_name": "Counterspell",
+    "s_ritual": false,
+    "s_school": "Abjuration",
+    "s_lvl": "3rd",
+    "s_cast_time": "1 reaction",
+    "s_range": "60 feet",
+    "s_components": "S",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Support",
+    "s_description": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell<br><br>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10+ the spell’s level. On a success, the creature’s spell fails and has no effect. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used."
+  },
+  {
+    "s_id": 90,
+    "s_name": "Create Bonfire",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "Cantrip",
+    "s_cast_time": "1 action",
+    "s_range": "60 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_class_usage": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature in the bonfire’s space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it moves into the bonfire’s space for the first time on a turn or ends its turn there.<br>The bonfire ignites flammable objects in its area that aren’t being worn or carried.<br>The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+  },
+  {
+    "s_id": 91,
+    "s_name": "Create Food and Water",
+    "s_ritual": false,
+    "s_school": "Conjuration",
+    "s_lvl": "3rd",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V, S",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Cleric",
+      "Paladin"
+    ],
+    "s_type": "Utility",
+    "s_description": "You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn’t go bad."
+  },
+  {
+    "s_id": 92,
+    "s_name": "Create Homunculus",
+    "s_ritual": false,
+    "s_school": "Transmutation",
+    "s_lvl": "6th",
+    "s_cast_time": "1 hour",
+    "s_range": "Touch",
+    "s_components": "V, S, M (clay, ash, and mandrake root, all of which the spell consumes, and a jewel-encrusted dagger worth at least 1,000 gp)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking 2d4 piercing damage that can’t be reduced in any way. You then drip your blood on the spell’s other components and touch them, transforming them into a special construct called a homunculus. The statistics of the homunculus are in the Monster Manual. It is your faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your Hit Dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum is reduced by the total, and the homunculus’s hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 hit point. and the change to your and the homunculus’s hit points ends when you finish your next long rest. The reduction to your hit point maximum can’t be removed by any means before then, except by the homunculus‘s death. You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails."
+  },
+  {
+    "s_id": 93,
+    "s_name": "Create or Destroy Water",
+    "s_ritual": false,
+    "s_school": "Transmutation",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V, S, M (a drop of water if creating water or a few grains of sand if destroying it)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Druid",
+      "Cleric"
+    ],
+    "s_type": "Utility",
+    "s_description": "You either create or destroy water. <br><b>Create Water </b><br>You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area. <br><br><b>Destroy Water </b><br>You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st."
+  },
+  {
+    "s_id": 94,
+    "s_name": "Create Undead",
+    "s_ritual": false,
+    "s_school": "Necromancy",
+    "s_lvl": "6th",
+    "s_cast_time": "1 minute",
+    "s_range": "10 feet",
+    "s_components": "V, S, M (one clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse)",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Warlock",
+      "Cleric",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "You can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a ghoul under your control. (The DM has game statistics for these creatures.) <br><br>As a bonus action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete. <br><br>The creature is under your control for 24 hours, after which it stops obeying any command you have given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell, rather than animating new ones. <br><br><b>At higher level</b><br>When you cast this spell using a 7th-level spell slot, you can animate or reassert control over four ghouls. <br>When you cast this spell using an 8th-level spell slot, you can animate or reassert control over five ghouls or two ghasts or wights. <br>When you cast this spell using a 9th-level spell slot, you can animate or reassert control over six ghouls, three ghasts or wights, or two mummies."
+  },
+  {
+    "s_id": 95,
+    "s_name": "Creation",
+    "s_ritual": false,
+    "s_school": "Illusion",
+    "s_lvl": "5th",
+    "s_cast_time": "1 minute",
+    "s_range": "30 feet",
+    "s_components": "V, S, M (a tiny piece of matter of the same type of the item you plan to create",
+    "s_duration": "Special",
+    "s_class_usage": [
+      "Wizard",
+      "Sorcerer"
+    ],
+    "s_type": "Utility",
+    "s_description": "You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range: soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before. <br><br>The duration depends on the object’s material. If the object is composed of multiple materials, use the shortest duration. <br><br><b>Material — Duration </b><br>Vegetable matter — 1 day <br>Stone/crystal — 12 hours <br>Precious metals — 1 hour <br>Gems — 10 minutes <br>Adamantine/Mithral — 1 minute <br><br>Using any material created by this spell as another spell’s material component causes that spell to fail. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th."
+  },
+  {
+    "s_id": 96,
+    "s_name": "Crown of Madness",
+    "s_ritual": false,
+    "s_school": "Enchantment",
+    "s_lvl": "2nd",
+    "s_cast_time": "1 action",
+    "s_range": "120 feet",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_class_usage": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_description": "One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. <br>While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes. <br><br>The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach. <br><br>On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends."
+  },
+  {
+    "s_id": 97,
+    "s_name": "Crown of Stars",
+    "s_ritual": false,
+    "s_school": "Evocation",
+    "s_lvl": "7th",
+    "s_cast_time": "1 action",
+    "s_range": "Self",
+    "s_components": "V, S",
+    "s_duration": "1 hour",
+    "s_class_usage": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_description": "Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit. the target takes 4d12 radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote. If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. Ifyou have one to three motes remaining, they shed dim light in a 30—foot radius.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th."
+  },
+  {
+    "s_id": 98,
+    "s_name": "Crusader’s Mantle",
+    "s_ritual": false,
+    "s_school": "Evocation",
+    "s_lvl": "3rd",
+    "s_cast_time": "1 action",
+    "s_range": "Self",
+    "s_components": "V",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_class_usage": [
+      "Paladin"
+    ],
+    "s_type": "Support",
+    "s_description": "Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack."
+  },
+  {
+    "s_id": 99,
+    "s_name": "Cure Wounds",
+    "s_ritual": false,
+    "s_school": "Evocation",
+    "s_lvl": "1st",
+    "s_cast_time": "1 action",
+    "s_range": "Touch",
+    "s_components": "V, S",
+    "s_duration": "Instantaneous",
+    "s_class_usage": [
+      "Paladin",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "s_type": "Support",
+    "s_description": "A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st."
   }
 ]
-
-// https://www.dnd-spells.com/spells

@@ -152,5 +152,91 @@
     "s_ritual": false,
     "s_name": "Animal Shapes",
     "s_description": "Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a Large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your action to transform affected creatures into new forms. The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target's game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit points it had before ir rransformed. If it reverts as a result of dropping to 0 hit poinls, any excess damage carries over to its normal form long as the excess damage doesn't reduce the creature's normal form to 0 hit poinlt, it isn't knocked unconscious. The creature is limiled in the actions it can perform by the nature of its new form, and it can't speak or cast spells. <br>The target's gear melds into the new form. The target can't activate, wield, or otherwise benefit from any of its equipment."
+  },
+  {
+    "s_id": 7,
+    "s_lvl": "8th",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_cast_time": "1 action",
+    "s_range": "150 feet",
+    "s_components": "V, S, M (a bit of sponge)",
+    "s_duration": "Instantaneous",
+    "s_school": "Necromancy",
+    "s_ritual": false,
+    "s_name": "Abi-Dalzim’s Horrid Wilting",
+    "s_description": "You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren’t affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.</br>Nonmagical plants in the area that aren’t creatures, such as trees and shrubs, wither and die instantly."
+  },
+  {
+    "s_id": 8,
+    "s_lvl": "1st",
+    "s_class_usage": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Support",
+    "s_cast_time": "Reaction",
+    "s_range": "Self",
+    "s_components": "S",
+    "s_duration": "1 round",
+    "s_school": "Abjuration",
+    "s_ritual": false,
+    "s_name": "Absorb Elements",
+    "s_description": "1 Reaction, which you take when you take acid, cold, fire, lightning, or thunder damage</br>The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.</br><b>At higher level</b></br>When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st."
+  },
+  {
+    "s_id": 9,
+    "s_lvl": "2nd",
+    "s_class_usage": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "s_type": "Damage",
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V, S, M (a red dragon’s scale)",
+    "s_duration": "Instantaneous",
+    "s_school": "Evocation",
+    "s_ritual": false,
+    "s_name": "Aganazzar's Scorcher",
+    "s_description": "A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. </br>Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.<br><b>At higher level</b></br>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd."
+  },
+  {
+    "s_id": 10,
+    "s_lvl": "5th",
+    "s_class_usage": [
+      "Druid"
+    ],
+    "s_type": "Support",
+    "s_cast_time": "1 action",
+    "s_range": "Self (10-foot radius)",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_school": "Abjuration",
+    "s_ritual": false,
+    "s_name": "Antilife Shell",
+    "s_description": "A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. </br>The barrier lasts for the duration. The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier. </br>If you move so that an affect creature is forced to pass through the barrier, the spell ends."
+  },
+  {
+    "s_id": 11,
+    "s_lvl": "8th",
+    "s_class_usage": [
+      "Cleric",
+      "Wizard"
+    ],
+    "s_type": "Utility",
+    "s_cast_time": "1 action",
+    "s_range": "Self (10-foot-radius sphere)",
+    "s_components": "V, S M (a pinch of powdered iron or iron filings)",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_school": "Abjuration",
+    "s_ritual": false,
+    "s_name": "Antimagic Field",
+    "s_description": "A 10-foot-radius invisible sphere of antimagic surrounds you. <br/>This area is divorced from the magical energy that suffeses the multiverse. Within the sphere, spells can’t be cast, summoned creatures disappear, and even magic items become mundane. Until the spell ends, the spere moves with you, centered on you. Spells and other magical effects, except those created by an artifact or a deity, are suppressed in the sphere and can’t protrude into it. A slot expended to cast a suppressed spell is consumed. While an effect is suppressed, it doesn’t function, but the time it spends suppressed counts against its duration. </br><b>Targeted Effects. </b><br>Spells and other magical effects, such as magic missle and charm person, that target a creature or an object in the sphere have no effect on that target. <br><b>Areas of Magic. </b><br>The area of another spell or magical effect, such as fireball, can’t extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough. <br><b>Spells. </b><br>Any active spell or other magical effect on a creature or an object in the sphere is suppressed while the creature or object is in it. <br><b>Magic Items. </b><br>The properties and powers of magic items are suppressed in the sphere. Forexample, a +1 longsword in the sphere functions as a nonmagical longsword. A magic weapon’s properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or piece of magic ammunition fully leaves the sphere (For example, if you fire a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be supressed as soon as it exits. <br><b>Magical Travel. </b><br>Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the rope trick spells, temporarily closes while in the sphere. <br><b>Creatures and Objects. </b><br>A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer withinthe sphere. <br><b>Dispel Magic. </b><br>Spells and magical effects such as dispel magic have no effect on the sphere. Likewise, the spheres created by different antimagic field spells don’t nullify each other."
   }
 ]

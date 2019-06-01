@@ -109,3 +109,7 @@
 .spell-description {
   line-height: 20px;
 }
+
+.spell-description b {
+  line-height: 2.0;
+}

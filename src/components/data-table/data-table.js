@@ -34,7 +34,8 @@ class DataTable extends Component {
       selectedSelector: false,
       selectedClass: false,
       selectedLevel: false,
-      selectedSchool: false
+      selectedSchool: false,
+      searchBar: ''
     }
 
     this.addSelectionSelectorClass = this.addSelectionSelectorClass.bind(this)
@@ -76,6 +77,14 @@ class DataTable extends Component {
     let currentSelection = this.state
     currentSelection.selectedSchool = currentSelection.selectedSchool === i ? false : i
     this.setState(currentSelection)
+  }
+
+  searchBar() {
+    return (
+      <div>
+        <input></input>
+      </div>
+    )
   }
 
   selectorType() {
@@ -209,6 +218,7 @@ class DataTable extends Component {
       <div className={"dndapp-table"}>
 
         <div className={"dndapp-selectors"}>
+          {this.searchBar()}
           {this.selectorClass()}
           {this.selectorLevel()}
           {this.selectorSchool()}

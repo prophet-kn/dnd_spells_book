@@ -82,7 +82,8 @@ class DataTable extends Component {
   searchBar() {
     return (
       <div>
-        <input></input>
+        <h2>Search</h2>
+        <input className={"search-input"}/>
       </div>
     )
   }

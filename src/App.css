@@ -33,6 +33,7 @@
 .btn {
   border: 2px solid #d6d6d6;
   padding: 5px;
+  margin: 3px 0;
   cursor: pointer;
 }
 
@@ -112,4 +113,16 @@
 
 .spell-description b {
   line-height: 2.0;
+}
+
+input.search-input {
+  width: 100%;
+  height: 30px;
+  border: 2px solid #d6d6d6;
+  padding: 5px 10px;
+  color: #ffffff;
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 5px;
 }

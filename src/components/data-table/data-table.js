@@ -35,7 +35,7 @@ class DataTable extends Component {
       selectedClass: false,
       selectedLevel: false,
       selectedSchool: false,
-      searchBar: ''
+      searchValue: 'All'
     }
 
     this.addSelectionSelectorClass = this.addSelectionSelectorClass.bind(this)
@@ -83,7 +83,9 @@ class DataTable extends Component {
     return (
       <div>
         <h2>Search</h2>
-        <input className={"search-input"}/>
+        <input className={"search-input"} onChange={(e) => {
+          this.setState({searchValue: e.target.value})
+          }}/>
       </div>
     )
   }

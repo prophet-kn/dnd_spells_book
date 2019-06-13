@@ -35,9 +35,10 @@ class DataTable extends Component {
       selectedClass: false,
       selectedLevel: false,
       selectedSchool: false,
-      searchValue: 'All'
+      filterSearch: 'All'
     }
 
+    this.addSearchOption = this.addSearchOption.bind(this)
     this.addSelectionSelectorClass = this.addSelectionSelectorClass.bind(this)
     this.addClassSelectorClass = this.addClassSelectorClass.bind(this)
     this.addLevelSelectorClass = this.addLevelSelectorClass.bind(this)
@@ -79,12 +80,18 @@ class DataTable extends Component {
     this.setState(currentSelection)
   }
 
+  addSearchOption(e, i) {
+    let currentSelection = this.state
+    currentSelection.filterSearch = currentSelection.filterSearch === i ? false : i
+    this.setState(currentSelection)
+  }
+
   searchBar() {
     return (
       <div>
         <h2>Search</h2>
         <input className={"search-input"} onChange={(e) => {
-          this.setState({searchValue: e.target.value})
+          this.setState({filterSearch: e.target.value})
           }}/>
       </div>
     )
@@ -181,11 +188,13 @@ class DataTable extends Component {
       <div className={"spell-wrap"}>
         <h1>Spell list</h1>
         {_.orderBy(Data, 's_name').map((spell, i) => {
+          console.log(this.state.data.map(s => spell.s_name).indexOf(this.state.filterSearch))
           if (
             (this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool) > -1 || this.state.filterSchool === 'All') &&
             (this.state.data.map(s => spell.s_lvl).indexOf(this.state.filterLevel) > -1 || this.state.filterLevel === 'All') &&
             (this.state.data.map(s => spell.s_type).indexOf(this.state.filterType) > -1 || this.state.filterType === 'All') &&
-            (this.state.data.map(s => spell.s_class_usage).flat().indexOf(this.state.filterClass) > -1 || this.state.filterClass === 'All')
+            (this.state.data.map(s => spell.s_class_usage).flat().indexOf(this.state.filterClass) > -1 || this.state.filterClass === 'All') &&
+            (this.state.data.map(s => spell.s_name).indexOf(this.state.filterSearch) || this.state.filterSearch === 'All')
             ) {
             return (
               <div className={"spell-info"} key={i}>

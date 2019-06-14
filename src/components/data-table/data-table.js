@@ -188,7 +188,7 @@ class DataTable extends Component {
       <div className={"spell-wrap"}>
         <h1>Spell list</h1>
         {_.orderBy(Data, 's_name').map((spell, i) => {
-          console.log(this.state.data.map(s => spell.s_name).indexOf(this.state.filterSearch))
+          console.log(this.state.data.map(s => spell.s_name))
           if (
             (this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool) > -1 || this.state.filterSchool === 'All') &&
             (this.state.data.map(s => spell.s_lvl).indexOf(this.state.filterLevel) > -1 || this.state.filterLevel === 'All') &&

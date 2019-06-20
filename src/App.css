@@ -73,6 +73,8 @@
 
 .filter-wrapper {
   display: flex;
+  height: 30px;
+  padding: 10px;
   flex-flow: column;
   justify-content: center;
   border: 2px solid #d6d6d6;
@@ -80,21 +82,28 @@
   position: relative;
 }
 
+.filter-dropdown {
+  border: 2px solid #d6d6d6;
+  margin: 5px 0;
+  padding: 5px 0;
+}
+
 .hide-child .spell-name::after,
-.hide-child .filter-wrapper::after {
-  content: '-';
+.hide-child.filter-wrapper::after {
+  content: '+';
   position: absolute;
   right: 20px;
 }
 
 .spell-name::after,
 .filter-wrapper::after {
-  content: '+';
+  content: '-';
   position: absolute;
   right: 20px;
 }
 
-.hide-child .spell-definitions {
+.hide-child .spell-definitions,
+.filter-dropdown.hide-child {
   display: none;
 }
 
@@ -128,13 +137,19 @@
 }
 
 input.search-input {
-  width: 90%;
+  display: flex;
+  width: -webkit-fill-available;
   height: 30px;
   border: 2px solid #d6d6d6;
-  padding: 5px 10px;
+  padding: 10px;
   color: #ffffff;
   background: transparent;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  margin: 5px;
+  margin-bottom: 10px;
+}
+
+input.search-input::placeholder {
+  font-size: 18px;
+  color: #d6d6d6;
 }

@@ -60,7 +60,7 @@ class DataTable extends Component {
 
   addFilterClass(e) {
     let filterState = this.state
-    filterState.showFilter = true
+    filterState.showFilter = filterState.showFilter === false ? true : false
     this.setState(filterState)
   }
 
@@ -97,8 +97,7 @@ class DataTable extends Component {
   searchBar() {
     return (
       <div>
-        <h2>Search</h2>
-        <input className={"search-input"} onChange={(e) => {
+        <input placeholder={"Search"} className={"search-input"} onChange={(e) => {
           this.setState({filterSearch: e.target.value})
           }}/>
       </div>
@@ -205,7 +204,7 @@ class DataTable extends Component {
             ) {
             return (
               <div className={"spell-info"} key={i}>
-                <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"} >
+                <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
                   <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
                     {spell.s_name}
                   </div>
@@ -235,25 +234,21 @@ class DataTable extends Component {
   render() {
     return (
       <div className={"dndapp-table"}>
-
         <div className={"dndapp-selectors"}>
           {this.searchBar()}
-
-          <div className={"filter-wrapper"} onClick={(e) => {this.addFilterClass(e)}}>
+          <div className={this.state.showFilter === true ? "filter-wrapper" : "filter-wrapper hide-child"} onClick={(e) => {this.addFilterClass(e)}}>
             <h2>Filters</h2>
           </div>
-
-          {this.selectorClass()}
-          {this.selectorLevel()}
-          {this.selectorSchool()}
-          {this.selectorType()}
-
+          <div className={this.state.showFilter === true ? "filter-dropdown" : "filter-dropdown hide-child"}>
+            {this.selectorClass()}
+            {this.selectorLevel()}
+            {this.selectorSchool()}
+            {this.selectorType()}
+          </div>
         </div>
-
         <div className={"dndapp-data"}>
           {this.dataTable()}
         </div>
-
       </div>
     )
   }

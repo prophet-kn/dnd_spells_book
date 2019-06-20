@@ -31,6 +31,7 @@ class DataTable extends Component {
       filterLevel: 'All',
       filterSchool: 'All',
       showList: false,
+      showFilter: false,
       selectedSelector: false,
       selectedClass: false,
       selectedLevel: false,
@@ -44,6 +45,7 @@ class DataTable extends Component {
     this.addLevelSelectorClass = this.addLevelSelectorClass.bind(this)
     this.addSchoolSelectorClass = this.addSchoolSelectorClass.bind(this)
     this.addClassName = this.addClassName.bind(this)
+    this.addFilterClass = this.addFilterClass.bind(this)
     this.selectorType = this.selectorType.bind(this)
     this.selectorClass = this.selectorClass.bind(this)
     this.selectorLevel = this.selectorLevel.bind(this)
@@ -54,6 +56,12 @@ class DataTable extends Component {
     let spellState = this.state
     spellState.showList = spellState.showList === i ? false : i
     this.setState(spellState)
+  }
+
+  addFilterClass(e) {
+    let filterState = this.state
+    filterState.showFilter = true
+    this.setState(filterState)
   }
 
   addSelectionSelectorClass(e, i) {
@@ -230,10 +238,16 @@ class DataTable extends Component {
 
         <div className={"dndapp-selectors"}>
           {this.searchBar()}
+
+          <div className={"filter-wrapper"} onClick={(e) => {this.addFilterClass(e)}}>
+            <h2>Filters</h2>
+          </div>
+
           {this.selectorClass()}
           {this.selectorLevel()}
           {this.selectorSchool()}
           {this.selectorType()}
+
         </div>
 
         <div className={"dndapp-data"}>

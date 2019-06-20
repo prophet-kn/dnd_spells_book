@@ -51,7 +51,8 @@
   padding: 5px;
 }
 
-.spell-name:hover {
+.spell-name:hover,
+.filter-wrapper:hover {
   background-color: #d6d6d6;
   color: #000000;
 }
@@ -70,14 +71,25 @@
   cursor: pointer;
 }
 
-.hide-child .spell-name::after {
-  content: '+';
+.filter-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  border: 2px solid #d6d6d6;
+  cursor: pointer;
+  position: relative;
+}
+
+.hide-child .spell-name::after,
+.hide-child .filter-wrapper::after {
+  content: '-';
   position: absolute;
   right: 20px;
 }
 
-.spell-name::after {
-  content: '-';
+.spell-name::after,
+.filter-wrapper::after {
+  content: '+';
   position: absolute;
   right: 20px;
 }

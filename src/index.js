@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-//console.log('%cStahp!', 'font-weight: bold; font-size: 150px; color: black; background-color: red;');
 
 ReactDOM.render(<App />, document.getElementById('dndapp'));
 
@@ -11,3 +10,10 @@ ReactDOM.render(<App />, document.getElementById('dndapp'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+                                                
+console.log("%c                      |         |       |           ", "background-color: black; color: red;")
+console.log("%c  ,---.,---.,---.,---.|---.,---.|---    |__/ ,---.  ", "background-color: black; color: red;")
+console.log("%c  |   ||    |   ||   ||   ||---'|    ---|  \  |   |  ", "background-color: black; color: red;")
+console.log("%c  |---'`    `---'|---'`   '`---'`---'   `   ``   '  ", "background-color: black; color: red;")
+console.log("%c  |              |                                  ", "background-color: black; color: red;")

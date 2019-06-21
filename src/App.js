@@ -7,7 +7,7 @@ function App() {
 
     <div className={"dndapp"}>
       <header className={"dndapp-header"}>
-        D&#38;D 5e Companion v0.0.9c
+        D&#38;D 5e Companion v1.0.0
       </header>
       <div className={"dndapp-body"}>
         <Output />

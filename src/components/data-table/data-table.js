@@ -212,7 +212,7 @@ class DataTable extends Component {
                     <div className={"spell-top-level"}><i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i></div>
                     <div className={"spell-details"}>
                       <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
-                      <div className={"spell-range"}><b>Range:</b> {spell.s_range} feet</div>
+                      <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>
                       <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
                       <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
                     </div>

@@ -12,8 +12,10 @@ ReactDOM.render(<App />, document.getElementById('dndapp'));
 serviceWorker.unregister();
 
                                                 
-console.log("%c                      |         |       |           ", "background-color: black; color: red;")
-console.log("%c  ,---.,---.,---.,---.|---.,---.|---    |__/ ,---.  ", "background-color: black; color: red;") // eslint-disable-next-line
-console.log("%c  |   ||    |   ||   ||   ||---'|    ---|  \  |   |  ", "background-color: black; color: red;") 
-console.log("%c  |---'`    `---'|---'`   '`---'`---'   `   ``   '  ", "background-color: black; color: red;")
-console.log("%c  |              |                                  ", "background-color: black; color: red;")
+console.log( // eslint-disable-next-line
+  "%c\                      |         |       |           \n\
+  ,---.,---.,---.,---.|---.,---.|---    |__/ ,---.  \n\
+  |   ||    |   ||   ||   ||---'|    ---|  \\ |   |  \n\
+  |---'`    `---'|---'`   '`---'`---'   `   ``   '  \n\
+  |              |                                  ", "background-color: black; color: red;"
+)

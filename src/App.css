@@ -5,6 +5,7 @@
 
 .dndapp-header {
   font-size: 50px;
+  padding-bottom: 5px;
 }
 
 .dndapp-footer {
@@ -62,6 +63,18 @@
   position: relative;
 }
 
+.spell-tooltip {
+  position: absolute;
+  top: 3px;
+  font-size: 11px;
+  color: #d6d6d6;
+  opacity: .85;
+}
+
+.spell-name:hover .spell-tooltip {
+  color: #000000;
+}
+
 .spell-name {
   display: flex;
   flex-flow: column;
@@ -101,10 +114,6 @@
   content: '-';
   position: absolute;
   right: 20px;
-}
-
-.filter-dropdown.hide-child {
-  display: none;
 }
 
 .spell-definitions {

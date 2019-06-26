@@ -65,9 +65,11 @@
 
 .spell-tooltip {
   position: absolute;
-  font-size: 11px;
+  font-size: 10px;
   color: #d6d6d6;
-  right: 45px;
+  left: 15px;
+  top: 5px;
+  opacity: .85;
 }
 
 .spell-name:hover .spell-tooltip {
@@ -82,7 +84,8 @@
   border: 2px solid #d6d6d6;
   padding: 10px;
   cursor: pointer;
-  text-align: left;
+  height: 30px;
+  font-size: 20px;
 }
 
 .filter-wrapper {

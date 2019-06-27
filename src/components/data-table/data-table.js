@@ -208,13 +208,13 @@ class DataTable extends Component {
                   <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
                     {spell.s_name}
                     <div className={"spell-tooltip"}>
-                      {spell.s_lvl}\
-                      {spell.s_range.replace('feet', 'ft').replace('Unlimited', 'Unl').replace('foot', 'ft').replace('radius', 'rad').replace('sphere', 'sph')}\
+                      {spell.s_lvl} level spell
+                      {/*spell.s_range.replace('feet', 'ft').replace('Unlimited', 'Unl').replace('foot', 'ft').replace('radius', 'rad').replace('sphere', 'sph')}\
                       {spell.s_duration.replace('Concentration', 'Conc').replace('hour', 'h').replace('minute', 'm').replace('Instantaneous', 'Inst').replace('round', 'r').replace('days', 'D')}\
                       {spell.s_components.slice(0, 7)}\
                       {spell.s_cast_time.replace('reaction', 'RA').replace('action', 'A').replace('bonus', 'B').replace('Special', 'S').replace('minute', 'm').replace('hour', 'h')}\
                       {spell.s_school.toUpperCase().slice(0, 3)}
-                      {spell.s_ritual === true ? '\\(R)' : ''}
+                      {spell.s_ritual === true ? '\\(R)' : ''*/}
                     </div>
                   </div>
                   {(() => {

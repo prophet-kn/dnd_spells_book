@@ -152,8 +152,10 @@ class DataTable extends Component {
         <h2>Spell level</h2>
         <div className={"selector"}>
           <div className={'btn lvl'} value={"all"} onClick={(e) => {
-            this.setState({filterLevel: e.target.innerHTML})
-            this.setState({selectedLevel: false})
+            this.setState({
+              filterLevel: e.target.innerHTML,
+              selectedLevel: false
+            })
             }}>All</div>
           {uniqueLevel.map((levels, i) => {
             return (
@@ -191,49 +193,49 @@ class DataTable extends Component {
   }
 
   dataTable() {
+  const filteredData =  _.chain(Data)
+    .orderBy('s_name')
+    .filter((spell) => {
+      return this.state.filterSchool.indexOf(spell.s_school) > -1 || this.state.filterSchool === 'All'
+    })
+    .filter((spell) => {
+      return this.state.filterLevel.indexOf(spell.s_lvl) > -1 || this.state.filterLevel === 'All'
+    })
+    .value()
+
+
     return (
       <div className={"spell-wrap"}>
         <h1>Spell list</h1>
-        {_.orderBy(Data, 's_name').map((spell, i) => {
-          if (
-            (this.state.data.map(s => spell.s_school).indexOf(this.state.filterSchool) > -1 || this.state.filterSchool === 'All') &&
-            (this.state.data.map(s => spell.s_lvl).indexOf(this.state.filterLevel) > -1 || this.state.filterLevel === 'All') &&
-            (this.state.data.map(s => spell.s_type).indexOf(this.state.filterType) > -1 || this.state.filterType === 'All') &&
-            (this.state.data.map(s => spell.s_class_usage).flat().indexOf(this.state.filterClass) > -1 || this.state.filterClass === 'All') &&
-            (spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === '')
-            ) {
-            return (
-              <div className={"spell-info"} key={i}>
-                <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
-                  <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
-                    {spell.s_name}
-                    <div className={"spell-tooltip"}>
-                      {spell.s_lvl} level spell
-                    </div>
+        {_.orderBy(filteredData, 's_name').map((spell, i) => {
+          return (
+            <div className={"spell-info"} key={i}>
+              <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
+                <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
+                  {spell.s_name}
+                  <div className={"spell-tooltip"}>
+                    {spell.s_lvl} level spell
                   </div>
-                  {(() => {
-                    if (this.state.showList === i) {
-                      return (
-                        <div className={"spell-definitions"}>
-                          <div className={"spell-top-level"}><i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i></div>
-                          <div className={"spell-details"}>
-                            <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
-                            <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>
-                            <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
-                            <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
-                          </div>
-                          <div className={"spell-description"}>{ReactHtmlParser(spell.s_description)}</div>
-                        </div>
-                      )
-                    }
-                  })()}
                 </div>
+                {(() => {
+                  if (this.state.showList === i) {
+                    return (
+                      <div className={"spell-definitions"}>
+                        <div className={"spell-top-level"}><i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i></div>
+                        <div className={"spell-details"}>
+                          <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
+                          <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>
+                          <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
+                          <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
+                        </div>
+                        <div className={"spell-description"}>{ReactHtmlParser(spell.s_description)}</div>
+                      </div>
+                    )
+                  }
+                })()}
               </div>
-            )
-          }
-          else {
-            return null
-          }
+            </div>
+          )
         })}
       </div>
     )

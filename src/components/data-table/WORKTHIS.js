@@ -16,7 +16,7 @@ class Button extends React.Component {
     })
   }
   render() {
-    const classNames == ['Button']
+    const classNames === ['Button']
     if(this.state.toggled === true) {
       classNames.push('active')
     }
@@ -78,6 +78,7 @@ class DataTable extends React.Component {
   }
 }
 
-
+/*
     get rid of multiple setState()
     and the filtering functional way
+*/

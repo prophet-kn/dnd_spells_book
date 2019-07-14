@@ -78,7 +78,7 @@ class DataTable extends Component {
 
   addLevelSelectorClass(e, i) {
     let currentSelection = this.state
-    currentSelection.selectedLevel = currentSelection.selectedLevel === i ? false : true
+    currentSelection.selectedLevel = currentSelection.selectedLevel === i ? false : i
     this.setState(currentSelection)
   }
 
@@ -110,8 +110,10 @@ class DataTable extends Component {
         <h2>Effect Type</h2>
         <div className={"selector"}>
           <div className={'btn type'} value={"all"} onClick={(e) => {
-            this.setState({filterType: e.target.innerHTML})
-            this.setState({selectedSelector: false})
+            this.setState({
+              filterType: e.target.innerHTML,
+              selectedSelector: false
+            })
             }}>All</div>
           {uniqueType.map((type, i) => {
             return (
@@ -132,8 +134,10 @@ class DataTable extends Component {
         <h2>Class</h2>
         <div className={"selector"}>
           <div className={'btn class'} classtype={"all"} onClick={(e) => {
-            this.setState({filterClass: e.target.innerHTML})
-            this.setState({selectedClass: false})
+            this.setState({
+              filterClass: e.target.innerHTML,
+              selectedClass: false
+            })
             }}>All</div>
           {_.orderBy(printUniqueClass).map((usedClasses, c) => {
             return <div className={this.state.selectedClass === c ? "btn class selected" : "btn class"} classtype={usedClasses} key={c} onClick={(e) => {
@@ -176,8 +180,10 @@ class DataTable extends Component {
         <h2>School of Magic</h2>
         <div className={"selector"}>
           <div className={'btn school'} value={"all"} onClick={(e) => {
-            this.setState({filterSchool: e.target.innerHTML})
-            this.setState({selectedSchool: false})
+            this.setState({
+              filterSchool: e.target.innerHTML,
+              selectedSchool: false
+            })
             }}>All</div>
           {uniqueSchool.map((school, i) => {
             return (
@@ -193,7 +199,7 @@ class DataTable extends Component {
   }
 
   dataTable() {
-  const filteredData =  _.chain(Data)
+    const filteredData =  _.chain(Data)
     .orderBy('s_name')
     .filter((spell) => {
       return this.state.filterSchool.indexOf(spell.s_school) > -1 || this.state.filterSchool === 'All'
@@ -201,8 +207,16 @@ class DataTable extends Component {
     .filter((spell) => {
       return this.state.filterLevel.indexOf(spell.s_lvl) > -1 || this.state.filterLevel === 'All'
     })
+    .filter((spell) => {
+      return this.state.filterType.indexOf(spell.s_type) > -1 || this.state.filterType === 'All'
+    })
+    .filter((spell) => {
+      return this.state.data.map(s => spell.s_class_usage).flat().indexOf(this.state.filterClass) > -1 || this.state.filterClass === 'All'
+    })
+    .filter((spell) => {
+      return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
+    })
     .value()
-
 
     return (
       <div className={"spell-wrap"}>

@@ -79,7 +79,5 @@ class DataTable extends React.Component {
 }
 
 
-[09:02] Jaakko Tepponen
     get rid of multiple setState()
-​[09:02] Jaakko Tepponen
     and the filtering functional way

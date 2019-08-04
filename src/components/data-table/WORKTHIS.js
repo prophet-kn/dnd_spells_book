@@ -5,6 +5,7 @@ import _ from 'lodash'
 // tell parent when clicked
 class Button extends React.Component {
   constructor(props) {
+    super()
     this.state = {
       toggled: false
     }
@@ -16,7 +17,7 @@ class Button extends React.Component {
     })
   }
   render() {
-    const classNames === ['Button']
+    const classNames = ['Button']
     if(this.state.toggled === true) {
       classNames.push('active')
     }
@@ -43,8 +44,10 @@ class Filters extends React.Component {
     )
   }
 }
+
 class DataTable extends React.Component {
   constructor(props) {
+    super()
     this.state = {
       filters: []
     }
@@ -77,8 +80,3 @@ class DataTable extends React.Component {
     )
   }
 }
-
-/*
-    get rid of multiple setState()
-    and the filtering functional way
-*/

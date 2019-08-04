@@ -1,55 +1,63 @@
 import React, { Component } from 'react'
-import '.././../App.css'
-import Data from './../../data/spells.json'
+import './../../App.css'
+import Data from '.././../data/spells.json'
 import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
+import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 
-let sortLevel = _.orderBy(Data, 's_lvl')
-let uniqueLevel = _.uniqBy(sortLevel, 's_lvl')
+let sortLevel = _.chain(Data)
+let uniqueLevel = sortLevel.map(function(level) {
+  return level.s_lvl
+})
+.sort()
+.flatten()
+.uniq()
+.value()
 
-let sortSchool = _.orderBy(Data, 's_school')
-let uniqueSchool = _.uniqBy(sortSchool, 's_school')
+let sortSchool = _.chain(Data)
+let uniqueSchool = sortSchool.map(function(school) {
+  return school.s_school
+})
+.sort()
+.flatten()
+.uniq()
+.value()
 
-let sortType = _.orderBy(Data, 's_type')
-let uniqueType = _.uniqBy(sortType, 's_type')
+let sortType = _.chain(Data)
+let uniqueType = sortType.map(function(type) {
+  return type.s_type
+})
+.sort()
+.flatten()
+.uniq()
+.value()
 
-let uniqueClass = _.chain(Data)
-let printUniqueClass = uniqueClass.map(function(classes) {
+let sortClass = _.chain(Data)
+let uniqueClass = sortClass.map(function(classes) {
   return classes.s_class_usage
 })
+.sort()
 .flatten()
 .uniq()
 .value()
 
 class DataTable extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super()
     this.state = {
+      filters: [],
       data: Data,
+      showList: false,
+      showFilter: false,
+      filterSearch: '',
       filterType: 'All',
       filterClass: 'All',
       filterLevel: 'All',
-      filterSchool: 'All',
-      showList: false,
-      showFilter: false,
-      selectedSelector: false,
-      selectedClass: false,
-      selectedLevel: false,
-      selectedSchool: false,
-      filterSearch: ''
+      filterSchool: 'All'
     }
 
-    this.addSearchOption = this.addSearchOption.bind(this)
-    this.addSelectionSelectorClass = this.addSelectionSelectorClass.bind(this)
-    this.addClassSelectorClass = this.addClassSelectorClass.bind(this)
-    this.addLevelSelectorClass = this.addLevelSelectorClass.bind(this)
-    this.addSchoolSelectorClass = this.addSchoolSelectorClass.bind(this)
+    this.setFilter = this.setFilter.bind(this)
     this.addClassName = this.addClassName.bind(this)
-    this.addFilterClass = this.addFilterClass.bind(this)
-    this.selectorType = this.selectorType.bind(this)
-    this.selectorClass = this.selectorClass.bind(this)
-    this.selectorLevel = this.selectorLevel.bind(this)
-    this.selectorSchool = this.selectorSchool.bind(this)
   }
 
   addClassName(e, i) {
@@ -64,36 +72,6 @@ class DataTable extends Component {
     this.setState(filterState)
   }
 
-  addSelectionSelectorClass(e, i) {
-    let currentSelection = this.state
-    currentSelection.selectedSelector = currentSelection.selectedSelector === i ? false : i
-    this.setState(currentSelection)
-  }
-
-  addClassSelectorClass(e, i) {
-    let currentSelection = this.state
-    currentSelection.selectedClass = currentSelection.selectedClass === i ? false : i
-    this.setState(currentSelection)
-  }
-
-  addLevelSelectorClass(e, i) {
-    let currentSelection = this.state
-    currentSelection.selectedLevel = currentSelection.selectedLevel === i ? false : i
-    this.setState(currentSelection)
-  }
-
-  addSchoolSelectorClass(e, i) {
-    let currentSelection = this.state
-    currentSelection.selectedSchool = currentSelection.selectedSchool === i ? false : i
-    this.setState(currentSelection)
-  }
-
-  addSearchOption(e, i) {
-    let currentSelection = this.state
-    currentSelection.filterSearch = currentSelection.filterSearch === i ? false : i
-    this.setState(currentSelection)
-  }
-
   searchBar() {
     return (
       <div>
@@ -104,107 +82,36 @@ class DataTable extends Component {
     )
   }
 
-  selectorType() {
-    return (
-      <div>
-        <h2>Effect Type</h2>
-        <div className={"selector"}>
-          <div className={'btn type'} value={"all"} onClick={(e) => {
-            this.setState({
-              filterType: e.target.innerHTML,
-              selectedSelector: false
-            })
-            }}>All</div>
-          {uniqueType.map((type, i) => {
-            return (
-              <div className={this.state.selectedSelector === i ? "btn type selected" : "btn type"} value={type.s_type} key={i} onClick={(e) => {
-                this.addSelectionSelectorClass(e, i)
-                this.setState({filterType: e.target.innerHTML})
-              }}>{type.s_type}</div>
-            );
-          })}
-        </div>
-      </div>
-    )
-  }
+  
+  setFilter(type, filter, value) {
+    const newFilters = this.state.filters
+    if (!newFilters[type]) {
+      newFilters[type] = []
+    }
 
-   selectorClass() {
-     return (
-      <div>
-        <h2>Class</h2>
-        <div className={"selector"}>
-          <div className={'btn class'} classtype={"all"} onClick={(e) => {
-            this.setState({
-              filterClass: e.target.innerHTML,
-              selectedClass: false
-            })
-            }}>All</div>
-          {_.orderBy(printUniqueClass).map((usedClasses, c) => {
-            return <div className={this.state.selectedClass === c ? "btn class selected" : "btn class"} classtype={usedClasses} key={c} onClick={(e) => {
-              this.addClassSelectorClass(e, c)
-              this.setState({filterClass: e.target.innerHTML})
-            }}>{usedClasses}</div>
-          })}
-        </div>
-      </div>
-     )
-  }
+    if (value.toggled === true) {
+      newFilters[type].push(filter.type)
+    }
+    else {
+      newFilters[type] = newFilters[type].filter(f => f !== filter.type)
+    }
 
-  selectorLevel() {
-    return (
-      <div>
-        <h2>Spell level</h2>
-        <div className={"selector"}>
-          <div className={'btn lvl'} value={"all"} onClick={(e) => {
-            this.setState({
-              filterLevel: e.target.innerHTML,
-              selectedLevel: false
-            })
-            }}>All</div>
-          {uniqueLevel.map((levels, i) => {
-            return (
-              <div className={this.state.selectedLevel === i ? "btn lvl selected" : "btn lvl"} value={levels.s_lvl} key={i} onClick={(e) => {
-                this.addLevelSelectorClass(e, i)
-                this.setState({filterLevel: e.target.innerHTML})
-              }}>{levels.s_lvl}</div>
-            );
-          })}
-        </div>
-      </div>
-    )
-  }
-
-  selectorSchool() {
-    return (
-      <div>
-        <h2>School of Magic</h2>
-        <div className={"selector"}>
-          <div className={'btn school'} value={"all"} onClick={(e) => {
-            this.setState({
-              filterSchool: e.target.innerHTML,
-              selectedSchool: false
-            })
-            }}>All</div>
-          {uniqueSchool.map((school, i) => {
-            return (
-              <div className={this.state.selectedSchool === i ? "btn school selected" : "btn school"} school={school.s_school} key={i} onClick={(e) => {
-                this.addSchoolSelectorClass(e, i)
-                this.setState({filterSchool: e.target.innerHTML})
-              }}>{school.s_school}</div>
-            );
-          })}
-        </div>
-      </div>
-    )
+    this.setState({
+      filters: newFilters
+    })
   }
 
   dataTable() {
+    let sortFilters= this.state.filters
     const filteredData =  _.chain(Data)
     .orderBy('s_name')
     .filter((spell) => {
-      return this.state.filterSchool.indexOf(spell.s_school) > -1 || this.state.filterSchool === 'All'
+      // return this.state.filterSchool.indexOf(spell.s_school) > -1 || this.state.filterSchool === 'All'
+      //return spell.s_school.includes(sortFilters['School of Magic']) > -1 || sortFilters['School of Magic'] === undefined
+      console.log(spell.s_school.includes(sortFilters['School of Magic']))
+      return spell.s_school.includes(sortFilters['School of Magic']) || sortFilters['School of Magic'] === undefined
     })
-    .filter((spell) => {
+    /*.filter((spell) => {
       return this.state.filterLevel.indexOf(spell.s_lvl) > -1 || this.state.filterLevel === 'All'
     })
     .filter((spell) => {
@@ -215,7 +122,7 @@ class DataTable extends Component {
     })
     .filter((spell) => {
       return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
-    })
+    })*/
     .value()
 
     return (
@@ -267,10 +174,10 @@ class DataTable extends Component {
             if (this.state.showFilter === true) {
               return (
                 <div className={this.state.showFilter === true ? "filter-dropdown" : "filter-dropdown hide-child"}>
-                  {this.selectorClass()}
-                  {this.selectorLevel()}
-                  {this.selectorSchool()}
-                  {this.selectorType()}
+                  <FilterDataButtons title={'Level'} values={uniqueLevel} setFilter={this.setFilter} />
+                  <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
+                  <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
+                  <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
                 </div>
               )
             }

@@ -39,6 +39,10 @@
   cursor: pointer;
 }
 
+.btn.selected {
+  border: 2px solid #000000;
+}
+
 .btn:not(:last-child) {
   margin-right: 5px;
 }

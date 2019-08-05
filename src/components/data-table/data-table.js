@@ -45,7 +45,6 @@ class DataTable extends Component {
   constructor(props) {
     super()
     this.state = {
-      filters: [],
       data: Data,
       showList: false,
       showFilter: false,
@@ -53,7 +52,8 @@ class DataTable extends Component {
       filterType: 'All',
       filterClass: 'All',
       filterLevel: 'All',
-      filterSchool: 'All'
+      filterSchool: 'All',
+      filters: []
     }
 
     this.setFilter = this.setFilter.bind(this)
@@ -100,30 +100,29 @@ class DataTable extends Component {
       filters: newFilters
     })
   }
+  
 
   dataTable() {
     let sortFilters= this.state.filters
     const filteredData =  _.chain(Data)
     .orderBy('s_name')
     .filter((spell) => {
-      // return this.state.filterSchool.indexOf(spell.s_school) > -1 || this.state.filterSchool === 'All'
-      //return spell.s_school.includes(sortFilters['School of Magic']) > -1 || sortFilters['School of Magic'] === undefined
-      console.log(spell.s_school.includes(sortFilters['School of Magic']))
-      return spell.s_school.includes(sortFilters['School of Magic']) || sortFilters['School of Magic'] === undefined
-    })
-    /*.filter((spell) => {
-      return this.state.filterLevel.indexOf(spell.s_lvl) > -1 || this.state.filterLevel === 'All'
+      return _.includes(sortFilters['School of Magic'], spell.s_school) || sortFilters['School of Magic'] === undefined
     })
     .filter((spell) => {
-      return this.state.filterType.indexOf(spell.s_type) > -1 || this.state.filterType === 'All'
+      return _.includes(sortFilters['Level'], spell.s_lvl) || sortFilters['Level'] === undefined
     })
     .filter((spell) => {
-      return this.state.data.map(s => spell.s_class_usage).flat().indexOf(this.state.filterClass) > -1 || this.state.filterClass === 'All'
+      return _.includes(sortFilters['Effect Type'], spell.s_type) || sortFilters['Effect Type'] === undefined
+    })
+    .filter((spell) => {
+      return _.includes(sortFilters['Class'], spell.s_class_usage) || sortFilters['Class'] === undefined
     })
     .filter((spell) => {
       return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
-    })*/
+    })
     .value()
+    console.log(sortFilters)
 
     return (
       <div className={"spell-wrap"}>

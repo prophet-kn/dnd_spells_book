@@ -100,7 +100,6 @@ class DataTable extends Component {
       filters: newFilters
     })
   }
-  
 
   dataTable() {
     let sortFilters= this.state.filters

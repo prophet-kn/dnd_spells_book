@@ -8,7 +8,7 @@ class FilterDataButtons extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={"filter-button-wrapper"}>
         <h2>{this.props.title}</h2>
         <div className={"selector"}>
           {this.props.values.map((value, i) => {

@@ -47,13 +47,13 @@ class DataTable extends Component {
     this.state = {
       data: Data,
       showList: false,
-      showFilter: false,
       filterSearch: '',
-      filterType: 'All',
-      filterClass: 'All',
-      filterLevel: 'All',
-      filterSchool: 'All',
-      filters: []
+      filters: {
+        'School of Magic': [],
+        'Level': [],
+        'Effect Type': [],
+        'Class': []
+      }
     }
 
     this.setFilter = this.setFilter.bind(this)
@@ -66,15 +66,9 @@ class DataTable extends Component {
     this.setState(spellState)
   }
 
-  addFilterClass(e) {
-    let filterState = this.state
-    filterState.showFilter = filterState.showFilter === false ? true : false
-    this.setState(filterState)
-  }
-
   searchBar() {
     return (
-      <div>
+      <div className={"filter-search"}>
         <input placeholder={"Search"} className={"search-input"} onChange={(e) => {
           this.setState({filterSearch: e.target.value})
           }}/>
@@ -102,26 +96,25 @@ class DataTable extends Component {
   }
 
   dataTable() {
-    let sortFilters= this.state.filters
+    let sortFilters = this.state.filters
     const filteredData =  _.chain(Data)
     .orderBy('s_name')
     .filter((spell) => {
-      return _.includes(sortFilters['School of Magic'], spell.s_school) || sortFilters['School of Magic'] === undefined
+      return _.includes(sortFilters['School of Magic'], spell.s_school) || sortFilters['School of Magic'].length === 0
     })
     .filter((spell) => {
-      return _.includes(sortFilters['Level'], spell.s_lvl) || sortFilters['Level'] === undefined
+      return _.includes(sortFilters['Level'], spell.s_lvl) || sortFilters['Level'].length === 0
     })
     .filter((spell) => {
-      return _.includes(sortFilters['Effect Type'], spell.s_type) || sortFilters['Effect Type'] === undefined
+      return _.includes(sortFilters['Effect Type'], spell.s_type) || sortFilters['Effect Type'].length === 0
     })
     .filter((spell) => {
-      return _.includes(sortFilters['Class'], spell.s_class_usage) || sortFilters['Class'] === undefined
+      return sortFilters['Class'].some(c => spell.s_class_usage.includes(c)) || sortFilters['Class'].length === 0
     })
     .filter((spell) => {
       return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
     })
     .value()
-    console.log(sortFilters)
 
     return (
       <div className={"spell-wrap"}>
@@ -156,6 +149,11 @@ class DataTable extends Component {
             </div>
           )
         })}
+        {filteredData.length === 0 ?
+        <div className={"spell-undefined"}>
+          Sorry, no spells found for this criteria!
+        </div>
+        : null}
       </div>
     )
   }
@@ -165,20 +163,15 @@ class DataTable extends Component {
       <div className={"dndapp-table"}>
         <div className={"dndapp-selectors"}>
           {this.searchBar()}
-          <div className={this.state.showFilter === true ? "filter-wrapper" : "filter-wrapper hide-child"} onClick={(e) => {this.addFilterClass(e)}}>
-            <h2>Filters</h2>
-          </div>
           {(() => {
-            if (this.state.showFilter === true) {
-              return (
-                <div className={this.state.showFilter === true ? "filter-dropdown" : "filter-dropdown hide-child"}>
-                  <FilterDataButtons title={'Level'} values={uniqueLevel} setFilter={this.setFilter} />
-                  <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
-                  <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
-                  <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
-                </div>
-              )
-            }
+            return (
+              <div className={"filter-dropdown"}>
+                <FilterDataButtons title={'Level'} values={uniqueLevel} setFilter={this.setFilter} />
+                <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
+                <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
+                <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
+              </div>
+            )
           })()}
         </div>
         <div className={"dndapp-data"}>

@@ -20,12 +20,11 @@
 
 .dndapp-selectors {
   display: flex;
-  flex-flow: column;
+  flex-wrap: wrap;
   position: relative;
 }
 
 .dndapp-selectors .selector {
-  padding: 5px;
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
@@ -47,7 +46,6 @@
   margin-right: 5px;
 }
 
-.btn:hover,
 .selected {
   background-color: #d6d6d6;
   color: #000000;
@@ -55,12 +53,6 @@
 
 .dndapp-data .spell-wrap {
   padding: 5px;
-}
-
-.spell-name:hover,
-.filter-wrapper:hover {
-  background-color: #d6d6d6;
-  color: #000000;
 }
 
 .spell-dropdown {
@@ -76,10 +68,6 @@
   opacity: .85;
 }
 
-.spell-name:hover .spell-tooltip {
-  color: #000000;
-}
-
 .spell-name {
   display: flex;
   flex-flow: column;
@@ -90,6 +78,10 @@
   cursor: pointer;
   height: 30px;
   font-size: 20px;
+}
+
+.filter-search {
+  flex: 0 1 100%;
 }
 
 .filter-wrapper {
@@ -104,9 +96,13 @@
 }
 
 .filter-dropdown {
-  border: 2px solid #d6d6d6;
-  margin: 5px 0;
-  padding: 5px 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.filter-button-wrapper {
+  flex: 0 1 100%;
 }
 
 .hide-child .spell-name::after,
@@ -195,4 +191,10 @@ input.search-input::placeholder {
   right: 21px;
   top: 12px;
   z-index: -1;
+}
+
+.spell-undefined {
+  font-size: 20px;
+  padding: 25px 0;
+  color: #d6d6d6;
 }

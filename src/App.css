@@ -22,6 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  margin: 0 10px;
 }
 
 .dndapp-selectors .selector {
@@ -81,7 +82,33 @@
 }
 
 .filter-search {
-  flex: 0 1 100%;
+  flex: 1 1 80%;
+  position: relative;
+}
+
+.filter-filter {
+  flex: 1 1 20%;
+  position: relative;
+}
+
+.filter-field {
+  display: flex;
+  flex-flow: column;
+  height: 30px;
+  border: 2px solid #d6d6d6;
+  padding: 10px;
+  color: #ffffff;
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.filter-field:hover {
+  background-color: #d6d6d6;
+  color: #000000;
 }
 
 .filter-wrapper {
@@ -95,10 +122,68 @@
   position: relative;
 }
 
-.filter-dropdown {
+.filter-dropdown.hidden {
+  display: none;
+}
+
+.filter-close {
+  display: block;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 10px;
+}
+
+.filter-close::before {
+  content: '';
+  height: 40px;
+  width: 2px;
+  right: 10px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  cursor: pointer;
+  background: white;
+  transform: rotate(45deg);
+}
+
+.filter-close::after {
+  content: '';
+  height: 40px;
+  width: 2px;
+  right: 10px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  cursor: pointer;
+  background: white;
+  transform: rotate(-45deg);
+}
+
+.filter-dropdown.active {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px 0;
+  max-width: 600px;
+  margin: auto;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+  padding: 10px 0 20px;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.filter-dropdown.active::before {
+  background: black;
+  right: 0;
+  content: '';
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
 
 .filter-button-wrapper {
@@ -166,7 +251,7 @@ input.search-input::placeholder {
   color: #d6d6d6;
 }
 
-.dndapp-selectors::after {
+.filter-search::after {
   content: '';
   display: flex;
   position: absolute;
@@ -176,17 +261,17 @@ input.search-input::placeholder {
   color: white;
   width: 15px;
   height: 15px;
-  border-right: 1px white solid;
+  border-right: 2px white solid;
   z-index: -1;
 }
 
-.dndapp-selectors::before {
+.filter-search::before {
   content: '';
   display: flex;
   position: absolute;
   width: 15px;
   height: 15px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 100%;
   right: 21px;
   top: 12px;

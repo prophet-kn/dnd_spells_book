@@ -48,6 +48,7 @@ class DataTable extends Component {
       data: Data,
       showList: false,
       filterSearch: '',
+      filterButton: false,
       filters: {
         'School of Magic': [],
         'Level': [],
@@ -76,6 +77,33 @@ class DataTable extends Component {
     )
   }
 
+  onClickFilter() {
+    this.setState({
+      filterButton: this.state.filterButton === true ? false : true,
+    })
+  }
+
+  filterFilter() {
+    return (
+      <div className={"filter-filter"} onClick={this.onClickFilter.bind(this)}>
+        <div className={"filter-field"}>
+          Filters
+        </div>
+      </div>
+    )
+  }
+
+  filterDropdowns() {
+    return (
+      <div className={this.state.filterButton === true ? "filter-dropdown active" : "filter-dropdown hidden"}>
+        <div className={"filter-close"} onClick={this.onClickFilter.bind(this)}></div>
+        <FilterDataButtons title={'Level'} values={uniqueLevel} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
+        <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
+      </div>
+    )
+  }
   
   setFilter(type, filter, value) {
     const newFilters = this.state.filters
@@ -163,16 +191,8 @@ class DataTable extends Component {
       <div className={"dndapp-table"}>
         <div className={"dndapp-selectors"}>
           {this.searchBar()}
-          {(() => {
-            return (
-              <div className={"filter-dropdown"}>
-                <FilterDataButtons title={'Level'} values={uniqueLevel} setFilter={this.setFilter} />
-                <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
-                <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
-                <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
-              </div>
-            )
-          })()}
+          {this.filterFilter()}
+          {this.filterDropdowns()}
         </div>
         <div className={"dndapp-data"}>
           {this.dataTable()}

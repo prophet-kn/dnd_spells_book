@@ -2,10 +2,10 @@
   max-width: 600px;
   min-height: 100vh;
 }
-
+/*#86242A*/
 .dndapp-header {
-  font-size: 50px;
-  padding-bottom: 5px;
+  font-size: 25px;
+  padding-bottom: 15px;
 }
 
 .dndapp-footer {

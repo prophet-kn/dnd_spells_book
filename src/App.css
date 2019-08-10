@@ -8,6 +8,43 @@
   padding-bottom: 15px;
 }
 
+.spell-top-level {
+  display: flex;
+  position: relative;
+}
+
+.spell-pin {
+  position: absolute;
+  right: 30px;
+}
+
+.spell-pin:before {
+  content: '';
+  display: block;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: -30px;
+  top: -3px;
+  border: 2px #d6d6d6 solid;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/*.spell-pin.pinned:after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  right: 8px;
+  top: 7px;
+  border: 2px #d6d6d6 solid;
+  background: #d6d6d6;
+  border-radius: 100%;
+  cursor: pointer;
+}*/
+
 .dndapp-footer {
   display: flex;
   position: sticky;

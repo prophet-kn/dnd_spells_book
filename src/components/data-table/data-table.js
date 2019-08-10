@@ -161,7 +161,10 @@ class DataTable extends Component {
                   if (this.state.showList === i) {
                     return (
                       <div className={"spell-definitions"}>
-                        <div className={"spell-top-level"}><i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i></div>
+                        <div className={"spell-top-level"}>
+                          <i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i>
+                          <div className={"spell-pin"}>Pin</div>
+                        </div>
                         <div className={"spell-details"}>
                           <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
                           <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>

@@ -49,6 +49,7 @@ class DataTable extends Component {
       showList: false,
       filterSearch: '',
       filterButton: false,
+      pin: false,
       filters: {
         'School of Magic': [],
         'Level': [],
@@ -58,6 +59,7 @@ class DataTable extends Component {
     }
 
     this.setFilter = this.setFilter.bind(this)
+    this.pinStatus = this.pinStatus.bind(this)
     this.addClassName = this.addClassName.bind(this)
   }
 
@@ -65,6 +67,12 @@ class DataTable extends Component {
     let spellState = this.state
     spellState.showList = spellState.showList === i ? false : i
     this.setState(spellState)
+  }
+
+  pinStatus(e, i) {
+    let pinStatus = this.state
+    pinStatus.pin = pinStatus.pin === i ? false : i
+    this.setState(pinStatus)
   }
 
   searchBar() {
@@ -153,17 +161,15 @@ class DataTable extends Component {
               <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
                 <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
                   {spell.s_name}
-                  <div className={"spell-tooltip"}>
-                    {spell.s_lvl} level spell
-                  </div>
+                  <div className={"spell-tooltip"}>{spell.s_lvl} level spell</div>
                 </div>
+                <div className={this.state.pin === i ? "spell-pin pinned" : "spell-pin"} key={i} onClick={(e) => {this.pinStatus(e, i)}}></div>
                 {(() => {
                   if (this.state.showList === i) {
                     return (
                       <div className={"spell-definitions"}>
                         <div className={"spell-top-level"}>
                           <i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i>
-                          <div className={"spell-pin"}>Pin</div>
                         </div>
                         <div className={"spell-details"}>
                           <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>

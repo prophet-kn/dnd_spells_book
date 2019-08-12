@@ -49,7 +49,8 @@ class DataTable extends Component {
       showList: false,
       filterSearch: '',
       filterButton: false,
-      pin: false,
+      pin: [],
+      pinToggle: false,
       filters: {
         'School of Magic': [],
         'Level': [],
@@ -58,8 +59,8 @@ class DataTable extends Component {
       }
     }
 
+    this.onPin = this.onPin.bind(this)
     this.setFilter = this.setFilter.bind(this)
-    this.pinStatus = this.pinStatus.bind(this)
     this.addClassName = this.addClassName.bind(this)
   }
 
@@ -69,10 +70,27 @@ class DataTable extends Component {
     this.setState(spellState)
   }
 
-  pinStatus(e, i) {
-    let pinStatus = this.state
-    pinStatus.pin = pinStatus.pin === i ? false : i
-    this.setState(pinStatus)
+  onPin(entity, id, key) {
+    const queryIds = this.state.pin
+    let spellKey = this.state
+    spellKey.pinToggle = spellKey.pinToggle === key ? false : key
+
+    if (!queryIds['id']) {
+      queryIds['id'] = []
+    }
+
+    if (this.state.pinToggle !== false) {
+      queryIds['id'].push(id)
+    }
+    else {
+      queryIds['id'] = queryIds['id'].filter(f => f !== id)
+    }
+
+    this.setState({
+      pin: queryIds,
+      pinToggle: spellKey
+    })
+    console.log(queryIds['id'])
   }
 
   searchBar() {
@@ -152,6 +170,12 @@ class DataTable extends Component {
     })
     .value()
 
+    const pinClasses = ['spell-pin']
+
+    if (this.state.pinToggle !== false) {
+      pinClasses.push('pinned')
+    }
+
     return (
       <div className={"spell-wrap"}>
         <h1>Spell list</h1>
@@ -163,7 +187,9 @@ class DataTable extends Component {
                   {spell.s_name}
                   <div className={"spell-tooltip"}>{spell.s_lvl} level spell</div>
                 </div>
-                <div className={this.state.pin === i ? "spell-pin pinned" : "spell-pin"} key={i} onClick={(e) => {this.pinStatus(e, i)}}></div>
+                <div className={pinClasses.join(' ')} onClick={(e) => {
+                  this.onPin(this, spell.s_id, i)
+                  }}></div>
                 {(() => {
                   if (this.state.showList === i) {
                     return (

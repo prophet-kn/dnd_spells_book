@@ -17,7 +17,7 @@
   position: absolute;
   height: 20px;
   width: 20px;
-  top: 25px;
+  top: 19px;
 }
 
 .spell-pin:before,
@@ -92,10 +92,9 @@
 
 .spell-tooltip {
   position: absolute;
-  font-size: 10px;
+  font-size: 20px;
   color: #d6d6d6;
-  left: 15px;
-  top: 5px;
+  right: 40px;
   opacity: .85;
 }
 

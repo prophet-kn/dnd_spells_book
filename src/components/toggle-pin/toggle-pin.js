@@ -11,7 +11,7 @@ class TogglePin extends React.Component {
   onPinClick() {
     this.props.onPin(this.state.toggled, this.props.type)
     this.setState({
-      toggled: this.state.toggled === true ? false : true,
+      toggled: this.state.toggled === false
     })
   }
 

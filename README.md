@@ -1,8 +1,10 @@
 # D&D 5e Companion
 
 ## TO DO LIST
-- Add a Pin for each of the spells, if selected, it adds a query to the URL, moves the pinned spell away from the listing, and is easily accessible. Also, maybe a quick copy button if URL contains a ?spells=1,4,5 etc
+- INTEGRATE SASS - PRIORITY NEXT
+- Since Pinned state is enabled, either add redux and create state store, or cookies, or a store that remembers the pinned elements (maybe the query idea, maybe a custom ID that referes to specific combination)
 - Make a front page which shows 3 buttons - Spells List, Dice Rolling and Character Sheet? CONCEPT LEVEL STILL
 
 ## TO DO - DONE
+- Pinned state
 - Allow an on/off functionality for each of the buttons, so that you can select a few levels and display those -

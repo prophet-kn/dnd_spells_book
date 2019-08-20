@@ -8,6 +8,11 @@
   padding-bottom: 15px;
 }
 
+.spell-top-level {
+  display: flex;
+  position: relative;
+}
+
 .dndapp-footer {
   display: flex;
   position: sticky;
@@ -62,10 +67,9 @@
 
 .spell-tooltip {
   position: absolute;
-  font-size: 10px;
+  font-size: 20px;
   color: #d6d6d6;
-  left: 15px;
-  top: 5px;
+  right: 40px;
   opacity: .85;
 }
 
@@ -168,7 +172,7 @@
   margin: auto;
   position: fixed;
   background-color: black;
-  z-index: 1;
+  z-index: 3;
   padding: 10px 0 20px;
   top: 0;
   right: 0;
@@ -283,4 +287,23 @@ input.search-input::placeholder {
   font-size: 20px;
   padding: 25px 0;
   color: #d6d6d6;
+}
+
+svg.spell-remove-pin {
+  position: absolute;
+  fill: white;
+  top: 18px;
+  left: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.spell-pin {
+  position: absolute;
+  fill: white;
+  top: 18px;
+  left: 15px;
+  cursor: pointer;
+  z-index: 1;
+  transform: rotate(-90deg);
 }

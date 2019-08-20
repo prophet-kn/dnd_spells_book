@@ -4,6 +4,7 @@ import Data from '.././../data/spells.json'
 import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
+import TogglePin from '../toggle-pin/toggle-pin'
 
 let sortLevel = _.chain(Data)
 let uniqueLevel = sortLevel.map(function(level) {
@@ -49,6 +50,9 @@ class DataTable extends Component {
       showList: false,
       filterSearch: '',
       filterButton: false,
+      pin: {
+        'id': []
+      },
       filters: {
         'School of Magic': [],
         'Level': [],
@@ -57,6 +61,8 @@ class DataTable extends Component {
       }
     }
 
+    this.onPin = this.onPin.bind(this)
+    this.removePin = this.removePin.bind(this)
     this.setFilter = this.setFilter.bind(this)
     this.addClassName = this.addClassName.bind(this)
   }
@@ -65,6 +71,37 @@ class DataTable extends Component {
     let spellState = this.state
     spellState.showList = spellState.showList === i ? false : i
     this.setState(spellState)
+  }
+
+  onPin(toggle, id) {
+    const queryIds = this.state.pin
+
+    if (!queryIds['id']) {
+      queryIds['id'] = []
+    }
+
+    if (toggle !== false) {
+      queryIds['id'].push(id)
+    }
+    else {
+      queryIds['id'] = queryIds['id'].filter(f => f !== id)
+    }
+
+    this.setState({
+      pin: queryIds
+    })
+  }
+
+  removePin(id) {
+    const queryIds = this.state.pin
+
+    if (_.includes(queryIds['id'], id) === true) {
+      queryIds['id'] = queryIds['id'].filter(f => f !== id)
+
+      this.setState({
+        pin: queryIds
+      })
+    }
   }
 
   searchBar() {
@@ -153,15 +190,16 @@ class DataTable extends Component {
               <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
                 <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
                   {spell.s_name}
-                  <div className={"spell-tooltip"}>
-                    {spell.s_lvl} level spell
-                  </div>
+                  <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
                 </div>
+                <TogglePin type={spell.s_id} key={i} onPin={this.onPin} />
                 {(() => {
                   if (this.state.showList === i) {
                     return (
                       <div className={"spell-definitions"}>
-                        <div className={"spell-top-level"}><i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i></div>
+                        <div className={"spell-top-level"}>
+                          <i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i>
+                        </div>
                         <div className={"spell-details"}>
                           <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
                           <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>
@@ -186,6 +224,55 @@ class DataTable extends Component {
     )
   }
 
+  dataTablePinned() {
+    let pinnedSpells = this.state.pin
+    const filteredData =  _.chain(Data)
+    .orderBy('s_name')
+    .filter((spell) => {
+      return _.includes(pinnedSpells['id'], spell.s_id)
+    })
+    .value()
+
+    if (filteredData.length > 0) {
+      return (
+        <div className={"spell-wrap"}>
+          <h1>Pinned Spell list</h1>
+          {_.orderBy(filteredData, 's_name').map((spell, i) => {
+            return (
+              <div className={"spell-info"} key={i}>
+                <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
+                  <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
+                    {spell.s_name}
+                    <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
+                  </div>
+                  <svg className={"spell-remove-pin"} onClick={(e) => {this.removePin(spell.s_id)}} width="20" height="20" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+                  {(() => {
+                    if (this.state.showList === i) {
+                      return (
+                        <div className={"spell-definitions"}>
+                          <div className={"spell-top-level"}>
+                            <i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i>
+                          </div>
+                          <div className={"spell-details"}>
+                            <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
+                            <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>
+                            <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
+                            <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
+                          </div>
+                          <div className={"spell-description"}>{ReactHtmlParser(spell.s_description)}</div>
+                        </div>
+                      )
+                    }
+                  })()}
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      )
+    }
+  }
+
   render() {
     return (
       <div className={"dndapp-table"}>
@@ -195,6 +282,7 @@ class DataTable extends Component {
           {this.filterDropdowns()}
         </div>
         <div className={"dndapp-data"}>
+          {this.dataTablePinned()}
           {this.dataTable()}
         </div>
       </div>

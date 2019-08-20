@@ -154,7 +154,7 @@
     "s_description": "Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a Large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your action to transform affected creatures into new forms. The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target's game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit points it had before ir rransformed. If it reverts as a result of dropping to 0 hit poinls, any excess damage carries over to its normal form long as the excess damage doesn't reduce the creature's normal form to 0 hit poinlt, it isn't knocked unconscious. The creature is limiled in the actions it can perform by the nature of its new form, and it can't speak or cast spells. <br>The target's gear melds into the new form. The target can't activate, wield, or otherwise benefit from any of its equipment."
   },
   {
-    "s_id": 7,
+    "s_id": 466,
     "s_lvl": "8th",
     "s_class_usage": [
       "Sorcerer",
@@ -171,7 +171,7 @@
     "s_description": "You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren’t affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.</br>Nonmagical plants in the area that aren’t creatures, such as trees and shrubs, wither and die instantly."
   },
   {
-    "s_id": 8,
+    "s_id": 467,
     "s_lvl": "1st",
     "s_class_usage": [
       "Druid",

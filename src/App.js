@@ -4,11 +4,10 @@ import './App.css'
 
 function App() {
   return (
-
     <div className={"dndapp"}>
       <header className={"dndapp-header"}>
         Prophet&#39;s Companion<br></br>
-        v0.41:41ph4
+        v0.43:41ph4
       </header>
       <div className={"dndapp-body"}>
         <Output />

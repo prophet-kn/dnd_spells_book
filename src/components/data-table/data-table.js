@@ -53,7 +53,6 @@ class DataTable extends Component {
       pin: {
         'id': []
       },
-      pinToggle: false,
       filters: {
         'School of Magic': [],
         'Level': [],
@@ -63,6 +62,7 @@ class DataTable extends Component {
     }
 
     this.onPin = this.onPin.bind(this)
+    this.removePin = this.removePin.bind(this)
     this.setFilter = this.setFilter.bind(this)
     this.addClassName = this.addClassName.bind(this)
   }
@@ -90,6 +90,18 @@ class DataTable extends Component {
     this.setState({
       pin: queryIds
     })
+  }
+
+  removePin(id) {
+    const queryIds = this.state.pin
+
+    if (_.includes(queryIds['id'], id) === true) {
+      queryIds['id'] = queryIds['id'].filter(f => f !== id)
+
+      this.setState({
+        pin: queryIds
+      })
+    }
   }
 
   searchBar() {
@@ -233,7 +245,7 @@ class DataTable extends Component {
                     {spell.s_name}
                     <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
                   </div>
-                  <TogglePin type={spell.s_id} key={i} onPin={this.onPin} />
+                  <svg className={"spell-remove-pin"} onClick={(e) => {this.removePin(spell.s_id)}} width="20" height="20" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
                   {(() => {
                     if (this.state.showList === i) {
                       return (

@@ -13,31 +13,6 @@
   position: relative;
 }
 
-.spell-pin {
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  top: 19px;
-}
-
-.spell-pin:before,
-.spell-pin.pinned:after {
-  content: '';
-  display: block;
-  left: 15px;
-  height: 15px;
-  width: 15px;
-  position: absolute;
-  border: 2px #d6d6d6 solid;
-  border-radius: 100%;
-  cursor: pointer;
-  z-index: 2;
-}
-
-.spell-pin.pinned:after {
-  background: #d6d6d6;
-}
-
 .dndapp-footer {
   display: flex;
   position: sticky;
@@ -312,4 +287,23 @@ input.search-input::placeholder {
   font-size: 20px;
   padding: 25px 0;
   color: #d6d6d6;
+}
+
+svg.spell-remove-pin {
+  position: absolute;
+  fill: white;
+  top: 18px;
+  left: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.spell-pin {
+  position: absolute;
+  fill: white;
+  top: 18px;
+  left: 15px;
+  cursor: pointer;
+  z-index: 1;
+  transform: rotate(-90deg);
 }

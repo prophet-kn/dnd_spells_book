@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './../../App.css'
 import Data from '.././../data/spells.json'
 import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
@@ -189,7 +188,7 @@ class DataTable extends Component {
             <div className={"spell-info"} key={i}>
               <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
                 <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
-                  {spell.s_name}
+                  <span>{spell.s_name}</span>
                   <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
                 </div>
                 <TogglePin type={spell.s_id} key={i} onPin={this.onPin} />
@@ -242,7 +241,7 @@ class DataTable extends Component {
               <div className={"spell-info"} key={i}>
                 <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
                   <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
-                    {spell.s_name}
+                    <span>{spell.s_name}</span>
                     <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
                   </div>
                   <svg className={"spell-remove-pin"} onClick={(e) => {this.removePin(spell.s_id)}} width="20" height="20" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>

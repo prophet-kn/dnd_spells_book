@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import '.././../App.css'
 import DataTable from './../data-table/data-table'
 
 // Output Component

@@ -6,6 +6,11 @@
   "dependencies": {
     "create-react-class": "^15.6.3",
     "gh-pages": "^2.0.1",
+    "gulp": "^4.0.2",
+    "gulp-param": "1.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-bulk-import": "1.0.1",
+    "gulp-sass-lint": "1.1.1",
     "lodash": "^4.17.15",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

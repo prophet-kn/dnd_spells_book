@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './../../App.css'
 import Data from '.././../data/spells.json'
 import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'

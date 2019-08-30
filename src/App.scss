@@ -148,18 +148,18 @@ h6 {
 
   &-footer {
     display: flex;
-    position: sticky;
     flex-flow: column;
     font-size: 10px;
-    margin-top: 100px;
     margin-bottom: 10px;
+    margin-top: 100px;
+    position: sticky;
   }
 
   &-selectors {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
     margin: 0 10px;
+    position: relative;
 
     .selector {
       display: flex;

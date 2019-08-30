@@ -28,9 +28,10 @@ jobs:
         npm audit fix
 
     - name: Deploy
+      uses: prophet-kn/dnd_spells_book@latest
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS }}
-        GITHUB_TOKEN: ${{ secrets.SSH }}
+        SSH: ${{ secrets.SSH }}
         GIT_AUTHOR_NAME: "Magick"
         GIT_COMMITTER_NAME: "Magick"
         GIT_AUTHOR_EMAIL: "kacper.nowosielski@gmail.com"

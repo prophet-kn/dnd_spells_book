@@ -38,5 +38,3 @@ jobs:
         GIT_COMMITTER_EMAIL: "kacper.nowosielski@gmail.com"
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./public
-      run: |
-        npm run-script deploy

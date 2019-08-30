@@ -5,6 +5,7 @@
   "homepage": "https://prophet-kn.github.io/dnd_spells_book/",
   "dependencies": {
     "create-react-class": "^15.6.3",
+    "eslint-utils": "1.4.2",
     "gh-pages": "^2.0.1",
     "gulp": "^4.0.2",
     "gulp-param": "1.0.3",

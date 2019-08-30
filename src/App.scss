@@ -1,22 +1,22 @@
 // vars
-$dnd_red: #86242A;
+$dnd-red: #86242A;
 $black: #000;
-$light_white: #d6d6d6;
-$dark_white: #444444;
+$light-white: #d6d6d6;
+$dark-white: #444;
 
 .dark-theme {
-  color: $light_white;
+  color: $light-white;
 
   &.dndapp {
     .dndapp {
       &-footer {
-        color: $dark_white;
+        color: $dark-white;
       }
     }
   }
 
   .btn {
-    border-color: $light_white;
+    border-color: $light-white;
 
     &.selected {
       border-color: $black;
@@ -25,7 +25,7 @@ $dark_white: #444444;
 
   // selected
   .selected {
-    background-color: $light_white;
+    background-color: $light-white;
     color: $black;
   }
 
@@ -33,38 +33,38 @@ $dark_white: #444444;
     &-definitions,
     &-details,
     &-name {
-      border-color: $light_white;
+      border-color: $light-white;
     }
 
     &-undefined,
     &-tooltip {
-      color: $light_white;
+      color: $light-white;
     }
 
     &-pin {
-      fill: $light_white;
+      fill: $light-white;
     }
   }
 
   .filter {
     &-wrapper {
-      border-color: $light_white;
+      border-color: $light-white;
     }
 
     &-search {
-      &:after,
-      &:before {
-        color: $light_white;
-        border-color: $light_white;
+      &::after,
+      &::before {
+        border-color: $light-white;
+        color: $light-white;
       }
     }
 
     &-field {
-      border-color:  $light_white;
-      color: $light_white;
+      border-color:  $light-white;
+      color: $light-white;
 
       &:hover {
-        background-color: $light_white;
+        background-color: $light-white;
         color: $black;
       }
     }
@@ -72,15 +72,15 @@ $dark_white: #444444;
     &-dropdown {
       background-color: $black;
 
-      &:before {
+      &::before {
         background-color: $black;
       }
     }
 
     &-close {
-      &:before,
-      &:after {
-        background-color: $light_white;
+      &::before,
+      &::after {
+        background-color: $light-white;
       }
     }
   }
@@ -88,11 +88,11 @@ $dark_white: #444444;
   input {
     &.search {
       &-input {
-        border-color: $light_white;
-        color: $light_white;
+        border-color: $light-white;
+        color: $light-white;
 
         &::placeholder {
-          color: $light_white;
+          color: $light-white;
         }
       }
     }
@@ -102,7 +102,7 @@ $dark_white: #444444;
     &.spell {
       &-remove {
         &-pin {
-          fill: $light_white;
+          fill: $light-white;
         }
       }
     }
@@ -112,18 +112,16 @@ $dark_white: #444444;
 
 // global
 html {
+  align-items: center;
+  background-color: $black;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: $black;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
 }
-  
+
 body {
   margin: 0;
 }
@@ -207,7 +205,7 @@ h6 {
   }
 
   &-name {
-    &:after {
+    &::after {
       content: '-';
       position: absolute;
       right: 20px;
@@ -301,7 +299,7 @@ h6 {
     cursor: pointer;
     position: relative;
 
-    &:after {
+    &::after {
       content: '-';
       position: absolute;
       right: 20px;
@@ -312,7 +310,7 @@ h6 {
     flex: 1 1 80%;
     position: relative;
 
-    &:after {
+    &::after {
       content: '';
       display: flex;
       position: absolute;
@@ -325,7 +323,7 @@ h6 {
       z-index: -1;
     }
     
-    &:before {
+    &::before {
       content: '';
       display: flex;
       position: absolute;
@@ -375,7 +373,7 @@ h6 {
       right: 0;
       left: 0;
 
-      &:before {
+      &::before {
         right: 0;
         content: '';
         position: fixed;
@@ -396,7 +394,7 @@ h6 {
     right: 10px;
     cursor: pointer;
 
-    &:before {
+    &::before {
       content: '';
       height: 40px;
       width: 2px;
@@ -408,7 +406,7 @@ h6 {
       transform: rotate(45deg);
     }
 
-    &:after {
+    &::after {
       content: '';
       height: 40px;
       width: 2px;
@@ -433,7 +431,7 @@ h6 {
   &-child {
     .spell {
       &-name {
-        &:after {
+        &::after {
           content: '+';
           position: absolute;
           right: 20px;
@@ -443,7 +441,7 @@ h6 {
 
     &.filter {
       &-wrapper {
-        &:after {
+        &::after {
           content: '+';
           position: absolute;
           right: 20px;

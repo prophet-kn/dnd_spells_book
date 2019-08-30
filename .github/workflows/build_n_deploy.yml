@@ -28,7 +28,7 @@ jobs:
         npm audit fix
 
     - name: Deploy
-      uses: prophet-kn/dnd_spells_book@latest
+      uses: prophet-kn/dnd_spells_book@0.45.0
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS }}
         SSH: ${{ secrets.SSH }}

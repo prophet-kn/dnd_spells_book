@@ -24,9 +24,9 @@ jobs:
       run: |
         npm install
         npm run build --if-present
+        npm audit fix
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS }}
         BRANCH: gh-pages
         FOLDER: build
-        BUILD_SCRIPT: npm run deploy
-      
+        BUILD_SCRIPT: npm run deploy & yarn deploy

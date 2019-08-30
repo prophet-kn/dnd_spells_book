@@ -214,7 +214,7 @@ h6 {
 
   &-definitions {
     border: 2px solid;
-    margin: 0 5px 25px 5px;
+    margin: 0 5px 25px;
     padding: 10px;
     text-align: left;
 
@@ -224,8 +224,8 @@ h6 {
   }
 
   &-details {
-    border-top: 2px solid;
     border-bottom: 2px solid;
+    border-top: 2px solid;
     margin: 10px 0;
 
     div {
@@ -247,12 +247,12 @@ h6 {
   }
 
   &-pin {
+    cursor: pointer;
+    left: 15px;
     position: absolute;
     top: 18px;
-    left: 15px;
-    cursor: pointer;
-    z-index: 1;
     transform: rotate(-90deg);
+    z-index: 1;
   }
 
   &-dropdown {
@@ -260,25 +260,24 @@ h6 {
   }
 
   &-tooltip {
+    flex: 0 1 25%;
     font-size: 20px;
     opacity: .85;
-    flex: 0 1 25%;
     text-align: right;
   }
 
   &-name {
+    border: 2px solid;
+    cursor: pointer;
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    margin: 5px;
-    border: 2px solid;
-    padding: 10px;
-    cursor: pointer;
-    height: 30px;
     font-size: 20px;
-    flex-flow: row;
-    text-align: left;
+    height: 30px;
+    justify-content: center;
     line-height: 1.5;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
 
     span {
       flex: 0 1 60%;

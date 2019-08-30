@@ -32,5 +32,9 @@ jobs:
         npm run-script deploy
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS }}
+        GIT_AUTHOR_NAME: "Magick"
+        GIT_COMMITTER_NAME: "Magick"
+        GIT_AUTHOR_EMAIL: "kacper.nowosielski@gmail.com"
+        GIT_COMMITTER_EMAIL: "kacper.nowosielski@gmail.com"
         BRANCH: gh-pages
         FOLDER: build

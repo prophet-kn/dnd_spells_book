@@ -29,9 +29,9 @@ jobs:
 
     - name: Deploy
       uses: dnd_spells_book@0.1.1
+      run: |
+        npm run-script deploy
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS }}
         BRANCH: gh-pages
         FOLDER: build
-      run: |
-        npm run-script deploy

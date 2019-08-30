@@ -19,12 +19,8 @@ jobs:
     - name: Use Node.js 12.x
       uses: actions/setup-node@v1
       with:
-        version: 10.x
-    - name: Build App
-      run: |
-        npm install
-        npm run build --if-present
-    - name: Deploy App
+        version: 12.x
+    - name: Build & Deploy
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS }}
         BRANCH: gh-pages

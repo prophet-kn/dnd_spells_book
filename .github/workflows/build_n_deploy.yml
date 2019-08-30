@@ -21,14 +21,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         version: 12.x
-    - name: Build
+    - name: Build & Deploy
       run: |
         npm install
         npm run build --if-present
         npm audit fix
-
-    - name: Deploy
-      uses: prophet-kn/dnd_spells_book@0.45.0
+        npm run deploy
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS }}
         SSH: ${{ secrets.SSH }}

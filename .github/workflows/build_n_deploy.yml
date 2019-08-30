@@ -22,13 +22,13 @@ jobs:
         version: 12.x
     - name: Build & Deploy
       run: |
-        git config user.email "kacper.nowosielski@gmail.com"
-        git config user.name "prophet-kn"
         npm install
         npm run build --if-present
         npm audit fix
-        npm run deploy
+    - name: Deploy
+      uses: dnd_spells_book@0.1.1
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS }}
         BRANCH: gh-pages
         FOLDER: build
+      run: npm run-script deploy

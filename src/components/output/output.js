@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import DataTable from './../data-table/data-table'
 
-// Output Component
 class Output extends Component {
 
   render() {

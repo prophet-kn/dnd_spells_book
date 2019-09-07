@@ -111,31 +111,6 @@ $dark-white: #444;
 
 }
 
-// global
-.dndapp-main {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
-}
-
-body {
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 10px;
-}
-
 // dndapp
 .dndapp {
   max-width: 600px;
@@ -345,7 +320,6 @@ h6 {
     border: 2px solid;
     padding: 10px;
     background: transparent;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
     justify-content: center;
@@ -456,11 +430,11 @@ input {
       border: 2px solid;
       padding: 10px;
       background: transparent;
-      font-family: Arial, Helvetica, sans-serif;
       font-size: 18px;
       margin-bottom: 10px;
 
       &::placeholder {
+        font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
         font-size: 18px;
       }
     }
@@ -480,3 +454,29 @@ svg {
     }
   }
 }
+
+// global
+.dndapp-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 10px;
+}
+

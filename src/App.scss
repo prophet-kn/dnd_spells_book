@@ -8,11 +8,21 @@ $dark-white: #444;
   color: $light-white;
   background-color: $black;
 
-  &.dndapp {
+  &.dndapp-main {
     .dndapp {
-      &-footer {
-        color: $dark-white;
+      &-lander {
+        .lander {
+          &-button {
+            border-color: $light-white;
+
+            &:hover {
+              background-color: $light-white;
+              color: $black;
+            }
+          }
+        }
       }
+    
     }
   }
 
@@ -107,11 +117,14 @@ $dark-white: #444;
         }
       }
     }
+
+    path {
+      fill: $light-white;
+    }
   }
 
 }
 
-// dndapp
 .dndapp {
   max-width: 600px;
   min-height: 100vh;
@@ -152,6 +165,33 @@ $dark-white: #444;
     }
   }
 
+  &-lander {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+
+    .lander {
+      &-button {
+        border: 2px solid;
+        cursor: pointer;
+        margin-bottom: 30px;
+        padding: 5px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  &-wrapper {
+    position: relative;
+
+    .go-back {
+      cursor: pointer;
+      position: absolute;
+      left: 5px;
+      top: -70px;
+    }
+  }
 }
 
 // btn

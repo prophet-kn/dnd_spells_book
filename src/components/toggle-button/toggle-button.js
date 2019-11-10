@@ -10,6 +10,7 @@ class ToggleButton extends React.Component {
 
   onClickButton() {
     this.props.onClick(this.props, this.state)
+
     this.setState({
       toggled: this.state.toggled === true ? false : true,
     })

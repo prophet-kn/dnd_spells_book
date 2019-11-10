@@ -50,6 +50,7 @@ class DataTable extends Component {
     this.state = {
       data: Data,
       showList: false,
+      showListPinned: false,
       filterSearch: '',
       filterButton: false,
       pin: {
@@ -67,12 +68,19 @@ class DataTable extends Component {
     this.removePin = this.removePin.bind(this)
     this.setFilter = this.setFilter.bind(this)
     this.addClassName = this.addClassName.bind(this)
+    this.addClassNamePinned = this.addClassNamePinned.bind(this)
   }
 
   addClassName(e, i) {
     let spellState = this.state
     spellState.showList = spellState.showList === i ? false : i
     this.setState(spellState)
+  }
+
+  addClassNamePinned(e, i) {
+    let pinState = this.state
+    pinState.showListPinned = pinState.showListPinned === i ? false : i
+    this.setState(pinState)
   }
 
   onPin(toggle, id) {
@@ -242,14 +250,14 @@ class DataTable extends Component {
           {_.orderBy(filteredData, 's_name').map((spell, i) => {
             return (
               <div className={"spell-info"} key={i}>
-                <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
-                  <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
+                <div className={this.state.showListPinned === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
+                  <div className={"spell-name"} onClick={(e) => {this.addClassNamePinned(e, i)}}>
                     <span>{spell.s_name}</span>
                     <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
                   </div>
                   <svg className={"spell-remove-pin"} onClick={(e) => {this.removePin(spell.s_id)}} width="20" height="20" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
                   {(() => {
-                    if (this.state.showList === i) {
+                    if (this.state.showListPinned === i) {
                       return (
                         <div className={"spell-definitions"}>
                           <div className={"spell-top-level"}>

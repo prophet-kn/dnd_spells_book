@@ -1,6 +1,6 @@
 import React from 'react'
-import Output from './components/output/output'
 import './App.css'
+import Output from './components/output/output'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className={"dndapp"}>
         <header className={"dndapp-header"}>
           Prophet&#39;s Companion<br></br>
-          v0.45:41ph4
+          v0.46:41ph4
         </header>
         <div className={"dndapp-body"}>
           <Output />

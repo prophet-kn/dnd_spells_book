@@ -19,6 +19,15 @@ $dark-white: #444;
               background-color: $light-white;
               color: $black;
             }
+
+            &.disabled {
+              background: #150023;
+
+              &:hover {
+                background-color: $dnd-red;
+                color: $light-white;
+              }
+            }
           }
         }
       }
@@ -132,6 +141,7 @@ $dark-white: #444;
   &-header {
     font-size: 25px;
     padding-bottom: 15px;
+    margin-top: 35px;
   }
 
   &-footer {
@@ -169,15 +179,25 @@ $dark-white: #444;
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
 
     .lander {
       &-button {
         border: 2px solid;
         cursor: pointer;
-        margin-bottom: 30px;
+        margin-bottom: 5px;
         padding: 5px;
         font-size: 20px;
+        height: 40px;
+        display: flex;
+
+        span {
+          margin: auto;
+        }
+
+        &.disabled {
+          cursor: no-drop;
+        }
       }
     }
   }
@@ -189,9 +209,97 @@ $dark-white: #444;
       cursor: pointer;
       position: absolute;
       left: 5px;
-      top: -70px;
+      top: -110px;
     }
   }
+
+  &-dice {
+    &-rolls {
+      display: flex;
+      flex-flow: wrap;
+
+      &-title {
+        margin: auto;
+        padding: 10px 0;
+        font-size: 20px;
+      }
+      
+      &-roll {
+        flex: 0 1 50%;
+        margin-bottom: 25px;
+
+        &-label {
+          font-size: 25px;
+          margin-bottom: 5px;
+        }
+
+        span {
+          margin: auto;
+          font-size: 20px;
+        }
+
+        &-dice {
+          cursor: pointer;
+          height: 100px;
+          width: 100px;
+          display: flex;
+          margin: auto;
+          border: 2px solid;
+          background: $black;
+          transition-duration: .2s;
+          transition: all 1s ease;
+
+          &.rolling {
+            transform: rotate(69deg);
+            transition-duration: 1s;
+            background: $dnd-red;
+            transition: all .5s ease;
+          }
+
+          &:active {
+            transform: rotate(69deg);
+            transition-duration: 1s;
+            background: $dnd-red;
+            transition: all .5s ease;
+          }
+        }
+
+        &.d100 {
+
+        }
+
+        &.d20 {
+
+        }
+
+        &.d12 {
+
+        }
+
+        &.d10 {
+
+        }
+
+        &.d8 {
+
+        }
+
+        &.d6 {
+
+        }
+
+        &.d4 {
+
+        }
+
+        &.d2 {
+
+        }
+
+      }
+    }
+  }
+
 }
 
 // btn
@@ -519,4 +627,3 @@ h6 {
   margin: 0;
   padding: 10px;
 }
-

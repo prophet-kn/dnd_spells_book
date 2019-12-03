@@ -1,10 +1,19 @@
 # D&D 5e Companion
 
-## LOCAL SETUP
-- need node v12.13.1
-- clone
-- in root you can run gulp to compile css
-- also npm start to setup the local environment for development
+## INSTALLATION
+- Run:
+  - `nvm install 12.13.1`
+  - `nvm use 12.13.1`
+  - `git clone https://github.com/prophet-kn/dnd_spells_book.git`
+  - `cd dnd_spells_bookSS`
+  - `yarn install`
+
+## RUNNING
+- Make sure you're using the correct node version:
+  - `nvm use 12.13.1`
+- In two separate terminals, run:
+  - `yarn gulp`
+  - `npm start`
 
 ## TO DO LIST
 - Music board sort of a thingy?

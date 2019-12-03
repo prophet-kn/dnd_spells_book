@@ -5,7 +5,7 @@
   - `nvm install 12.13.1`
   - `nvm use 12.13.1`
   - `git clone https://github.com/prophet-kn/dnd_spells_book.git`
-  - `cd dnd_spells_bookSS`
+  - `cd dnd_spells_book`
   - `yarn install`
 
 ## RUNNING

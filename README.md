@@ -1,26 +1,10 @@
 # <a href="https://prophet-kn.github.io/dnd_spells_book/">Prophet's Companion</a>
 
 ---
-# to do (features)
-- Add a Ritual filter for spell list
-- Create a SFX sound board for DMs
-- Create a mobile character sheet with exportable/importable json file for local device storage
-- Eventually create a backend and stop hosting on github pages
-- Create an NPC randomizer
-
-# to do (fix/refactor)
-- Fix Pinned state (doesn't always work on first click)
-- Fix main page buttons (doesn't always trigger properly, printing nothing at times)
-
-# done
-- INTEGRATE SASS
-- Pinned state
-- Allow an on/off functionality for each of the buttons, so that you can select a few levels and display those -
-- Make a front page which shows 5 buttons - Spells List, Dice Rolling, Character Sheet, music board and NPC randomizer
-
+## Check <a href="https://github.com/prophet-kn/dnd_spells_book/issues">issues</a> and <a href="https://github.com/prophet-kn/dnd_spells_book/projects">projects</a> to work on, if you wish to contribute. :)
 ---
 
-# branching guidelines
+# branching guidelines and creating issues
 ### If you are creating a new feature, your branch should be something along the lines of:
 - `feature/PC-{next-number}_{name-of-feature}`
 

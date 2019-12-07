@@ -1,25 +1,8 @@
 # <a href="https://prophet-kn.github.io/dnd_spells_book/">Prophet's Companion</a>
 
-<<<<<<< HEAD
-## INSTALLATION
-- Run:
-  - `nvm install 12.13.1`
-  - `nvm use 12.13.1`
-  - `git clone https://github.com/prophet-kn/dnd_spells_book.git`
-  - `cd dnd_spells_book`
-  - `yarn install`
-
-## RUNNING
-- Make sure you're using the correct node version:
-  - `nvm use 12.13.1`
-- In two separate terminals, run:
-  - `yarn gulp`
-  - `npm start`
-=======
 ---
 ## Check <a href="https://github.com/prophet-kn/dnd_spells_book/issues">issues</a> and <a href="https://github.com/prophet-kn/dnd_spells_book/projects">projects</a> to work on, if you wish to contribute. :)
 ---
->>>>>>> 0cf53e517bb9dc0d754438f0f36eacad75dead95
 
 # branching guidelines and creating issues
 ### If you are creating a new feature, your branch should be something along the lines of:

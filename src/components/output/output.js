@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import DataTable from './../data-table/data-table'
+import SpellsTable from './../data-table/spells-table'
+import EldritchInvocationsTable from './../data-table/eldritch-invocations-table'
 import DiceRolls from './../dice-roll/dice-roll'
 
 class Output extends Component {
@@ -30,8 +31,11 @@ class Output extends Component {
     if (this.state.currentView === 'default') {
       return (
         <div className={'dndapp-lander'}>
-          <div className={'lander-button'} view={'dataTable'} onClick={(e) => {this.pickView(e)}}>
+          <div className={'lander-button'} view={'spellsTable'} onClick={(e) => {this.pickView(e)}}>
             <span>List of Spells</span>
+          </div>
+          <div className={'lander-button'} view={'eldritchInvocationsTable'} onClick={(e) => {this.pickView(e)}}>
+            <span>List of Eldritch Invocations</span>
           </div>
           <div className={'lander-button'} view={'diceRoll'} onClick={(e) => {this.pickView(e)}}>
             <span>Dice Roll</span>
@@ -48,8 +52,11 @@ class Output extends Component {
         </div>
       )
     }
-    else if (this.state.currentView === 'dataTable') {
-      return <DataTable />
+    else if (this.state.currentView === 'spellsTable') {
+      return <SpellsTable />
+    }
+    else if (this.state.currentView === 'eldritchInvocationsTable') {
+      return <EldritchInvocationsTable />
     }
     else if (this.state.currentView === 'diceRoll') {
       return <DiceRolls />

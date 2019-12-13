@@ -1,14 +1,51 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Data from '.././../data/spells.json'
 import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
+import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import TogglePin from '../toggle-pin/toggle-pin'
+import DataTable from './../data-table/data-table'
 /*
 <svg width="256" height="256" class="octicon octicon-chevron-down" viewBox="0 0 10 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
 <svg width="256" height="256" class="octicon octicon-chevron-left" viewBox="0 0 8 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3L7 4.5 3.25 8 7 11.5 5.5 13l-5-5 5-5z"></path></svg>
 */
+let sortLevel = _.chain(Data)
+let uniqueLevel = sortLevel.map(function(level) {
+  return level.s_lvl
+})
+.sort()
+.flatten()
+.uniq()
+.value()
 
-class DataTable extends Component {
+let sortSchool = _.chain(Data)
+let uniqueSchool = sortSchool.map(function(school) {
+  return school.s_school
+})
+.sort()
+.flatten()
+.uniq()
+.value()
+
+let sortType = _.chain(Data)
+let uniqueType = sortType.map(function(type) {
+  return type.s_type
+})
+.sort()
+.flatten()
+.uniq()
+.value()
+
+let sortClass = _.chain(Data)
+let uniqueClass = sortClass.map(function(classes) {
+  return classes.s_class_usage
+})
+.sort()
+.flatten()
+.uniq()
+.value()
+
+class SpellsTable extends DataTable {
   constructor(props) {
     super()
     this.state = {
@@ -47,79 +84,16 @@ class DataTable extends Component {
     this.setState(pinState)
   }
 
-  onPin(toggle, id) {
-    const queryIds = this.state.pin
-
-    if (!queryIds['id']) {
-      queryIds['id'] = []
-    }
-
-    if (toggle !== false) {
-      queryIds['id'].push(id)
-    }
-    else {
-      queryIds['id'] = queryIds['id'].filter(f => f !== id)
-    }
-
-    this.setState({
-      pin: queryIds
-    })
-  }
-
-  removePin(id) {
-    const queryIds = this.state.pin
-
-    if (_.includes(queryIds['id'], id) === true) {
-      queryIds['id'] = queryIds['id'].filter(f => f !== id)
-
-      this.setState({
-        pin: queryIds
-      })
-    }
-  }
-
-  searchBar() {
+  filterDropdowns() {
     return (
-      <div className={"filter-search"}>
-        <input placeholder={"Search"} className={"search-input"} onChange={(e) => {
-          this.setState({filterSearch: e.target.value})
-          }}/>
+      <div className={this.state.filterButton === true ? "filter-dropdown active" : "filter-dropdown hidden"}>
+        <div className={"filter-close"} onClick={this.onClickFilter.bind(this)}></div>
+        <FilterDataButtons title={'Level'} values={uniqueLevel} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
+        <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
       </div>
     )
-  }
-
-  onClickFilter() {
-    this.setState({
-      filterButton: this.state.filterButton === true ? false : true,
-    })
-  }
-
-  filterFilter() {
-    return (
-      <div className={"filter-filter"} onClick={this.onClickFilter.bind(this)}>
-        <div className={"filter-field"}>
-          Filters
-        </div>
-      </div>
-    )
-  }
-
-  setFilter(type, filter, value) {
-    const newFilters = this.state.filters
-    if (!newFilters[type]) {
-      newFilters[type] = []
-    }
-
-    if (value.toggled === true) {
-      newFilters[type].push(filter.type)
-    }
-    else {
-      newFilters[type] = newFilters[type].filter(f => f !== filter.type)
-    }
-
-    this.setState({
-      filters: newFilters
-    })
   }
 
   dataTable() {
@@ -253,4 +227,4 @@ class DataTable extends Component {
 
 }
 
-export default DataTable
+export default SpellsTable

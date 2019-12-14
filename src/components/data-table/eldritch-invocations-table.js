@@ -9,9 +9,27 @@ import DataTable from './../data-table/data-table'
 <svg width="256" height="256" class="octicon octicon-chevron-down" viewBox="0 0 10 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
 <svg width="256" height="256" class="octicon octicon-chevron-left" viewBox="0 0 8 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3L7 4.5 3.25 8 7 11.5 5.5 13l-5-5 5-5z"></path></svg>
 */
+let sortPact = _.chain(Data)
+let uniquePact = sortPact.map(function(pact) {
+  return pact.ei_pact
+})
+.sort()
+.flatten()
+.uniq()
+.value()
+
 let sortPrerequisite = _.chain(Data)
 let uniquePrerequisite = sortPrerequisite.map(function(prerequisite) {
   return prerequisite.ei_prerequisite
+})
+.sort()
+.flatten()
+.uniq()
+.value()
+
+let sortLevel = _.chain(Data)
+let uniqueLevel = sortLevel.map(function(level) {
+  return level.ei_lvl
 })
 .sort()
 .flatten()
@@ -31,6 +49,8 @@ class SpellsTable extends DataTable {
         'id': []
       },
       filters: {
+        'Level': [],
+        'Pact': [],
         'Prerequisite': []
       }
     }
@@ -42,22 +62,12 @@ class SpellsTable extends DataTable {
     this.addClassNamePinned = this.addClassNamePinned.bind(this)
   }
 
-  addClassName(e, i) {
-    let spellState = this.state
-    spellState.showList = spellState.showList === i ? false : i
-    this.setState(spellState)
-  }
-
-  addClassNamePinned(e, i) {
-    let pinState = this.state
-    pinState.showListPinned = pinState.showListPinned === i ? false : i
-    this.setState(pinState)
-  }
-
   filterDropdowns() {
     return (
       <div className={this.state.filterButton === true ? "filter-dropdown active" : "filter-dropdown hidden"}>
         <div className={"filter-close"} onClick={this.onClickFilter.bind(this)}></div>
+        <FilterDataButtons title={'Level'} values={uniqueLevel} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Pact'} values={uniquePact} setFilter={this.setFilter} />
         <FilterDataButtons title={'Prerequisite'} values={uniquePrerequisite} setFilter={this.setFilter} />
       </div>
     )
@@ -67,6 +77,12 @@ class SpellsTable extends DataTable {
     let sortFilters = this.state.filters
     const filteredData =  _.chain(Data)
     .orderBy('ei_name')
+    .filter((spell) => {
+      return _.includes(sortFilters['Level'], spell.ei_lvl) || sortFilters['Level'].length === 0
+    })
+    .filter((spell) => {
+      return _.includes(sortFilters['Pact'], spell.ei_pact) || sortFilters['Pact'].length === 0
+    })
     .filter((spell) => {
       return _.includes(sortFilters['Prerequisite'], spell.ei_prerequisite) || sortFilters['Prerequisite'].length === 0
     })
@@ -90,8 +106,13 @@ class SpellsTable extends DataTable {
                   if (this.state.showList === i) {
                     return (
                       <div className={"spell-definitions"}>
+                        <div className={"spell-top-level"}>
+                          <i>Prerequisites:</i>
+                        </div>
                         <div className={"spell-details"}>
-                          <div className={"spell-prerequisite"}><b>Prerequisite:</b> {spell.ei_prerequisite}</div>
+                          <div className={"spell-prerequisite"}><b>Level:</b> {spell.ei_lvl == null ? "none" : spell.ei_lvl}</div>
+                          <div className={"spell-prerequisite"}><b>Pact:</b> {spell.ei_pact == null ? "none" : spell.ei_pact}</div>
+                          <div className={"spell-prerequisite"}><b>Spell:</b> {spell.ei_prerequisite == null ? "none" : spell.ei_prerequisite}</div>
                         </div>
                         <div className={"spell-description"}>{ReactHtmlParser(spell.ei_description)}</div>
                       </div>
@@ -130,7 +151,6 @@ class SpellsTable extends DataTable {
                 <div className={this.state.showListPinned === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
                   <div className={"spell-name"} onClick={(e) => {this.addClassNamePinned(e, i)}}>
                     <span>{spell.ei_name}</span>
-                    <div className={"spell-tooltip"}>L: {spell.ei_lvl.slice(0, 1)}</div>
                   </div>
                   <svg className={"spell-remove-pin"} onClick={(e) => {this.removePin(spell.ei_id)}} width="20" height="20" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
                   {(() => {
@@ -138,13 +158,12 @@ class SpellsTable extends DataTable {
                       return (
                         <div className={"spell-definitions"}>
                           <div className={"spell-top-level"}>
-                            <i>{spell.ei_lvl} Level {spell.ei_school} spell {spell.ei_ritual === true ? '(ritual)' : ''}</i>
+                            <i>Prerequisites:</i>
                           </div>
                           <div className={"spell-details"}>
-                            <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.ei_cast_time}</div>
-                            <div className={"spell-range"}><b>Range:</b> {spell.ei_range}</div>
-                            <div className={"spell-components"}><b>Components:</b> {spell.ei_components}</div>
-                            <div className={"spell-duration"}><b>Duration:</b> {spell.ei_duration}</div>
+                            <div className={"spell-prerequisite"}><b>Level:</b> {spell.ei_lvl == null ? "none" : spell.ei_lvl}</div>
+                            <div className={"spell-prerequisite"}><b>Pact:</b> {spell.ei_pact == null ? "none" : spell.ei_pact}</div>
+                            <div className={"spell-prerequisite"}><b>Spell:</b> {spell.ei_prerequisite == null ? "none" : spell.ei_prerequisite}</div>
                           </div>
                           <div className={"spell-description"}>{ReactHtmlParser(spell.ei_description)}</div>
                         </div>

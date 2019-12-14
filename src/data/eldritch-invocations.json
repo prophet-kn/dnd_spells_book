@@ -1,226 +1,226 @@
 [
   {
     "ei_name": "Agonizing Blast",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": "eldritch blast cantrip",
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "Eldritch blast cantrip",
     "ei_description": "When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit."
   },
   {
     "ei_name": "Armor of Shadows",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast mage armor on yourself at will, without expending a spell slot or material components."
   },
   {
     "ei_name": "Ascendant Step",
-    "ei_lvl": "9th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 9,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast levitate on yourself at will, without expending a spell slot or material components."
   },
   {
     "ei_name": "Beast Speech",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast speak with animals at will, without expending a spell slot."
   },
   {
     "ei_name": "Beguiling Influence",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You gain proficiency in the Deception and Persuasion skills."
   },
   {
     "ei_name": "Bewitching Whispers",
-    "ei_lvl": "7th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
-    "ei_description": "You can cast compulsion once using a warlock spell slot. You can&rsquo;t do so again until you finish a long rest."
+    "ei_lvl": 7,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
+    "ei_description": "You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest."
   },
   {
     "ei_name": "Book of Ancient Secrets",
-    "ei_lvl": null,
+    "ei_lvl": 3,
     "ei_pact": "Pact of the Tome",
-    "ei_prerequisite": null,
-    "ei_description": "You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class&rsquo;s spell list (the two needn&rsquo;t be from the same list). The spells appear in the book and don&rsquo;t count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can&rsquo;t cast the spells except as rituals, unless you&rsquo;ve learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag. On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell&rsquo;s level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."
+    "ei_prerequisite": "None",
+    "ei_description": "You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list (the two needn't be from the same list). The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag. On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."
   },
   {
     "ei_name": "Chains of Carceri",
-    "ei_lvl": "15th",
+    "ei_lvl": 15,
     "ei_pact": "Pact of the Chain",
-    "ei_prerequisite": null,
-    "ei_description": "You can cast hold monster at will &mdash; targeting a celestial, fiend, or elemental &mdash; without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
+    "ei_prerequisite": "None",
+    "ei_description": "You can cast hold monster at will, targeting a celestial, fiend, or elemental, without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
   },
   {
     "ei_name": "Devil’s Sight",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet."
   },
   {
     "ei_name": "Dreadful Word",
-    "ei_lvl": "7th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
-    "ei_description": "You can cast confusion once using a warlock spell slot. You can&rsquo;t do so again until you finish a long rest."
+    "ei_lvl": 7,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
+    "ei_description": "You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest."
   },
   {
     "ei_name": "Eldritch Sight",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast detect magic at will, without expending a spell slot."
   },
   {
     "ei_name": "Eldritch Spear",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": "eldritch blast cantrip",
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "Eldritch blast cantrip",
     "ei_description": "When you cast eldritch blast, its range is 300 feet."
   },
   {
     "ei_name": "Eyes of the Rune Keeper",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can read all writing."
   },
   {
     "ei_name": "Fiendish Vigor",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components."
   },
   {
     "ei_name": "Gaze of Two Minds",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
-    "ei_description": "You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature&rsquo;s senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings."
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
+    "ei_description": "You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings."
   },
   {
     "ei_name": "Lifedrinker",
-    "ei_lvl": "12th",
+    "ei_lvl": 12,
     "ei_pact": "Pact of the Blade",
-    "ei_prerequisite": null,
+    "ei_prerequisite": "None",
     "ei_description": "When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1)."
   },
   {
     "ei_name": "Mask of Many Faces",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast disguise self at will, without expending a spell slot."
   },
   {
     "ei_name": "Master of Myriad Forms",
-    "ei_lvl": "15th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 15,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast alter self at will, without expending a spell slot."
   },
   {
     "ei_name": "Minions of Chaos",
-    "ei_lvl": "9th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
-    "ei_description": "You can cast conjure elemental once using a warlock spell slot. You can&rsquo;t do so again until you finish a long rest."
+    "ei_lvl": 9,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
+    "ei_description": "You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest."
   },
   {
     "ei_name": "Mire the Mind",
-    "ei_lvl": "5th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
-    "ei_description": "You can cast slow once using a warlock spell slot. You can&rsquo;t do so again until you finish a long rest."
+    "ei_lvl": 5,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
+    "ei_description": "You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest."
   },
   {
     "ei_name": "Misty Visions",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast silent image at will, without expending a spell slot or material components."
   },
   {
     "ei_name": "One with Shadows",
-    "ei_lvl": "5th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 5,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction."
   },
   {
     "ei_name": "Otherworldly Leap",
-    "ei_lvl": "9th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 9,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast jump on yourself at will, without expending a spell slot or material components."
   },
   {
     "ei_name": "Repelling Blast",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": "eldritch blast cantrip",
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "Eldritch blast cantrip",
     "ei_description": "When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line."
   },
   {
     "ei_name": "Sculptor of Flesh",
-    "ei_lvl": "7th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
-    "ei_description": "You can cast polymorph once using a warlock spell slot. You can&rsquo;t do so again until you finish a long rest."
+    "ei_lvl": 7,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
+    "ei_description": "You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest."
   },
   {
     "ei_name": "Sign of Ill Omen",
-    "ei_lvl": "5th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
-    "ei_description": "You can cast bestow curse once using a warlock spell slot. You can&rsquo;t do so again until you finish a long rest."
+    "ei_lvl": 5,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
+    "ei_description": "You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest."
   },
   {
     "ei_name": "Thief of Five Fates",
-    "ei_lvl": null,
-    "ei_pact": null,
-    "ei_prerequisite": null,
-    "ei_description": "You can cast bane once using a warlock spell slot. You can&rsquo;t do so again until you finish a long rest."
+    "ei_lvl": 2,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
+    "ei_description": "You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest."
   },
   {
     "ei_name": "Thirsting Blade",
-    "ei_lvl": "5th",
+    "ei_lvl": 5,
     "ei_pact": "Pact of the Blade",
-    "ei_prerequisite": null,
+    "ei_prerequisite": "None",
     "ei_description": "You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn."
   },
   {
     "ei_name": "Visions of Distant Realms",
-    "ei_lvl": "15th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 15,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast arcane eye at will, without expending a spell slot."
   },
   {
     "ei_name": "Voice of the Chain Master",
-    "ei_lvl": null,
+    "ei_lvl": 3,
     "ei_pact": "Pact of the Chain",
-    "ei_prerequisite": null,
-    "ei_description": "You can communicate telepathically with your familiar and perceive through your familiar&rsquo;s senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar&rsquo;s senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech."
+    "ei_prerequisite": "None",
+    "ei_description": "You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech."
   },
   {
     "ei_name": "Whispers of the Grave",
-    "ei_lvl": "9th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 9,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can cast speak with dead at will, without expending a spell slot."
   },
   {
     "ei_name": "Witch Sight",
-    "ei_lvl": "15th",
-    "ei_pact": null,
-    "ei_prerequisite": null,
+    "ei_lvl": 15,
+    "ei_pact": "None",
+    "ei_prerequisite": "None",
     "ei_description": "You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight."
   }
 ]

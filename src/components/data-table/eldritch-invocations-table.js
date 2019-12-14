@@ -27,14 +27,7 @@ let uniquePrerequisite = sortPrerequisite.map(function(prerequisite) {
 .uniq()
 .value()
 
-let sortLevel = _.chain(Data)
-let uniqueLevel = sortLevel.map(function(level) {
-  return level.ei_lvl
-})
-.sort()
-.flatten()
-.uniq()
-.value()
+let uniqueLevel = Array.from(Array(20), (e,i)=>i+1)
 
 class SpellsTable extends DataTable {
   constructor(props) {
@@ -78,7 +71,7 @@ class SpellsTable extends DataTable {
     const filteredData =  _.chain(Data)
     .orderBy('ei_name')
     .filter((spell) => {
-      return _.includes(sortFilters['Level'], spell.ei_lvl) || sortFilters['Level'].length === 0
+      return _.lt(spell.ei_lvl, parseFloat(sortFilters['Level'][0]) + 1) || sortFilters['Level'].length === 0
     })
     .filter((spell) => {
       return _.includes(sortFilters['Pact'], spell.ei_pact) || sortFilters['Pact'].length === 0
@@ -100,6 +93,7 @@ class SpellsTable extends DataTable {
               <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
                 <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
                   <span>{spell.ei_name}</span>
+                  <div className={"spell-tooltip"}>L: {spell.ei_lvl}</div>
                 </div>
                 <TogglePin type={spell.ei_id} key={i} onPin={this.onPin} />
                 {(() => {
@@ -110,7 +104,7 @@ class SpellsTable extends DataTable {
                           <i>Prerequisites:</i>
                         </div>
                         <div className={"spell-details"}>
-                          <div className={"spell-prerequisite"}><b>Level:</b> {spell.ei_lvl == null ? "none" : spell.ei_lvl}</div>
+                          <div className={"spell-prerequisite"}><b>Warlock level:</b> {spell.ei_lvl == null ? "none" : spell.ei_lvl}</div>
                           <div className={"spell-prerequisite"}><b>Pact:</b> {spell.ei_pact == null ? "none" : spell.ei_pact}</div>
                           <div className={"spell-prerequisite"}><b>Spell:</b> {spell.ei_prerequisite == null ? "none" : spell.ei_prerequisite}</div>
                         </div>
@@ -151,6 +145,7 @@ class SpellsTable extends DataTable {
                 <div className={this.state.showListPinned === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
                   <div className={"spell-name"} onClick={(e) => {this.addClassNamePinned(e, i)}}>
                     <span>{spell.ei_name}</span>
+                    <div className={"spell-tooltip"}>L: {spell.ei_lvl}</div>
                   </div>
                   <svg className={"spell-remove-pin"} onClick={(e) => {this.removePin(spell.ei_id)}} width="20" height="20" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
                   {(() => {
@@ -161,7 +156,7 @@ class SpellsTable extends DataTable {
                             <i>Prerequisites:</i>
                           </div>
                           <div className={"spell-details"}>
-                            <div className={"spell-prerequisite"}><b>Level:</b> {spell.ei_lvl == null ? "none" : spell.ei_lvl}</div>
+                            <div className={"spell-prerequisite"}><b>Warlock level:</b> {spell.ei_lvl == null ? "none" : spell.ei_lvl}</div>
                             <div className={"spell-prerequisite"}><b>Pact:</b> {spell.ei_pact == null ? "none" : spell.ei_pact}</div>
                             <div className={"spell-prerequisite"}><b>Spell:</b> {spell.ei_prerequisite == null ? "none" : spell.ei_prerequisite}</div>
                           </div>

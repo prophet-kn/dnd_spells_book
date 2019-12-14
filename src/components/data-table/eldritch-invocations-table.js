@@ -86,7 +86,7 @@ class SpellsTable extends DataTable {
 
     return (
       <div className={"spell-wrap"}>
-        <h1>Spell list</h1>
+        <h1>Eldritch Invocations</h1>
         {_.orderBy(filteredData, 'ei_name').map((spell, i) => {
           return (
             <div className={"spell-info"} key={i}>
@@ -138,7 +138,7 @@ class SpellsTable extends DataTable {
     if (filteredData.length > 0) {
       return (
         <div className={"spell-wrap"}>
-          <h1>Pinned Spell list</h1>
+          <h1>Pinned Eldritch Invocations</h1>
           {_.orderBy(filteredData, 'ei_name').map((spell, i) => {
             return (
               <div className={"spell-info"} key={i}>

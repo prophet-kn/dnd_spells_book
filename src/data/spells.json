@@ -1039,9 +1039,9 @@
       "Sorcerer"
     ],
     "s_type": "Damage",
-    "s_damage_type": "extra",
-		"s_damage_dice": "1d6",
-		"s_description": "You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the dSs. The number rolled on that die determines the attacks damage type, as shown below.<br>d8 / Damage Type<br>1 / Acid<br>2 / Cold<br>3 / Fire<br>4 / Force<br>5 / Lightning<br>6 / Poison<br>7 / Psychic<br>8 / Thunder<br>If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each casting of this spell.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st."
+    "s_damage_type": "various",
+		"s_damage_dice": "2d8 + 1d6",
+		"s_description": "You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attacks damage type, as shown below.<br>d8 / Damage Type<br>1 / Acid<br>2 / Cold<br>3 / Fire<br>4 / Force<br>5 / Lightning<br>6 / Poison<br>7 / Psychic<br>8 / Thunder<br>If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each casting of this spell.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st."
   },
   {
     "s_id": 53,
@@ -2777,8 +2777,8 @@
       "Wizard"
     ],
     "s_type": "Support",
-    "s_damage_type": "less",
-		"s_damage_dice": "1d4",
+    "s_damage_type": "None",
+		"s_damage_dice": "None",
 		"s_description": "You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect. <br><br>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once. <br><br><b>Enlarge</b> <br>The target’s size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category – from Medium to Large, for example. If there isn’t enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target’s weapons also grow to match its new size. While these weapons are enlarged, the target’s attack with them deal 1d4 extra damage. <br><br><b>Reduce</b> <br>The target’s size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category – from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target’s weapons also shrink to match its new size. While these weapons are reduced, the target’s attacks with them deal 1d4 less damage (this can’t reduce the damage below 1)."
   },
   {

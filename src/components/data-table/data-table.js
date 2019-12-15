@@ -35,6 +35,15 @@ let uniqueType = sortType.map(function(type) {
 .uniq()
 .value()
 
+let sortDamageType = _.chain(Data)
+let uniqueDamageType = sortDamageType.map(function(damage_type) {
+  return damage_type.s_damage_type
+})
+.sort()
+.flatten()
+.uniq()
+.value()
+
 let sortClass = _.chain(Data)
 let uniqueClass = sortClass.map(function(classes) {
   return classes.s_class_usage
@@ -60,6 +69,7 @@ class DataTable extends Component {
         'School of Magic': [],
         'Level': [],
         'Effect Type': [],
+        'Damage Type': [],
         'Class': []
       }
     }
@@ -148,10 +158,11 @@ class DataTable extends Component {
         <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
         <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
         <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Damage Type'} values={uniqueDamageType} setFilter={this.setFilter} />
       </div>
     )
   }
-  
+
   setFilter(type, filter, value) {
     const newFilters = this.state.filters
     if (!newFilters[type]) {
@@ -182,6 +193,9 @@ class DataTable extends Component {
     })
     .filter((spell) => {
       return _.includes(sortFilters['Effect Type'], spell.s_type) || sortFilters['Effect Type'].length === 0
+    })
+    .filter((spell) => {
+      return _.includes(sortFilters['Damage Type'], spell.s_damage_type) || sortFilters['Damage Type'].length === 0
     })
     .filter((spell) => {
       return sortFilters['Class'].some(c => spell.s_class_usage.includes(c)) || sortFilters['Class'].length === 0
@@ -215,6 +229,7 @@ class DataTable extends Component {
                           <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>
                           <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
                           <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
+                          <div className={"spell-damage"}><b>Damage:</b> {spell.s_damage_dice} {spell.s_damage_type}</div>
                         </div>
                         <div className={"spell-description"}>{ReactHtmlParser(spell.s_description)}</div>
                       </div>
@@ -268,6 +283,7 @@ class DataTable extends Component {
                             <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>
                             <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
                             <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
+                            <div className={"spell-damage"}><b>Damage:</b> {spell.s_damage_dice} {spell.s_damage_type}</div>
                           </div>
                           <div className={"spell-description"}>{ReactHtmlParser(spell.s_description)}</div>
                         </div>

@@ -217,6 +217,9 @@ class DataTable extends Component {
                   <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
                 </div>
                 <TogglePin type={spell.s_id} key={i} onPin={this.onPin} />
+                {spell.s_damage_type !== "None" &&
+                  <img src={require("./svgs/"+spell.s_damage_type+".svg")} alt={spell.s_damage_type} className={"spell-damage-icon"} />
+                }
                 {(() => {
                   if (this.state.showList === i) {
                     return (

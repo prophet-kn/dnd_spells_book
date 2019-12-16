@@ -31,7 +31,7 @@ $dark-white: #444;
           }
         }
       }
-    
+
     }
   }
 
@@ -223,7 +223,7 @@ $dark-white: #444;
         padding: 10px 0;
         font-size: 20px;
       }
-      
+
       &-roll {
         flex: 0 1 50%;
         margin-bottom: 25px;
@@ -394,6 +394,14 @@ $dark-white: #444;
     z-index: 1;
   }
 
+  &-damage-icon {
+    width: 24px;
+    cursor: pointer;
+    right: 122px;
+    position: absolute;
+    top: 15px;
+  }
+
   &-dropdown {
     position: relative;
   }
@@ -441,7 +449,7 @@ $dark-white: #444;
       border-right: 2px solid;
       z-index: -1;
     }
-    
+
     &::before {
       content: '';
       display: flex;

@@ -16,6 +16,12 @@ class ToggleButton extends React.Component {
     })
   }
 
+  // cFC - capitalize First Character
+  cFC(string) {
+    var capital = string.charAt(0).toUpperCase() + string.slice(1)
+    return capital
+  }
+
   render() {
     const classNames = ['btn']
 
@@ -24,7 +30,7 @@ class ToggleButton extends React.Component {
     }
 
     return (
-      <div key={this.props.c} className={classNames.join(' ')} onClick={this.onClickButton.bind(this)}>{this.props.type.toString()}</div>
+      <div key={this.props.c} className={classNames.join(' ')} onClick={this.onClickButton.bind(this)}>{this.cFC(this.props.type.toString())}</div>
     )
   }
 

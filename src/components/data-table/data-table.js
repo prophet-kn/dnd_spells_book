@@ -44,6 +44,15 @@ let uniqueClass = sortClass.map(function(classes) {
 .uniq()
 .value()
 
+let sortRitual = _.chain(Data)
+let uniqueRitual = sortRitual.map(function(rituals) {
+  return rituals.s_ritual
+})
+.sort()
+.flatten()
+.uniq()
+.value()
+
 class DataTable extends Component {
   constructor(props) {
     super()
@@ -60,7 +69,8 @@ class DataTable extends Component {
         'School of Magic': [],
         'Level': [],
         'Effect Type': [],
-        'Class': []
+        'Class': [],
+        'Ritual': []
       }
     }
 
@@ -148,10 +158,11 @@ class DataTable extends Component {
         <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
         <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
         <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Ritual'} values={uniqueRitual} setFilter={this.setFilter} />
       </div>
     )
   }
-  
+
   setFilter(type, filter, value) {
     const newFilters = this.state.filters
     if (!newFilters[type]) {
@@ -185,6 +196,9 @@ class DataTable extends Component {
     })
     .filter((spell) => {
       return sortFilters['Class'].some(c => spell.s_class_usage.includes(c)) || sortFilters['Class'].length === 0
+    })
+    .filter((spell) => {
+      return _.includes(sortFilters['Ritual'], spell.s_ritual) || sortFilters['Ritual'].length === 0
     })
     .filter((spell) => {
       return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''

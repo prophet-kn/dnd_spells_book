@@ -5,10 +5,7 @@ import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import TogglePin from '../toggle-pin/toggle-pin'
 import DataTable from './../data-table/data-table'
-/*
-<svg width="256" height="256" class="octicon octicon-chevron-down" viewBox="0 0 10 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
-<svg width="256" height="256" class="octicon octicon-chevron-left" viewBox="0 0 8 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3L7 4.5 3.25 8 7 11.5 5.5 13l-5-5 5-5z"></path></svg>
-*/
+
 let sortLevel = _.chain(Data)
 let uniqueLevel = sortLevel.map(function(level) {
   return level.s_lvl
@@ -47,7 +44,7 @@ let uniqueClass = sortClass.map(function(classes) {
 
 class SpellsTable extends DataTable {
   constructor(props) {
-    super()
+    super(props)
     this.state = {
       data: Data,
       showList: false,
@@ -64,24 +61,6 @@ class SpellsTable extends DataTable {
         'Class': []
       }
     }
-
-    this.onPin = this.onPin.bind(this)
-    this.removePin = this.removePin.bind(this)
-    this.setFilter = this.setFilter.bind(this)
-    this.addClassName = this.addClassName.bind(this)
-    this.addClassNamePinned = this.addClassNamePinned.bind(this)
-  }
-
-  addClassName(e, i) {
-    let spellState = this.state
-    spellState.showList = spellState.showList === i ? false : i
-    this.setState(spellState)
-  }
-
-  addClassNamePinned(e, i) {
-    let pinState = this.state
-    pinState.showListPinned = pinState.showListPinned === i ? false : i
-    this.setState(pinState)
   }
 
   filterDropdowns() {

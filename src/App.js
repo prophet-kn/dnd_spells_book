@@ -4,7 +4,7 @@ import Output from './components/output/output'
 
 function App() {
   return (
-    <div className={"dndapp-main dark-theme"}>
+    <div className={"dndapp-main black-theme"}>
       <div className={"dndapp"}>
         <header className={"dndapp-header"}>
           Prophet&#39;s Companion<br></br>

@@ -8,14 +8,31 @@ class Output extends Component {
     this.state = {
       currentView: 'default'
     }
+
+    this.pickView = this.pickView.bind(this)
+    this.escFunction = this.escFunction.bind(this)
   }
 
   pickView = (e) => {
-    let thisView = e.target.getAttribute('view')
+    let thisView = e.currentTarget.getAttribute('view')
 
     this.setState({
       currentView: thisView
     })
+  }
+
+  escFunction(event) {
+    if (event.keyCode === 27 && this.state.currentView !== 'default') {
+      this.setState({currentView: 'default'})
+    }
+  }
+
+  componentDidMount() {
+    document.addEventListener("keydown", this.escFunction, false)
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("keydown", this.escFunction, false)
   }
 
   goBack = () => {

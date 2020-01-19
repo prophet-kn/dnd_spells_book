@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Data from '.././../data/feats.json'
 import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import TogglePin from '../toggle-pin/toggle-pin'
-import DataTable from './../data-table/data-table'
 
 let sortRacePrerequisite = _.chain(Data)
 let uniqueRacePrerequisite = sortRacePrerequisite.map(function(prerequisite_race) {
@@ -24,7 +23,7 @@ let uniqueSkillPrerequisite = sortSkillPrerequisite.map(function(prerequisite_sk
 .uniq()
 .value()
 
-class SpellsTable extends DataTable {
+class FeatsTable extends Component {
   constructor(props) {
     super()
     this.state = {
@@ -61,6 +60,63 @@ class SpellsTable extends DataTable {
     this.setState(pinState)
   }
 
+  onPin(toggle, id) {
+    const queryIds = this.state.pin
+
+    if (!queryIds['id']) {
+      queryIds['id'] = []
+    }
+
+    if (toggle !== false) {
+      queryIds['id'].push(id)
+    }
+    else {
+      queryIds['id'] = queryIds['id'].filter(f => f !== id)
+    }
+
+    this.setState({
+      pin: queryIds
+    })
+  }
+
+  removePin(id) {
+    const queryIds = this.state.pin
+
+    if (_.includes(queryIds['id'], id) === true) {
+      queryIds['id'] = queryIds['id'].filter(f => f !== id)
+
+      this.setState({
+        pin: queryIds
+      })
+    }
+  }
+
+  searchBar() {
+    return (
+      <div className={"filter-search"}>
+        <input placeholder={"Search"} className={"search-input"} onChange={(e) => {
+          this.setState({filterSearch: e.target.value})
+          }}/>
+      </div>
+    )
+  }
+
+  onClickFilter() {
+    this.setState({
+      filterButton: this.state.filterButton === true ? false : true,
+    })
+  }
+
+  filterFilter() {
+    return (
+      <div className={"filter-filter"} onClick={this.onClickFilter.bind(this)}>
+        <div className={"filter-field"}>
+          Filters
+        </div>
+      </div>
+    )
+  }
+
   filterDropdowns() {
     return (
       <div className={this.state.filterButton === true ? "filter-dropdown active" : "filter-dropdown hidden"}>
@@ -69,6 +125,24 @@ class SpellsTable extends DataTable {
         <FilterDataButtons title={'Skill prerequisite'} values={uniqueSkillPrerequisite} setFilter={this.setFilter} />
       </div>
     )
+  }
+
+  setFilter(type, filter, value) {
+    const newFilters = this.state.filters
+    if (!newFilters[type]) {
+      newFilters[type] = []
+    }
+
+    if (value.toggled === true) {
+      newFilters[type].push(filter.type)
+    }
+    else {
+      newFilters[type] = newFilters[type].filter(f => f !== filter.type)
+    }
+
+    this.setState({
+      filters: newFilters
+    })
   }
 
   dataTable() {
@@ -187,7 +261,6 @@ class SpellsTable extends DataTable {
       </div>
     )
   }
-
 }
 
-export default SpellsTable
+export default FeatsTable

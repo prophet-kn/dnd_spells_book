@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Data from '.././../data/spells.json'
 import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import TogglePin from '../toggle-pin/toggle-pin'
-import DataTable from './../data-table/data-table'
 /*
 <svg width="256" height="256" class="octicon octicon-chevron-down" viewBox="0 0 10 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
 <svg width="256" height="256" class="octicon octicon-chevron-left" viewBox="0 0 8 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3L7 4.5 3.25 8 7 11.5 5.5 13l-5-5 5-5z"></path></svg>
@@ -45,7 +44,16 @@ let uniqueClass = sortClass.map(function(classes) {
 .uniq()
 .value()
 
-class SpellsTable extends DataTable {
+let sortRitual = _.chain(Data)
+let uniqueRitual = sortRitual.map(function(rituals) {
+  return rituals.s_ritual
+})
+.sort()
+.flatten()
+.uniq()
+.value()
+
+class SpellsTable extends Component {
   constructor(props) {
     super()
     this.state = {
@@ -61,7 +69,8 @@ class SpellsTable extends DataTable {
         'School of Magic': [],
         'Level': [],
         'Effect Type': [],
-        'Class': []
+        'Class': [],
+        'Ritual': []
       }
     }
 
@@ -84,6 +93,63 @@ class SpellsTable extends DataTable {
     this.setState(pinState)
   }
 
+  onPin(toggle, id) {
+    const queryIds = this.state.pin
+
+    if (!queryIds['id']) {
+      queryIds['id'] = []
+    }
+
+    if (toggle !== false) {
+      queryIds['id'].push(id)
+    }
+    else {
+      queryIds['id'] = queryIds['id'].filter(f => f !== id)
+    }
+
+    this.setState({
+      pin: queryIds
+    })
+  }
+
+  removePin(id) {
+    const queryIds = this.state.pin
+
+    if (_.includes(queryIds['id'], id) === true) {
+      queryIds['id'] = queryIds['id'].filter(f => f !== id)
+
+      this.setState({
+        pin: queryIds
+      })
+    }
+  }
+
+  searchBar() {
+    return (
+      <div className={"filter-search"}>
+        <input placeholder={"Search"} className={"search-input"} onChange={(e) => {
+          this.setState({filterSearch: e.target.value})
+          }}/>
+      </div>
+    )
+  }
+
+  onClickFilter() {
+    this.setState({
+      filterButton: this.state.filterButton === true ? false : true,
+    })
+  }
+
+  filterFilter() {
+    return (
+      <div className={"filter-filter"} onClick={this.onClickFilter.bind(this)}>
+        <div className={"filter-field"}>
+          Filters
+        </div>
+      </div>
+    )
+  }
+
   filterDropdowns() {
     return (
       <div className={this.state.filterButton === true ? "filter-dropdown active" : "filter-dropdown hidden"}>
@@ -92,8 +158,27 @@ class SpellsTable extends DataTable {
         <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
         <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
         <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Ritual'} values={uniqueRitual} setFilter={this.setFilter} />
       </div>
     )
+  }
+
+  setFilter(type, filter, value) {
+    const newFilters = this.state.filters
+    if (!newFilters[type]) {
+      newFilters[type] = []
+    }
+
+    if (value.toggled === true) {
+      newFilters[type].push(filter.type)
+    }
+    else {
+      newFilters[type] = newFilters[type].filter(f => f !== filter.type)
+    }
+
+    this.setState({
+      filters: newFilters
+    })
   }
 
   dataTable() {
@@ -111,6 +196,9 @@ class SpellsTable extends DataTable {
     })
     .filter((spell) => {
       return sortFilters['Class'].some(c => spell.s_class_usage.includes(c)) || sortFilters['Class'].length === 0
+    })
+    .filter((spell) => {
+      return _.includes(sortFilters['Ritual'], spell.s_ritual) || sortFilters['Ritual'].length === 0
     })
     .filter((spell) => {
       return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
@@ -224,7 +312,6 @@ class SpellsTable extends DataTable {
       </div>
     )
   }
-
 }
 
 export default SpellsTable

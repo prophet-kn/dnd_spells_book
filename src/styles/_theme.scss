@@ -1,18 +1,18 @@
 // Black Theme
 .black-theme {
-  color: $light-white;
-  background-color: $black;
+  color: $light-colour;
+  background-color: $dominant-colour;
 
   &.dndapp-main {
     .dndapp {
       &-lander {
         .lander {
           &-button {
-            border-color: $light-white;
+            border-color: $light-colour;
 
             &:hover {
-              background-color: $light-white;
-              color: $black;
+              background-color: $light-colour;
+              color: $dominant-colour;
             }
 
             &.disabled {
@@ -20,7 +20,7 @@
 
               &:hover {
                 background-color: $dnd-red;
-                color: $light-white;
+                color: $light-colour;
               }
             }
           }
@@ -31,71 +31,71 @@
   }
 
   .btn {
-    border-color: $light-white;
+    border-color: $light-colour;
 
     &.selected {
-      border-color: $black;
+      border-color: $dominant-colour;
     }
   }
 
   // selected
   .selected {
-    background-color: $light-white;
-    color: $black;
+    background-color: $light-colour;
+    color: $dominant-colour;
   }
 
   .spell {
     &-definitions,
     &-details,
     &-name {
-      border-color: $light-white;
+      border-color: $light-colour;
     }
 
     &-undefined,
     &-tooltip {
-      color: $light-white;
+      color: $light-colour;
     }
 
     &-pin {
-      fill: $light-white;
+      fill: $light-colour;
     }
   }
 
   .filter {
     &-wrapper {
-      border-color: $light-white;
+      border-color: $light-colour;
     }
 
     &-search {
       &::after,
       &::before {
-        border-color: $light-white;
-        color: $light-white;
+        border-color: $light-colour;
+        color: $light-colour;
       }
     }
 
     &-field {
-      border-color:  $light-white;
-      color: $light-white;
+      border-color:  $light-colour;
+      color: $light-colour;
 
       &:hover {
-        background-color: $light-white;
-        color: $black;
+        background-color: $light-colour;
+        color: $dominant-colour;
       }
     }
 
     &-dropdown {
-      background-color: $black;
+      background-color: $dominant-colour;
 
       &::before {
-        background-color: $black;
+        background-color: $dominant-colour;
       }
     }
 
     &-close {
       &::before,
       &::after {
-        background-color: $light-white;
+        background-color: $light-colour;
       }
     }
   }
@@ -103,11 +103,11 @@
   input {
     &.search {
       &-input {
-        border-color: $light-white;
-        color: $light-white;
+        border-color: $light-colour;
+        color: $light-colour;
 
         &::placeholder {
-          color: $light-white;
+          color: $light-colour;
         }
       }
     }
@@ -117,13 +117,13 @@
     &.spell {
       &-remove {
         &-pin {
-          fill: $light-white;
+          fill: $light-colour;
         }
       }
     }
 
     path {
-      fill: $light-white;
+      fill: $light-colour;
     }
   }
 

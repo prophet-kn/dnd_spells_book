@@ -3,7 +3,7 @@
   min-height: 100vh;
 
   &-header {
-    font-size: 25px;
+    font-size: $biggest-size;
     padding-bottom: 15px;
     margin-top: 35px;
   }
@@ -11,7 +11,7 @@
   &-footer {
     display: flex;
     flex-flow: column;
-    font-size: 10px;
+    font-size: $smallest-size;
     margin-bottom: 10px;
     margin-top: 100px;
     opacity: .66;
@@ -51,7 +51,7 @@
         cursor: pointer;
         margin-bottom: 5px;
         padding: 5px;
-        font-size: 20px;
+        font-size: $medium-size;
         height: 40px;
         display: flex;
 
@@ -85,7 +85,7 @@
       &-title {
         margin: auto;
         padding: 10px 0;
-        font-size: 20px;
+        font-size: $medium-size;
       }
       
       &-roll {
@@ -93,13 +93,13 @@
         margin-bottom: 25px;
 
         &-label {
-          font-size: 25px;
+          font-size: $biggest-size;
           margin-bottom: 5px;
         }
 
         span {
           margin: auto;
-          font-size: 20px;
+          font-size: $medium-size;
         }
 
         &-dice {
@@ -195,7 +195,7 @@
     border: 2px solid;
     cursor: pointer;
     display: flex;
-    font-size: 20px;
+    font-size: $medium-size;
     height: 30px;
     justify-content: center;
     line-height: 1.5;
@@ -245,7 +245,7 @@
   }
 
   &-undefined {
-    font-size: 20px;
+    font-size: $medium-size;
     padding: 25px 0;
   }
 
@@ -264,7 +264,7 @@
 
   &-tooltip {
     flex: 0 1 25%;
-    font-size: 20px;
+    font-size: $medium-size;
     opacity: .85;
     text-align: right;
   }
@@ -332,7 +332,7 @@
     border: 2px solid;
     padding: 10px;
     background: transparent;
-    font-size: 18px;
+    font-size: $big-size;
     margin-bottom: 10px;
     justify-content: center;
     cursor: pointer;
@@ -442,12 +442,12 @@ input {
       border: 2px solid;
       padding: 10px;
       background: transparent;
-      font-size: 18px;
+      font-size: $big-size;
       margin-bottom: 10px;
 
       &::placeholder {
         font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
-        font-size: 18px;
+        font-size: $big-size;
       }
     }
   }

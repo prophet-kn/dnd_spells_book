@@ -150,7 +150,7 @@ class DataTable extends Component {
   filterDropdowns() {
     return (
       <div className={this.state.filterButton === true ? "filter-dropdown active" : "filter-dropdown hidden"}>
-        <div className={"filter-close"} onClick={this.onClickFilter.bind(this)}></div>
+        <svg width="30" height="30" viewBox="0 0 12 16" className={"filter-close"} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
         <FilterDataButtons title={'Level'} values={uniqueLevel} setFilter={this.setFilter} />
         <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
         <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
@@ -266,7 +266,7 @@ class DataTable extends Component {
                   <div className={"spell-name"} onClick={(e) => {this.addClassNamePinned(e, i)}}>
                     <span>{spell.s_name}</span>
                     <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
-                    <svg className={this.state.showList === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
+                    <svg className={this.state.showListPinned === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
                   </div>
                   <svg className={"spell-remove-pin"} onClick={(e) => {this.removePin(spell.s_id)}} width="20" height="20" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
                   {(() => {

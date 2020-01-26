@@ -4,8 +4,9 @@
 
   &-header {
     font-size: $biggest-size;
-    padding-bottom: 15px;
-    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
   }
 
   &-footer {
@@ -68,13 +69,6 @@
 
   &-wrapper {
     position: relative;
-
-    .go-back {
-      cursor: pointer;
-      position: absolute;
-      left: 5px;
-      top: -110px;
-    }
   }
 
   &-dice {
@@ -160,6 +154,87 @@
 
         }
 */
+      }
+    }
+  }
+
+  &-navigation {
+    z-index: 2;
+
+    &-burger {
+      cursor: pointer;
+      top: -70px;
+      right: 10px;
+      padding: 5px 5px 0 5px;
+      position: absolute;
+      z-index: 3;
+      transition: .25s ease-in-out;
+
+
+      &-line {
+        &::before {
+          content: '';
+          border-top: 2px solid;
+          display: block;
+          width: 35px;
+          height: 12px;
+        }
+      }
+
+      svg {
+        transform: scale(1.5);
+      }
+
+      &:hover {
+        transition: .25s ease-in-out;
+        transform: scale(1.25);
+      }
+    }
+
+    &.toggled {
+      .dnd-navigation-menu {
+        .dndapp-menu {
+          position: fixed;
+          z-index: 2;
+          display: flex;
+          flex-flow: column;
+          margin: auto;
+          top: 0;
+          left: 0;
+          right: 0;
+          max-width: 600px;
+          margin-top: 60px;
+
+          &::before {
+            content: '';
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: $dominant-colour;
+          }
+
+          .lander-button {
+            border: 2px solid;
+            cursor: pointer;
+            margin-bottom: 5px;
+            padding: 5px;
+            font-size: $medium-size;
+            height: 40px;
+            display: flex;
+    
+            span {
+              margin: auto;
+            }
+    
+            &.disabled {
+              cursor: no-drop;
+            }
+          }
+        }
       }
     }
   }
@@ -376,30 +451,6 @@
     position: absolute;
     right: 10px;
     cursor: pointer;
-
-    &::before {
-      content: '';
-      height: 40px;
-      width: 2px;
-      right: 10px;
-      display: block;
-      position: absolute;
-      margin: auto;
-      cursor: pointer;
-      transform: rotate(45deg);
-    }
-
-    &::after {
-      content: '';
-      height: 40px;
-      width: 2px;
-      right: 10px;
-      display: block;
-      position: absolute;
-      margin: auto;
-      cursor: pointer;
-      transform: rotate(-45deg);
-    }
   }
 
   &-button {

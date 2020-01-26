@@ -26,6 +26,32 @@
           }
         }
       }
+
+      &-navigation {
+        &.toggled {
+          .dnd-navigation-menu {
+            .dndapp-menu {
+              .lander-button {
+                border-color: $light-colour;
+
+                &:hover {
+                  background-color: $light-colour;
+                  color: $dominant-colour;
+                }
+
+                &.disabled {
+                  background: #150023;
+
+                  &:hover {
+                    background-color: $dnd-red;
+                    color: $light-colour;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     
     }
   }

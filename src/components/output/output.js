@@ -6,11 +6,25 @@ class Output extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      currentView: 'default'
+      currentView: 'default',
+      navigationToggle: false
     }
 
     this.pickView = this.pickView.bind(this)
     this.escFunction = this.escFunction.bind(this)
+  }
+
+  toggleNavigation = () => {
+    if (this.state.navigationToggle === false) {
+      this.setState({
+        navigationToggle: true
+      })
+    }
+    else {
+      this.setState({
+        navigationToggle: false
+      })
+    }
   }
 
   pickView = (e) => {
@@ -35,33 +49,64 @@ class Output extends Component {
     document.removeEventListener("keydown", this.escFunction, false)
   }
 
-  goBack = () => {
+  navigation = () => {
   if (this.state.currentView !== 'default') {
       return (
-        <svg onClick={(e) => this.setState({currentView: 'default'})} width="30" height="30" className={"go-back"} viewBox="0 0 14 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M6 3.5c3.92.44 8 3.125 8 10-2.312-5.062-4.75-6-8-6V11L.5 5.5 6 0v3.5z"></path></svg>
+        <div className={this.state.navigationToggle === false ? "dndapp-navigation" : "dndapp-navigation toggled"} onClick={() => this.toggleNavigation()}>
+          <div className={"dndapp-navigation-burger"}>
+            {this.state.navigationToggle === false
+            ? <svg width="30" height="30" viewBox="0 0 8 16" className={"burger"}><path fillRule="evenodd" d="M8 4v1H0V4h8zM0 8h8V7H0v1zm0 3h8v-1H0v1z"></path></svg>
+            : <svg width="30" height="30" viewBox="0 0 12 16"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+            }
+          </div>
+          {this.state.navigationToggle === false
+          ?
+            null
+          :
+            <div className={"dnd-navigation-menu"}>
+              {this.menuItems()}
+            </div>
+          }
+        </div>
       )
     }
+  }
+
+  menuItems = () => {
+    return (
+      <div className={"dndapp-menu"}>
+        {this.state.currentView !== 'default'
+        ?
+          <div className={'lander-button'} view={'default'} onClick={(e) => {this.pickView(e)}}>
+            <span>Prophet's Companion</span>
+          </div>
+        :
+          null
+        }
+        <div className={'lander-button'} view={'dataTable'} onClick={(e) => {this.pickView(e)}}>
+          <span>List of Spells</span>
+        </div>
+        <div className={'lander-button'} view={'diceRoll'} onClick={(e) => {this.pickView(e)}}>
+          <span>Dice Roll</span>
+        </div>
+        <div className={'lander-button disabled'} view={'characterSheet'}>
+          <span>Character Sheet</span>
+        </div>
+        <div className={'lander-button disabled'} view={'musicBoard'}>
+          <span>Music Board</span>
+        </div>
+        <div className={'lander-button disabled'} view={'NPCRandomizer'}>
+          <span>NPC Randomizer</span>
+        </div>
+      </div>
+    )
   }
 
   showView = () => {
     if (this.state.currentView === 'default') {
       return (
         <div className={'dndapp-lander'}>
-          <div className={'lander-button'} view={'dataTable'} onClick={(e) => {this.pickView(e)}}>
-            <span>List of Spells</span>
-          </div>
-          <div className={'lander-button'} view={'diceRoll'} onClick={(e) => {this.pickView(e)}}>
-            <span>Dice Roll</span>
-          </div>
-          <div className={'lander-button disabled'} view={'characterSheet'}>
-            <span>Character Sheet</span>
-          </div>
-          <div className={'lander-button disabled'} view={'musicBoard'}>
-            <span>Music Board</span>
-          </div>
-          <div className={'lander-button disabled'} view={'NPCRandomizer'}>
-            <span>NPC Randomizer</span>
-          </div>
+          {this.menuItems()}
         </div>
       )
     }
@@ -76,7 +121,7 @@ class Output extends Component {
   render() {
     return (
       <div className={"dndapp-wrapper"}>
-        {this.goBack()}
+        {this.navigation()}
         {this.showView()}
       </div>
     )

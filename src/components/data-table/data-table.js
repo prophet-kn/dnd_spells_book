@@ -4,10 +4,7 @@ import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import TogglePin from '../toggle-pin/toggle-pin'
-/*
-<svg width="256" height="256" class="octicon octicon-chevron-down" viewBox="0 0 10 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
-<svg width="256" height="256" class="octicon octicon-chevron-left" viewBox="0 0 8 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3L7 4.5 3.25 8 7 11.5 5.5 13l-5-5 5-5z"></path></svg>
-*/
+
 let sortLevel = _.chain(Data)
 let uniqueLevel = sortLevel.map(function(level) {
   return level.s_lvl
@@ -215,6 +212,7 @@ class DataTable extends Component {
                 <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
                   <span>{spell.s_name}</span>
                   <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
+                  <svg className={this.state.showList === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
                 </div>
                 <TogglePin type={spell.s_id} key={i} onPin={this.onPin} />
                 {(() => {
@@ -268,6 +266,7 @@ class DataTable extends Component {
                   <div className={"spell-name"} onClick={(e) => {this.addClassNamePinned(e, i)}}>
                     <span>{spell.s_name}</span>
                     <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
+                    <svg className={this.state.showList === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
                   </div>
                   <svg className={"spell-remove-pin"} onClick={(e) => {this.removePin(spell.s_id)}} width="20" height="20" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
                   {(() => {

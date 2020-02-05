@@ -1,42 +1,26 @@
 .dndapp {
   max-width: 600px;
   min-height: 100vh;
-
-  &-header {
-    font-size: $biggest-size;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    margin-left: 10px;
-  }
+  margin-top: 10px;
 
   &-footer {
     display: flex;
     flex-flow: column;
     font-size: $smallest-size;
     margin-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
     opacity: .66;
   }
 
   &-selectors {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 10px;
-    position: relative;
+    display: grid;
+    grid-template-columns: 60% 25%;
 
     .selector {
       display: flex;
       flex-flow: row;
       flex-wrap: wrap;
       justify-content: center;
-    }
-  }
-
-  &-data {
-    .spell {
-      &-wrap {
-        padding: 5px;
-      }
     }
   }
 
@@ -48,23 +32,50 @@
 
     .lander {
       &-button {
+        @extend .extend-menu-button;
+      }
+
+      &-logo {
         border: 2px solid;
-        cursor: pointer;
-        margin-bottom: 5px;
         padding: 5px;
-        font-size: $medium-size;
-        height: 40px;
+        height: 150px;
         display: flex;
+        margin: 5px;
+        border-radius: 25px;
 
         span {
+          font-size: $big-size;
+          display: flex;
           margin: auto;
-        }
-
-        &.disabled {
-          cursor: no-drop;
         }
       }
     }
+
+    &-extra {
+      margin-top: 30px;
+      font-size: $medium-size;
+
+      &-button {
+        a {
+          display: flex;
+          flex-flow: column;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 30px;
+          width: 150px;
+          border: 2px solid;
+          padding: 10px;
+          border-radius: 25px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &-menu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    animation: zoom .5s ease-in-out;
   }
 
   &-wrapper {
@@ -75,6 +86,7 @@
     &-rolls {
       display: flex;
       flex-flow: wrap;
+      padding-top: 50px;
 
       &-title {
         margin: auto;
@@ -163,9 +175,8 @@
 
     &-burger {
       cursor: pointer;
-      top: -70px;
-      right: 10px;
-      padding: 5px 5px 0 5px;
+      top: 6px;
+      right: 5px;
       position: absolute;
       z-index: 3;
       transition: .25s ease-in-out;
@@ -194,16 +205,24 @@
     &.toggled {
       .dnd-navigation-menu {
         .dndapp-menu {
+          .lander {
+            &-button {
+              @extend .extend-menu-button;
+            }
+          }
+        }
+      }
+      .dnd-navigation-menu {
+        .dndapp-menu {
           position: fixed;
           z-index: 2;
-          display: flex;
           flex-flow: column;
           margin: auto;
           top: 0;
           left: 0;
           right: 0;
           max-width: 600px;
-          margin-top: 60px;
+          padding-top: 60px;
 
           &::before {
             content: '';
@@ -217,21 +236,9 @@
             background: $dominant-colour;
           }
 
-          .lander-button {
-            border: 2px solid;
-            cursor: pointer;
-            margin-bottom: 5px;
-            padding: 5px;
-            font-size: $medium-size;
-            height: 40px;
-            display: flex;
-    
-            span {
-              margin: auto;
-            }
-    
-            &.disabled {
-              cursor: no-drop;
+          .lander {
+            &-button {
+              @extend .extend-menu-button;
             }
           }
         }
@@ -244,9 +251,10 @@
 // btn
 .btn {
   border: 2px solid;
+  border-radius: 25px;
   cursor: pointer;
-  margin: 3px 0;
-  padding: 5px;
+  margin: 5px 0;
+  padding: 10px;
 
   &.selected {
     border: 2px solid;
@@ -268,13 +276,14 @@
 
   &-name {
     border: 2px solid;
+    border-radius: 25px;
     cursor: pointer;
     display: flex;
     font-size: $medium-size;
     height: 30px;
     justify-content: center;
     line-height: 1.75;
-    margin: 5px;
+    margin: 10px 0;
     padding: 10px;
     text-align: left;
 
@@ -298,7 +307,8 @@
 
   &-definitions {
     border: 2px solid;
-    margin: 0 5px 25px;
+    border-radius: 25px;
+    margin: 0 0 25px;
     padding: 10px;
     text-align: left;
     animation: fade-in .5s ease-in-out;
@@ -366,8 +376,7 @@
   }
 
   &-search {
-    flex: 1 1 80%;
-    position: relative;
+    margin-right: 5px;
 
     &::after {
       content: '';
@@ -396,16 +405,12 @@
     }
   }
 
-  &-filter {
-    flex: 1 1 20%;
-    position: relative;
-  }
-
   &-field {
     display: flex;
     flex-flow: column;
     height: 30px;
     border: 2px solid;
+    border-radius: 25px;
     padding: 10px;
     background: transparent;
     font-size: $big-size;
@@ -421,25 +426,25 @@
 
     &.active {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
       max-width: 600px;
       margin: auto;
       position: fixed;
       z-index: 3;
-      padding: 10px 0 20px;
       top: 0;
       right: 0;
       left: 0;
 
       &::before {
-        right: 0;
         content: '';
         position: fixed;
         width: 100vw;
         height: 100vh;
         z-index: -1;
         top: 0;
+        right: 0;
         left: 0;
+        bottom: 0;
       }
     }
   }
@@ -468,6 +473,7 @@ input {
       width: -webkit-fill-available;
       height: 30px;
       border: 2px solid;
+      border-radius: 25px;
       padding: 10px;
       background: transparent;
       font-size: $big-size;

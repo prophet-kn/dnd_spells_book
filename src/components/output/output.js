@@ -55,7 +55,7 @@ class Output extends Component {
         <div className={this.state.navigationToggle === false ? "dndapp-navigation" : "dndapp-navigation toggled"} onClick={() => this.toggleNavigation()}>
           <div className={"dndapp-navigation-burger"}>
             {this.state.navigationToggle === false
-            ? <svg width="30" height="30" viewBox="0 0 8 16" className={"burger"}><path fillRule="evenodd" d="M8 4v1H0V4h8zM0 8h8V7H0v1zm0 3h8v-1H0v1z"></path></svg>
+            ? <svg width="50" height="50" viewBox="0 0 8 16" className={"burger"}><path fillRule="evenodd" d="M8 4v1H0V4h8zM0 8h8V7H0v1zm0 3h8v-1H0v1z"></path></svg>
             : <svg width="30" height="30" viewBox="0 0 12 16"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
             }
           </div>
@@ -81,7 +81,9 @@ class Output extends Component {
             <span>Prophet's Companion</span>
           </div>
         :
-          null
+        <div className={'lander-logo'}>
+          <span>LOGO?<br></br>Prophet&#39;s Companion<br></br>v0.47:41ph4</span>
+        </div>
         }
         <div className={'lander-button'} view={'dataTable'} onClick={(e) => {this.pickView(e)}}>
           <span>List of Spells</span>
@@ -107,6 +109,12 @@ class Output extends Component {
       return (
         <div className={'dndapp-lander'}>
           {this.menuItems()}
+          <div className={'dndapp-lander-extra'}>
+            <span>You can help expanding the app by contributing to the open source repository.</span>
+            <div className={'dndapp-lander-extra-button'}>
+              <a href="https://github.com/prophet-kn/dnd_spells_book" target="_blank" rel="noopener noreferrer"><span>Contribute</span></a>
+            </div>
+          </div>
         </div>
       )
     }

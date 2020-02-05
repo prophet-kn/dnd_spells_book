@@ -6,10 +6,6 @@ function App() {
   return (
     <div className={"dndapp-main black-theme"}>
       <div className={"dndapp"}>
-        <header className={"dndapp-header"}>
-          Prophet&#39;s Companion<br></br>
-          v0.47:41ph4
-        </header>
         <div className={"dndapp-body"}>
           <Output />
         </div>

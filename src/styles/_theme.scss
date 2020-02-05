@@ -16,10 +16,10 @@
             }
 
             &.disabled {
-              background: #150023;
+              background: $background-button;
 
               &:hover {
-                background-color: $dnd-red;
+                background-color: $background-button-hover;
                 color: $light-colour;
               }
             }
@@ -40,10 +40,10 @@
                 }
 
                 &.disabled {
-                  background: #150023;
+                  background: $background-button;
 
                   &:hover {
-                    background-color: $dnd-red;
+                    background-color: $background-button-hover;
                     color: $light-colour;
                   }
                 }
@@ -90,14 +90,6 @@
   .filter {
     &-wrapper {
       border-color: $light-colour;
-    }
-
-    &-search {
-      &::after,
-      &::before {
-        border-color: $light-colour;
-        color: $light-colour;
-      }
     }
 
     &-field {
@@ -153,4 +145,25 @@
     }
   }
 
+  a:link {
+    color: $light-colour;
+  }
+  
+  a:visited {
+    color: $light-colour;
+  }
+  
+  a:hover {
+    color: $dominant-colour;
+    background-color: $light-colour;
+  }
+  
+  a:active {
+    color: $dnd-red;
+    background-color: $light-colour;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }

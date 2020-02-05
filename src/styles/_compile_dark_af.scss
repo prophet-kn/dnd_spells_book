@@ -1,5 +1,7 @@
 // Load Variables first, order matters.
 @import 'variables';
+// Load extends.
+@import 'extends';
 // Load theme variables.
 @import 'themes/dark_af';
 // Then the theme, colour styles including variables.

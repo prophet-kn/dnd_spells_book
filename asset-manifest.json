@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dnd_spells_book/static/css/main.8d969332.chunk.css",
-    "main.js": "/dnd_spells_book/static/js/main.cc7289cf.chunk.js",
-    "main.js.map": "/dnd_spells_book/static/js/main.cc7289cf.chunk.js.map",
+    "main.js": "/dnd_spells_book/static/js/main.5c0598b8.chunk.js",
+    "main.js.map": "/dnd_spells_book/static/js/main.5c0598b8.chunk.js.map",
     "runtime~main.js": "/dnd_spells_book/static/js/runtime~main.ec253c95.js",
     "runtime~main.js.map": "/dnd_spells_book/static/js/runtime~main.ec253c95.js.map",
     "static/js/2.ed2f6eec.chunk.js": "/dnd_spells_book/static/js/2.ed2f6eec.chunk.js",
     "static/js/2.ed2f6eec.chunk.js.map": "/dnd_spells_book/static/js/2.ed2f6eec.chunk.js.map",
     "index.html": "/dnd_spells_book/index.html",
-    "precache-manifest.6da469682a7974411260e23c4b8f5e1c.js": "/dnd_spells_book/precache-manifest.6da469682a7974411260e23c4b8f5e1c.js",
+    "precache-manifest.f0091dc13d366b24a99f6799ce5f937f.js": "/dnd_spells_book/precache-manifest.f0091dc13d366b24a99f6799ce5f937f.js",
     "service-worker.js": "/dnd_spells_book/service-worker.js",
     "static/css/main.8d969332.chunk.css.map": "/dnd_spells_book/static/css/main.8d969332.chunk.css.map"
   }

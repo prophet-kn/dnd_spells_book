@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import Data from '.././../data/spells.json'
-import ReactHtmlParser from 'react-html-parser'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
-import TogglePin from '../toggle-pin/toggle-pin'
+import SpellItem from './../spell-item/spell-item'
 
 let sortLevel = _.chain(Data)
 let uniqueLevel = sortLevel.map(function(level) {
@@ -52,11 +51,9 @@ let uniqueRitual = sortRitual.map(function(rituals) {
 
 class DataTable extends Component {
   constructor(props) {
-    super()
+    super(props)
     this.state = {
       data: Data,
-      showList: false,
-      showListPinned: false,
       filterSearch: '',
       filterButton: false,
       pin: {
@@ -71,54 +68,8 @@ class DataTable extends Component {
       }
     }
 
-    this.onPin = this.onPin.bind(this)
-    this.removePin = this.removePin.bind(this)
     this.setFilter = this.setFilter.bind(this)
-    this.addClassName = this.addClassName.bind(this)
-    this.addClassNamePinned = this.addClassNamePinned.bind(this)
-  }
-
-  addClassName(e, i) {
-    let spellState = this.state
-    spellState.showList = spellState.showList === i ? false : i
-    this.setState(spellState)
-  }
-
-  addClassNamePinned(e, i) {
-    let pinState = this.state
-    pinState.showListPinned = pinState.showListPinned === i ? false : i
-    this.setState(pinState)
-  }
-
-  onPin(toggle, id) {
-    const queryIds = this.state.pin
-
-    if (!queryIds['id']) {
-      queryIds['id'] = []
-    }
-
-    if (toggle !== false) {
-      queryIds['id'].push(id)
-    }
-    else {
-      queryIds['id'] = queryIds['id'].filter(f => f !== id)
-    }
-
-    this.setState({
-      pin: queryIds
-    })
-  }
-
-  removePin(id) {
-    const queryIds = this.state.pin
-
-    if (_.includes(queryIds['id'], id) === true) {
-      queryIds['id'] = queryIds['id'].filter(f => f !== id)
-
-      this.setState({
-        pin: queryIds
-      })
-    }
+    this.pinStatus = this.pinStatus.bind(this)
   }
 
   searchBar() {
@@ -178,8 +129,40 @@ class DataTable extends Component {
     })
   }
 
+  pinStatus(toggle, id) {
+    let queryIds = this.state.pin
+
+    if (!queryIds['ids']) {
+      queryIds['ids'] = []
+    }
+
+    if (toggle !== false && _.includes(queryIds['ids'], id) === false) {
+      queryIds['ids'].push(id)
+    }
+    else if (toggle !== true && _.includes(queryIds['ids'], id) === false) {
+      queryIds['ids'].push(id)
+    }
+    else {
+      queryIds['ids'] = queryIds['ids'].filter(f => f !== id)
+    }
+
+    this.setState({
+      pin: queryIds
+    })
+  }
+
   dataTable() {
+    let pinnedSpells = this.state.pin
+
+    const pinnedData =  _.chain(Data)
+    .orderBy('s_name')
+    .filter((spell) => {
+      return _.includes(pinnedSpells['ids'], spell.s_id)
+    })
+    .value()
+
     let sortFilters = this.state.filters
+
     const filteredData =  _.chain(Data)
     .orderBy('s_name')
     .filter((spell) => {
@@ -203,97 +186,38 @@ class DataTable extends Component {
     .value()
 
     return (
-      <div className={"spell-wrap"}>
-        <h1>Spell list</h1>
-        {_.orderBy(filteredData, 's_name').map((spell, i) => {
-          return (
-            <div className={"spell-info"} key={i}>
-              <div className={this.state.showList === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
-                <div className={"spell-name"} onClick={(e) => {this.addClassName(e, i)}}>
-                  <span>{spell.s_name}</span>
-                  <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
-                  <svg className={this.state.showList === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
+      <div className={"dndapp-data"}>
+        {pinnedData.length > 0 ?
+          <div className={"spell-wrap pinned"}>
+            <h1>Pinned Spell list</h1>
+            {_.orderBy(pinnedData, 's_name').map((spell, i) => {
+              return (
+                <div className={"spell-info"} key={i}>
+                  <SpellItem spell={spell} key={i} pinStatus={this.pinStatus} />
                 </div>
-                <TogglePin type={spell.s_id} key={i} onPin={this.onPin} />
-                {(() => {
-                  if (this.state.showList === i) {
-                    return (
-                      <div className={"spell-definitions"}>
-                        <div className={"spell-top-level"}>
-                          <i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i>
-                        </div>
-                        <div className={"spell-details"}>
-                          <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
-                          <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>
-                          <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
-                          <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
-                        </div>
-                        <div className={"spell-description"}>{ReactHtmlParser(spell.s_description)}</div>
-                      </div>
-                    )
-                  }
-                })()}
-              </div>
-            </div>
-          )
-        })}
-        {filteredData.length === 0 ?
-        <div className={"spell-undefined"}>
-          Sorry, no spells found for this criteria!
-        </div>
-        : null}
-      </div>
-    )
-  }
-
-  dataTablePinned() {
-    let pinnedSpells = this.state.pin
-    const filteredData =  _.chain(Data)
-    .orderBy('s_name')
-    .filter((spell) => {
-      return _.includes(pinnedSpells['id'], spell.s_id)
-    })
-    .value()
-
-    if (filteredData.length > 0) {
-      return (
+              )
+            })}
+          </div>
+        :
+          null
+        }
         <div className={"spell-wrap"}>
-          <h1>Pinned Spell list</h1>
+          <h1>Spell list</h1>
           {_.orderBy(filteredData, 's_name').map((spell, i) => {
             return (
               <div className={"spell-info"} key={i}>
-                <div className={this.state.showListPinned === i ? "spell-dropdown" : "spell-dropdown hide-child"}>
-                  <div className={"spell-name"} onClick={(e) => {this.addClassNamePinned(e, i)}}>
-                    <span>{spell.s_name}</span>
-                    <div className={"spell-tooltip"}>L: {spell.s_lvl.slice(0, 1)}</div>
-                    <svg className={this.state.showListPinned === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
-                  </div>
-                  <svg className={"spell-remove-pin"} onClick={(e) => {this.removePin(spell.s_id)}} width="20" height="20" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
-                  {(() => {
-                    if (this.state.showListPinned === i) {
-                      return (
-                        <div className={"spell-definitions"}>
-                          <div className={"spell-top-level"}>
-                            <i>{spell.s_lvl} Level {spell.s_school} spell {spell.s_ritual === true ? '(ritual)' : ''}</i>
-                          </div>
-                          <div className={"spell-details"}>
-                            <div className={"spell-casting-time"}><b>Casting Time:</b> {spell.s_cast_time}</div>
-                            <div className={"spell-range"}><b>Range:</b> {spell.s_range}</div>
-                            <div className={"spell-components"}><b>Components:</b> {spell.s_components}</div>
-                            <div className={"spell-duration"}><b>Duration:</b> {spell.s_duration}</div>
-                          </div>
-                          <div className={"spell-description"}>{ReactHtmlParser(spell.s_description)}</div>
-                        </div>
-                      )
-                    }
-                  })()}
-                </div>
+                <SpellItem spell={spell} key={i} pinStatus={this.pinStatus} />
               </div>
             )
           })}
+          {filteredData.length === 0 ?
+            <div className={"spell-undefined"}>
+              Sorry, no spells found for this criteria!
+            </div>
+          : null}
         </div>
-      )
-    }
+      </div>
+    )
   }
 
   render() {
@@ -304,10 +228,8 @@ class DataTable extends Component {
           {this.filterFilter()}
           {this.filterDropdowns()}
         </div>
-        <div className={"dndapp-data"}>
-          {this.dataTablePinned()}
-          {this.dataTable()}
-        </div>
+
+        {this.dataTable()}
       </div>
     )
   }

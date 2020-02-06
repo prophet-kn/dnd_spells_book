@@ -4,7 +4,7 @@ import Output from './components/output/output'
 
 function App() {
   return (
-    <div className={"dndapp-main black-theme"}>
+    <div className={"dndapp-main theme"}>
       <div className={"dndapp"}>
         <div className={"dndapp-body"}>
           <Output />

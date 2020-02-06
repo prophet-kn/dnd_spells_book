@@ -56,11 +56,11 @@ class SpellItem extends Component {
           <span>{spellItem.s_name}</span>
           <div className={"spell-tooltip"}>L: {spellItem.s_lvl.slice(0, 1)}</div>
           <svg className={this.state.showList === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
-          <div onClick={this.onPinClick.bind(this)} className={"spell-pin"}>
-            <svg width="40" height="40" viewBox="0 0 8 16"><path fillRule="evenodd" d="M4 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM4 12a4 4 0 100-8 4 4 0 000 8z"></path></svg>
-          </div>
         </div>
 
+        <div onClick={this.onPinClick.bind(this)} className={"spell-pin"}>
+          <svg width="40" height="40" viewBox="0 0 8 16"><path fillRule="evenodd" d="M4 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM4 12a4 4 0 100-8 4 4 0 000 8z"></path></svg>
+        </div>
         {this.spellDescription(spellItem, i)}
       </div>
     )

@@ -159,16 +159,16 @@ class DataTable extends Component {
 
   componentDidMount() {
     let firstLoaderUrl = window.location.search.replace('?ids=', '').split(',')
-    let cleanedIntegers = this.state.pin
+    let initialState = this.state.pin
 
-    if (!cleanedIntegers['ids']) {
-      cleanedIntegers['ids'] = []
+    if (!initialState['ids']) {
+      initialState['ids'] = []
     }
 
-    cleanedIntegers['ids'] = firstLoaderUrl.map(e => parseInt(e))
+    initialState['ids'] = firstLoaderUrl.map(int => parseInt(int)).filter(int => !Number.isNaN(int))
 
     this.setState({
-      pin: cleanedIntegers
+      pin: initialState
     })
   }
 

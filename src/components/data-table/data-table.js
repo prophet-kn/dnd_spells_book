@@ -49,6 +49,9 @@ let uniqueRitual = sortRitual.map(function(rituals) {
 .uniq()
 .value()
 
+const thisUrl = new URL(window.location)
+const spellParamUrls = new URLSearchParams(thisUrl.searchParams)
+
 class DataTable extends Component {
   constructor(props) {
     super(props)
@@ -57,7 +60,7 @@ class DataTable extends Component {
       filterSearch: '',
       filterButton: false,
       pin: {
-        'id': []
+        'ids': []
       },
       filters: {
         'School of Magic': [],
@@ -146,8 +149,26 @@ class DataTable extends Component {
       queryIds['ids'] = queryIds['ids'].filter(f => f !== id)
     }
 
+    spellParamUrls.set('sid', this.state.pin['ids'])
+    window.history.replaceState({}, '', window.location.pathname + '?ids=' + spellParamUrls.get('sid'))
+
     this.setState({
       pin: queryIds
+    })
+  }
+
+  componentDidMount() {
+    let firstLoaderUrl = window.location.search.replace('?ids=', '').split(',')
+    let cleanedIntegers = this.state.pin
+
+    if (!cleanedIntegers['ids']) {
+      cleanedIntegers['ids'] = []
+    }
+
+    cleanedIntegers['ids'] = firstLoaderUrl.map(e => parseInt(e))
+
+    this.setState({
+      pin: cleanedIntegers
     })
   }
 

@@ -64,7 +64,6 @@ class SpellItem extends Component {
         {this.spellDescription(spellItem, i)}
       </div>
     )
-
   }
 
 }

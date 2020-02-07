@@ -7,10 +7,9 @@ class Output extends Component {
     super(props)
     this.state = {
       currentView: 'default',
-      navigationToggle: false
+      navigationToggle: false,
     }
 
-    this.pickView = this.pickView.bind(this)
     this.escFunction = this.escFunction.bind(this)
   }
 

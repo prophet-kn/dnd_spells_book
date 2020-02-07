@@ -1,5 +1,4 @@
-// Black Theme
-.theme {
+.dark-theme {
   color: $light-colour;
   background-color: $dominant-colour;
 
@@ -47,6 +46,10 @@
                     color: $light-colour;
                   }
                 }
+              }
+
+              &::before {
+                background: $dominant-colour;
               }
             }
           }
@@ -106,27 +109,22 @@
         path {
           fill: $dnd-red;
         }
-
-        .spell-name {
-          &:hover {
-            background-color: $light-colour;
-            color: $dominant-colour;
-    
-            svg,
-            path {
-              fill: $dominant-colour;
-            }
-    
-            .spell-tooltip {
-              color: $dominant-colour;
-            }
-          }
-        }
       }
     }
 
     &-wrap {
       &.pinned {
+        .spell-pin {
+          svg,
+          path {
+            fill: $dnd-red;
+          }
+        }
+      }
+    }
+
+    &-dropdown {
+      &:hover {
         .spell-pin {
           svg,
           path {

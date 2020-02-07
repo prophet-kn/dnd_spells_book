@@ -2,23 +2,18 @@ var gulp = require('gulp')
 var sass = require('gulp-sass')
 var bulkSass = require('gulp-sass-bulk-import')
 var concat = require('gulp-concat')
-var cssDest = './src/'
+var cssDest = './src/compiled/'
 var output = 'compressed'
 sass.compiler = require('node-sass')
-
-// Change this once more themes come.
-var finalFile = 'App.css'
 
 // Watch all scss changes.
 var source = './src/styles'
 
-var darkSrc = './src/styles/_compile_dark_af.scss'
- 
-gulp.task('sass', function () {
+gulp.task('sass:all', function () {
   return gulp
-    .src(darkSrc)
+    .src('./src/styles/compile/_compile.scss')
     .pipe(bulkSass())
-    .pipe(concat(finalFile))
+    .pipe(concat('theme.css'))
     .pipe(sass({
       outputStyle: output,
       precision: 10,
@@ -27,6 +22,8 @@ gulp.task('sass', function () {
     .on('error', sass.logError)
     .pipe(gulp.dest(cssDest))
 })
+
+gulp.task('sass', gulp.series(['sass:all']))
  
 gulp.task('sass:watch', gulp.series(['sass'], function() {
   gulp.watch(source, gulp.series(['sass']))

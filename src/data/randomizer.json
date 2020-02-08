@@ -1,0 +1,1385 @@
+[
+  {
+    "race": "Dwarf",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Constitution": 2
+          }
+        ],
+        "Age": 350,
+        "min_size": 4,
+        "max_size": 5,
+        "weight": 150,
+        "speed": 25,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Dwarvish"
+        ],
+        "extra": [
+          {
+            "Dwarven Resilience": "You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9,'Combat').",
+            "Dwarven Combat Training": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.",
+            "Tool Proficiency": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.",
+            "Stonecunning": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+          }
+        ]
+      }
+    ],
+    "subraces": [
+      {
+        "Hill Dwarf": [
+          {
+            "bonus_stats": [
+              {
+                "Wisdom": 1
+              }
+            ],
+            "Dwarven Toughness": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+          }
+        ],
+        "Mountain Dwarf": [
+          {
+            "bonus_stats": [
+              {
+                "Strength": 2
+              }
+            ],
+            "Dwarven Armor Training": "You have proficiency with light and medium armor."
+          }
+        ],
+        "Duergar": [
+          {
+            "bonus_stats": [
+              {
+                "Strength": 1
+              }
+            ],
+            "Dwarven Armor Training": "You have proficiency with light and medium armor.",
+            "Superior Darkvision": 120,
+            "Extra Language": "Undercommon",
+            "Duergar Resilence": "You have advantage on saving throws against illusions and against being charmed or paralyzed.",
+            "Duergar Magic": "When you reach 3rd level, you can cast the enlarge/reduce spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells.",
+            "Sunlight Sensitivity": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+          }
+        ]
+      }
+    ],
+    "gender_names": [
+      {
+        "male": [ "Adrik", "Alberich", "Baern", "Barendd", "Brottor", "Bruenor", "Dain", "Darrak", "Delg", "Eberk", "Einkil", "Fargrim", "Flint", "Gardain", "Harbek", "Kildrak", "Morgran", "Orsik", "Oskar", "Rangrim", "Rurik", "Taklinn", "Thoradin", "Thorin", "Gimli", "Tordek", "Traubon", "Travok", "Ulfgar", "Veit", "Vondal"
+        ],
+        "female": [ "Moira", "Amber", "Artin", "Audhild", "Bardryn", "Dagnal", "Diesa", "Eldeth", "Falkrunn", "Finellen", "Gunnloda", "Gurdis", "Helja", "Helya", "Hlin", "Kathra", "Kristryd", "Ilde", "Liftrasa", "Mardred", "Riswynn", "Sannl", "Torbera", "Torgga", "Vistra"
+        ],
+        "family": [ "Balderk", "Battlehammer", "Brawnanvil", "Dankil", "Fireforge", "Frostbeard", "Gorunn", "Holderhek", "Ironfist", "Loderr", "Lutgehr", "Rumnaheim", "Strakeln", "Torunn", "Ungart"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Elf",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Dexterity": 2
+          }
+        ],
+        "Age": 750,
+        "min_size": 5,
+        "max_size": 7,
+        "weight": 150,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Elvish"
+        ],
+        "extra": [
+          {
+            "Keen Senses": "You have proficiency in the Perception skill.",
+            "Fey Ancestry": "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+            "Trance": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is 'trance.') While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+          }
+        ]
+      }
+    ],
+    "subraces": [
+      {
+        "High Elf": [
+          {
+            "bonus_stats": [
+              {
+                "Intelligence": 1
+              }
+            ],
+            "Elf Weapon Training": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+            "Cantrip": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
+            "Extra Language": "Any Basic"
+          }
+        ],
+        "Wood Elf": [
+          {
+            "bonus_stats": [
+              {
+                "Wisdom": 1
+              }
+            ],
+            "Elf Weapon Training": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+            "Fleet of Foot": "Your base walking speed increases to 35 feet.",
+            "Mask of the Wild": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+          }
+        ],
+        "Dark Elf (Drow)": [
+          {
+            "bonus_stats": [
+              {
+                "Charisma": 1
+              }
+            ],
+            "Superior Darkvision": 120,
+            "Drow Weapon Training": "You have proficiency with rapiers, shortswords, and hand crossbows.",
+            "Sunlight Sensitivity": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.",
+            "Drow Magic": "You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+          }
+        ],
+        "Eladrin": [
+          {
+            "bonus_stats": [
+              {
+                "Charisma": 1
+              }
+            ],
+            "Fey Step": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier:",
+            "Fey Step Effects": [
+              {
+                "Autumn": "Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be charmed by you for 1 minute, or until you or your companions deal any damage to it.",
+                "Winter": "When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.",
+                "Spring": "When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you.",
+                "Summer": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Charisma modifier (minimum of 1 damage)."
+              }
+            ]
+          }
+        ],
+        "Sea Elf": [
+          {
+            "bonus_stats": [
+              {
+                "Constitution": 1
+              }
+            ],
+            "Sea Elf Training": "You have proficiency with the spear, trident, light crossbow, and net.",
+            "Child of the Sea": "You have a swimming speed of 30 feet, and you can breathe air and water.",
+            "Friend of the Sea": "Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed.",
+            "Extra Language": "Aquan"
+          }
+        ],
+        "Shadar-Kai": [
+          {
+            "bonus_stats": [
+              {
+                "Constitution": 1
+              }
+            ],
+            "Necrotic Resistance": "You have resistance to necrotic damage.",
+            "Blessing of the Raven Queen": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest. Starting at 3rd level, you also gain resistance to all damage when you te leport using this trait. The resistance lasts until the s tart of your next turn. During that time, you appear ghostly and translucent."
+          }
+        ]
+      }
+    ],
+    "gender_names": [
+      {
+        "male": [ "Ara", "Bryn", "Del", "Eryn", "Faen", "Innil", "Lael", "Mella", "Naill", "Naeris", "Phann", "Rael", "Rinn", "Sai", "Syllin", "Thia", "Vall", "Adran", "Aelar", "Aramil", "Arannis", "Aust", "Beiro", "Berrian", "Carrie", "Enialis", "Erdan", "Erevan", "Galinndan", "Hadarai", "Heian", "Himo", "Immeral", "Ivellios", "Laucian", "Mindartis", "Paelias", "Peren", "Quarion", "Riardon", "Rolen", "Soveliss", "Thamior", "Tharivol", "Theren", "Varis"
+        ],
+        "female": [ "Ara", "Bryn", "Del", "Eryn", "Faen", "Innil", "Lael", "Mella", "Naill", "Naeris", "Phann", "Rael", "Rinn", "Sai", "Syllin", "Thia", "Vall", "Adrie", "Althaea", "Anastrianna", "Andraste", "Antinua", "Bethrynna", "Birel", "Caelynn", "Drusilia", "Enna", "Felosial", "Ielenia", "Jelenneth", "Keyleth", "Leshanna", "Lia", "Meriele", "Mialee", "Naivara", "Quelenna", "Quillathe", "Sariel", "Shanairra", "Shava", "Silaqui", "Theirastra", "Thia", "Vadania", "Valanthe", "Xanaphia"
+        ],
+        "family": [ "Amakiir (Gemflower)", "Amastacia (Starflower)", "Galanodel (Moonwhisper)", "Holimion (Diamonddew)", "Ilphelkiir (Gemblossom)", "Liadon (Silverfrond)", "Meliamne (Oakenheel)", "Nallo (Nightbreeze)", "Siannodel (Moonbrook)", "Xiloscient (Goldpetal)"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Halfling",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Dexterity": 2
+          }
+        ],
+        "Age": 150,
+        "min_size": 3,
+        "max_size": 3,
+        "weight": 40,
+        "speed": 25,
+        "Darkvision": 0,
+        "languagues": [
+          "Common",
+          "Halfling"
+        ],
+        "extra": [
+          {
+            "Lucky": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+            "Brave": "You have advantage on saving throws against being frightened.",
+            "Halfling Nimbleness": "You can move through the space of any creature that is of a size larger than yours."
+          }
+        ]
+      }
+    ],
+    "subraces": [
+      {
+        "Lightfoot": [
+          {
+            "bonus_stats": [
+              {
+                "Charisma": 1
+              }
+            ],
+            "Naturally Stealthy": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+          }
+        ],
+        "Stout": [
+          {
+            "bonus_stats": [
+              {
+                "Constitution": 1
+              }
+            ],
+            "Stout Resilience": "You have advantage o n saving throws against poison, and you have resistance against poison damage."
+          }
+        ]
+      }
+    ],
+    "gender_names": [
+      {
+        "male": [ "Alton", "Ander", "Cade", "Corrin", "Eldon", "Errich", "Finnan", "Garret", "Linda", "Lyle", "Merrie", "Milo", "Osborn", "Perrin", "Reed", "Roscoe", "Wellby"
+        ],
+        "female": [ "Andry", "Bree", "Callie", "Cora", "Euphemia", "Jillian", "Kithri", "Lavinia", "Lidda", "Merla", "Nedda", "Paela", "Portia", "Seraphina", "Shaena", "Trym", "Vani", "Verna"
+        ],
+        "family": [ "Brushgather", "Goodbarrel", "Greenbottle", "High-hill", "Hilltopple", "Leagallow", "Tealeaf", "Thorngage", "Tosscobble", "Underbough"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Human",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Strength": 1,
+            "Dexterity": 1,
+            "Constitution": 1,
+            "Intelligence": 1,
+            "Wisdom": 1,
+            "Charisma": 1
+          }
+        ],
+        "Age": 100,
+        "min_size": 5,
+        "max_size": 7,
+        "weight": 150,
+        "speed": 30,
+        "Darkvision": 0,
+        "languagues": [
+          "Common",
+          "Any Basic"
+        ],
+        "extra": []
+      }
+    ],
+    "subraces": [
+      {
+        "Calishite": [],
+        "Chondathan": [],
+        "Damaran": [],
+        "Illuskan": [],
+        "Mulan": [],
+        "Rashemi": [],
+        "Shou": [],
+        "Tethyrian": [],
+        "Turami": []
+      }
+    ],
+    "gender_names": [
+      {
+        "male": [ "Aseir", "Bardeid", "Haseid", "Khemed", "Mehmen", "Sudeiman", "Zasheir", "Darvin", "Dorn", "Evendur", "Gorstag", "Grim", "Helm", "Malark", "Morn", "Randal", "Stedd", "Bor", "Fodel", "Glar", "Grigor", "Igan", "Ivor", "Kosef", "Mival", "Orel", "Pavel", "Sergor", "Ander", "Blath", "Bran", "Frath", "Geth", "Lander", "Luth", "Malcer", "Star", "Taman", "Urth", "Aoth", "Bareris", "Ehput-Ki", "Kethoth", "Mumed", "Ramas", "So-Kehur", "Thazar-De", "Urhur", "Borivik", "Faurgar", "Jandar", "Kanithar", "Madislak", "Ralmevik", "Shaumar", "Vladislak", "An", "Chen", "Chi", "Fai", "Jiang", "Jun", "Lian", "Long", "Meng", "On", "Shan", "Shui", "Wen", "Anton", "Diero", "Marcon", "Pieron", "Rimardo", "Romero", "Salazar", "Umbero"
+        ],
+        "female": [ "Atala", "Ceidil", "Hama", "Jasmal", "Meilil", "Seipora", "Yasheira", "Zasheida", "Arveene", "Esvele", "Jhessail", "Kerri", "Lureene", "Miri", "Rowan", "Shandri", "Tessele", "Alethra", "Kara", "Katernin", "Mara", "Natali", "Olma", "Tana", "Zora", "Amafrey", "Betha", "Cefrey", "Kethra", "Mara", "Olga", "Silifrey", "Westra", "Arizima", "Chathi", "Nephis", "Nulara", "Murithi", "Sefris", "Thola", "Umara", "Zolis", "Fyevarra", "Hulmarra", "Immith", "Imzel", "Navarra", "Shevarra", "Tammith", "Yuldra", "Bai", "Chao", "Jia", "Lei", "Mei", "Qiao", "Shui", "Tai", "Balama", "Dona", "Faila", "Jalana", "Luisa", "Marta", "Quara", "Selise", "Vonda"
+        ],
+        "family": [ "Basha", "Dumein", "Jassan", "Khalid", "Mostana", "Pashar", "Rein", "Amblecrown", "Buckman", "Dundragon", "Evenwood", "Greycastle", "Tallstag", "Bersk", "Chernin", "Dotsk", "Kulenov", "Marsk", "Nemetsk", "Shemov", "Starag", "Brightwood", "Helder", "Hornraven", "Lackman", "Stormwind", "Windrivver", "Ankhalab", "Anskuld", "Fezim", "Hahpet", "Nathandem", "Sepret", "Uuthrakt", "Chergoba", "Dyernina", "Iltazyara", "Murnyethara", "Stayanoga", "Ulmokina", "Chien", "Huang", "Kao", "Kung", "Lao", "Ling", "Mei", "Pin", "Shin", "Sum", "Tan", "Wan", "Agosto", "Astoria", "Calabra", "Domine", "Palone", "Marivaldi", "Pisacar", "Ramonda"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Dragonborn",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Strength": 2,
+            "Charisma": 1
+          }
+        ],
+        "Age": 80,
+        "min_size": 6,
+        "max_size": 8,
+        "weight": 250,
+        "speed": 30,
+        "Darkvision": 0,
+        "languagues": [
+          "Common",
+          "Draconic"
+        ],
+        "extra": [
+          {
+            "Draconic Ancestry": "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.",
+            "Breath Weapon": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 1 1th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+            "Damage Resistance": "You have resistance to the damage type associated with your draconic ancestry."
+          }
+        ]
+      }
+    ],
+    "subraces": [
+      {
+        "Black": [
+          {
+            "Breath Damage Type": "Acid",
+            "Breath Weapon": "5 by 30 feet line (Dex save)"
+          }
+        ],
+        "Blue": [
+          {
+            "Breath Damage Type": "Lightning",
+            "Breath Weapon": "5 by 30 feet line (Dex save)"
+          }
+        ],
+        "Brass": [
+          {
+            "Breath Damage Type": "Fire",
+            "Breath Weapon": "5 by 30 feet line (Dex save)"
+          }
+        ],
+        "Bronze": [
+          {
+            "Breath Damage Type": "Lightning",
+            "Breath Weapon": "5 by 30 feet line (Dex save)"
+          }
+        ],
+        "Copper": [
+          {
+            "Breath Damage Type": "Acid",
+            "Breath Weapon": "5 by 30 feet line (Dex save)"
+          }
+        ],
+        "Gold": [
+          {
+            "Breath Damage Type": "Fire",
+            "Breath Weapon": "15 feet cone (Dex save)"
+          }
+        ],
+        "Green": [
+          {
+            "Breath Damage Type": "Poison",
+            "Breath Weapon": "15 feet cone (Con save)"
+          }
+        ],
+        "Red": [
+          {
+            "Breath Damage Type": "Fire",
+            "Breath Weapon": "15 feet cone (Dex save)"
+          }
+        ],
+        "Silver": [
+          {
+            "Breath Damage Type": "Cold",
+            "Breath Weapon": "15 feet cone (Con save)"
+          }
+        ],
+        "White": [
+          {
+            "Breath Damage Type": "Cold",
+            "Breath Weapon": "15 feet cone (Con save)"
+          }
+        ]
+      }
+    ],
+    "gender_names": [
+      {
+        "male": [ "Arjhan", "Balasar", "Bharash", "Donaar", "Ghesh", "Heskan", "Kriv", "Medrash", "Mehen", "Nadarr", "Pandjed", "Patrin", "Rhogar", "Shamash", "Shedinn", "Tarhun", "Torinn"
+        ],
+        "female": [ "Akra", "Biri", "Daar", "Farideh", "Harann", "Havilar", "Jheri", "Kava", "Korinn", "Mishann", "Nala", "Perra", "Raiann", "Sora", "Surina", "Thava", "Uadjit"
+        ],
+        "family": [ "Clethtinthiallor", "Daardendrian", "Delmirev", "Drachedandion", "Fenkenkabradon", "Kepeshkmolik", "Kerrhylon", "Kimbatuul", "Linxakasendalor", "Myastan", "Nemmonis", "Norixius", "Ophinshtalajiir", "Prexijandilin", "Shestendeliath", "Turnuroth", "Verthisathurgiesh", "Yarjerit"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Gnome",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Intelligence": 2
+          }
+        ],
+        "Age": 500,
+        "min_size": 3,
+        "max_size": 4,
+        "weight": 40,
+        "speed": 25,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Gnomish"
+        ],
+        "extra": [
+          {
+            "Gnome Cunning": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+          }
+        ]
+      }
+    ],
+    "subraces": [
+      {
+        "Forest": [
+          {
+            "bonus_stats": [
+              {
+                "Dexterity": 1
+              }
+            ],
+            "Natural Illusionist": "You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.",
+            "Speak with Small Beasts": "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+          }
+        ],
+        "Rock": [
+          {
+            "bonus_stats": [
+              {
+                "Constitution": 1
+              }
+            ],
+            "Artificer's Lore": "Whenever you make a n Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.",
+            "Tinker": "You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 1 0 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
+            "Devices": [
+              {
+                "Clockwork Toy": "This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.",
+                "Fire Starter": "The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.",
+                "Music Box": "When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+              }
+            ]
+          }
+        ],
+        "Deep": [
+          {
+            "bonus_stats": [
+              {
+                "Dexterity": 1
+              }
+            ],
+            "Superior Darkvision": 120,
+            "Stone Camouflage": "You have advantage on Dexterity (stealth) checks to hide in rocky terrain.",
+            "Extra Language": "Undercommon"
+          }
+        ]
+      }
+    ],
+    "gender_names": [
+      {
+        "male": [ "Alston", "Alvyn", "Boddynock", "Broce", "Burgell", "Dimble", "Eldon", "Erky", "Fonkin", "Frug", "Gerbo", "Gimble", "Glim", "Jebeddo", "Kellen", "Namfoodle", "Orryn", "Roondar", "Seebo", "Sindri", "Warryn", "Wrenn", "Zook"
+        ],
+        "female": [ "Bimpnottin", "Breena", "Caramip", "Carlin", "Donella", "Duvamil", "Ella", "Ellyjobell", "Ellywick", "Lilli", "Loopmottin", "Lorilla", "Mardnab", "Nissa", "Nyx", "Oda", "Orla", "Roywyn", "Shamil", "Tana", "Waywocket", "Zanna"
+        ],
+        "family": [ "Beren", "Daergel", "Folkor", "Garrick", "Nackle", "Murnig", "Ningel", "Raulnor", "Scheppen", "Timbers", "Turen", "Aleslosh", "Ashhearth", "Badger", "Cloak", "Doublelock", "Filchbatter", "Fnipper", "Ku", "Nim", "FFshoe", "Pock", "Sparklegem", "Stumbleduck"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Half-Elf",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Charisma": 2,
+            "Wisdom": 1,
+            "Dexterity": 1
+          }
+        ],
+        "Age": 200,
+        "min_size": 5,
+        "max_size": 6,
+        "weight": 150,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Elvish",
+          "Any Basic"
+        ],
+        "extra": [
+          {
+            "Fey Ancestry": "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+            "Skill Versatility": "You gain proficiency in two skills of your choice."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Aseir", "Bardeid", "Haseid", "Khemed", "Mehmen", "Sudeiman", "Zasheir", "Darvin", "Dorn", "Evendur", "Gorstag", "Grim", "Helm", "Malark", "Morn", "Randal", "Stedd", "Bor", "Fodel", "Glar", "Grigor", "Igan", "Ivor", "Kosef", "Mival", "Orel", "Pavel", "Sergor", "Ander", "Blath", "Bran", "Frath", "Geth", "Lander", "Luth", "Malcer", "Star", "Taman", "Urth", "Aoth", "Bareris", "Ehput-Ki", "Kethoth", "Mumed", "Ramas", "So-Kehur", "Thazar-De", "Urhur", "Borivik", "Faurgar", "Jandar", "Kanithar", "Madislak", "Ralmevik", "Shaumar", "Vladislak", "An", "Chen", "Chi", "Fai", "Jiang", "Jun", "Lian", "Long", "Meng", "On", "Shan", "Shui", "Wen", "Anton", "Diero", "Marcon", "Pieron", "Rimardo", "Romero", "Salazar", "Umbero", "Ara", "Bryn", "Del", "Eryn", "Faen", "Innil", "Lael", "Mella", "Naill", "Naeris", "Phann", "Rael", "Rinn", "Sai", "Syllin", "Thia", "Vall", "Adran", "Aelar", "Aramil", "Arannis", "Aust", "Beiro", "Berrian", "Carrie", "Enialis", "Erdan", "Erevan", "Galinndan", "Hadarai", "Heian", "Himo", "Immeral", "Ivellios", "Laucian", "Mindartis", "Paelias", "Peren", "Quarion", "Riardon", "Rolen", "Soveliss", "Thamior", "Tharivol", "Theren", "Varis"
+        ],
+        "female": [ "Atala", "Ceidil", "Hama", "Jasmal", "Meilil", "Seipora", "Yasheira", "Zasheida", "Arveene", "Esvele", "Jhessail", "Kerri", "Lureene", "Miri", "Rowan", "Shandri", "Tessele", "Alethra", "Kara", "Katernin", "Mara", "Natali", "Olma", "Tana", "Zora", "Amafrey", "Betha", "Cefrey", "Kethra", "Mara", "Olga", "Silifrey", "Westra", "Arizima", "Chathi", "Nephis", "Nulara", "Murithi", "Sefris", "Thola", "Umara", "Zolis", "Fyevarra", "Hulmarra", "Immith", "Imzel", "Navarra", "Shevarra", "Tammith", "Yuldra", "Bai", "Chao", "Jia", "Lei", "Mei", "Qiao", "Shui", "Tai", "Balama", "Dona", "Faila", "Jalana", "Luisa", "Marta", "Quara", "Selise", "Vonda", "Ara", "Bryn", "Del", "Eryn", "Faen", "Innil", "Lael", "Mella", "Naill", "Naeris", "Phann", "Rael", "Rinn", "Sai", "Syllin", "Thia", "Vall", "Adrie", "Althaea", "Anastrianna", "Andraste", "Antinua", "Bethrynna", "Birel", "Caelynn", "Drusilia", "Enna", "Felosial", "Ielenia", "Jelenneth", "Keyleth", "Leshanna", "Lia", "Meriele", "Mialee", "Naivara", "Quelenna", "Quillathe", "Sariel", "Shanairra", "Shava", "Silaqui", "Theirastra", "Thia", "Vadania", "Valanthe", "Xanaphia"
+        ],
+        "family": [ "Basha", "Dumein", "Jassan", "Khalid", "Mostana", "Pashar", "Rein", "Amblecrown", "Buckman", "Dundragon", "Evenwood", "Greycastle", "Tallstag", "Bersk", "Chernin", "Dotsk", "Kulenov", "Marsk", "Nemetsk", "Shemov", "Starag", "Brightwood", "Helder", "Hornraven", "Lackman", "Stormwind", "Windrivver", "Ankhalab", "Anskuld", "Fezim", "Hahpet", "Nathandem", "Sepret", "Uuthrakt", "Chergoba", "Dyernina", "Iltazyara", "Murnyethara", "Stayanoga", "Ulmokina", "Chien", "Huang", "Kao", "Kung", "Lao", "Ling", "Mei", "Pin", "Shin", "Sum", "Tan", "Wan", "Agosto", "Astoria", "Calabra", "Domine", "Palone", "Marivaldi", "Pisacar", "Ramonda", "Amakiir (Gemflower)", "Amastacia (Starflower)", "Galanodel (Moonwhisper)", "Holimion (Diamonddew)", "Ilphelkiir (Gemblossom)", "Liadon (Silverfrond)", "Meliamne (Oakenheel)", "Nallo (Nightbreeze)", "Siannodel (Moonbrook)", "Xiloscient (Goldpetal)"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Half-Orc",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Strength": 2,
+            "Constitution": 1
+          }
+        ],
+        "Age": 80,
+        "min_size": 5,
+        "max_size": 7,
+        "weight": 200,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Orcish"
+        ],
+        "extra": [
+          {
+            "Menacing": "You gain proficiency in the Intimidation skill.",
+            "Relentless Endurance": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+            "Savage Attacks": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Dench", "Feng", "Gell", "Henk", "Holg", "Imsh", "Keth", "Krusk", "Mhurren", "Ront", "Shump", "Thokk", "Argran", "Braak", "Brug", "Cagak", "Dench", "Dorn", "Oren", "Druuk", "Feng", "Gell", "Gnarsh", "Grumbar", "Gubrash", "Hagren", "Henk", "Hogar", "Holg", "lmsh", "Karash", "Karg", "Keth", "Korag", "Krusk", "Lubash", "Megged", "Mhurren", "Mord", "Morg", "Nil", "Nybarg", "Odorr", "Ohr", "Rendar", "Resh", "Ront", "Rrath", "Sark", "Scrag", "Sheggen", "Shump", "Tanglar", "Tarak", "Thar", "Thokk", "Trag", "Ugarth", "Varg", "Vilberg", "Yurk", "Zed"
+        ],
+        "female": [ "Baggi", "Emen", "Engong", "Kansif", "Myev", "Neega", "Ovak", "Ownka", "Shautha", "Sutha", "Vola", "Volen", "Yevelda", "Arha", "Baggi", "Bendoo", "Bilga", "Brakka", "Creega", "Drenna", "Ekk", "Emen", "Engong", "Fistula", "Gaaki", "Gorga", "Grai", "Greeba", "Grigi", "Gynk", "Hrathy", "Huru", "llga", "Kabbarg", "Kansif", "Lagazi", "Lezre", "Murgen", "Murook", "Myev", "Nagrette", "Neega", "Nella", "Nogu", "Oolah", "Ootah", "Ovak", "Ownka", "Puyet", "Reeza", "Shautha", "Silgre", "Sutha", "Tagga", "Tawar", "Tomph", "Ubada", "Vanchu", "Vola", "Volen", "Vorka", "Yevelda", "Zagga"
+        ],
+        "family": [  ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Tiefling",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Intelligence": 1,
+            "Charisma": 2
+          }
+        ],
+        "Age": 100,
+        "min_size": 5,
+        "max_size": 6,
+        "weight": 150,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Infernal"
+        ],
+        "extra": [
+          {
+            "Hellish Resistance": "You have resistance to fire damage.",
+            "Infernal Legacy": "You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Akmenos", "Amnon", "Barakas", "Damakos", "Ekemon", "Iados", "Kairon", "Leucis", "Melech", "Mordai", "Morthos", "Pelaios", "Skamos", "Therai", "Abad", "Ahrim", "Akmen", "Amnon", "Andram", "Astar", "Balam", "Barakas", "Bathin", "Cairn", "Chem", "Cimer", "Cressel", "Damakos", "Ekemon", "Euron", "Fenriz", "Forcas", "Habor", "lados", "Kairon", "Leucis", "Mamnen", "Mantus", "Marbas", "Melech", "Merihim", "Modean", "Mordai", "Mormo", "Morthos", "Nicor", "Nirgel", "Oriax", "Paymon", "Pelaios", "Purson", "Qemuel", "Raam", "Rimmon", "Sammal", "Skamos", "Tethren", "Thamuz", "Therai", "Valafar", "Vassago", "Xappan", "Zepar", "Zephan"
+        ],
+        "female": [ "Akta", "Anakis", "Bryseis", "Criella", "Damaia", "Ea", "Kallista", "Lerissa", "Makaria", "Nemeia", "Orianna", "Phelaia", "Rieta", "Akta", "Anakis", "Armara", "Astaro", "Aym", "Azza", "Beleth", "Bryseis", "Bune", "Criella", "Damaia", "Decarabia", "Ea", "Gadreel", "Gomory", "Hecat", "lshte", "Jezebeth", "Kali", "Kallista", "Kasdeya", "Lerissa", "Lilith", "Makaria", "Manea", "Markosian", "Mastema", "Naamah", "Nemeia", "Nija", "Orianna", "Osah", "Phelaia", "Prosperine", "Purah", "Pyra", "Rieta", "Ronobe", "Ronwe", "Seddit", "Seere", "Sekhmet", "Semyaza", "Shava", "Shax", "Sorath", "Uzza", "Vapula", "Vepar", "Verin"
+        ],
+        "family": [ "Ambition", "Art", "Carrion", "Chant", "Creed", "Death", "Debauchery", "Despair", "Doom", "Doubt", "Dread", "Ecstasy", "Ennui", "Entropy", "Excellence", "Fear", "Glory", "Gluttony", "Grief", "Hate", "Hope", "Horror", "Ideal", "Ignominy", "Laughter", "Love", "Lust", "Mayhem", "Mockery", "Murder", "Muse", "Music", "Mystery", "Nowhere", "Open", "Pain", "Passion", "Poetry", "Quest", "Random", "Reverence", "Revulsion", "Sorrow", "Temerity", "Torment", "Tragedy", "Vice", "Virtue", "Weary", "Wit"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Aasimar",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Charisma": 2
+          }
+        ],
+        "Age": 160,
+        "min_size": 5,
+        "max_size": 6,
+        "weight": 150,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Celestial"
+        ],
+        "extra": [
+          {
+            "Celestial Resistance": "You have resistance to necrotic damage and radiant damage.",
+            "Healing Hands": "As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.",
+            "Light Bearer": "You know the light cantrip. Charisma is your spellcasting ability for it."
+          }
+        ]
+      }
+    ],
+    "subraces": [
+      {
+        "Protector": [
+          {
+            "bonus_stats": [
+              {
+                "Wisdom": 1
+              }
+            ],
+            "Radiant Soul": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level. Once you use this trait, you can't use it again until you finish a long rest."
+          }
+        ],
+        "Scourge": [
+          {
+            "bonus_stats": [
+              {
+                "Constitution": 1
+              }
+            ],
+            "Radiant Consumption": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level. Once you use this trait, you can't use it again until you finish a long rest."
+          }
+        ],
+        "Fallen": [
+          {
+            "bonus_stats": [
+              {
+                "Strength": 1
+              }
+            ],
+            "Necrotic Shroud": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level. Once you use this trait, you can't use it again until you finish a long rest."
+          }
+        ]
+      }
+    ],
+    "gender_names": [
+      {
+        "male": [ "Aseir", "Bardeid", "Haseid", "Khemed", "Mehmen", "Sudeiman", "Zasheir", "Darvin", "Dorn", "Evendur", "Gorstag", "Grim", "Helm", "Malark", "Morn", "Randal", "Stedd", "Bor", "Fodel", "Glar", "Grigor", "Igan", "Ivor", "Kosef", "Mival", "Orel", "Pavel", "Sergor", "Ander", "Blath", "Bran", "Frath", "Geth", "Lander", "Luth", "Malcer", "Star", "Taman", "Urth", "Aoth", "Bareris", "Ehput-Ki", "Kethoth", "Mumed", "Ramas", "So-Kehur", "Thazar-De", "Urhur", "Borivik", "Faurgar", "Jandar", "Kanithar", "Madislak", "Ralmevik", "Shaumar", "Vladislak", "An", "Chen", "Chi", "Fai", "Jiang", "Jun", "Lian", "Long", "Meng", "On", "Shan", "Shui", "Wen", "Anton", "Diero", "Marcon", "Pieron", "Rimardo", "Romero", "Salazar", "Umbero"
+        ],
+        "female": [ "Atala", "Ceidil", "Hama", "Jasmal", "Meilil", "Seipora", "Yasheira", "Zasheida", "Arveene", "Esvele", "Jhessail", "Kerri", "Lureene", "Miri", "Rowan", "Shandri", "Tessele", "Alethra", "Kara", "Katernin", "Mara", "Natali", "Olma", "Tana", "Zora", "Amafrey", "Betha", "Cefrey", "Kethra", "Mara", "Olga", "Silifrey", "Westra", "Arizima", "Chathi", "Nephis", "Nulara", "Murithi", "Sefris", "Thola", "Umara", "Zolis", "Fyevarra", "Hulmarra", "Immith", "Imzel", "Navarra", "Shevarra", "Tammith", "Yuldra", "Bai", "Chao", "Jia", "Lei", "Mei", "Qiao", "Shui", "Tai", "Balama", "Dona", "Faila", "Jalana", "Luisa", "Marta", "Quara", "Selise", "Vonda"
+        ],
+        "family": [ "Basha", "Dumein", "Jassan", "Khalid", "Mostana", "Pashar", "Rein", "Amblecrown", "Buckman", "Dundragon", "Evenwood", "Greycastle", "Tallstag", "Bersk", "Chernin", "Dotsk", "Kulenov", "Marsk", "Nemetsk", "Shemov", "Starag", "Brightwood", "Helder", "Hornraven", "Lackman", "Stormwind", "Windrivver", "Ankhalab", "Anskuld", "Fezim", "Hahpet", "Nathandem", "Sepret", "Uuthrakt", "Chergoba", "Dyernina", "Iltazyara", "Murnyethara", "Stayanoga", "Ulmokina", "Chien", "Huang", "Kao", "Kung", "Lao", "Ling", "Mei", "Pin", "Shin", "Sum", "Tan", "Wan", "Agosto", "Astoria", "Calabra", "Domine", "Palone", "Marivaldi", "Pisacar", "Ramonda"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Firbolg",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Wisdom": 2,
+            "Strength": 1
+          }
+        ],
+        "Age": 500,
+        "min_size": 7,
+        "max_size": 8,
+        "weight": 280,
+        "speed": 30,
+        "Darkvision": 0,
+        "languagues": [
+          "Common",
+          "Elvish",
+          "Giant"
+        ],
+        "extra": [
+          {
+            "Firbolg Magic": "You can cast detect magic and disguise self with this trait, using Wisdom as your spell casting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.",
+            "Hidden Step": "As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.",
+            "Powerful Build": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+            "Speech of Beast and Leaf": "You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Daeceran", "Yelwraek", "Elris", "Mirajor", "Norsandoral", "Perdan", "Trabalar", "Sylkas", "Aepetor", "Norwraek", "Leoberos", "Daejeon", "Morsalor", "Glynjeon", "Mordan", "Crakas", "Perris", "Waesdan", "Olofir", "Wranmenor", "Craris", "Carpeiros", "Sarzumin", "Lufaren", "Yelnorin", "Uriro", "Dorneiros", "Wranyarus", "Glynsandoral", "Adsandoral"
+        ],
+        "female": [ "Quifina", "Daedove", "Dara", "Phijyre", "Loraleth", "Magphine", "Lorana", "Loraralei", "Shamys", "Bigella", "Biroris", "Kristhyra", "Orivaris", "Inavaris", "Oriyra", "Cairalei", "Venyra", "Holathyra", "Brydi", "Olabella", "Grephine", "Miaroris", "Grecyne", "Xilbanise", "Inamys", "Adstina", "Xilleth", "Ravathyra", "Xilphyra", "Inazana"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Goliath",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Constitution": 2,
+            "Strength": 2
+          }
+        ],
+        "Age": 90,
+        "min_size": 7,
+        "max_size": 8,
+        "weight": 310,
+        "speed": 30,
+        "Darkvision": 0,
+        "languagues": [
+          "Common",
+          "Giant"
+        ],
+        "extra": [
+          {
+            "Natural Athlete": "You have proficiency in the Athletics skill.",
+            "Stone's Endurance": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a dl2. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.",
+            "Powerful Build": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+            "Mountain Born": "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide"
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Aukan", "Eglath", "Gae-Al", "Gauthak", "Ilikan", "Keothi", "Kuori", "Lo-ag", "Manneo", "Maveith", "Nalla", "Orilo", "Paavu", "Pethani", "Thalai", "Thotham", "Uthal", "Vaunea", "Vimak", "Bearkiller", "Dawncaller", "Fearless", "Flintfinder", "Horncarver", "Keeneye", "Lonehunter", "Longleaper", "Rootsmasher", "Skywatcher", "Steadyhand", "Threadtwister", "Twice-Orphaned", "Twistedlimb", "Wordpainter"
+        ],
+        "female": [ "Aukan", "Eglath", "Gae-Al", "Gauthak", "Ilikan", "Keothi", "Kuori", "Lo-ag", "Manneo", "Maveith", "Nalla", "Orilo", "Paavu", "Pethani", "Thalai", "Thotham", "Uthal", "Vaunea", "Vimak", "Bearkiller", "Dawncaller", "Fearless", "Flintfinder", "Horncarver", "Keeneye", "Lonehunter", "Longleaper", "Rootsmasher", "Skywatcher", "Steadyhand", "Threadtwister", "Twice-Orphaned", "Twistedlimb", "Wordpainter"
+        ],
+        "family": [ "Anakalathai", "Elanithino", "Gathakanathi", "Kalagiano", "Katho-lavi", "Kolae-ileana", "Ogolakanu", "Thuliaga", "Thunukalathi", "Vaimei-aga"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Kenku",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Dexterity": 2,
+            "Wisdom": 1
+          }
+        ],
+        "Age": 60,
+        "min_size": 4,
+        "max_size": 5,
+        "weight": 100,
+        "speed": 30,
+        "Darkvision": 0,
+        "languagues": [
+          "Common",
+          "Auran"
+        ],
+        "extra": [
+          {
+            "Expert Forgery": "You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.",
+            "Kenku Training": "You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.",
+            "Mimicry": "You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Clubber", "Flusher", "Hummer", "Giggler", "Rat Squeak", "Dino Stomp", "Elephant Stampede", "Page Turn", "Hide Drop", "Hatchet Cut", "Chitter", "Mimer", "Scorcher", "Breaker", "Bear Rustle", "Aper", "Bison Breath", "Fire Crackle", "Hatchet Chop", "Lute Pluck", "Baker", "Fryer", "Clamor", "Rustler", "Dino Growl", "Swan Flap", "Beaver Call", "Leather Smack", "Crate Crack", "Mallet Smash", "Stamper", "Shearer", "Gnawer", "Neigher", "Giraffe Stomp", "Screecher", "Ducker", "Bell Ring", "Wood Crack", "Hide Smack"
+        ],
+        "female": [ "Clubber", "Flusher", "Hummer", "Giggler", "Rat Squeak", "Dino Stomp", "Elephant Stampede", "Page Turn", "Hide Drop", "Hatchet Cut", "Chitter", "Mimer", "Scorcher", "Breaker", "Bear Rustle", "Aper", "Bison Breath", "Fire Crackle", "Hatchet Chop", "Lute Pluck", "Baker", "Fryer", "Clamor", "Rustler", "Dino Growl", "Swan Flap", "Beaver Call", "Leather Smack", "Crate Crack", "Mallet Smash", "Stamper", "Shearer", "Gnawer", "Neigher", "Giraffe Stomp", "Screecher", "Ducker", "Bell Ring", "Wood Crack", "Hide Smack"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Lizardfolk",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Constitution": 2,
+            "Wisdom": 1
+          }
+        ],
+        "Age": 60,
+        "min_size": 5,
+        "max_size": 6,
+        "weight": 200,
+        "speed": 30,
+        "Darkvision": 0,
+        "languagues": [
+          "Common",
+          "Draconic"
+        ],
+        "extra": [
+          {
+            "Bite": "Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+            "Cunning Artisan": "As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or ld4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.",
+            "Hold Breath": "You can hold your breath for up to 15 minutes at a time.",
+            "Hunter's Lore": "You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.",
+            "Natural Armor": "You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+            "Hungry Jaws": "In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Achuak (green)", "Aryte (war)", "Baeshra (animal)", "Darastrix (dragon)", "Garurt (axe)", "Irhtos (secret)", "Jhank (hammer)", "Kepesk (storm)", "Kethend (gem)", "Korth (danger)", "Kosj (small)", "Kothar (demon)", "Litrix (armor)", "Mirik (song)", "Othokent (smart)", "Sauriv (eye)", "Throden (many)", "Thurkear (night)", "Usk (iron)", "Valignat (burn)", "Vargach (battle)", "Verthica (mountain)", "Vutha (black)", "Vyth (steel)"
+        ],
+        "female": [ "Achuak (green)", "Aryte (war)", "Baeshra (animal)", "Darastrix (dragon)", "Garurt (axe)", "Irhtos (secret)", "Jhank (hammer)", "Kepesk (storm)", "Kethend (gem)", "Korth (danger)", "Kosj (small)", "Kothar (demon)", "Litrix (armor)", "Mirik (song)", "Othokent (smart)", "Sauriv (eye)", "Throden (many)", "Thurkear (night)", "Usk (iron)", "Valignat (burn)", "Vargach (battle)", "Verthica (mountain)", "Vutha (black)", "Vyth (steel)"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Tabaxi",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Dexterity": 2,
+            "Charisma": 1
+          }
+        ],
+        "Age": 100,
+        "min_size": 5,
+        "max_size": 6,
+        "weight": 200,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Any Basic"
+        ],
+        "extra": [
+          {
+            "Feline Agility": "Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move O feet on one of your turns.",
+            "Cat's Claws": "Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to ld4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+            "Cat's Talent": "You have proficiency in the Perception and Stealth skills."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Cloud on the Mountaintop (Cloud)", "Five Timber (Timber)", "Jade Shoe (Jade)", "Left-Handed Hummingbird (Bird)", "Seven Thundercloud (Thunder)", "Skirt of Snakes (Snake)", "Smoking Mirror (Smoke)"
+        ],
+        "female": [ "Cloud on the Mountaintop (Cloud)", "Five Timber (Timber)", "Jade Shoe (Jade)", "Left-Handed Hummingbird (Bird)", "Seven Thundercloud (Thunder)", "Skirt of Snakes (Snake)", "Smoking Mirror (Smoke)"
+        ],
+        "family": [ "Bright Cliffs", "Distant Rain",  "Mountain Tree",  "Rumbling River", "Snoring Mountain"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Triton",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Strength": 1,
+            "Charisma": 1,
+            "Constitution": 1
+          }
+        ],
+        "Age": 200,
+        "min_size": 4,
+        "max_size": 6,
+        "weight": 150,
+        "speed": 30,
+        "Darkvision": 0,
+        "languagues": [
+          "Common",
+          "Primordial"
+        ],
+        "extra": [
+          {
+            "Amphibious": "You can breathe air and water.",
+            "Control Air and Water": "A child of the sea, you can call on the magic of elemental air and water. You can cast fog cloud with this trait. Starting at 3rd level, you can cast gust of wind with it, and starting at 5th level, you can also cast wall of water with it (see the spell in the sidebar). Once you cast a spell with this trait, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.",
+            "Emissary of the Sea": "Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.",
+            "Guardians of the Depths": "Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Corus", "Delnis", "Jhimas", "Keros", "Molos", "Nalos", "Vodos", "Zunis"
+        ],
+        "female": [ "Aryn", "Belthyn", "Duthyn", "Feloren", "Otanyn", "Shalryn", "Vlaryn", "Wolyn"
+        ],
+        "family": [ "Ahlorsath", "Pumanath", "Vuuvaxath"
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Bugbear",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Strength": 2,
+            "Dexterity": 1
+          }
+        ],
+        "Age": 80,
+        "min_size": 6,
+        "max_size": 8,
+        "weight": 320,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Goblin"
+        ],
+        "extra": [
+          {
+            "Long-Limbed": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.",
+            "Powerful Build": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+            "Sneaky": "You are proficient in the Stealth skill.",
+            "Surprise Attack": "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Zhaddork", "Brutton", "Khak", "Nir", "Zovink", "Dunn", "Chrattork", "Hronk", "Rurnik", "Vir", "Ghon", "Getrirk", "Thordith", "Tumkk", "Rornoth", "Vuzzank", "Tark", "Stotran", "Dur", "Brin", "Rinn", "Ravran", "Berdink", "Briggurr", "Zirnonn", "Stutrirr", "Hraddak", "Zhirrinn", "Chruzzurr", "Zheggurk", "Chruk", "Zottann", "Chrir", "Vardimkk", "Tharr", "Gututh", "Bon", "Tuk", "Brirrunn", "Vattith"
+        ],
+        "female": [ "Zhaddork", "Brutton", "Khak", "Nir", "Zovink", "Dunn", "Chrattork", "Hronk", "Rurnik", "Vir", "Ghon", "Getrirk", "Thordith", "Tumkk", "Rornoth", "Vuzzank", "Tark", "Stotran", "Dur", "Brin", "Rinn", "Ravran", "Berdink", "Briggurr", "Zirnonn", "Stutrirr", "Hraddak", "Zhirrinn", "Chruzzurr", "Zheggurk", "Chruk", "Zottann", "Chrir", "Vardimkk", "Tharr", "Gututh", "Bon", "Tuk", "Brirrunn", "Vattith"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Goblin",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Constitution": 1,
+            "Dexterity": 2
+          }
+        ],
+        "Age": 60,
+        "min_size": 3,
+        "max_size": 4,
+        "weight": 60,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Goblin"
+        ],
+        "extra": [
+          {
+            "Fury of the Small": "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.",
+            "Nimble Escape": "You can take the Disengage or Hide action as a bonus action on each of your turns."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Relb", "Rogs", "Loiq", "Frird", "Ibs", "Lenzalx", "Brorleer", "Briblierx", "Eblut", "Rugtoikx", "Strozz", "Erd", "Breakx", "Srord", "Krord", "Biarigz", "Xitteax", "Chusmeasz", "Felzord", "Ugags", "Ats", "Zirx", "Liogs", "Vrax", "Ar", "Glogoz", "Ovir", "Wraniak", "Pulviez", "Zotbeabs", "Ogs", "Koct", "Ald", "Gats", "Jaalx", "Geasmyzz", "Froiduikx", "Srasdyc", "Truigrekt", "Estruibs"
+        ],
+        "female": [ "Joz", "Stulm", "Bluirx", "Blearx", "Syh", "Khokvul", "Vrilvyn", "Chufihx", "Gymongia", "Crifeazee", "Wrang", "Fronxia", "Renqa", "Fralte", "Wilxi", "Gebdurx", "Ebsolx", "Juiptons", "Sloirasi", "Avuirt", "Pal", "Wriag", "Soinki", "Kleeh", "Crufs", "Grumtiart", "Iagtel", "Eabdilsa", "Huinxea", "Slihi", "Relx", "Thiankai", "Dieft", "Bloptenk", "Luinuige", "Slaheax", "Fluisveagia", "Cleellonq", "Grealviox"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Hobgoblin",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Constitution": 2,
+            "Intelligence": 1
+          }
+        ],
+        "Age": 100,
+        "min_size": 5,
+        "max_size": 6,
+        "weight": 180,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Goblin"
+        ],
+        "extra": [
+          {
+            "Martial Training": "You are proficient with two martial weapons of your choice and with light armor.",
+            "Saving Face": "Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Glok", "Andel", "Rokrozuk", "Vrankarz", "Zraldrud", "Zaguk", "Orkerg", "Roder", "Shondrerg Snarl", "Rhog Thrash", "Klonduk The Blade", "Ron The Demon", "Olvarz Scrub", "Gaknarz", "Rhonkorz", "Lozrerg", "Egnug", "Kon", "Dondruc Smush", "Munduk Twist", "Mondrul Grin", "Krog Twitch", "Rhonkul The Skeleton", "Enderud", "Vragredog", "Dovec The Butcher", "Ovun The Razor", "Dadrerek The Behemoth", "Vrukorg Hook", "Groc The Marked", "Erbol", "Rhalvog", "Dran", "Dokkac", "Gegrac", "Aldruvul The Maniac", "Zran Scorch", "Mankurg Duel", "Vod Twist", "Kholdrac Seethe"
+        ],
+        "female": [ "Glok", "Andel", "Rokrozuk", "Vrankarz", "Zraldrud", "Zaguk", "Orkerg", "Roder", "Shondrerg Snarl", "Rhog Thrash", "Klonduk The Blade", "Ron The Demon", "Olvarz Scrub", "Gaknarz", "Rhonkorz", "Lozrerg", "Egnug", "Kon", "Dondruc Smush", "Munduk Twist", "Mondrul Grin", "Krog Twitch", "Rhonkul The Skeleton", "Enderud", "Vragredog", "Dovec The Butcher", "Ovun The Razor", "Dadrerek The Behemoth", "Vrukorg Hook", "Groc The Marked", "Erbol", "Rhalvog", "Dran", "Dokkac", "Gegrac", "Aldruvul The Maniac", "Zran Scorch", "Mankurg Duel", "Vod Twist", "Kholdrac Seethe"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Kobold",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Strength": -2,
+            "Dexterity": 2
+          }
+        ],
+        "Age": 120,
+        "min_size": 2,
+        "max_size": 3,
+        "weight": 30,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Draconic"
+        ],
+        "extra": [
+          {
+            "Grovel, Cower and Beg": "As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.",
+            "Pack Tactics": "You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.",
+            "Sunlight Sensitivity": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Ritt", "Snis", "Nass", "Huss", "Eldi", "Zukdu", "Dikro", "Telbo", "Rihsu", "Dutt", "Zuk", "Mid", "Zod", "Dam", "Ness", "Ness", "Malgo", "Virpi", "Kadra", "Snulgu", "Dipe", "Hess", "Suk", "Dott", "Nem", "Sehzo", "Gobe", "Ihze", "Agno", "Rupu", "Eplu", "Rirtu", "Gan", "Vux", "Egnu", "Vappo", "Higa", "Nurpi", "Tirpa", "Tokri", "Akba"
+        ],
+        "female": [ "Ritt", "Snis", "Nass", "Huss", "Eldi", "Zukdu", "Dikro", "Telbo", "Rihsu", "Dutt", "Zuk", "Mid", "Zod", "Dam", "Ness", "Ness", "Malgo", "Virpi", "Kadra", "Snulgu", "Dipe", "Hess", "Suk", "Dott", "Nem", "Sehzo", "Gobe", "Ihze", "Agno", "Rupu", "Eplu", "Rirtu", "Gan", "Vux", "Egnu", "Vappo", "Higa", "Nurpi", "Tirpa", "Tokri", "Akba"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Yuan-Ti Pureblood",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Charisma": 2,
+            "Intelligence": 1
+          }
+        ],
+        "Age": 100,
+        "min_size": 5,
+        "max_size": 6,
+        "weight": 150,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Abyssal",
+          "Draconic"
+        ],
+        "extra": [
+          {
+            "Innate Spellcasting": "You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.",
+            "Magic Resistance": "You have advantage on saving throws against spells and other magical effects.",
+            "Poison Immunity": "You are immune to poison damage and the poisoned condition."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Heztah", "Oskuh", "Netstlis", "Sistliess", "Ozhih", "Zaltsull", "Uhayus", "Matszisash", "Aszi", "Zsitstlus", "Shostuh", "Itsu", "Aklis", "Sshistu", "Shotu", "Theskoshluss", "Shulkiyul", "Hozsathu", "Hozshallih", "Hiskuih", "Yehtlah", "Uksi", "Zhulka", "Zsekla", "Yiksi", "Nohihsish", "Ssetsaleeh", "Thekhethie", "Otstlohu", "Silsi", "Mitzush", "Ahsha", "Nuzsa", "Izshu", "Nilshulliul", "Heltlohsuss", "Soaletha", "Uztliyu", "Yahtlossu", "Szoszoshliah"
+        ],
+        "female": [ "Heztah", "Oskuh", "Netstlis", "Sistliess", "Ozhih", "Zaltsull", "Uhayus", "Matszisash", "Aszi", "Zsitstlus", "Shostuh", "Itsu", "Aklis", "Sshistu", "Shotu", "Theskoshluss", "Shulkiyul", "Hozsathu", "Hozshallih", "Hiskuih", "Yehtlah", "Uksi", "Zhulka", "Zsekla", "Yiksi", "Nohihsish", "Ssetsaleeh", "Thekhethie", "Otstlohu", "Silsi", "Mitzush", "Ahsha", "Nuzsa", "Izshu", "Nilshulliul", "Heltlohsuss", "Soaletha", "Uztliyu", "Yahtlossu", "Szoszoshliah"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Orc",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Constitution": 1,
+            "Strength": 2,
+            "Intelligence": -2
+          }
+        ],
+        "Age": 50,
+        "min_size": 6,
+        "max_size": 7,
+        "weight": 260,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Orcish"
+        ],
+        "extra": [
+          {
+            "Aggressive": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.",
+            "Menacing": "You are trained in the Intimidation skill.",
+            "Powerful Build": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Cagan", "Buramog", "Xokuk", "Bagdud", "Zorfu", "Jogug", "Urug", "Kagan", "Prigka", "Wudgh", "Lurbuk", "Xoknath", "Xugha", "Snubub", "Bilge", "Tulgan", "Tuggug", "Zuhgan", "Xulgag", "Zugbu", "Snugug", "Wauktug", "Tarod", "Korgak", "Frikug", "Xurug", "Spilge", "Xugha", "Bugrash", "Vakgu"
+        ],
+        "female": [ "Bula", "Gonk", "Shagar", "Rulfim", "Shufharz", "Glob", "Bulfim", "Yazgash", "Shel", "Arob", "Grat", "Sharamph", "Urzoth", "Sharog", "Shelur", "Lazgar", "Borgakh", "Ushug", "Lash", "Rogmesh", "Rulfim", "Mazoga", "Batul", "Lash", "Rogbut", "Shelur", "Sharamph", "Yazgash", "Durz", "Mazoga"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Gith",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Intelligence": 1
+          }
+        ],
+        "Age": 100,
+        "min_size": 5,
+        "max_size": 6,
+        "weight": 150,
+        "speed": 30,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Gith"
+        ],
+        "extra": []
+      }
+    ],
+    "subraces": [
+      {
+        "Githyanki": [
+          {
+            "bonus_stats": [
+              {
+                "Strength": 2
+              }
+            ],
+            "Decadent Mastery": "You learn one language of your choice, and you are proficient with one skill or tool of your choice. In the timeless city ofTu'narath, githyanki have bountiful time to master odd bits of knowledge.",
+            "Martial Prodigy": "You are proficient with light and medium armor and with shortswords, longswords, and greatswords.",
+            "Githyanki Psionics": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast the jump spell once with this trait, and you regain the ability to do so when you fi nish a long rest. When you reach 5th level, you can cast the misty step spell once with this trait, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+          }
+        ],
+        "Githzerai": [
+          {
+            "bonus_stats": [
+              {
+                "Wisdom": 2
+              }
+            ],
+            "Mental Discipline": "You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.",
+            "Githzerai Psionics": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast the shield spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the detect thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+          }
+        ]
+      }
+    ],
+    "gender_names": [
+      {
+        "male": [ "Huram", "Urk", "Oramag", "Shrarg", "Drotig", "Faram", "Onrak", "Gregh", "Marak", "Unakahr", "Krozad", "Orodar", "Ararath", "Gragor", "Marek", "Marmak", "Grerath", "Farniar", "Ororm", "Amkran"
+        ],
+        "female": [ "Orith", "Magdin", "Khazmira", "Mireka", "Shundah", "Krezanith", "Erzhanya", "Ihrah", "Eszerath", "Raszanith", "Krezyara", "Khazarah", "Kanniya", "Ezha", "Ezhayah", "Harnaka", "Uriren", "Helnin", "Rezerath", "Shamerah"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Aarakocra",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Dexterity": 2,
+            "Wisdom": 1
+          }
+        ],
+        "Age": 30,
+        "min_size": 4,
+        "max_size": 6,
+        "weight": 100,
+        "speed": 25,
+        "Darkvision": 60,
+        "languagues": [
+          "Common",
+          "Aarakocra",
+          "Auran"
+        ],
+        "extra": [
+          {
+            "Flight": "You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor.",
+            "Talons": "You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit."
+          }
+        ]
+      }
+    ],
+    "subraces": [],
+    "gender_names": [
+      {
+        "male": [ "Aera", "Aial", "Aur", "Deekek", "Errk", "Heehk", "Ikki", "Kleeck", "Oorr", "Ouss", "Quaf", "Quierk", "Salleek", "Urreek", "Or", "Zeed"
+        ],
+        "female": [ "Aera", "Aial", "Aur", "Deekek", "Errk", "Heehk", "Ikki", "Kleeck", "Oorr", "Ouss", "Quaf", "Quierk", "Salleek", "Urreek", "Or", "Zeed"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  },
+  {
+    "race": "Genasi",
+    "traits": [
+      {
+        "bonus_stats": [
+          {
+            "Constitution": 2
+          }
+        ],
+        "Age": 120,
+        "min_size": 5,
+        "max_size": 7,
+        "weight": 150,
+        "speed": 30,
+        "Darkvision": 0,
+        "languagues": [
+          "Common",
+          "Primordial"
+        ],
+        "extra": []
+      }
+    ],
+    "subraces": [
+      {
+        "Air": [
+          {
+            "bonus_stats": [
+              {
+                "Dexterity": 1
+              }
+            ],
+            "Unending Breath": "You can hold your breath indefinitely while you’re not incapacitated.",
+            "Mingle with the Wind": "You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+          }
+        ],
+        "Earth": [
+          {
+            "bonus_stats": [
+              {
+                "Strength": 1
+              }
+            ],
+            "Earth Walk": "You can move across difficult terrain made of earth or stone without expending extra movement.",
+            "Merge with Stone": "You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+          }
+        ],
+        "Fire": [
+          {
+            "bonus_stats": [
+              {
+                "Intelligence": 1
+              }
+            ],
+            "Darkvision": 60,
+            "Fire Resistance": "You have resistance to fire damage.",
+            "Reach to the Blaze": "You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+          }
+        ],
+        "Water": [
+          {
+            "bonus_stats": [
+              {
+                "Wisdom": 1
+              }
+            ],
+            "Acid Resistance": "You have resistance to acid damage.",
+            "Amphibious": "You can breathe air and water.",
+            "Swim": "You have a swimming speed of 30 feet.",
+            "Call to the Wave": "You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+          }
+        ]
+      }
+    ],
+    "gender_names": [
+      {
+        "male": [ "Ardor", "Glow", "Scoria", "Rain", "Tempest", "Paddle", "Malachite", "Marble", "Sun", "Ember", "Hot", "Char", "Nether", "Ember", "Estuary", "Ocean", "Brine", "Sediment", "Quarry", "Crag", "Glare", "Swelter", "Pyro", "Drop", "Surf", "Current", "Shelf", "Rough", "Limestone", "Cyclone", "Eddy", "Zephyr", "Flurry", "Gale", "Drift", "Ripple", "Teardrop", "Plunge", "Slate", "Topaz", "Grime", "Eddy", "Sky", "Turbulence", "Brick", "Flow", "Surge", "Aerial"
+        ],
+        "female": [ "Ardor", "Glow", "Scoria", "Rain", "Tempest", "Paddle", "Malachite", "Marble", "Sun", "Ember", "Hot", "Char", "Nether", "Ember", "Estuary", "Ocean", "Brine", "Sediment", "Quarry", "Crag", "Glare", "Swelter", "Pyro", "Drop", "Surf", "Current", "Shelf", "Rough", "Limestone", "Cyclone", "Eddy", "Zephyr", "Flurry", "Gale", "Drift", "Ripple", "Teardrop", "Plunge", "Slate", "Topaz", "Grime", "Eddy", "Sky", "Turbulence", "Brick", "Flow", "Surge", "Aerial"
+        ],
+        "family": [ ""
+        ]
+      }
+    ]
+  }
+]

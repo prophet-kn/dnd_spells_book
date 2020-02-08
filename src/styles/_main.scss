@@ -43,9 +43,11 @@
         border-radius: 25px;
 
         span {
-          font-size: $big-size;
+          font-size: $biggest-size;
           display: flex;
           margin: auto;
+          transform: rotate(-5deg);
+          text-align: left;
         }
       }
     }

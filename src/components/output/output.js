@@ -81,7 +81,7 @@ class Output extends Component {
           </div>
         :
         <div className={'lander-logo'}>
-          <span>LOGO?<br></br>Prophet&#39;s Companion<br></br>v0.47:41ph4</span>
+          <span>Prophet&#39;s<br></br>Companion<br></br>v0.50:41ph4</span>
         </div>
         }
         <div className={'lander-button'} view={'dataTable'} onClick={(e) => {this.pickView(e)}}>

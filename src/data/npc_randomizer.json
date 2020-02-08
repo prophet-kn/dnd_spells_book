@@ -8,13 +8,15 @@
             "Constitution": 2
           }
         ],
-        "Age": 350,
-        "min_size": 4,
-        "max_size": 5,
+        "Age": 340,
+        "size": [
+          4,
+          5
+        ],
         "weight": 150,
         "speed": 25,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Dwarvish"
         ],
@@ -87,13 +89,16 @@
             "Dexterity": 2
           }
         ],
-        "Age": 750,
-        "min_size": 5,
-        "max_size": 7,
+        "Age": 740,
+        "size": [
+          5,
+          6,
+          7
+        ],
         "weight": 150,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Elvish"
         ],
@@ -209,13 +214,14 @@
             "Dexterity": 2
           }
         ],
-        "Age": 150,
-        "min_size": 3,
-        "max_size": 3,
+        "Age": 140,
+        "size": [
+          3
+        ],
         "weight": 40,
         "speed": 25,
         "Darkvision": 0,
-        "languagues": [
+        "languages": [
           "Common",
           "Halfling"
         ],
@@ -277,13 +283,16 @@
             "Charisma": 1
           }
         ],
-        "Age": 100,
-        "min_size": 5,
-        "max_size": 7,
+        "Age": 90,
+        "size": [
+          5,
+          6,
+          7
+        ],
         "weight": 150,
         "speed": 30,
         "Darkvision": 0,
-        "languagues": [
+        "languages": [
           "Common",
           "Any Basic"
         ],
@@ -324,13 +333,16 @@
             "Charisma": 1
           }
         ],
-        "Age": 80,
-        "min_size": 6,
-        "max_size": 8,
+        "Age": 70,
+        "size": [
+          6,
+          7,
+          8
+        ],
         "weight": 250,
         "speed": 30,
         "Darkvision": 0,
-        "languagues": [
+        "languages": [
           "Common",
           "Draconic"
         ],
@@ -427,13 +439,15 @@
             "Intelligence": 2
           }
         ],
-        "Age": 500,
-        "min_size": 3,
-        "max_size": 4,
+        "Age": 490,
+        "size": [
+          3,
+          4
+        ],
         "weight": 40,
         "speed": 25,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Gnomish"
         ],
@@ -511,13 +525,15 @@
             "Dexterity": 1
           }
         ],
-        "Age": 200,
-        "min_size": 5,
-        "max_size": 6,
+        "Age": 190,
+        "size": [
+          5,
+          6
+        ],
         "weight": 150,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Elvish",
           "Any Basic"
@@ -552,13 +568,16 @@
             "Constitution": 1
           }
         ],
-        "Age": 80,
-        "min_size": 5,
-        "max_size": 7,
+        "Age": 70,
+        "size": [
+          5,
+          6,
+          7
+        ],
         "weight": 200,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Orcish"
         ],
@@ -593,13 +612,15 @@
             "Charisma": 2
           }
         ],
-        "Age": 100,
-        "min_size": 5,
-        "max_size": 6,
+        "Age": 90,
+        "size": [
+          5,
+          6
+        ],
         "weight": 150,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Infernal"
         ],
@@ -632,13 +653,15 @@
             "Charisma": 2
           }
         ],
-        "Age": 160,
-        "min_size": 5,
-        "max_size": 6,
+        "Age": 150,
+        "size": [
+          5,
+          6
+        ],
         "weight": 150,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Celestial"
         ],
@@ -706,13 +729,15 @@
             "Strength": 1
           }
         ],
-        "Age": 500,
-        "min_size": 7,
-        "max_size": 8,
+        "Age": 490,
+        "size": [
+          7,
+          8
+        ],
         "weight": 280,
         "speed": 30,
         "Darkvision": 0,
-        "languagues": [
+        "languages": [
           "Common",
           "Elvish",
           "Giant"
@@ -749,13 +774,15 @@
             "Strength": 2
           }
         ],
-        "Age": 90,
-        "min_size": 7,
-        "max_size": 8,
+        "Age": 80,
+        "size": [
+          7,
+          8
+        ],
         "weight": 310,
         "speed": 30,
         "Darkvision": 0,
-        "languagues": [
+        "languages": [
           "Common",
           "Giant"
         ],
@@ -791,13 +818,15 @@
             "Wisdom": 1
           }
         ],
-        "Age": 60,
-        "min_size": 4,
-        "max_size": 5,
+        "Age": 50,
+        "size": [
+          4,
+          5
+        ],
         "weight": 100,
         "speed": 30,
         "Darkvision": 0,
-        "languagues": [
+        "languages": [
           "Common",
           "Auran"
         ],
@@ -832,13 +861,15 @@
             "Wisdom": 1
           }
         ],
-        "Age": 60,
-        "min_size": 5,
-        "max_size": 6,
+        "Age": 50,
+        "size": [
+          5,
+          6
+        ],
         "weight": 200,
         "speed": 30,
         "Darkvision": 0,
-        "languagues": [
+        "languages": [
           "Common",
           "Draconic"
         ],
@@ -876,13 +907,15 @@
             "Charisma": 1
           }
         ],
-        "Age": 100,
-        "min_size": 5,
-        "max_size": 6,
+        "Age": 90,
+        "size": [
+          5,
+          6
+        ],
         "weight": 200,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Any Basic"
         ],
@@ -918,13 +951,16 @@
             "Constitution": 1
           }
         ],
-        "Age": 200,
-        "min_size": 4,
-        "max_size": 6,
+        "Age": 190,
+        "size": [
+          4,
+          5,
+          6
+        ],
         "weight": 150,
         "speed": 30,
         "Darkvision": 0,
-        "languagues": [
+        "languages": [
           "Common",
           "Primordial"
         ],
@@ -960,13 +996,16 @@
             "Dexterity": 1
           }
         ],
-        "Age": 80,
-        "min_size": 6,
-        "max_size": 8,
+        "Age": 70,
+        "size": [
+          6,
+          7,
+          8
+        ],
         "weight": 320,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Goblin"
         ],
@@ -1002,13 +1041,15 @@
             "Dexterity": 2
           }
         ],
-        "Age": 60,
-        "min_size": 3,
-        "max_size": 4,
+        "Age": 50,
+        "size": [
+          3,
+          4
+        ],
         "weight": 60,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Goblin"
         ],
@@ -1042,13 +1083,15 @@
             "Intelligence": 1
           }
         ],
-        "Age": 100,
-        "min_size": 5,
-        "max_size": 6,
+        "Age": 90,
+        "size": [
+          5,
+          6
+        ],
         "weight": 180,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Goblin"
         ],
@@ -1082,13 +1125,15 @@
             "Dexterity": 2
           }
         ],
-        "Age": 120,
-        "min_size": 2,
-        "max_size": 3,
+        "Age": 110,
+        "size": [
+          2,
+          3
+        ],
         "weight": 30,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Draconic"
         ],
@@ -1123,13 +1168,15 @@
             "Intelligence": 1
           }
         ],
-        "Age": 100,
-        "min_size": 5,
-        "max_size": 6,
+        "Age": 90,
+        "size": [
+          5,
+          6
+        ],
         "weight": 150,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Abyssal",
           "Draconic"
@@ -1166,13 +1213,15 @@
             "Intelligence": -2
           }
         ],
-        "Age": 50,
-        "min_size": 6,
-        "max_size": 7,
+        "Age": 40,
+        "size": [
+          6,
+          7
+        ],
         "weight": 260,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Orcish"
         ],
@@ -1206,13 +1255,15 @@
             "Intelligence": 1
           }
         ],
-        "Age": 100,
-        "min_size": 5,
-        "max_size": 6,
+        "Age": 90,
+        "size": [
+          5,
+          6
+        ],
         "weight": 150,
         "speed": 30,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Gith"
         ],
@@ -1267,13 +1318,16 @@
             "Wisdom": 1
           }
         ],
-        "Age": 30,
-        "min_size": 4,
-        "max_size": 6,
+        "Age": 20,
+        "size": [
+          4,
+          5,
+          6
+        ],
         "weight": 100,
         "speed": 25,
         "Darkvision": 60,
-        "languagues": [
+        "languages": [
           "Common",
           "Aarakocra",
           "Auran"
@@ -1307,13 +1361,16 @@
             "Constitution": 2
           }
         ],
-        "Age": 120,
-        "min_size": 5,
-        "max_size": 7,
+        "Age": 100,
+        "size": [
+          5,
+          6,
+          7
+        ],
         "weight": 150,
         "speed": 30,
         "Darkvision": 0,
-        "languagues": [
+        "languages": [
           "Common",
           "Primordial"
         ],

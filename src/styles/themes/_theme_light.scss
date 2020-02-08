@@ -55,7 +55,23 @@
           }
         }
       }
-    
+
+      &-dice {
+        &-rolls {
+          &-roll {
+            svg,
+            path {
+              stroke: $light-colour-light;
+              stroke-width: 3px;
+              fill: $dominant-colour-light;
+
+              &:active {
+                fill: $dnd-red;
+              }
+            }
+          }
+        }
+      }
     }
   }
 

@@ -22,8 +22,8 @@
             "Religion": 2
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 12,
+        "damageResistance": "",
+        "passivePerception": 12,
         "Language": "Common",
         "Challenge": "1/4",
         "Features": [
@@ -68,8 +68,8 @@
             "History": 13
           }
         ],
-        "Damage Resistance": "damage from spells; nonmagical bludgeoning, piercing, and slashing (from stoneskin)",
-        "passive Perception": 12,
+        "damageResistance": "damage from spells; nonmagical bludgeoning, piercing, and slashing (from stoneskin)",
+        "passivePerception": 12,
         "Language": "Any six",
         "Challenge": "12",
         "Features": [
@@ -117,8 +117,8 @@
             "Stealth": 9
           }
         ],
-        "Damage Resistance": "poison",
-        "passive Perception": 13,
+        "damageResistance": "poison",
+        "passivePerception": 13,
         "Language": "Thieves' cant and any 2",
         "Challenge": "8",
         "Features": [
@@ -157,8 +157,8 @@
         ],
         "saving_throws": [],
         "skills": [],
-        "Damage Resistance": "",
-        "passive Perception": 10,
+        "damageResistance": "",
+        "passivePerception": 10,
         "Language": "Common",
         "Challenge": "1/8",
         "Features": [],
@@ -201,8 +201,8 @@
             "Deception": 4
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 10,
+        "damageResistance": "",
+        "passivePerception": 10,
         "Language": "Any two languages",
         "Challenge": "2",
         "Features": [],
@@ -239,8 +239,8 @@
         ],
         "saving_throws": [],
         "skills": [],
-        "Damage Resistance": "",
-        "passive Perception": 10,
+        "damageResistance": "",
+        "passivePerception": 10,
         "Language": "Any one language",
         "Challenge": "2",
         "Features": [
@@ -275,8 +275,8 @@
         ],
         "saving_throws": [],
         "skills": [],
-        "Damage Resistance": "",
-        "passive Perception": 10,
+        "damageResistance": "",
+        "passivePerception": 10,
         "Language": "Any one language",
         "Challenge": "0",
         "Features": [],
@@ -312,8 +312,8 @@
             "Religion": 2
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 10,
+        "damageResistance": "",
+        "passivePerception": 10,
         "Language": "Any one language",
         "Challenge": "1/8",
         "Features": [
@@ -354,8 +354,8 @@
             "Persuasion": 4
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 11,
+        "damageResistance": "",
+        "passivePerception": 11,
         "Language": "Any one language",
         "Challenge": "2",
         "Features": [
@@ -398,8 +398,8 @@
             "Persuasion": 4
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 14,
+        "damageResistance": "",
+        "passivePerception": 14,
         "Language": "Druidic and any two languages",
         "Challenge": "2",
         "Features": [
@@ -445,8 +445,8 @@
             "Intimidation": 5
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 11,
+        "damageResistance": "",
+        "passivePerception": 11,
         "Language": "Any two languages",
         "Challenge": "5",
         "Features": [
@@ -492,8 +492,8 @@
             "Perception": 2
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 12,
+        "damageResistance": "",
+        "passivePerception": 12,
         "Language": "Any one language",
         "Challenge": "1/8",
         "Features": [],
@@ -529,8 +529,8 @@
           }
         ],
         "skills": [],
-        "Damage Resistance": "",
-        "passive Perception": 10,
+        "damageResistance": "",
+        "passivePerception": 10,
         "Language": "Any one language",
         "Challenge": "3",
         "Features": [
@@ -582,8 +582,8 @@
             "History": 6
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 11,
+        "damageResistance": "",
+        "passivePerception": 11,
         "Language": "Any four languages",
         "Challenge": "6",
         "Features": [
@@ -624,8 +624,8 @@
             "Persuasion": 5
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 12,
+        "damageResistance": "",
+        "passivePerception": 12,
         "Language": "Any two languages",
         "Challenge": "1/8",
         "Features": [],
@@ -666,8 +666,8 @@
             "Persuasion": 3
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 13,
+        "damageResistance": "",
+        "passivePerception": 13,
         "Language": "Any two languages",
         "Challenge": "2",
         "Features": [
@@ -710,8 +710,8 @@
             "Survival": 5
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 15,
+        "damageResistance": "",
+        "passivePerception": 15,
         "Language": "Any one language",
         "Challenge": "1/2",
         "Features": [
@@ -758,8 +758,8 @@
             "Stealth": 4
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 16,
+        "damageResistance": "",
+        "passivePerception": 16,
         "Language": "Any two languages",
         "Challenge": "1/2",
         "Features": [
@@ -801,8 +801,8 @@
             "Intimidation": 2
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 10,
+        "damageResistance": "",
+        "passivePerception": 10,
         "Language": "Any one language",
         "Challenge": "1/2",
         "Features": [
@@ -839,8 +839,8 @@
         ],
         "saving_throws": [],
         "skills": [],
-        "Damage Resistance": "",
-        "passive Perception": 10,
+        "damageResistance": "",
+        "passivePerception": 10,
         "Language": "Any one language",
         "Challenge": "1/8",
         "Features": [
@@ -880,8 +880,8 @@
             "Perception": 2
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 12,
+        "damageResistance": "",
+        "passivePerception": 12,
         "Language": "Any one language",
         "Challenge": "3",
         "Features": [],
@@ -920,8 +920,8 @@
             "Insight": 8
           }
         ],
-        "Damage Resistance": "",
-        "passive Perception": 13,
+        "damageResistance": "",
+        "passivePerception": 13,
         "Language": "Common, Infernal",
         "Challenge": "13",
         "Features": [

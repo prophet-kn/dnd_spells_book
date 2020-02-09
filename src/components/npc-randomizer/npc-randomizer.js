@@ -192,8 +192,8 @@ class NPCRandomizer extends Component {
             <div key={i} className={"dndapp-npcrandomizer-choices-card-details-list"}>
               <div className={"dndapp-npcrandomizer-choices-card-details-list-top"}>
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-top-names"}>
-                  <span>{pickNameFromGender} {randomFamilyName ? ' ' + randomFamilyName : ''}</span>
-                  <span>{pickGender} {pickedSubrace !== null ? pickedSubrace + ' ' : ''}{race}</span>
+                  <h2>{pickNameFromGender} {randomFamilyName ? ' ' + randomFamilyName : ''}</h2>
+                  <h2>{pickGender} {pickedSubrace !== null ? pickedSubrace + ' ' : ''}{race}</h2>
                 </div>
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-top-misc"}>
                   <span>Age: {age}</span>
@@ -222,24 +222,22 @@ class NPCRandomizer extends Component {
                     </div>
                   )
                 })}
-                {subraceExtraFeaturesKeys !== '' ?
-                <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features"}>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-title"}>
-                    <span>Extra Racial Features: </span>
-                  </div>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-list"}>
-
-                    <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-keys"}>
-                      {subraceExtraFeaturesKeys}
+                {subraceExtraFeaturesKeys.length !== 0 ?
+                  <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features"}>
+                    <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-title"}>
+                      <span>Extra Racial Features: </span>
                     </div>
-                    <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-values"}>
-                      {subraceExtraFeaturesValues}
+                    <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-list"}>
+                      <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-keys"}>
+                        {subraceExtraFeaturesKeys}
+                      </div>
+                      <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-values"}>
+                        {subraceExtraFeaturesValues}
+                      </div>
                     </div>
-
                   </div>
-                </div>
-              :
-              null}
+                :
+                null}
               </div>
               <div className={"dndapp-npcrandomizer-choices-card-details-list-class"}>
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top"}>
@@ -317,8 +315,8 @@ class NPCRandomizer extends Component {
           )
         })}
       {dataPerRace.length === 0 ?
-        <div className={"dndapp-npcrandomizer-choices-card-details"}>
-          <span>Click one of the buttons to generate NPC!</span>
+        <div className={"dndapp-npcrandomizer-choices-card-details-none"}>
+          <h2>Click one of the buttons to generate NPC!</h2>
         </div>
       : null}
       </div>
@@ -331,13 +329,15 @@ class NPCRandomizer extends Component {
       <div className={"dndapp-npcrandomzier"}>
         <div className={"dndapp-npcrandomizer-choices"}>
           <div className={"dndapp-npcrandomizer-choices-title"}>
-            <span>Randomize NPC</span>
+            <h1>Randomize NPC</h1>
           </div>
-          <div className={"dndapp-npcrandomizer-choices-btn"} onClick={(e) => this.pickRace()} >
-            <span>Total Randomize</span>
-          </div>
-          <div className={"dndapp-npcrandomizer-choices-btn"}>
-            <span>Partial Randomize</span>
+          <div className={"dndapp-npcrandomizer-choices-btns"}>
+            <div className={"dndapp-npcrandomizer-choices-btns-btn"} onClick={(e) => this.pickRace()} >
+              <span>Total Randomize</span>
+            </div>
+            <div className={"dndapp-npcrandomizer-choices-btns-btn disabled"}>
+              <span>Partial Randomize</span>
+            </div>
           </div>
           <div className={"dndapp-npcrandomizer-choices-card"}>
             {this.npcCard()}

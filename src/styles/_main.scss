@@ -273,6 +273,40 @@
     }
   }
 
+  &-npcrandomizer {
+    &-choices {
+      &-title {
+        margin-bottom: 10px;
+      }
+
+      &-btns {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 0 20px 20px;
+
+        &-btn {
+          @extend .btn;
+        }
+      }
+
+      &-card {
+        &-details {
+          &-list {
+            &-top {
+              border: 2px solid;
+              border-radius: 25px;
+
+              &-names {
+                display: grid;
+                grid-template-columns: 50% 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
 }
 
 // btn

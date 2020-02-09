@@ -273,6 +273,186 @@
     }
   }
 
+  &-npcrandomizer {
+    &-choices {
+      &-title {
+        margin-bottom: 10px;
+      }
+
+      &-btns {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-bottom: 20px;
+
+        &-btn {
+          @extend .btn;
+
+          &.disabled {
+            cursor: no-drop;
+          }
+        }
+      }
+
+      &-card {
+        &-details {
+          &-list {
+            &-top {
+              border: 2px solid;
+              border-radius: 25px;
+
+              &-names {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                border-bottom: 2px solid;
+                margin-bottom: 10px;
+                align-items: center;
+
+                h2 {
+                  &:first-child {
+                    border-right: 2px solid;
+                  }
+                }
+              }
+
+              &-misc {
+                display: flex;
+                flex-flow: column;
+                text-align: left;
+                padding-left: 10px;
+                padding-bottom: 10px;
+              }
+            }
+
+            &-racial-features {
+              &-title {
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+                margin-bottom: 10px;
+              }
+
+              &-values {
+                display: inline-grid;
+                text-align: left;
+                padding-left: 10px;
+
+                &-value {
+                  margin-bottom: 10px;
+                }
+              }
+            }
+
+            &-class {
+              margin-top: 15px;
+              border: 2px solid;
+              border-radius: 25px;
+
+              &-top {
+                &-name {
+                  display: grid;
+                  border-bottom: 2px solid;
+                  margin-bottom: 10px;
+                  align-items: center;
+                }
+
+                &-stats {
+                  display: flex;
+                  flex-flow: column;
+                  text-align: left;
+                  padding-left: 10px;
+                  padding-bottom: 10px;
+                }
+              }
+
+              &-stats {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                border-bottom: 2px solid;
+                border-top: 2px solid;
+
+                span {
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+
+                  &:not(:last-child) {
+                    border-right: 2px solid;
+                  }
+                }
+              }
+
+              &-attributes {
+                &-saving-throws {
+                  display: flex;
+                  flex-flow: row;
+                  text-align: left;
+                  padding-left: 10px;
+                  padding-bottom: 10px;
+                  padding-top: 10px;
+                  border-bottom: 2px solid;
+
+                  span {
+                    padding-right: 5px;
+                  }
+                }
+
+                &-misc {
+                  display: flex;
+                  flex-flow: column;
+                  text-align: left;
+                  padding-left: 10px;
+                  padding-bottom: 10px;
+                  margin-bottom: 10px;
+                  padding-top: 10px;
+                  border-bottom: 2px solid;
+                }
+              }
+
+              &-skills,
+              &-features,
+              &-actions,
+              &-reactions {
+                display: flex;
+                flex-flow: column;
+                text-align: left;
+                padding-left: 10px;
+
+                &-value {
+                  margin-bottom: 10px;
+                }
+              }
+
+              &-features,
+              &-actions,
+              &-reactions {
+                padding-top: 10px;
+                border-top: 2px solid;
+              }
+            }
+          }
+
+          &-racial-extra {
+            &-features {
+              &-title {
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+                margin-bottom: 10px;
+              }
+
+              &-list {
+                display: inline-grid;
+                text-align: left;
+                padding-left: 10px;
+
+                &-value {
+                  margin-bottom: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
 }
 
 // btn

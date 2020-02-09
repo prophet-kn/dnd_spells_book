@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Data from '.././../data/spells.json'
+import Data from './../../data/spells.json'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import SpellItem from './../spell-item/spell-item'

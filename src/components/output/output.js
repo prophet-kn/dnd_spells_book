@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import DataTable from './../data-table/data-table'
 import DiceRolls from './../dice-roll/dice-roll'
+import NPCRandomizer from './../npc-randomizer/npc-randomizer'
 
 class Output extends Component {
   constructor(props) {
     super(props)
     this.state = {
       currentView: 'default',
+      //currentView: 'default',
       navigationToggle: false,
     }
 
@@ -49,7 +51,7 @@ class Output extends Component {
   }
 
   navigation = () => {
-  if (this.state.currentView !== 'default') {
+    if (this.state.currentView !== 'default') {
       return (
         <div className={this.state.navigationToggle === false ? "dndapp-navigation" : "dndapp-navigation toggled"} onClick={() => this.toggleNavigation()}>
           <div className={"dndapp-navigation-burger"}>
@@ -90,14 +92,14 @@ class Output extends Component {
         <div className={'lander-button'} view={'diceRoll'} onClick={(e) => {this.pickView(e)}}>
           <span>Dice Roll</span>
         </div>
+        <div className={'lander-button'} view={'npcRandomizer'} onClick={(e) => {this.pickView(e)}}>
+          <span>NPC Randomizer</span>
+        </div>
         <div className={'lander-button disabled'} view={'characterSheet'}>
           <span>Character Sheet</span>
         </div>
         <div className={'lander-button disabled'} view={'musicBoard'}>
           <span>Music Board</span>
-        </div>
-        <div className={'lander-button disabled'} view={'NPCRandomizer'}>
-          <span>NPC Randomizer</span>
         </div>
       </div>
     )
@@ -122,6 +124,9 @@ class Output extends Component {
     }
     else if (this.state.currentView === 'diceRoll') {
       return <DiceRolls />
+    }
+    else if (this.state.currentView === 'npcRandomizer') {
+      return <NPCRandomizer />
     }
   }
 

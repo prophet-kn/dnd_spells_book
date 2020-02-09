@@ -31,6 +31,7 @@ class NPCRandomizer extends Component {
 
     this.npcCard = this.npcCard.bind(this)
     this.pickRace = this.pickRace.bind(this)
+    this.getModifier = this.getModifier.bind(this)
   }
 
   pickRace() {
@@ -43,8 +44,11 @@ class NPCRandomizer extends Component {
     })
   }
 
+  getModifier(int) {
+    return 'derp'
+  }
+
   npcCard() {
-    let test = []
     let checkRace = this.state.race
     let getClass = this.state.stats
     const dataPerRace =  _.chain(getData)
@@ -101,8 +105,8 @@ class NPCRandomizer extends Component {
             pickGender = Object.keys(combineNames[0])[Math.floor(Math.random() * Object.keys(combineNames[0]).length)],
             pickNameFromGender = combineNames[0][pickGender],
           // Get stats from Class.
-            statBlockName = Object.keys(getClass),
             getAllStats = Object.values(getClass)[0][0],
+            statBlockName = Object.keys(getClass),
             AC = getAllStats.AC,
             HP = getAllStats.HP,
             classSpeed = getAllStats.speed,
@@ -112,7 +116,7 @@ class NPCRandomizer extends Component {
             challengeRating = getAllStats.Challenge,
           // Get nested arrays from Class.
             classStats = getAllStats.stats[0],
-            classSavingThrows = getAllStats.saving_throws[0],
+            getSavingThrows = getAllStats.saving_throws[0] !== undefined ? getAllStats.saving_throws[0] : '',
           // Skills.
             classSkills = getAllStats.skills[0],
             classSkillsKeys = classSkills !== undefined ? Object.keys(classSkills): '',
@@ -184,9 +188,77 @@ class NPCRandomizer extends Component {
               null}
               </div>
               <div className={"dndapp-npcrandomizer-choices-card-details-list-class"}>
-                yay
-              </div>
+                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top"}>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top-name"}>
+                    <span>{statBlockName}</span>
+                  </div>
 
+                  <span>Armor Class {AC}</span>
+                  <span>Hit Points {HP}</span>
+                  <span>Speed {classSpeed}</span>
+                </div>
+
+                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-stats"}>
+                  <span>STR {classStats.Strength + totalExtraStrength} {this.getModifier(18)} </span>
+                  <span>DEX {classStats.Dexterity + totalExtraDexterity}</span>
+                  <span>CON {classStats.Constitution + totalExtraConstitution}</span>
+                  <span>INT {classStats.Intelligence + totalExtraIntelligence}</span>
+                  <span>WIS {classStats.Wisdom + totalExtraWisdom}</span>
+                  <span>CHA {classStats.Charisma + totalExtraChairsma}</span>
+                </div>
+
+                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-attributes"}>
+                  {getSavingThrows !== '' ?
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-attributes-saving-throws"}>
+                    <span>Saving Throws</span>
+                    <span>{getSavingThrows.Strength !== undefined ? 'Str +' + getSavingThrows.Strength + ' ' : ''}</span>
+                    <span>{getSavingThrows.Dexterity !== undefined ? 'Dex +' + getSavingThrows.Dexterity + ' ' : ''}</span>
+                    <span>{getSavingThrows.Constitution !== undefined ? 'Con +' + getSavingThrows.Constitution + ' ' : ''}</span>
+                    <span>{getSavingThrows.Intelligence !== undefined ? 'Int +' + getSavingThrows.Intelligence + ' ' : ''}</span>
+                    <span>{getSavingThrows.Wisdom !== undefined ? 'Wis +' + getSavingThrows.Wisdom + ' ' : ''}</span>
+                    <span>{getSavingThrows.Charisma !== undefined ? 'Cha +' + getSavingThrows.Charisma + ' ' : ''}</span>
+                  </div>
+                : ''}
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-attributes-misc"}>
+                    {damageResistances !== '' ? <span>Damage resistance {damageResistances}</span> : ''}
+                    {passivePerception !== '' ? <span>Passive perception {passivePerception}</span> : ''}
+                    {classLanguage !== '' ? <span>Languages {classLanguage}</span> : ''}
+                    {challengeRating !== '' ? <span>Challenge {challengeRating}</span> : ''}
+                  </div>
+                </div>
+                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-skills"}>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-skills-keys"}>
+                    {classSkillsKeys}
+                  </div>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-skills-values"}>
+                    {classSkillsValues}
+                  </div>
+                </div>
+                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-features"}>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-features-keys"}>
+                    {classFeaturesKeys}
+                  </div>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-features-values"}>
+                    {classFeaturesValues}
+                  </div>
+                </div>
+                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-actions"}>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-actions-keys"}>
+                    {classActionsKeys}
+                  </div>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-actions-values"}>
+                    {classActionsValues}
+                  </div>
+                </div>
+                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-reactions"}>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-reactions-keys"}>
+                    {classReactionsKeys}
+                  </div>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-reactions-values"}>
+                    {classReactionsValues}
+                  </div>
+                </div>
+              </div>
             </div>
           )
         })}

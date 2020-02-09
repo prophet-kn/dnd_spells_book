@@ -75,7 +75,7 @@
         "Features": [
           {
             "Magic Resistance": "The archmage has advantage on saving throws against spells and other magical effects.",
-            "Spellcasting": "The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared: <br>Cantrips (at will): .fire bolt, light, mage hand, prestidigitation, shocking grasp <br>1st level (4 slots): detect magic, identify, mage armor*, magic missile <br>2nd level (3 slots): detect thoughts, mirror image, misty step <br>3rd level (3 slots): counterspell, fly, lightning bolt <br>4th level (3 slots): banishment, fire shield, stoneskin* <br>5th level (3 slots): cone of cold, scrying, wall of force <br>6th level (1 slot): globe of invulnerability <br>7th level (1 slot): teleport <br>8th level (1 slot): mind blank* <br>9th level (1 slot): time stop <br>*'The archmage casts these spells on itself before combat'."
+            "Spellcasting": "The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared: Cantrips (at will): .fire bolt, light, mage hand, prestidigitation, shocking grasp 1st level (4 slots): detect magic, identify, mage armor*, magic missile 2nd level (3 slots): detect thoughts, mirror image, misty step 3rd level (3 slots): counterspell, fly, lightning bolt 4th level (3 slots): banishment, fire shield, stoneskin* 5th level (3 slots): cone of cold, scrying, wall of force 6th level (1 slot): globe of invulnerability 7th level (1 slot): teleport 8th level (1 slot): mind blank* 9th level (1 slot): time stop *'The archmage casts these spells on itself before combat'."
           }
         ],
         "Actions": [
@@ -361,7 +361,7 @@
         "Features": [
           {
             "Dark Devotion": "The fanatic has advantage on saving throws against being charmed or frightened.",
-            "Spellcasting": "The fanatic is a 4th- level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared: <br>Cantrips (at will): light, sacred flame, thaumaturgy <br>1st level (4 slots): command, inflict wounds, shield of faith <br>2nd level (3 slots): hold person, spiritual weapon"
+            "Spellcasting": "The fanatic is a 4th- level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared: Cantrips (at will): light, sacred flame, thaumaturgy 1st level (4 slots): command, inflict wounds, shield of faith 2nd level (3 slots): hold person, spiritual weapon"
           }
         ],
         "Actions": [
@@ -404,7 +404,7 @@
         "Challenge": "2",
         "Features": [
           {
-            "Spellcasting": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared: <br>Cantrips (at will): druidcraft, produce flame, shillelagh <br>lst level (4 slots): entangle, longstrider, speak with animals, thunderwave <br>2nd level (3 slots): animal messenger, barkskin"
+            "Spellcasting": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared: Cantrips (at will): druidcraft, produce flame, shillelagh lst level (4 slots): entangle, longstrider, speak with animals, thunderwave 2nd level (3 slots): animal messenger, barkskin"
           }
         ],
         "Actions": [
@@ -588,7 +588,7 @@
         "Challenge": "6",
         "Features": [
           {
-            "Spellcasting": "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared: <br>Cantrips (at will): fire bolt, light, mage hand, prestidigitation <br>1st level (4 slots): detect magic, mage armor, magic missile, shield <br>2nd level (3 slots): misty step, suggestion <br>3rd level (3 slots): counterspell, fireball, fly <br>4th level (3 slots): greater invisibility, ice storm <br>5th level (1 slot): cone of cold"
+            "Spellcasting": "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared: Cantrips (at will): fire bolt, light, mage hand, prestidigitation 1st level (4 slots): detect magic, mage armor, magic missile, shield 2nd level (3 slots): misty step, suggestion 3rd level (3 slots): counterspell, fireball, fly 4th level (3 slots): greater invisibility, ice storm 5th level (1 slot): cone of cold"
           }
         ],
         "Actions": [
@@ -673,7 +673,7 @@
         "Features": [
           {
             "Divine Eminence": "As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant d amage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.",
-            "Spellcasting": "The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared: <br>Cantrips (at will): light, sacred flame, thaumaturgy <br>1st level (4 slots): cure wounds, guiding bolt, sanctuary <br>2nd level (3 slots): lesser restoration, <br>spiritual weapon <br>3rd level (2 slots): dispel magic, spirit guardians"
+            "Spellcasting": "The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared: Cantrips (at will): light, sacred flame, thaumaturgy 1st level (4 slots): cure wounds, guiding bolt, sanctuary 2nd level (3 slots): lesser restoration, spiritual weapon 3rd level (2 slots): dispel magic, spirit guardians"
           }
         ],
         "Actions": [
@@ -927,7 +927,7 @@
         "Features": [
           {
             "Limited Magic Immunity": "The rakshasa can't be affected or detected by spells of 6th level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects.",
-            "Innate Spellcasting": "The rakshasa's innate spellcasting ability is Charisma (spell save DC18 , +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiringno material components: <br>At will: detect thoughts, disguise self, mage hand, minor illusion <br>3/day each: charm person, detect magic, invisibility, major image, suggestion <br>1/day each: dominate person, fly, plane shift, true seeing"
+            "Innate Spellcasting": "The rakshasa's innate spellcasting ability is Charisma (spell save DC18 , +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiringno material components: At will: detect thoughts, disguise self, mage hand, minor illusion 3/day each: charm person, detect magic, invisibility, major image, suggestion 1/day each: dominate person, fly, plane shift, true seeing"
           }
         ],
         "Actions": [

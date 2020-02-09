@@ -45,7 +45,61 @@ class NPCRandomizer extends Component {
   }
 
   getModifier(int) {
-    return 'derp'
+    let mod = int
+    switch(int) {
+      case 0:
+      case 1:
+        mod = '-5'
+        break
+      case 2:
+      case 3:
+        mod = '-4'
+        break
+      case 4:
+      case 5:
+        mod = '-3'
+        break
+      case 6:
+      case 7:
+        mod = '-2'
+        break
+      case 8:
+      case 9:
+        mod = '-1'
+        break
+      case 10:
+      case 11:
+        mod = '+0'
+        break
+      case 12:
+      case 13:
+        mod = '+1'
+        break
+      case 14:
+      case 15:
+        mod = '+2'
+        break
+      case 16:
+      case 17:
+        mod = '+3'
+        break
+      case 18:
+      case 19:
+        mod = '+4'
+        break
+      case 20:
+      case 21:
+        mod = '+5'
+        break
+      case 22:
+      case 23:
+        mod = '+6'
+        break
+      default:
+        mod = 0
+    }
+
+    return mod
   }
 
   npcCard() {
@@ -199,12 +253,12 @@ class NPCRandomizer extends Component {
                 </div>
 
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-class-stats"}>
-                  <span>STR {classStats.Strength + totalExtraStrength} {this.getModifier(18)} </span>
-                  <span>DEX {classStats.Dexterity + totalExtraDexterity}</span>
-                  <span>CON {classStats.Constitution + totalExtraConstitution}</span>
-                  <span>INT {classStats.Intelligence + totalExtraIntelligence}</span>
-                  <span>WIS {classStats.Wisdom + totalExtraWisdom}</span>
-                  <span>CHA {classStats.Charisma + totalExtraChairsma}</span>
+                  <span>STR {classStats.Strength + totalExtraStrength} ({this.getModifier(classStats.Strength + totalExtraStrength)})</span>
+                  <span>DEX {classStats.Dexterity + totalExtraDexterity} ({this.getModifier(classStats.Dexterity + totalExtraDexterity)})</span>
+                  <span>CON {classStats.Constitution + totalExtraConstitution} ({this.getModifier(classStats.Constitution + totalExtraConstitution)})</span>
+                  <span>INT {classStats.Intelligence + totalExtraIntelligence} ({this.getModifier(classStats.Intelligence + totalExtraIntelligence)})</span>
+                  <span>WIS {classStats.Wisdom + totalExtraWisdom} ({this.getModifier(classStats.Wisdom + totalExtraWisdom)})</span>
+                  <span>CHA {classStats.Charisma + totalExtraChairsma} ({this.getModifier(classStats.Charisma + totalExtraChairsma)})</span>
                 </div>
 
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-class-attributes"}>

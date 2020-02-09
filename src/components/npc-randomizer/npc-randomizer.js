@@ -171,24 +171,15 @@ class NPCRandomizer extends Component {
             getSavingThrows = getAllStats.saving_throws[0] !== undefined ? getAllStats.saving_throws[0] : '',
           // Skills.
             classSkills = getAllStats.skills[0],
-            classSkillsKeys = classSkills !== undefined ? Object.keys(classSkills): '',
-            classSkillsValues = classSkills !== undefined ? Object.values(classSkills): '',
+            classSkillsList = classSkills !== undefined ? Object.entries(classSkills): '',
           // Features.
             classFeatures = getAllStats.Features[0],
-            classFeaturesKeys = classFeatures !== undefined ? Object.keys(classFeatures): '',
-            classFeaturesValues = classFeatures !== undefined ? Object.values(classFeatures): '',
+            classFeaturesList = classFeatures !== undefined ? Object.entries(classFeatures): '',
           // Actions.
             classActions = getAllStats.Actions[0],
-            classActionsKeys = classActions !== undefined ? Object.keys(classActions): '',
-            classActionsValues = classActions !== undefined ? Object.values(classActions): '',
+            classActionsList = classActions !== undefined ? Object.entries(classActions): '',
           // Reactions.
             classReactions = getAllStats.Reactions[0],
-            classReactionsKeys = classReactions !== undefined ? Object.keys(classReactions): '',
-            classReactionsValues = classReactions !== undefined ? Object.values(classReactions): '',
-          // List.
-            classSkillsList = classSkills !== undefined ? Object.entries(classSkills): '',
-            classFeaturesList = classFeatures !== undefined ? Object.entries(classFeatures): '',
-            classActionsList = classActions !== undefined ? Object.entries(classActions): '',
             classReactionsList = classReactions !== undefined ? Object.entries(classReactions): ''
 
           return (

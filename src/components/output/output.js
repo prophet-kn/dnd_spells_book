@@ -95,6 +95,15 @@ class Output extends Component {
         <div className={'lander-button'} view={'npcRandomizer'} onClick={(e) => {this.pickView(e)}}>
           <span>NPC Randomizer</span>
         </div>
+        <div className={'lander-button disabled'} view={'monsterList'}>
+          <span>Monster List</span>
+        </div>
+        <div className={'lander-button disabled'} view={'classFeatures'}>
+          <span>Class Features</span>
+        </div>
+        <div className={'lander-button disabled'} view={'featsList'}>
+          <span>List of Feats</span>
+        </div>
         <div className={'lander-button disabled'} view={'characterSheet'}>
           <span>Character Sheet</span>
         </div>

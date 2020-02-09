@@ -196,26 +196,37 @@ class NPCRandomizer extends Component {
                   <h2>{pickGender} {pickedSubrace !== null ? pickedSubrace + ' ' : ''}{race}</h2>
                 </div>
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-top-misc"}>
-                  <span>Age: {age}</span>
-                  <span>Size: {sizeFeet}'{sizeInches}''</span>
-                  <span>Weight: {weight}</span>
-                  <span>Speed: {speed} feet</span>
-                  <span>Languages: {languages[0].map(e => e + ' ')}</span>
-                  <span>Darkvision: {darkvision} feet</span>
+                  <span><strong>Age:</strong> {age}</span>
+                  <span><strong>Size:</strong> {sizeFeet}'{sizeInches}''</span>
+                  <span><strong>Weight:</strong> {weight}</span>
+                  <span><strong>Speed:</strong> {speed} feet</span>
+                  <span><strong>Languages:</strong> {languages[0].map(e => e + ' ')}</span>
+                  <span><strong>Darkvision:</strong> {darkvision} feet</span>
                 </div>
                 {raceFeatures.map((feature, i) => {
                   return (
-                    <div key={i} className={"dndapp-npcrandomizer-choices-card-details-racial-features"}>
-                      <div className={"dndapp-npcrandomizer-choices-card-details-racial-features-title"}>
-                        <span>Racial Features: </span>
+                    <div key={i} className={"dndapp-npcrandomizer-choices-card-details-list-racial-features"}>
+                      <div className={"dndapp-npcrandomizer-choices-card-details-list-racial-features-title"}>
+                        <h2>Racial Features: </h2>
                       </div>
-                      <div className={"dndapp-npcrandomizer-choices-card-details-racial-features-list"}>
-
-                        <div className={"dndapp-npcrandomizer-choices-card-details-racial-features-keys"}>
-                          {Object.keys(feature)}
+                      <div className={"dndapp-npcrandomizer-choices-card-details-list-racial-features-list"}>
+                        <div className={"dndapp-npcrandomizer-choices-card-details-list-racial-features-keys"}>
+                          {Object.keys(feature).map((e, k) => {
+                            return (
+                              <div key ={k} className={"dndapp-npcrandomizer-choices-card-details-list-racial-features-keys-key"}>
+                                <span>{e}</span>
+                              </div>
+                            )
+                          })}
                         </div>
-                        <div className={"dndapp-npcrandomizer-choices-card-details-racial-features-values"}>
-                          {Object.values(feature)}
+                        <div className={"dndapp-npcrandomizer-choices-card-details-list-racial-features-values"}>
+                          {Object.values(feature).map((e, k) => {
+                            return (
+                              <div key ={k} className={"dndapp-npcrandomizer-choices-card-details-list-racial-features-values-value"}>
+                                <span>{e}</span>
+                              </div>
+                            )
+                          })}
                         </div>
 
                       </div>

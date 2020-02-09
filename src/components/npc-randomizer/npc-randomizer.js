@@ -328,7 +328,7 @@ class NPCRandomizer extends Component {
         })}
       {dataPerRace.length === 0 ?
         <div className={"dndapp-npcrandomizer-choices-card-details-none"}>
-          <h2>Click one of the buttons to generate NPC!</h2>
+          <h2>Click one of the buttons above to generate a NPC!</h2>
         </div>
       : null}
       </div>

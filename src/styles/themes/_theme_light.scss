@@ -230,4 +230,20 @@
   a {
     text-decoration: none;
   }
+
+  .btn {
+    &:hover {
+      background-color: $light-colour-light;
+      color: $dominant-colour-light;
+    }
+
+    &.disabled {
+      background: $background-button-light;
+
+      &:hover {
+        background-color: $background-button-hover-light;
+        color: $light-colour-light;
+      }
+    }
+  }
 }

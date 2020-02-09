@@ -134,6 +134,7 @@ class NPCRandomizer extends Component {
             extraIntelligence = Math.floor(e.traits.map(a => a.bonus_stats)[0].map(attr => attr.Intelligence)),
             extraWisdom = Math.floor(e.traits.map(a => a.bonus_stats)[0].map(attr => attr.Wisdom)),
             extraChairsma = Math.floor(e.traits.map(a => a.bonus_stats)[0].map(attr => attr.Chairsma)),
+          // Bonus stats per race.
             checkIfBonusStatsExist = pickExtraFeaturePerPickedSubrace !== null ? _.hasIn(pickExtraFeaturePerPickedSubrace, 'bonus_stats') : false,
             getExtraStengthPerSubrace = checkIfBonusStatsExist === true ? pickExtraFeaturePerPickedSubrace.bonus_stats[0].Strength : 0,
             getExtraDexterityPerSubrace = checkIfBonusStatsExist === true ? pickExtraFeaturePerPickedSubrace.bonus_stats[0].Dexterity : 0,
@@ -148,11 +149,6 @@ class NPCRandomizer extends Component {
             totalExtraIntelligence = extraIntelligence + (_.isEqual(getExtraIntelligencePerSubrace, undefined) ? 0 : getExtraIntelligencePerSubrace),
             totalExtraWisdom = extraWisdom + (_.isEqual(getExtraWisdomPerSubrace, undefined) ? 0 : getExtraWisdomPerSubrace),
             totalExtraChairsma = extraChairsma + (_.isEqual(getExtraCharismaPerSubrace, undefined) ? 0 : getExtraCharismaPerSubrace),
-          // Get other features.
-            subraceExtraFeaturesKeys = pickExtraFeaturePerPickedSubrace !== null ? Object.keys(pickExtraFeaturePerPickedSubrace).filter(function(pickExtraFeaturePerPickedSubrace) { return pickExtraFeaturePerPickedSubrace !== 'bonus_stats' }) : '',
-            subraceExtraFeaturesValues = pickExtraFeaturePerPickedSubrace !== null ? Object.values(pickExtraFeaturePerPickedSubrace).slice(1) : '',
-            //test = pickExtraFeaturePerPickedSubrace !== null ? pickExtraFeaturePerPickedSubrace.map(function(pickExtraFeaturePerPickedSubrace) { return pickExtraFeaturePerPickedSubrace !== 'bonus_stats' }) : '',
-
           // Names
             randomMaleName = e.gender_names.map(w => w.male)[0][Math.floor(Math.random() * e.gender_names.map(w => w.male)[0].length)],
             randomFemaleName = e.gender_names.map(w => w.female)[0][Math.floor(Math.random() * e.gender_names.map(w => w.female)[0].length)],
@@ -188,11 +184,13 @@ class NPCRandomizer extends Component {
           // Reactions.
             classReactions = getAllStats.Reactions[0],
             classReactionsKeys = classReactions !== undefined ? Object.keys(classReactions): '',
-            classReactionsValues = classReactions !== undefined ? Object.values(classReactions): ''
+            classReactionsValues = classReactions !== undefined ? Object.values(classReactions): '',
+          // List.
+            classSkillsList = classSkills !== undefined ? Object.entries(classSkills): '',
+            classFeaturesList = classFeatures !== undefined ? Object.entries(classFeatures): '',
+            classActionsList = classActions !== undefined ? Object.entries(classActions): '',
+            classReactionsList = classReactions !== undefined ? Object.entries(classReactions): ''
 
-{console.log(
-  pickExtraFeaturePerPickedSubrace !== null ? pickExtraFeaturePerPickedSubrace : ''
-)}
           return (
             <div key={i} className={"dndapp-npcrandomizer-choices-card-details-list"}>
               <div className={"dndapp-npcrandomizer-choices-card-details-list-top"}>
@@ -226,47 +224,49 @@ class NPCRandomizer extends Component {
                     </div>
                   )
                 })}
-                {subraceExtraFeaturesKeys.length !== 0 ?
+                {pickExtraFeaturePerPickedSubrace !== null ?
                   <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features"}>
                     <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-title"}>
-                      <span>Extra Racial Features: </span>
+                      <h2>Subracial Features: </h2>
                     </div>
                     <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-list"}>
-                      <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-keys"}>
-                        {subraceExtraFeaturesKeys}
-                      </div>
-                      <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-values"}>
-                        {subraceExtraFeaturesValues}
-                      </div>
+                    {Object.entries(pickExtraFeaturePerPickedSubrace).slice(1).map(([key, value]) => {
+                      return (
+                        <div key={key} className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-list-value"}>
+                          <span><b>{key}: </b>{value}</span>
+                        </div>
+                        )
+                    })}
                     </div>
                   </div>
-                :
-                null}
+                : null}
               </div>
+
               <div className={"dndapp-npcrandomizer-choices-card-details-list-class"}>
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top"}>
                   <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top-name"}>
-                    <span>{statBlockName}</span>
+                    <h2>{statBlockName}</h2>
                   </div>
-
-                  <span>Armor Class {AC}</span>
-                  <span>Hit Points {HP}</span>
-                  <span>Speed {classSpeed}</span>
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top-stats"}>
+                    <span><strong>Armor Class</strong> {AC}</span>
+                    <span><strong>Hit Points</strong> {HP}</span>
+                    <span><strong>Speed</strong> {classSpeed}</span>
+                  </div>
                 </div>
 
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-class-stats"}>
-                  <span>STR {classStats.Strength + totalExtraStrength} ({this.getModifier(classStats.Strength + totalExtraStrength)})</span>
-                  <span>DEX {classStats.Dexterity + totalExtraDexterity} ({this.getModifier(classStats.Dexterity + totalExtraDexterity)})</span>
-                  <span>CON {classStats.Constitution + totalExtraConstitution} ({this.getModifier(classStats.Constitution + totalExtraConstitution)})</span>
-                  <span>INT {classStats.Intelligence + totalExtraIntelligence} ({this.getModifier(classStats.Intelligence + totalExtraIntelligence)})</span>
-                  <span>WIS {classStats.Wisdom + totalExtraWisdom} ({this.getModifier(classStats.Wisdom + totalExtraWisdom)})</span>
-                  <span>CHA {classStats.Charisma + totalExtraChairsma} ({this.getModifier(classStats.Charisma + totalExtraChairsma)})</span>
+                  <span><strong>STR</strong> {classStats.Strength + totalExtraStrength} ({this.getModifier(classStats.Strength + totalExtraStrength)})</span>
+                  <span><strong>DEX</strong> {classStats.Dexterity + totalExtraDexterity} ({this.getModifier(classStats.Dexterity + totalExtraDexterity)})</span>
+                  <span><strong>CON</strong> {classStats.Constitution + totalExtraConstitution} ({this.getModifier(classStats.Constitution + totalExtraConstitution)})</span>
+                  <span><strong>INT</strong> {classStats.Intelligence + totalExtraIntelligence} ({this.getModifier(classStats.Intelligence + totalExtraIntelligence)})</span>
+                  <span><strong>WIS</strong> {classStats.Wisdom + totalExtraWisdom} ({this.getModifier(classStats.Wisdom + totalExtraWisdom)})</span>
+                  <span><strong>CHA</strong> {classStats.Charisma + totalExtraChairsma} ({this.getModifier(classStats.Charisma + totalExtraChairsma)})</span>
                 </div>
 
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-class-attributes"}>
                   {getSavingThrows !== '' ?
                   <div className={"dndapp-npcrandomizer-choices-card-details-list-class-attributes-saving-throws"}>
-                    <span>Saving Throws</span>
+                    <span><strong>Saving Throws</strong></span>
                     <span>{getSavingThrows.Strength !== undefined ? 'Str +' + getSavingThrows.Strength + ' ' : ''}</span>
                     <span>{getSavingThrows.Dexterity !== undefined ? 'Dex +' + getSavingThrows.Dexterity + ' ' : ''}</span>
                     <span>{getSavingThrows.Constitution !== undefined ? 'Con +' + getSavingThrows.Constitution + ' ' : ''}</span>
@@ -276,44 +276,61 @@ class NPCRandomizer extends Component {
                   </div>
                 : ''}
                   <div className={"dndapp-npcrandomizer-choices-card-details-list-class-attributes-misc"}>
-                    {damageResistances !== '' ? <span>Damage resistance {damageResistances}</span> : ''}
-                    {passivePerception !== '' ? <span>Passive perception {passivePerception}</span> : ''}
-                    {classLanguage !== '' ? <span>Languages {classLanguage}</span> : ''}
-                    {challengeRating !== '' ? <span>Challenge {challengeRating}</span> : ''}
+                    {damageResistances !== '' ? <span><strong>Damage resistance</strong> {damageResistances}</span> : ''}
+                    {passivePerception !== '' ? <span><strong>Passive perception</strong> {passivePerception}</span> : ''}
+                    {classLanguage !== '' ? <span><strong>Languages</strong> {classLanguage}</span> : ''}
+                    {challengeRating !== '' ? <span><strong>Challenge</strong> {challengeRating}</span> : ''}
                   </div>
                 </div>
-                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-skills"}>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-skills-keys"}>
-                    {classSkillsKeys}
+
+                {classSkillsList !== '' ? 
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-skills"}>
+                    {classSkillsList.map(([key, value]) => {
+                      return (
+                        <div key={key} className={"dndapp-npcrandomizer-choices-card-details-list-class-skills-value"}>
+                          <span><b>{key}: </b>{value}</span>
+                        </div>
+                        )
+                    })}
                   </div>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-skills-values"}>
-                    {classSkillsValues}
+                : null}
+
+                {classFeaturesList !== '' ? 
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-features"}>
+                    {classFeaturesList.map(([key, value]) => {
+                      return (
+                        <div key={key} className={"dndapp-npcrandomizer-choices-card-details-list-class-features-value"}>
+                          <span><b>{key}: </b>{value}</span>
+                        </div>
+                        )
+                    })}
                   </div>
-                </div>
-                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-features"}>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-features-keys"}>
-                    {classFeaturesKeys}
+                : null}
+
+                {classActionsList !== '' ? 
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-actions"}>
+                    {classActionsList.map(([key, value]) => {
+                      return (
+                        <div key={key} className={"dndapp-npcrandomizer-choices-card-details-list-class-actions-value"}>
+                          <span><b>{key}: </b>{value}</span>
+                        </div>
+                        )
+                    })}
                   </div>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-features-values"}>
-                    {classFeaturesValues}
+                : null}
+
+                {classReactionsList !== '' ? 
+                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-reactions"}>
+                    {classReactionsList.map(([key, value]) => {
+                      return (
+                        <div key={key} className={"dndapp-npcrandomizer-choices-card-details-list-class-reactions-value"}>
+                          <span><b>{key}: </b>{value}</span>
+                        </div>
+                        )
+                    })}
                   </div>
-                </div>
-                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-actions"}>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-actions-keys"}>
-                    {classActionsKeys}
-                  </div>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-actions-values"}>
-                    {classActionsValues}
-                  </div>
-                </div>
-                <div className={"dndapp-npcrandomizer-choices-card-details-list-class-reactions"}>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-reactions-keys"}>
-                    {classReactionsKeys}
-                  </div>
-                  <div className={"dndapp-npcrandomizer-choices-card-details-list-class-reactions-values"}>
-                    {classReactionsValues}
-                  </div>
-                </div>
+                : null}
+
               </div>
             </div>
           )

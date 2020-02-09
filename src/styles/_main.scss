@@ -219,10 +219,6 @@
         }
       }
 
-      svg {
-        transform: scale(1.5);
-      }
-
       &:hover {
         transition: .25s ease-in-out;
         transform: scale(1.25);

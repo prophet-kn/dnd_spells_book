@@ -321,20 +321,19 @@
             }
 
             &-racial-features {
-              &-list {
-                display: inline-grid;
-                grid-gap: 10px;
-                grid-template-columns: 20% 80%;
-              }
-
-              &-keys {
-                display: inline-grid;
-                align-items: center;
+              &-title {
+                border-bottom: 2px solid;
+                margin-bottom: 10px;
               }
 
               &-values {
                 display: inline-grid;
-                align-items: center;
+                text-align: left;
+                padding-left: 10px;
+
+                &-value {
+                  margin-bottom: 10px;
+                }
               }
             }
           }

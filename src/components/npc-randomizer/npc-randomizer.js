@@ -215,7 +215,8 @@ class NPCRandomizer extends Component {
                     </div>
                   )
                 })}
-                {pickExtraFeaturePerPickedSubrace !== null ?
+                {pickExtraFeaturePerPickedSubrace !== null && _.isEmpty(pickExtraFeaturePerPickedSubrace) === false
+                  ?
                   <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features"}>
                     <div className={"dndapp-npcrandomizer-choices-card-details-racial-extra-features-title"}>
                       <h2>Subracial Features: </h2>

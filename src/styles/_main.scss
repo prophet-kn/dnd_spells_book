@@ -412,17 +412,12 @@
                 flex-flow: column;
                 text-align: left;
                 padding-left: 10px;
+                border-top: 2px solid;
+                padding-top: 10px;
 
                 &-value {
                   margin-bottom: 10px;
                 }
-              }
-
-              &-features,
-              &-actions,
-              &-reactions {
-                padding-top: 10px;
-                border-top: 2px solid;
               }
             }
           }
@@ -436,7 +431,6 @@
               }
 
               &-list {
-                display: inline-grid;
                 text-align: left;
                 padding-left: 10px;
 

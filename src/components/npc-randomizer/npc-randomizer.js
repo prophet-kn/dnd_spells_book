@@ -162,7 +162,7 @@ class NPCRandomizer extends Component {
             AC = getAllStats.AC,
             HP = getAllStats.HP,
             npcSize = getAllStats.size,
-            npcType = getAllStats. type,
+            npcType = getAllStats.type,
             classSpeed = getAllStats.speed,
             damageResistances = getAllStats.damageResistance,
             passivePerception = getAllStats.passivePerception,

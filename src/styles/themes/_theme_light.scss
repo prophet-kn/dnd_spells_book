@@ -88,7 +88,48 @@
     background-color: $light-colour-light;
     color: $dominant-colour-light;
   }
+  // monsters
+  .monster {
+    &-definitions,
+    &-details,
+    &-name {
+      border-color: $light-colour-light;
+    }
 
+    &-name {
+      &:hover {
+        background-color: $light-colour-light;
+        color: $dominant-colour-light;
+
+        svg,
+        path {
+          fill: $dominant-colour-light;
+        }
+
+        .monster-tooltip {
+          color: $dominant-colour-light;
+        }
+      }
+    }
+
+    &-undefined,
+    &-tooltip {
+      color: $light-colour-light;
+    }
+
+    &-pin {
+      fill: $light-colour-light;
+
+      &:hover {
+        svg,
+        path {
+          fill: $dnd-red;
+        }
+      }
+    }
+  }
+
+  // spell
   .spell {
     &-definitions,
     &-details,

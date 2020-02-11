@@ -161,6 +161,8 @@ class NPCRandomizer extends Component {
             statBlockName = Object.keys(getClass),
             AC = getAllStats.AC,
             HP = getAllStats.HP,
+            npcSize = getAllStats.size,
+            npcType = getAllStats. type,
             classSpeed = getAllStats.speed,
             damageResistances = getAllStats.damageResistance,
             passivePerception = getAllStats.passivePerception,
@@ -240,6 +242,7 @@ class NPCRandomizer extends Component {
                     <h2>{statBlockName}</h2>
                   </div>
                   <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top-stats"}>
+                    <span><i>{npcSize} {npcType}</i></span>
                     <span><strong>Armor Class</strong> {AC}</span>
                     <span><strong>Hit Points</strong> {HP}</span>
                     <span><strong>Speed</strong> {classSpeed}</span>

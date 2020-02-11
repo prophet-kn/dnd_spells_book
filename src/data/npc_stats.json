@@ -2,6 +2,8 @@
   {
     "Acolyte": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 10,
         "HP": 9,
         "speed": 30,
@@ -43,6 +45,8 @@
   {
     "Archmage": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 12,
         "HP": 99,
         "speed": 30,
@@ -90,6 +94,8 @@
   {
     "Assassin": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 15,
         "HP": 78,
         "speed": 30,
@@ -142,6 +148,8 @@
   {
     "Bandit": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 12,
         "HP": 11,
         "speed": 30,
@@ -175,6 +183,8 @@
   {
     "Bandit Captain": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 15,
         "HP": 65,
         "speed": 30,
@@ -224,6 +234,8 @@
   {
     "Berserker": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 13,
         "HP": 67,
         "speed": 30,
@@ -260,6 +272,8 @@
   {
     "Commoner": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 10,
         "HP": 4,
         "speed": 30,
@@ -292,6 +306,8 @@
   {
     "Cultist": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 12,
         "HP": 9,
         "speed": 30,
@@ -333,6 +349,8 @@
   {
     "Cult Fanatic": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 13,
         "HP": 33,
         "speed": 30,
@@ -377,6 +395,8 @@
   {
     "Druid": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 11,
         "HP": 27,
         "speed": 30,
@@ -419,6 +439,8 @@
   {
     "Gladiator": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 16,
         "HP": 112,
         "speed": 30,
@@ -473,6 +495,8 @@
   {
     "Guard": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 16,
         "HP": 11,
         "speed": 30,
@@ -509,6 +533,8 @@
   {
     "Knight": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 18,
         "HP": 52,
         "speed": 30,
@@ -557,6 +583,8 @@
   {
     "Mage": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 12,
         "HP": 40,
         "speed": 30,
@@ -603,6 +631,8 @@
   {
     "Noble": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 15,
         "HP": 9,
         "speed": 30,
@@ -645,6 +675,8 @@
   {
     "Priest": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 13,
         "HP": 27,
         "speed": 30,
@@ -688,6 +720,8 @@
   {
     "Scout": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 13,
         "HP": 16,
         "speed": 30,
@@ -733,6 +767,8 @@
   {
     "Spy": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 12,
         "HP": 27,
         "speed": 30,
@@ -782,6 +818,8 @@
   {
     "Thug": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 11,
         "HP": 32,
         "speed": 30,
@@ -824,6 +862,8 @@
   {
     "Tribal Warrior": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 12,
         "HP": 11,
         "speed": 30,
@@ -860,6 +900,8 @@
   {
     "Veteran": [
       {
+        "size": "Medium",
+        "type": "Humanoid",
         "AC": 17,
         "HP": 58,
         "speed": 30,
@@ -900,6 +942,8 @@
   {
     "Rakshasa": [
       {
+        "size": "Medium",
+        "type": "Fiend",
         "AC": 16,
         "HP": 110,
         "speed": 40,

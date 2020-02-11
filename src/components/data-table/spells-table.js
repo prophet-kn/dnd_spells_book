@@ -149,8 +149,19 @@ class SpellsTable extends Component {
       queryIds['ids'] = queryIds['ids'].filter(f => f !== id)
     }
 
-    spellParamUrls.set('sid', this.state.pin['ids'])
-    window.history.replaceState({}, '', window.location.pathname + '?s_id=' + spellParamUrls.get('sid'))
+    const oldPath = (window.location.pathname + window.location.search).substr(1)
+    var newPath = oldPath
+    const sRegex = /\?s_id=[\d,]*/gi;
+
+    spellParamUrls.set('s_id', this.state.pin['ids'])
+
+    if (sRegex.test(oldPath)) {
+      newPath = oldPath.replace(sRegex, '?s_id=' + spellParamUrls.get('s_id'))
+    } else {
+      newPath = oldPath + '?s_id=' + spellParamUrls.get('s_id')
+    }
+
+    window.history.replaceState({}, '', newPath)
 
     this.setState({
       pin: queryIds
@@ -158,7 +169,8 @@ class SpellsTable extends Component {
   }
 
   componentDidMount() {
-    let firstLoaderUrl = window.location.search.replace('?s_id=', '').split(',')
+    const idRegex = /\?s_id=([\d,]*)/;
+    let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')
     let initialState = this.state.pin
 
     if (!initialState['ids']) {

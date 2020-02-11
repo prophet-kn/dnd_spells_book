@@ -118,8 +118,19 @@ class FeatsTable extends Component {
       queryIds['ids'] = queryIds['ids'].filter(f => f !== id)
     }
 
-    spellParamUrls.set('sid', this.state.pin['ids'])
-    window.history.replaceState({}, '', window.location.pathname + '?f_id=' + spellParamUrls.get('sid'))
+    spellParamUrls.set('f_id', this.state.pin['ids'])
+
+    const oldPath = (window.location.pathname + window.location.search).substr(1)
+    var newPath = oldPath
+    const fRegex = /\?f_id=[\d,]*/gi;
+
+    if (fRegex.test(oldPath)) {
+      newPath = oldPath.replace(fRegex, '?f_id=' + spellParamUrls.get('f_id'))
+    } else {
+      newPath = oldPath + '?f_id=' + spellParamUrls.get('f_id')
+    }
+
+    window.history.replaceState({}, '', newPath)
 
     this.setState({
       pin: queryIds
@@ -127,7 +138,8 @@ class FeatsTable extends Component {
   }
 
   componentDidMount() {
-    let firstLoaderUrl = window.location.search.replace('?f_id=', '').split(',')
+    const idRegex = /\?f_id=([\d,]*)/;
+    let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')
     let initialState = this.state.pin
 
     if (!initialState['ids']) {
@@ -147,7 +159,7 @@ class FeatsTable extends Component {
     const pinnedData =  _.chain(Data)
     .orderBy('s_name')
     .filter((spell) => {
-      return _.includes(pinnedSpells['ids'], spell.s_id)
+      return _.includes(pinnedSpells['ids'], spell.f_id)
     })
     .value()
 

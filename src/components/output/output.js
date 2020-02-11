@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import DataTable from './../data-table/data-table'
 import DiceRolls from './../dice-roll/dice-roll'
 import NPCRandomizer from './../npc-randomizer/npc-randomizer'
+import MonsterList from './../monster-list/monster-list'
 
 class Output extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      currentView: 'default',
-      //currentView: 'default',
+      currentView: 'npcRandomizer',
       navigationToggle: false,
     }
 
@@ -95,7 +95,7 @@ class Output extends Component {
         <div className={'lander-button'} view={'npcRandomizer'} onClick={(e) => {this.pickView(e)}}>
           <span>NPC Randomizer</span>
         </div>
-        <div className={'lander-button disabled'} view={'monsterList'}>
+        <div className={'lander-button'} view={'monsterList'} onClick={(e) => {this.pickView(e)}}>
           <span>Monster List</span>
         </div>
         <div className={'lander-button disabled'} view={'classFeatures'}>
@@ -136,6 +136,9 @@ class Output extends Component {
     }
     else if (this.state.currentView === 'npcRandomizer') {
       return <NPCRandomizer />
+    }
+    else if (this.state.currentView === 'monsterList') {
+      return <MonsterList />
     }
   }
 

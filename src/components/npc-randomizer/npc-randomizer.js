@@ -157,31 +157,29 @@ class NPCRandomizer extends Component {
             pickGender = Object.keys(combineNames[0])[Math.floor(Math.random() * Object.keys(combineNames[0]).length)],
             pickNameFromGender = combineNames[0][pickGender],
           // Get stats from Class.
-            getAllStats = Object.values(getClass)[0][0],
-            statBlockName = Object.keys(getClass),
-            AC = getAllStats.AC,
-            HP = getAllStats.HP,
-            npcSize = getAllStats.size,
-            npcType = getAllStats.type,
-            classSpeed = getAllStats.speed,
-            damageResistances = getAllStats.damageResistance,
-            passivePerception = getAllStats.passivePerception,
-            classLanguage = getAllStats.Language,
-            challengeRating = getAllStats.Challenge,
+            AC = getClass.AC,
+            HP = getClass.HP,
+            npcSize = getClass.size,
+            npcType = getClass.type,
+            classSpeed = getClass.speed,
+            damageResistances = getClass.damageResistance,
+            passivePerception = getClass.passivePerception,
+            classLanguage = getClass.Language,
+            challengeRating = getClass.Challenge,
           // Get nested arrays from Class.
-            classStats = getAllStats.stats[0],
-            getSavingThrows = getAllStats.saving_throws[0] !== undefined ? getAllStats.saving_throws[0] : '',
+            classStats = getClass.stats[0],
+            getSavingThrows = getClass.saving_throws[0] !== undefined ? getClass.saving_throws[0] : '',
           // Skills.
-            classSkills = getAllStats.skills[0],
+            classSkills = getClass.skills[0],
             classSkillsList = classSkills !== undefined ? Object.entries(classSkills): '',
           // Features.
-            classFeatures = getAllStats.Features[0],
+            classFeatures = getClass.Features[0],
             classFeaturesList = classFeatures !== undefined ? Object.entries(classFeatures): '',
           // Actions.
-            classActions = getAllStats.Actions[0],
+            classActions = getClass.Actions[0],
             classActionsList = classActions !== undefined ? Object.entries(classActions): '',
           // Reactions.
-            classReactions = getAllStats.Reactions[0],
+            classReactions = getClass.Reactions[0],
             classReactionsList = classReactions !== undefined ? Object.entries(classReactions): ''
 
           return (
@@ -239,7 +237,7 @@ class NPCRandomizer extends Component {
               <div className={"dndapp-npcrandomizer-choices-card-details-list-class"}>
                 <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top"}>
                   <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top-name"}>
-                    <h2>{statBlockName}</h2>
+                    <h2>{getClass.name}</h2>
                   </div>
                   <div className={"dndapp-npcrandomizer-choices-card-details-list-class-top-stats"}>
                     <span><i>{npcSize} {npcType}</i></span>

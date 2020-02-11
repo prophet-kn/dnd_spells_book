@@ -101,7 +101,10 @@ class MonsterItem extends Component {
         classActionsList = classActions !== undefined ? Object.entries(classActions): '',
       // Reactions.
         classReactions = monsterItem.Reactions[0],
-        classReactionsList = classReactions !== undefined ? Object.entries(classReactions): ''
+        classReactionsList = classReactions !== undefined ? Object.entries(classReactions): '',
+      // Legendary Actions.
+        classLegendaryActions = monsterItem.LegendaryActions[0],
+        classLegendaryActionsList = classLegendaryActions !== undefined ? Object.entries(classLegendaryActions): ''
 
     if (this.state.showList === i) {
       return (
@@ -131,12 +134,12 @@ class MonsterItem extends Component {
             {getSavingThrows !== '' ?
             <div className={"monster-definitions-attributes-saving-throws"}>
               <span><strong>Saving Throws</strong></span>
-              <span>{getSavingThrows.Strength !== undefined ? 'Str +' + getSavingThrows.Strength + ' ' : ''}</span>
-              <span>{getSavingThrows.Dexterity !== undefined ? 'Dex +' + getSavingThrows.Dexterity + ' ' : ''}</span>
-              <span>{getSavingThrows.Constitution !== undefined ? 'Con +' + getSavingThrows.Constitution + ' ' : ''}</span>
-              <span>{getSavingThrows.Intelligence !== undefined ? 'Int +' + getSavingThrows.Intelligence + ' ' : ''}</span>
-              <span>{getSavingThrows.Wisdom !== undefined ? 'Wis +' + getSavingThrows.Wisdom + ' ' : ''}</span>
-              <span>{getSavingThrows.Charisma !== undefined ? 'Cha +' + getSavingThrows.Charisma + ' ' : ''}</span>
+              {getSavingThrows.Strength !== undefined ? <span>Str + {getSavingThrows.Strength}, </span> : ''}
+              {getSavingThrows.Dexterity !== undefined ? <span>Dex + {getSavingThrows.Dexterity}, </span> : ''}
+              {getSavingThrows.Constitution !== undefined ? <span>Con + {getSavingThrows.Constitution}, </span> : ''}
+              {getSavingThrows.Intelligence !== undefined ? <span>Int + {getSavingThrows.Intelligence}, </span> : ''}
+              {getSavingThrows.Wisdom !== undefined ? <span>Wis + {getSavingThrows.Wisdom}, </span> : ''}
+              {getSavingThrows.Charisma !== undefined ? <span>Cha + {getSavingThrows.Charisma}, </span> : ''}
             </div>
           : ''}
             <div className={"monster-definitions-attributes-misc"}>
@@ -188,6 +191,18 @@ class MonsterItem extends Component {
               {classReactionsList.map(([key, value]) => {
                 return (
                   <div key={key} className={"monster-definitions-reactions-value"}>
+                    <span><b>{key}: </b>{value}</span>
+                  </div>
+                  )
+              })}
+            </div>
+          : null}
+
+          {classLegendaryActionsList !== '' ? 
+            <div className={"monster-definitions-reactions"}>
+              {classLegendaryActionsList.map(([key, value]) => {
+                return (
+                  <div key={key} className={"monster-definitions-legendary-actions-value"}>
                     <span><b>{key}: </b>{value}</span>
                   </div>
                   )

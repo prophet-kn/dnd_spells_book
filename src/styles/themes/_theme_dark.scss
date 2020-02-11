@@ -1,0 +1,249 @@
+.dark-theme {
+  color: $light-colour;
+  background-color: $dominant-colour;
+
+  &.dndapp-main {
+    .dndapp {
+      &-lander {
+        .lander {
+          &-button {
+            border-color: $light-colour;
+
+            &:hover {
+              background-color: $light-colour;
+              color: $dominant-colour;
+            }
+
+            &.disabled {
+              background: $background-button;
+
+              &:hover {
+                background-color: $background-button-hover;
+                color: $light-colour;
+              }
+            }
+          }
+        }
+      }
+
+      &-navigation {
+        &.toggled {
+          .dnd-navigation-menu {
+            .dndapp-menu {
+              .lander-button {
+                border-color: $light-colour;
+
+                &:hover {
+                  background-color: $light-colour;
+                  color: $dominant-colour;
+                }
+
+                &.disabled {
+                  background: $background-button;
+
+                  &:hover {
+                    background-color: $background-button-hover;
+                    color: $light-colour;
+                  }
+                }
+              }
+
+              &::before {
+                background: $dominant-colour;
+              }
+            }
+          }
+        }
+      }
+
+      &-dice {
+        &-rolls {
+          &-roll {
+            svg,
+            path {
+              stroke: $light-colour;
+              stroke-width: 3px;
+              fill: $dominant-colour;
+
+              &:active {
+                fill: $dnd-red;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn {
+    border-color: $light-colour;
+
+    &.selected {
+      border-color: $dominant-colour;
+    }
+  }
+
+  // selected
+  .selected {
+    background-color: $light-colour;
+    color: $dominant-colour;
+  }
+
+  .spell {
+    &-definitions,
+    &-details,
+    &-name {
+      border-color: $light-colour;
+    }
+
+    &-name {
+      &:hover {
+        background-color: $light-colour;
+        color: $dominant-colour;
+
+        svg,
+        path {
+          fill: $dominant-colour;
+        }
+
+        .spell-tooltip {
+          color: $dominant-colour;
+        }
+      }
+    }
+
+    &-undefined,
+    &-tooltip {
+      color: $light-colour;
+    }
+
+    &-pin {
+      fill: $light-colour;
+
+      &:hover {
+        svg,
+        path {
+          fill: $dnd-red;
+        }
+      }
+    }
+
+    &-wrap {
+      &.pinned {
+        .spell-pin {
+          svg,
+          path {
+            fill: $dnd-red;
+          }
+        }
+      }
+    }
+
+    &-dropdown {
+      &:hover {
+        .spell-pin {
+          svg,
+          path {
+            fill: $dnd-red;
+          }
+        }
+      }
+    }
+  }
+
+  .filter {
+    &-wrapper {
+      border-color: $light-colour;
+    }
+
+    &-field {
+      border-color:  $light-colour;
+      color: $light-colour;
+
+      &:hover {
+        background-color: $light-colour;
+        color: $dominant-colour;
+      }
+    }
+
+    &-dropdown {
+      background-color: $dominant-colour;
+
+      &::before {
+        background-color: $dominant-colour;
+      }
+    }
+
+    &-close {
+      &::before,
+      &::after {
+        background-color: $light-colour;
+      }
+    }
+  }
+
+  input {
+    &.search {
+      &-input {
+        border-color: $light-colour;
+        color: $light-colour;
+
+        &::placeholder {
+          color: $light-colour;
+        }
+      }
+    }
+  }
+
+  svg {
+    &.spell {
+      &-remove {
+        &-pin {
+          fill: $light-colour;
+        }
+      }
+    }
+
+    path {
+      fill: $light-colour;
+    }
+  }
+
+  a:link {
+    color: $light-colour;
+  }
+  
+  a:visited {
+    color: $light-colour;
+  }
+  
+  a:hover {
+    color: $dominant-colour;
+    background-color: $light-colour;
+  }
+  
+  a:active {
+    color: $dnd-red;
+    background-color: $light-colour;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .btn {
+    &:hover {
+      background-color: $light-colour;
+      color: $dominant-colour;
+    }
+
+    &.disabled {
+      background: $background-button;
+
+      &:hover {
+        background-color: $background-button-hover;
+        color: $light-colour;
+      }
+    }
+  }
+}

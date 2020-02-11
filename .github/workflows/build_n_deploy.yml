@@ -1,4 +1,4 @@
-name: Deploy D&D App
+name: Test D&D App's build
 on:
   push:
     branches:

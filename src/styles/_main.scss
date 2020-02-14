@@ -123,7 +123,7 @@
         padding: 10px 0 30px;
         font-size: $medium-size;
       }
-      
+
       &-roll {
         display: grid;
         grid-template-columns: 20% 20% 40% 20%;
@@ -460,8 +460,8 @@
   }
 }
 
-// spell
-.spell {
+// item
+.item {
   &-top {
     &-level {
       display: flex;
@@ -584,7 +584,7 @@
       border-right: 2px solid;
       z-index: -1;
     }
-    
+
     &::before {
       content: '';
       display: flex;
@@ -682,7 +682,7 @@ input {
 }
 
 svg {
-  &.spell {
+  &.item {
     &-remove {
       &-pin {
         position: absolute;

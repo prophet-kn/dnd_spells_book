@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Data from './../../data/spells.json'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
-import SpellItem from './../spell-item/spell-item'
+import SpellItem from './../items/spell-item'
 
 let sortLevel = _.chain(Data)
 let uniqueLevel = sortLevel.map(function(level) {
@@ -170,18 +170,21 @@ class SpellsTable extends Component {
 
   componentDidMount() {
     const idRegex = /\?s_id=([\d,]*)/;
-    let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')
-    let initialState = this.state.pin
 
-    if (!initialState['ids']) {
-      initialState['ids'] = []
+    if (window.location.search.match(idRegex)) {
+      let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')
+      let initialState = this.state.pin
+
+      if (!initialState['ids']) {
+        initialState['ids'] = []
+      }
+
+      initialState['ids'] = firstLoaderUrl.map(int => parseInt(int)).filter(int => !Number.isNaN(int))
+
+      this.setState({
+        pin: initialState
+      })
     }
-
-    initialState['ids'] = firstLoaderUrl.map(int => parseInt(int)).filter(int => !Number.isNaN(int))
-
-    this.setState({
-      pin: initialState
-    })
   }
 
   dataTable() {
@@ -221,11 +224,11 @@ class SpellsTable extends Component {
     return (
       <div className={"dndapp-data"}>
         {pinnedData.length > 0 ?
-          <div className={"spell-wrap pinned"}>
-            <h1>Pinned Spell list</h1>
+          <div className={"list-wrap pinned"}>
+            <h1>Pinned spell list</h1>
             {_.orderBy(pinnedData, 's_name').map((spell, i) => {
               return (
-                <div className={"spell-info"} key={i}>
+                <div className={"item-wrap"} key={i}>
                   <SpellItem spell={spell} key={i} pinStatus={this.pinStatus} />
                 </div>
               )
@@ -234,17 +237,17 @@ class SpellsTable extends Component {
         :
           null
         }
-        <div className={"spell-wrap"}>
+        <div className={"list-wrapper"}>
           <h1>Spell list</h1>
           {_.orderBy(filteredData, 's_name').map((spell, i) => {
             return (
-              <div className={"spell-info"} key={i}>
+              <div className={"item-wrapper"} key={i}>
                 <SpellItem spell={spell} key={i} pinStatus={this.pinStatus} />
               </div>
             )
           })}
           {filteredData.length === 0 ?
-            <div className={"spell-undefined"}>
+            <div className={"item-undefined"}>
               Sorry, no spells found for this criteria!
             </div>
           : null}

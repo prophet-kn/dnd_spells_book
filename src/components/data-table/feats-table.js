@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Data from '.././../data/feats.json'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
-import SpellItem from './../spell-item/feat-item'
+import FeatItem from './../items/feat-item'
 
 let sortRacePrerequisite = _.chain(Data)
 let uniqueRacePrerequisite = sortRacePrerequisite.map(function(prerequisite_race) {
@@ -23,7 +23,7 @@ let uniqueSkillPrerequisite = sortSkillPrerequisite.map(function(prerequisite_sk
 .value()
 
 const thisUrl = new URL(window.location)
-const spellParamUrls = new URLSearchParams(thisUrl.searchParams)
+const featParamUrls = new URLSearchParams(thisUrl.searchParams)
 
 class FeatsTable extends Component {
   constructor(props) {
@@ -118,16 +118,16 @@ class FeatsTable extends Component {
       queryIds['ids'] = queryIds['ids'].filter(f => f !== id)
     }
 
-    spellParamUrls.set('f_id', this.state.pin['ids'])
+    featParamUrls.set('f_id', this.state.pin['ids'])
 
     const oldPath = (window.location.pathname + window.location.search).substr(1)
     var newPath = oldPath
     const fRegex = /\?f_id=[\d,]*/gi;
 
     if (fRegex.test(oldPath)) {
-      newPath = oldPath.replace(fRegex, '?f_id=' + spellParamUrls.get('f_id'))
+      newPath = oldPath.replace(fRegex, '?f_id=' + featParamUrls.get('f_id'))
     } else {
-      newPath = oldPath + '?f_id=' + spellParamUrls.get('f_id')
+      newPath = oldPath + '?f_id=' + featParamUrls.get('f_id')
     }
 
     window.history.replaceState({}, '', newPath)
@@ -139,27 +139,30 @@ class FeatsTable extends Component {
 
   componentDidMount() {
     const idRegex = /\?f_id=([\d,]*)/;
-    let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')
-    let initialState = this.state.pin
 
-    if (!initialState['ids']) {
-      initialState['ids'] = []
+    if (window.location.search.match(idRegex)) {
+      let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')
+      let initialState = this.state.pin
+
+      if (!initialState['ids']) {
+        initialState['ids'] = []
+      }
+
+      initialState['ids'] = firstLoaderUrl.map(int => parseInt(int)).filter(int => !Number.isNaN(int))
+
+      this.setState({
+        pin: initialState
+      })
     }
-
-    initialState['ids'] = firstLoaderUrl.map(int => parseInt(int)).filter(int => !Number.isNaN(int))
-
-    this.setState({
-      pin: initialState
-    })
   }
 
   dataTable() {
-    let pinnedSpells = this.state.pin
+    let pinnedFeats = this.state.pin
 
     const pinnedData =  _.chain(Data)
-    .orderBy('s_name')
-    .filter((spell) => {
-      return _.includes(pinnedSpells['ids'], spell.f_id)
+    .orderBy('f_name')
+    .filter((feat) => {
+      return _.includes(pinnedFeats['ids'], feat.f_id)
     })
     .value()
 
@@ -167,26 +170,26 @@ class FeatsTable extends Component {
 
     const filteredData =  _.chain(Data)
     .orderBy('f_name')
-    .filter((spell) => {
-      return sortFilters['Race prerequisite'].some(c => spell.f_prerequisite_race.includes(c)) || sortFilters['Race prerequisite'].length === 0
+    .filter((feat) => {
+      return sortFilters['Race prerequisite'].some(c => feat.f_prerequisite_race.includes(c)) || sortFilters['Race prerequisite'].length === 0
     })
-    .filter((spell) => {
-      return sortFilters['Skill prerequisite'].some(c => spell.f_prerequisite_skill.includes(c)) || sortFilters['Skill prerequisite'].length === 0
+    .filter((feat) => {
+      return sortFilters['Skill prerequisite'].some(c => feat.f_prerequisite_skill.includes(c)) || sortFilters['Skill prerequisite'].length === 0
     })
-    .filter((spell) => {
-      return spell.f_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
+    .filter((feat) => {
+      return feat.f_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
     })
     .value()
 
     return (
       <div className={"dndapp-data"}>
         {pinnedData.length > 0 ?
-          <div className={"spell-wrap pinned"}>
-            <h1>Pinned Spell list</h1>
-            {_.orderBy(pinnedData, 's_name').map((spell, i) => {
+          <div className={"list-wrap pinned"}>
+            <h1>Pinned feat list</h1>
+            {_.orderBy(pinnedData, 'f_name').map((feat, i) => {
               return (
-                <div className={"spell-info"} key={i}>
-                  <SpellItem spell={spell} key={i} pinStatus={this.pinStatus} />
+                <div className={"item-wrap"} key={i}>
+                  <FeatItem feat={feat} key={i} pinStatus={this.pinStatus} />
                 </div>
               )
             })}
@@ -194,18 +197,18 @@ class FeatsTable extends Component {
         :
           null
         }
-        <div className={"spell-wrap"}>
-          <h1>Spell list</h1>
-          {_.orderBy(filteredData, 's_name').map((spell, i) => {
+        <div className={"list-wrapper"}>
+          <h1>Feat list</h1>
+          {_.orderBy(filteredData, 'f_name').map((feat, i) => {
             return (
-              <div className={"spell-info"} key={i}>
-                <SpellItem spell={spell} key={i} pinStatus={this.pinStatus} />
+              <div className={"item-wrapper"} key={i}>
+                <FeatItem feat={feat} key={i} pinStatus={this.pinStatus} />
               </div>
             )
           })}
           {filteredData.length === 0 ?
-            <div className={"spell-undefined"}>
-              Sorry, no spells found for this criteria!
+            <div className={"item-undefined"}>
+              Sorry, no feats found for this criteria!
             </div>
           : null}
         </div>

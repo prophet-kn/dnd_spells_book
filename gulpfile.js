@@ -2,18 +2,18 @@ var gulp = require('gulp')
 var sass = require('gulp-sass')
 var bulkSass = require('gulp-sass-bulk-import')
 var concat = require('gulp-concat')
-var cssDest = './src/'
-var scssSrc = './src/styles/_compile.scss'
+var cssDest = './src/compiled/'
 var output = 'compressed'
-var finalFile = 'App.css'
- 
 sass.compiler = require('node-sass')
- 
-gulp.task('sass', function () {
+
+// Watch all scss changes.
+var source = './src/styles'
+
+gulp.task('sass:all', function () {
   return gulp
-    .src(scssSrc)
+    .src('./src/styles/compile/_compile.scss')
     .pipe(bulkSass())
-    .pipe(concat(finalFile))
+    .pipe(concat('theme.css'))
     .pipe(sass({
       outputStyle: output,
       precision: 10,
@@ -22,9 +22,11 @@ gulp.task('sass', function () {
     .on('error', sass.logError)
     .pipe(gulp.dest(cssDest))
 })
+
+gulp.task('sass', gulp.series(['sass:all']))
  
 gulp.task('sass:watch', gulp.series(['sass'], function() {
-  gulp.watch(scssSrc, gulp.series(['sass']))
+  gulp.watch(source, gulp.series(['sass']))
 }))
 
 gulp.task('default', gulp.parallel(['sass:watch']))

@@ -1,8 +1,6 @@
 # <a href="https://prophet-kn.github.io/dnd_spells_book/">Prophet's Companion</a>
 
----
 ## Check <a href="https://github.com/prophet-kn/dnd_spells_book/issues">issues</a> and <a href="https://github.com/prophet-kn/dnd_spells_book/projects">projects</a> to work on, if you wish to contribute. :)
----
 
 # branching guidelines and creating issues
 ### If you are creating a new feature, your branch should be something along the lines of:

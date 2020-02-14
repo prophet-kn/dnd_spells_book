@@ -1,0 +1,9 @@
+// Load Variables first, order matters.
+@import '../variables.scss';
+// Load extends.
+@import '../extends.scss';
+// Then the theme, colour styles including variables.
+@import '../themes/*.scss';
+// The rest.
+@import '../animations.scss';
+@import '../main.scss';

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Data from './../../data/spells.json'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
-import SpellItem from './../spell-item/spell-item'
+import SpellItem from './../items/spell-item'
 
 let sortLevel = _.chain(Data)
 let uniqueLevel = sortLevel.map(function(level) {
@@ -61,7 +61,7 @@ let uniqueRitual = sortRitual.map(function(rituals) {
 const thisUrl = new URL(window.location)
 const spellParamUrls = new URLSearchParams(thisUrl.searchParams)
 
-class DataTable extends Component {
+class SpellsTable extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -160,8 +160,19 @@ class DataTable extends Component {
       queryIds['ids'] = queryIds['ids'].filter(f => f !== id)
     }
 
-    spellParamUrls.set('sid', this.state.pin['ids'])
-    window.history.replaceState({}, '', window.location.pathname + '?ids=' + spellParamUrls.get('sid'))
+    const oldPath = (window.location.pathname + window.location.search).substr(1)
+    var newPath = oldPath
+    const sRegex = /\?s_id=[\d,]*/gi;
+
+    spellParamUrls.set('s_id', this.state.pin['ids'])
+
+    if (sRegex.test(oldPath)) {
+      newPath = oldPath.replace(sRegex, '?s_id=' + spellParamUrls.get('s_id'))
+    } else {
+      newPath = oldPath + '?s_id=' + spellParamUrls.get('s_id')
+    }
+
+    window.history.replaceState({}, '', newPath)
 
     this.setState({
       pin: queryIds
@@ -169,18 +180,22 @@ class DataTable extends Component {
   }
 
   componentDidMount() {
-    let firstLoaderUrl = window.location.search.replace('?ids=', '').split(',')
-    let initialState = this.state.pin
+    const idRegex = /\?s_id=([\d,]*)/;
 
-    if (!initialState['ids']) {
-      initialState['ids'] = []
+    if (window.location.search.match(idRegex)) {
+      let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')
+      let initialState = this.state.pin
+
+      if (!initialState['ids']) {
+        initialState['ids'] = []
+      }
+
+      initialState['ids'] = firstLoaderUrl.map(int => parseInt(int)).filter(int => !Number.isNaN(int))
+
+      this.setState({
+        pin: initialState
+      })
     }
-
-    initialState['ids'] = firstLoaderUrl.map(int => parseInt(int)).filter(int => !Number.isNaN(int))
-
-    this.setState({
-      pin: initialState
-    })
   }
 
   dataTable() {
@@ -223,11 +238,11 @@ class DataTable extends Component {
     return (
       <div className={"dndapp-data"}>
         {pinnedData.length > 0 ?
-          <div className={"spell-wrap pinned"}>
-            <h1>Pinned Spell list</h1>
+          <div className={"list-wrap pinned"}>
+            <h1>Pinned spell list</h1>
             {_.orderBy(pinnedData, 's_name').map((spell, i) => {
               return (
-                <div className={"spell-info"} key={i}>
+                <div className={"item-wrap"} key={i}>
                   <SpellItem spell={spell} key={i} pinStatus={this.pinStatus} />
                 </div>
               )
@@ -236,17 +251,17 @@ class DataTable extends Component {
         :
           null
         }
-        <div className={"spell-wrap"}>
+        <div className={"list-wrapper"}>
           <h1>Spell list</h1>
           {_.orderBy(filteredData, 's_name').map((spell, i) => {
             return (
-              <div className={"spell-info"} key={i}>
+              <div className={"item-wrapper"} key={i}>
                 <SpellItem spell={spell} key={i} pinStatus={this.pinStatus} />
               </div>
             )
           })}
           {filteredData.length === 0 ?
-            <div className={"spell-undefined"}>
+            <div className={"item-undefined"}>
               Sorry, no spells found for this criteria!
             </div>
           : null}
@@ -268,7 +283,6 @@ class DataTable extends Component {
       </div>
     )
   }
-
 }
 
-export default DataTable
+export default SpellsTable

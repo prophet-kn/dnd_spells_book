@@ -460,8 +460,8 @@
   }
 }
 
-// spell
-.spell {
+// item
+.item {
   &-top {
     &-level {
       display: flex;
@@ -690,7 +690,7 @@ input {
 }
 
 svg {
-  &.spell {
+  &.item {
     &-remove {
       &-pin {
         position: absolute;

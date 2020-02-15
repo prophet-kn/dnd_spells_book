@@ -89,7 +89,7 @@
     color: $dominant-colour-light;
   }
 
-  .spell {
+  .item {
     &-definitions,
     &-details,
     &-name {
@@ -106,7 +106,7 @@
           fill: $dominant-colour-light;
         }
 
-        .spell-tooltip {
+        .item-tooltip {
           color: $dominant-colour-light;
         }
       }
@@ -128,9 +128,9 @@
       }
     }
 
-    &-wrap {
-      &.pinned {
-        .spell-pin {
+    &-dropdown {
+      &:hover {
+        .item-pin {
           svg,
           path {
             fill: $dnd-red;
@@ -138,14 +138,14 @@
         }
       }
     }
+  }
 
-    &-dropdown {
-      &:hover {
-        .spell-pin {
-          svg,
-          path {
-            fill: $dnd-red;
-          }
+  .list-wrapper {
+    &.pinned {
+      .item-pin {
+        svg,
+        path {
+          fill: $dnd-red;
         }
       }
     }
@@ -196,7 +196,7 @@
   }
 
   svg {
-    &.spell {
+    &.item {
       &-remove {
         &-pin {
           fill: $light-colour-light;
@@ -212,16 +212,16 @@
   a:link {
     color: $light-colour-light;
   }
-  
+
   a:visited {
     color: $light-colour-light;
   }
-  
+
   a:hover {
     color: $dominant-colour-light;
     background-color: $light-colour-light;
   }
-  
+
   a:active {
     color: $dnd-red;
     background-color: $light-colour-light;

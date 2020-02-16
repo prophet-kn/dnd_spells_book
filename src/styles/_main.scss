@@ -123,7 +123,7 @@
         padding: 10px 0 30px;
         font-size: $medium-size;
       }
-      
+
       &-roll {
         display: grid;
         grid-template-columns: 20% 20% 40% 20%;
@@ -620,8 +620,8 @@
   }
 }
 
-// spell
-.spell {
+// item
+.item {
   &-top {
     &-level {
       display: flex;
@@ -643,8 +643,10 @@
     text-align: left;
 
     span {
-      flex: 0 1 60%;
       overflow: hidden;
+      display: flex;
+      margin-right: auto;
+      margin-left: 35px;
     }
 
     .chevron {
@@ -709,10 +711,10 @@
   }
 
   &-tooltip {
-    flex: 0 1 25%;
+    display: flex;
+    margin-right: 35px;
     font-size: $medium-size;
     opacity: .85;
-    text-align: right;
   }
 }
 
@@ -744,7 +746,7 @@
       border-right: 2px solid;
       z-index: -1;
     }
-    
+
     &::before {
       content: '';
       display: flex;
@@ -842,7 +844,7 @@ input {
 }
 
 svg {
-  &.spell {
+  &.item {
     &-remove {
       &-pin {
         position: absolute;
@@ -879,4 +881,13 @@ h5,
 h6 {
   margin: 0;
   padding: 10px;
+}
+
+ul {
+  margin: 5px 0;
+  padding-inline-start: 20px;
+
+  li {
+    margin-bottom: 5px;
+  }
 }

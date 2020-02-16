@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import DataTable from './../data-table/data-table'
+import SpellsTable from './../data-table/spells-table'
+import FeatsTable from './../data-table/feats-table'
 import DiceRolls from './../dice-roll/dice-roll'
 import NPCRandomizer from './../npc-randomizer/npc-randomizer'
 import MonsterList from './../monster-list/monster-list'
@@ -83,11 +84,14 @@ class Output extends Component {
           </div>
         :
         <div className={'lander-logo'}>
-          <span>Prophet&#39;s<br></br>Companion<br></br>v0.50:41ph4</span>
+          <span>Prophet&#39;s<br></br>Companion<br></br>v0.52:41ph4</span>
         </div>
         }
-        <div className={'lander-button'} view={'dataTable'} onClick={(e) => {this.pickView(e)}}>
+        <div className={'lander-button'} view={'spellsTable'} onClick={(e) => {this.pickView(e)}}>
           <span>List of Spells</span>
+        </div>
+        <div className={'lander-button'} view={'featsTable'} onClick={(e) => {this.pickView(e)}}>
+          <span>List of Feats</span>
         </div>
         <div className={'lander-button'} view={'diceRoll'} onClick={(e) => {this.pickView(e)}}>
           <span>Dice Roll</span>
@@ -128,8 +132,11 @@ class Output extends Component {
         </div>
       )
     }
-    else if (this.state.currentView === 'dataTable') {
-      return <DataTable />
+    else if (this.state.currentView === 'spellsTable') {
+      return <SpellsTable />
+    }
+    else if (this.state.currentView === 'featsTable') {
+      return <FeatsTable />
     }
     else if (this.state.currentView === 'diceRoll') {
       return <DiceRolls />

@@ -1678,5 +1678,176 @@
         "Eye Ray": "The death tyrant uses one random eye ray."
       }
     ]
+  },
+  {
+    "name": "Spectator",
+    "size": "Medium",
+    "type": "Aberration",
+    "AC": 14,
+    "HP": 39,
+    "speed": 30,
+    "stats": [
+      {
+        "Strength": 8,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 13,
+        "Wisdom": 14,
+        "Charisma": 11
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Perception": 6
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 16,
+    "Language": "Deep Speech, Undercommon, telepathy 120 feet",
+    "Challenge": "3",
+    "Features": [
+      {
+        "Condition Immunities": "prone",
+        "Senses": "darkvision 120 feet"
+      }
+    ],
+    "Actions": [
+      {
+        "Bite": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 -1) piercing damage.",
+        "Eye Rays": "The spectator shoots up to two of the following magical eye rays at one or two creatures it can see within 90 feet of it. It can use each ray only once on a turn.",
+        "1. Confusion Ray": "The target must succeed on a DC 13 Wisdom saving throw, or it can't take reactions until the end of its next turn. On its turn, the target can't move and it uses its action to make a melee or ranged attack against a randomly determined creature within range. If the target can't attack, it does nothing on its turn.",
+        "2. Paralyzing Ray": "The target must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "3. Fear Ray": "The target must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving th row at the end of each of its turns, with disadvantage if the spectator is visible to the target, ending the effect on itself on a success.",
+        "4. Wounding Ray": "The target must make a DC 13 Constitution saving throw, taking 16 (3d10) necrotic damage on a failed save, or half as much damage on a successfulone.",
+        "Create Food and Water": "The spectator magically creates enough food and water to sustain itself for 24 hours."
+      }
+    ],
+    "Reactions": [
+      {
+        "Spell Reflection": "If the spectator makes a successful saving throw against a spell, or a spell attack misses it, the spectator can choose another creature (including the spellcaster) it can see within 30 feet of it. The spell targets the chosen creature instead of the spectator. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature."
+      }
+    ],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Needle Blight",
+    "size": "Medium",
+    "type": "Plant",
+    "AC": 12,
+    "HP": 11,
+    "speed": 30,
+    "stats": [
+      {
+        "Strength": 12,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 4,
+        "Wisdom": 8,
+        "Charisma": 3
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "",
+    "passivePerception": 9,
+    "Language": "understands Common but can't speak",
+    "Challenge": "1/4",
+    "Features": [
+      {
+        "Condition Immunities": "blinded, deafened",
+        "Senses": "darkvision 60 feet (blind beyond this radius)"
+      }
+    ],
+    "Actions": [
+      {
+        "Claws": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage.",
+        "Needles": "Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 8 (2d6 + 1) piercing damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Twig Blight",
+    "size": "Small",
+    "type": "Plant",
+    "AC": 13,
+    "HP": 4,
+    "speed": 20,
+    "stats": [
+      {
+        "Strength": 6,
+        "Dexterity": 13,
+        "Constitution": 12,
+        "Intelligence": 4,
+        "Wisdom": 8,
+        "Charisma": 3
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Stealth": 3
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 9,
+    "Language": "understands Common but can't speak",
+    "Challenge": "1/8",
+    "Features": [
+      {
+        "False Appearance": "While the blight remains motionless, it is indistinguishable from a dead shrub."
+      }
+    ],
+    "Actions": [
+      {
+        "Claws": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Vine Blight",
+    "size": "Medium",
+    "type": "Plant",
+    "AC": 12,
+    "HP": 26,
+    "speed": 10,
+    "stats": [
+      {
+        "Strength": 15,
+        "Dexterity": 8,
+        "Constitution": 14,
+        "Intelligence": 5,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Stealth": 1
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 10,
+    "Language": "Common",
+    "Challenge": "1/2",
+    "Features": [
+      {
+        "Condition Immunities": "blinded, deafened",
+        "False Appearance": "While the blight remains motionless, it is indistinguishable from a tangle of vines."
+      }
+    ],
+    "Actions": [
+      {
+        "Constrict": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage, and a Large or smaller target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the blight can't constrict another target.",
+        "Entangling Plants (Recharge 5-6)": "Grasping roots and vines sprout in a 15-foot radius centered on the blight, withering away after 1 minute. For the duration, that area is difficult terrain for non plant creatures. In addition, each creature of the blight's choice in that area when the plants appear must succeed on a DC 12 Strength saving throw or become restrained. A creature can use its action to make a DC 12 Strength check, freeing itself or another entangled creature within reach on a success."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
   }
 ]

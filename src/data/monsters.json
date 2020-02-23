@@ -6,7 +6,7 @@
     "type": "Humanoid",
     "AC": 10,
     "HP": 9,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 10,
@@ -27,7 +27,7 @@
     "damageResistance": "",
     "passivePerception": 12,
     "Language": "Common",
-    "Challenge": "1/4",
+    "Challenge": "0.25",
     "Features": [
       {
         "Spellcasting": "The acolyte is a 1 st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12 , +4 to hit with spell attacks). The acolyte has following cleric spells prepared: Cantrips (at will): light, sacred flame, thaumaturgy 1 st level (3 slots) : bless, cure wounds, sanctuary"
@@ -48,7 +48,7 @@
     "type": "Humanoid",
     "AC": 12,
     "HP": 99,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 10,
@@ -96,7 +96,7 @@
     "type": "Humanoid",
     "AC": 15,
     "HP": 78,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 11,
@@ -149,7 +149,7 @@
     "type": "Humanoid",
     "AC": 12,
     "HP": 11,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 11,
@@ -165,7 +165,7 @@
     "damageResistance": "",
     "passivePerception": 10,
     "Language": "Common",
-    "Challenge": "1/8",
+    "Challenge": "0.125",
     "Features": [],
     "Actions": [
       {
@@ -183,7 +183,7 @@
     "type": "Humanoid",
     "AC": 15,
     "HP": 65,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 15,
@@ -233,7 +233,7 @@
     "type": "Humanoid",
     "AC": 13,
     "HP": 67,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 16,
@@ -270,7 +270,7 @@
     "type": "Humanoid",
     "AC": 10,
     "HP": 4,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 10,
@@ -303,7 +303,7 @@
     "type": "Humanoid",
     "AC": 12,
     "HP": 9,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 11,
@@ -324,7 +324,7 @@
     "damageResistance": "",
     "passivePerception": 10,
     "Language": "Any one language",
-    "Challenge": "1/8",
+    "Challenge": "0.125",
     "Features": [
       {
         "Dark Devotion": "The cultist has advantage on saving throws against being charmed or frightened."
@@ -345,7 +345,7 @@
     "type": "Humanoid",
     "AC": 13,
     "HP": 33,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 11,
@@ -390,7 +390,7 @@
     "type": "Humanoid",
     "AC": 11,
     "HP": 27,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 10,
@@ -433,7 +433,7 @@
     "type": "Humanoid",
     "AC": 16,
     "HP": 112,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 18,
@@ -488,7 +488,7 @@
     "type": "Humanoid",
     "AC": 16,
     "HP": 11,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 13,
@@ -508,7 +508,7 @@
     "damageResistance": "",
     "passivePerception": 12,
     "Language": "Any one language",
-    "Challenge": "1/8",
+    "Challenge": "0.125",
     "Features": [],
     "Actions": [
       {
@@ -525,7 +525,7 @@
     "type": "Humanoid",
     "AC": 18,
     "HP": 52,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 16,
@@ -574,7 +574,7 @@
     "type": "Humanoid",
     "AC": 12,
     "HP": 40,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 9,
@@ -621,7 +621,7 @@
     "type": "Humanoid",
     "AC": 15,
     "HP": 9,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 11,
@@ -643,7 +643,7 @@
     "damageResistance": "",
     "passivePerception": 12,
     "Language": "Any two languages",
-    "Challenge": "1/8",
+    "Challenge": "0.125",
     "Features": [],
     "Actions": [
       {
@@ -664,7 +664,7 @@
     "type": "Humanoid",
     "AC": 13,
     "HP": 27,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 10,
@@ -708,7 +708,7 @@
     "type": "Humanoid",
     "AC": 13,
     "HP": 16,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 11,
@@ -731,7 +731,7 @@
     "damageResistance": "",
     "passivePerception": 15,
     "Language": "Any one language",
-    "Challenge": "1/2",
+    "Challenge": "0.5",
     "Features": [
       {
         "Keen Hearing and Sight": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
@@ -754,7 +754,7 @@
     "type": "Humanoid",
     "AC": 12,
     "HP": 27,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 10,
@@ -780,7 +780,7 @@
     "damageResistance": "",
     "passivePerception": 16,
     "Language": "Any two languages",
-    "Challenge": "1/2",
+    "Challenge": "0.5",
     "Features": [
       {
         "Cunning Action": "On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action.",
@@ -804,7 +804,7 @@
     "type": "Humanoid",
     "AC": 11,
     "HP": 32,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 15,
@@ -824,7 +824,7 @@
     "damageResistance": "",
     "passivePerception": 10,
     "Language": "Any one language",
-    "Challenge": "1/2",
+    "Challenge": "0.5",
     "Features": [
       {
         "Pack Tactics": "The thug has advantage on an attack roll against a creature if at least one of the thug's allies is with in 5 feet of the creature and the ally isn't incapacitated."
@@ -847,7 +847,7 @@
     "type": "Humanoid",
     "AC": 12,
     "HP": 11,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 13,
@@ -863,7 +863,7 @@
     "damageResistance": "",
     "passivePerception": 10,
     "Language": "Any one language",
-    "Challenge": "1/8",
+    "Challenge": "0.125",
     "Features": [
       {
         "Pack Tactics": "The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is with in 5 feet of the creature and the ally isn't incapacitated."
@@ -884,7 +884,7 @@
     "type": "Humanoid",
     "AC": 17,
     "HP": 58,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 16,
@@ -925,7 +925,7 @@
     "type": "Fiend",
     "AC": 16,
     "HP": 110,
-    "speed": 40,
+    "speed": "40 ft",
     "stats": [
       {
         "Strength": 14,
@@ -972,7 +972,7 @@
     "type": "Fiend",
     "AC": 12,
     "HP": 13,
-    "speed": 20,
+    "speed": "20 ft, fly 50 ft",
     "stats": [
       {
         "Strength": 10,
@@ -992,7 +992,7 @@
     "damageResistance": "",
     "passivePerception": 14,
     "Language": "Aarakocra, Auran",
-    "Challenge": "1/4",
+    "Challenge": "0.25",
     "Features": [
       {
         "Dive Attack": "If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the target."
@@ -1014,7 +1014,7 @@
     "type": "Aberration",
     "AC": 17,
     "HP": 135,
-    "speed": 10,
+    "speed": "10 ft, swim 40 ft",
     "stats": [
       {
         "Strength": 21,
@@ -1074,7 +1074,7 @@
     "type": "Celestial",
     "AC": 17,
     "HP": 136,
-    "speed": 90,
+    "speed": "30 ft, fly 90 ft",
     "stats": [
       {
         "Strength": 18,
@@ -1127,7 +1127,7 @@
     "type": "Celestial",
     "AC": 19,
     "HP": 200,
-    "speed": 120,
+    "speed": "40 ft, fly 120 ft",
     "stats": [
       {
         "Strength": 24,
@@ -1181,7 +1181,7 @@
     "type": "Celestial",
     "AC": 21,
     "HP": 243,
-    "speed": 150,
+    "speed": "50 ft, fly 150 ft",
     "stats": [
       {
         "Strength": 26,
@@ -1240,12 +1240,12 @@
   },
   {
     "name": "Animated Armor",
-    "alignment": "Unaligned",
+    "alignment": "unaligned",
     "size": "Medium",
     "type": "Construct",
     "AC": 18,
     "HP": 33,
-    "speed": 25,
+    "speed": "25 ft",
     "stats": [
       {
         "Strength": 14,
@@ -1282,12 +1282,12 @@
   },
   {
     "name": "Flying Sword",
-    "alignment": "Unaligned",
+    "alignment": "unaligned",
     "size": "Small",
     "type": "Construct",
     "AC": 17,
     "HP": 17,
-    "speed": 50,
+    "speed": "0 ft, fly 50 ft (hover)",
     "stats": [
       {
         "Strength": 12,
@@ -1307,7 +1307,7 @@
     "damageResistance": "",
     "passivePerception": 7,
     "Language": "-",
-    "Challenge": "1/4",
+    "Challenge": "0.25",
     "Features": [
       {
         "Damage Immunities": "poison, psychic",
@@ -1327,12 +1327,12 @@
   },
   {
     "name": "Rug of Smothering",
-    "alignment": "Unaligned",
+    "alignment": "unaligned",
     "size": "Large",
     "type": "Construct",
     "AC": 12,
     "HP": 33,
-    "speed": 10,
+    "speed": "10 ft",
     "stats": [
       {
         "Strength": 17,
@@ -1369,12 +1369,12 @@
   },
   {
     "name": "Ankheg",
-    "alignment": "Unaligned",
+    "alignment": "unaligned",
     "size": "Large",
     "type": "Monstrosity",
     "AC": "14, 11 while prone",
     "HP": 39,
-    "speed": 30,
+    "speed": "30 ft, burrow 10 ft",
     "stats": [
       {
         "Strength": 17,
@@ -1412,7 +1412,7 @@
     "type": "Elemental",
     "AC": "17 (with shield)",
     "HP": 39,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 17,
@@ -1457,7 +1457,7 @@
     "type": "Undead",
     "AC": 12,
     "HP": 58,
-    "speed": 40,
+    "speed": "0 ft, fly 40 ft (hover)",
     "stats": [
       {
         "Strength": 1,
@@ -1500,12 +1500,12 @@
   },
   {
     "name": "Basilisk",
-    "alignment": "Unaligned",
+    "alignment": "unaligned",
     "size": "Medium",
     "type": "Monstrosity",
     "AC": 15,
     "HP": 20,
-    "speed": 20,
+    "speed": "20 ft",
     "stats": [
       {
         "Strength": 16,
@@ -1543,7 +1543,7 @@
     "type": "Monstrosity",
     "AC": 17,
     "HP": 168,
-    "speed": 50,
+    "speed": "50 ft, climb 40 ft",
     "stats": [
       {
         "Strength": 23,
@@ -1590,7 +1590,7 @@
     "type": "Aberration",
     "AC": 18,
     "HP": 180,
-    "speed": 20,
+    "speed": "0 ft, fly 20 ft (hover)",
     "stats": [
       {
         "Strength": 10,
@@ -1655,7 +1655,7 @@
     "type": "Undead",
     "AC": 19,
     "HP": 187,
-    "speed": 20,
+    "speed": "0 ft, fly 20 ft (hover)",
     "stats": [
       {
         "Strength": 10,
@@ -1723,7 +1723,7 @@
     "type": "Aberration",
     "AC": 14,
     "HP": 39,
-    "speed": 30,
+    "speed": "0 ft, fly 30 ft (hover)",
     "stats": [
       {
         "Strength": 8,
@@ -1775,7 +1775,7 @@
     "type": "Plant",
     "AC": 12,
     "HP": 11,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 12,
@@ -1791,7 +1791,7 @@
     "damageResistance": "",
     "passivePerception": 9,
     "Language": "understands Common but can't speak",
-    "Challenge": "1/4",
+    "Challenge": "0.25",
     "Features": [
       {
         "Condition Immunities": "blinded, deafened",
@@ -1814,7 +1814,7 @@
     "type": "Plant",
     "AC": 13,
     "HP": 4,
-    "speed": 20,
+    "speed": "20 ft",
     "stats": [
       {
         "Strength": 6,
@@ -1834,7 +1834,7 @@
     "damageResistance": "",
     "passivePerception": 9,
     "Language": "understands Common but can't speak",
-    "Challenge": "1/8",
+    "Challenge": "0.125",
     "Features": [
       {
         "False Appearance": "While the blight remains motionless, it is indistinguishable from a dead shrub."
@@ -1855,7 +1855,7 @@
     "type": "Plant",
     "AC": 12,
     "HP": 26,
-    "speed": 10,
+    "speed": "10 ft",
     "stats": [
       {
         "Strength": 15,
@@ -1875,7 +1875,7 @@
     "damageResistance": "",
     "passivePerception": 10,
     "Language": "Common",
-    "Challenge": "1/2",
+    "Challenge": "0.5",
     "Features": [
       {
         "Condition Immunities": "blinded, deafened",
@@ -1898,7 +1898,7 @@
     "type": "Humanoid",
     "AC": 16,
     "HP": 27,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 15,
@@ -1943,7 +1943,7 @@
     "type": "Humanoid",
     "AC": 17,
     "HP": 65,
-    "speed": 30,
+    "speed": "30 ft",
     "stats": [
       {
         "Strength": 17,
@@ -1986,12 +1986,12 @@
   },
   {
     "name": "Bulette",
-    "alignment": "Unaligned",
+    "alignment": "unaligned",
     "size": "Large",
     "type": "Monstrosity",
     "AC": 17,
     "HP": 94,
-    "speed": 40,
+    "speed": "40 ft, burrow 40 ft",
     "stats": [
       {
         "Strength": 19,
@@ -2034,7 +2034,7 @@
     "type": "Humanoid",
     "AC": 15,
     "HP": 11,
-    "speed": 20,
+    "speed": "20 ft, swim 40 ft",
     "stats": [
       {
         "Strength": 12,
@@ -2054,7 +2054,7 @@
     "damageResistance": "",
     "passivePerception": 10,
     "Language": "Bullywug",
-    "Challenge": "1/4",
+    "Challenge": "0.25",
     "Features": [
       {
         "Amphibious": "The bullywug can breathe air and water.",
@@ -2080,7 +2080,7 @@
     "type": "Fiend",
     "AC": 19,
     "HP": 82,
-    "speed": 30,
+    "speed": "30 ft, fly 60 ft",
     "stats": [
       {
         "Strength": 18,
@@ -2130,12 +2130,12 @@
   },
   {
     "name": "Carrion Crawler",
-    "alignment": "Unaligned",
+    "alignment": "unaligned",
     "size": "Large",
     "type": "Monstrosity",
     "AC": 11,
     "HP": 51,
-    "speed": 30,
+    "speed": "30 ft, climb 30 ft",
     "stats": [
       {
         "Strength": 14,
@@ -2180,7 +2180,7 @@
     "type": "Monstrosity",
     "AC": 12,
     "HP": 45,
-    "speed": 50,
+    "speed": "50 ft",
     "stats": [
       {
         "Strength": 18,
@@ -2249,7 +2249,7 @@
     "Challenge": "6",
     "Features": [
       {
-        "Senses":"Darkvision 60 feet"
+        "Senses": "Darkvision 60 feet"
       }
     ],
     "Actions": [
@@ -2263,5 +2263,415 @@
     ],
     "Reactions": [],
     "LegendaryActions": []
+  },
+  {
+    "name": "Chuul",
+    "alignment": "Chaotic evil",
+    "size": "Large",
+    "type": "Aberration",
+    "AC": 16,
+    "HP": 93,
+    "speed": "30 ft, swim 30 ft",
+    "stats": [
+      {
+        "Strength": 19,
+        "Dexterity": 11,
+        "Constitution": 19,
+        "Intelligence": 3,
+        "Wisdom": 14,
+        "Charisma": 10
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Perception": 8
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 18,
+    "Language": "understands Draconic but can't speak",
+    "Challenge": "6",
+    "Features": [
+      {
+        "Senses": "Darkvision 60 feet"
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The chimera makes three attacks: one with its bite, one with its horns, and one with its claws. When its fire breath is available, it can use the breath in place of its bite or horns.",
+        "Bite": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+        "Horns": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d2 + 4) bludgeoning damage.",
+        "Claws": "Melee Weapon Attack: +7 to hit, reach 5 ft. , one target. Hit: 11 (2d6 + 4) slashing damage.",
+        "Fire Breath (Recharge 5-6)": "The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Cloaker",
+    "size": "Large",
+    "type": "Aberration",
+    "alignment": "Chaotic neutral",
+    "AC": 14,
+    "HP": 78,
+    "speed": "10 ft, fly 40 ft",
+    "stats": [
+      {
+        "Strength": 17,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 13,
+        "Wisdom": 12,
+        "Charisma": 14
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Stealth": 5
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 11,
+    "Language": "Deep Speech, Undercommon",
+    "Challenge": "8",
+    "Features": [
+      {
+        "Senses": "Darkvision 60 feet",
+        "Damage Transfer": "While attached to a creature, the cloaker takes only half the damage dealt to it (rounded down), and that creature takes the other half.",
+        "False Appearance": "While the cloaker remains motionless without its underside exposed, it is indistinguishable from a dark leather cloak.",
+        "Light Sensitivity": "While in bright light, the cloaker has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The cloaker makes two attacks: one with its bite and one with its tail.",
+        "Bite": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage, and if the target is Large or smaller, the cloaker attaches to it. If the cloaker has advantage against the target, the cloaker attaches to the target's head, and the target is blinded and unable to breathe while the cloaker is attached. While attached, the cloaker can make this attack only against the target and has advantage on the attack roll. The cloaker can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the cloaker by succeeding on a DC 16 Strength check.",
+        "Tail": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 7 (1d8 + 3) slashing damage.",
+        "Moon": "Each creature within 60 feet of the cloaker that can hear its moan and that isn't an aberration must succeed on a DC 13 Wisdom saving th row or become frightened until the end of the cloaker's next turn. If a creature's saving throw is successful, the creature is immune to the cloaker's moan for the next 24 hours",
+        "Phantasms (Recharges after a Short or Long Rest)": "The cloaker magically creates three illusory duplicates of itself if it isn't in bright light. The duplicates move with it and mimic its actions, shifting position so as to make it impossible to track which cloaker is the real one. If the cloaker is ever in an area of bright light, the duplicates disappear. Whenever any creature targets the cloaker with an attack or a harmful spell while a duplicate remains, that creature rolls randomly to determine whether it targets the cloaker or one of the duplicates. A creature is unaffected by this magical effect if it can't see or if it relies on senses other than sight. A duplicate has the cloaker's AC and uses its saving throws. If an attack hits a duplicate, or if a duplicate fails a saving throw against an effect that deals damage, the duplicate disappears."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Cockatrice",
+    "size": "Small",
+    "type": "Monstrosity",
+    "alignment": "unaligned",
+    "AC": 11,
+    "HP": 27,
+    "speed": "20 ft, fly 40 ft",
+    "stats": [
+      {
+        "Strength": 6,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 13,
+        "Charisma": 5
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "",
+    "passivePerception": 11,
+    "Language": "-",
+    "Challenge": "0.5",
+    "Features": [],
+    "Actions": [
+      {
+        "Bite": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Couatl",
+    "size": "Medium",
+    "type": "Celestial",
+    "alignment": "Lawful good",
+    "AC": 19,
+    "HP": 97,
+    "speed": "30 ft, fly 90 ft",
+    "stats": [
+      {
+        "Strength": 16,
+        "Dexterity": 20,
+        "Constitution": 17,
+        "Intelligence": 18,
+        "Wisdom": 20,
+        "Charisma": 18
+      }
+    ],
+    "saving_throws": [
+      {
+        "Constitution": 5,
+        "Wisdom": 7,
+        "Charisma": 6
+      }
+    ],
+    "skills": [],
+    "damageResistance": "radiant",
+    "passivePerception": 15,
+    "Language": "all, telepathy 120 ft",
+    "Challenge": "4",
+    "Features": [
+      {
+        "Senses": "Truesight 120 feet",
+        "Damage Immunities": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "Innate Spellcasting": "The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components: At will: detect evil and good, detect magic, detect thoughts 3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield 1/day each: dream, greater restoration, scrying",
+        "Magic Weapons": "The couatl's weapon attacks are magical.",
+        "Shielded Mind": "The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
+      }
+    ],
+    "Actions": [
+      {
+        "Bite": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.",
+        "Constrict": "Melee Weapon Attack: +6 to hit, reach 10 ft., one Medium or smaller creature. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target.",
+        "Change Shape": "The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice). In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabi lities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Crawling Claw",
+    "size": "Tiny",
+    "type": "Undead",
+    "alignment": "Neutral evil",
+    "AC": 12,
+    "HP": 2,
+    "speed": "20 ft, climb 20 ft",
+    "stats": [
+      {
+        "Strength": 13,
+        "Dexterity": 14,
+        "Constitution": 11,
+        "Intelligence": 5,
+        "Wisdom": 10,
+        "Charisma": 4
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "",
+    "passivePerception": 10,
+    "Language": "understands Common but can't speak",
+    "Challenge": "0",
+    "Features": [
+      {
+        "Senses": "blindsight 30 ft (blind beyond this radius)",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "charmed, exhaustion, poisoned",
+        "Turn Immunity": "The claw is immune to effects that turn undead."
+      }
+    ],
+    "Actions": [
+      {
+        "Claw": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning or slashing damage (claw's choice)."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Cyclops",
+    "size": "Huge",
+    "type": "Giant",
+    "alignment": "Chaotic neutral",
+    "AC": 14,
+    "HP": 138,
+    "speed": "30 ft",
+    "stats": [
+      {
+        "Strength": 22,
+        "Dexterity": 11,
+        "Constitution": 20,
+        "Intelligence": 8,
+        "Wisdom": 6,
+        "Charisma": 10
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "",
+    "passivePerception": 8,
+    "Language": "Giant",
+    "Challenge": "6",
+    "Features": [
+      {
+        "Poor Depth Perception": "The cyclops has disadvantage on any attack roll against a target more than 30 feet away."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The cyclops makes two greatclub attacks.",
+        "Greatclub": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.",
+        "Rock": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Darkmantle",
+    "size": "Small",
+    "type": "Monstrosity",
+    "alignment": "unaligned",
+    "AC": 11,
+    "HP": 22,
+    "speed": "10 ft, fly 30 ft",
+    "stats": [
+      {
+        "Strength": 16,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Stealth": 3
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 10,
+    "Language": "-",
+    "Challenge": "0.5",
+    "Features": [
+      {
+        "Senses": "blindsight 60 ft",
+        "Echolocation": "The darkmantle can't use its blindsight while deafened.",
+        "False Appearance": "While the darkmantle remains motionless, it is indistinguishable from a cave formation such as a stalactite or stalagmite."
+      }
+    ],
+    "Actions": [
+      {
+        "Crush": "Melee Weapon Attack: + 5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) bludgeoning damage, and the darkmantle attaches to the target. If the target is Medium or smaller and the darkmantle has advantage on the attack roll, it attaches by engulfing the target's head, and the target is also blinded and unable to breathe while the darkmantle is attached in this way. While attached to the target, the darkmantle can attack no other creature except the target but has advantage on its attack rolls. The darkmantle's speed also becomes 0, it can't benefit from any bonus to its speed, and it moves with the target. A creature can detach the darkmantle by making a successful DC 13 Strength check as an action. On its turn, the darkmantle can detach itself from the target by using 5 feet of movement.",
+        "Darkness Aura (1/Day)": "A 15-foot radius of magical darkness extends out from the darkmantle, moves with it, and spreads around corners. The darkness lasts as long as the darkmantle maintains concentration, up to 10 minutes (as if concentrating on a spell). Darkvision can't penetrate this darkness, and no naturallight can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Death Knight",
+    "size": "Medium",
+    "type": "Undead",
+    "alignment": "Chaotic evil",
+    "AC": 20,
+    "HP": 180,
+    "speed": "30 ft",
+    "stats": [
+      {
+        "Strength": 20,
+        "Dexterity": 11,
+        "Constitution": 20,
+        "Intelligence": 12,
+        "Wisdom": 16,
+        "Charisma": 18
+      }
+    ],
+    "saving_throws": [
+      {
+        "Dexterity": 6,
+        "Wisdom": 9,
+        "Charisma": 10
+      }
+    ],
+    "skills": [],
+    "damageResistance": "",
+    "passivePerception": 13,
+    "Language": "Abyssal, Common",
+    "Challenge": "17",
+    "Features": [
+      {
+        "Senses": "Darkvision 120 ft",
+        "Damage Immunities": "necrotic, poison",
+        "Condition Immunities": "exhaustion, frightened, poisoned",
+        "Magic Resistance": "The death knight has advantage on saving throws against spells and other magical effects.",
+        "Marshal Undead": "Unless the death knight is incapacitated, it and undead creatures of its choice within 60 feet of it have advantage on saving throws against features that turn undead.",
+        "Spellcasting": "The death knight is a 19th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It has the following paladin spells prepared: 1st level (4 slots): command, compelled duel, searing smite 2nd level (3 slots): hold person, magic weapon 3rd level (3 slots): dispel magic, elemental weapon 4th level (3 slots): banishment, staggering smite Sth level (2 slots): destructive wave (necrotic)."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The death knight m akes three longsword attacks.",
+        "Longsword": "Melee Weapon Attack: +11 to hit, reach S ft., one target. Hit: 9 (1d8 + S) slashing damage, or 10 (1d1O + 5) slashing damage if used with two hands, plus 18 (4d8) necrotic damage.",
+        "Hellfire Orb (1/Day)": "The death knight hurls a magical ball of fire that explodes at a point it can see within 120 feet of it. Each creature in a 20-foot- radius sphere centered on that point must make a DC 18 Dexterity saving throw. The sphere spreads a round corners. A creature takes 35 (10d6) fire damage and 35 (10d6) necrotic damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "Reactions": [
+      {
+        "Parry": "The death kn ight adds 6 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon."
+      }
+    ],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Demilich",
+    "size": "Tiny",
+    "type": "Undead",
+    "alignment": "Neutral evil",
+    "AC": 20,
+    "HP": 80,
+    "speed": "0 ft, fly 30 ft (hover)",
+    "stats": [
+      {
+        "Strength": 1,
+        "Dexterity": 20,
+        "Constitution": 10,
+        "Intelligence": 20,
+        "Wisdom": 17,
+        "Charisma": 20
+      }
+    ],
+    "saving_throws": [
+      {
+        "Constitution": 6,
+        "Intelligence": 11,
+        "Wisdom": 9,
+        "Charisma": 11
+      }
+    ],
+    "skills": [],
+    "damageResistance": "bludgeoning, piercing, and slashing from magic weapons",
+    "passivePerception": 13,
+    "Language": "-",
+    "Challenge": "18",
+    "Features": [
+      {
+        "Senses": "truesight 120 ft",
+        "Damage Immunities": "necrotic, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "Condition Immunities": "charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone, stunned",
+        "Avoidance": "If the demilich is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails .",
+        "Legendary Resistance (3/Day)": "If the demilich fails a saving throw, it can choose to succeed in stead.",
+        "Turn Immunity": "The demilich is immune to effects that turn undead."
+      }
+    ],
+    "Actions": [
+      {
+        "Howl (Recharge 5-6)": "The demilich emits a bloodcurdling howl. Each creature within 30 feet of the demilich that can hear the howl must succeed on a DC 15 Constitution saving throw or drop to 0 hit points. On a successful save, the creature is frightened until the end of its next turn.",
+        "Life Drain": "The demilich targets up to three creatures that it can see within 10 feet of it. Each target must succeed on a DC 19 Constitution saving throw or take 21 (6d6) necrotic damage, and the demilich regains hit points equal to the total damage dealt to all targets."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": [
+      {
+        "Legendary Action": "The demilich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The demilich regains spent legendary actions at the start of its turn.",
+        "Flight": "The demilich flies up to half its flying speed",
+        "Cloud of Dust": "The demilich magically swirls its dusty remains. Each creature within 10 feet of the demilich, including around a corner, must succeed on a DC 15 Constitution saving throw or be blinded until the end of the demilich's next turn. A creature that succeeds on the saving throw is immune to this effect until the end of the demilich's next turn.",
+        "Energy Drain (Costs 2 Actions)": "Each creature within 30 feet of the demilich must make a DC 15 Constitution saving throw. On a failed save, the creature's hit point maximum is magically reduced by 10 (3d6). If a creature's hit point maximumis reduced to 0 by this effect, the creature dies. A creature's hit point maximum can be restored with the greater restoration spell or similar magic.",
+        "Vile Curse (Costs 3 Actions)": "The demilich targets one creature it can see within 30 feet of it. The target must succeed on a DC 15 Wisdom saving throw or be magically cursed. Until the curse ends, the target has disadvantage on attack rolls and saving throws. The target can repeat the saving throw at the end of each of its turns, ending the curse on a success."
+      }
+    ]
   }
 ]

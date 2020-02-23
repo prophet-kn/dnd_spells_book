@@ -82,6 +82,7 @@ class MonsterItem extends Component {
         HP = monsterItem.HP,
         npcSize = monsterItem.size,
         npcType = monsterItem.type,
+        alignment = monsterItem.alignment,
         classSpeed = monsterItem.speed,
         damageResistances = monsterItem.damageResistance,
         passivePerception = monsterItem.passivePerception,
@@ -114,7 +115,7 @@ class MonsterItem extends Component {
               <h2>{name}</h2>
             </div>
             <div className={"monster-definitions-top-stats"}>
-              <span><i>{npcSize} {npcType}</i></span>
+              <span><i>{npcSize} {npcType}, {alignment}</i></span>
               <span><strong>Armor Class</strong> {AC}</span>
               <span><strong>Hit Points</strong> {HP}</span>
               <span><strong>Speed</strong> {classSpeed}</span>

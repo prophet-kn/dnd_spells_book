@@ -22,6 +22,12 @@ let getChallenge = _.chain(Data)
 })
 .sort().flatten().sort().uniq().value()
 
+let getAlignment = _.chain(Data)
+.map(function(data) {
+  return data.alignment
+})
+.sort().flatten().sort().uniq().value()
+
 class MonsterList extends Component {
   constructor(props) {
     super(props)
@@ -31,6 +37,7 @@ class MonsterList extends Component {
       filters: {
         'Size': [],
         'Type': [],
+        'Alignment': [],
         'Challenge': []
       }
     }
@@ -61,6 +68,7 @@ class MonsterList extends Component {
         <svg width="30" height="30" viewBox="0 0 12 16" className={"filter-close"} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
         <FilterDataButtons title={'Size'} values={getAllSizes} setFilter={this.setFilter} />
         <FilterDataButtons title={'Type'} values={getAllTypes} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Alignment'} values={getAlignment} setFilter={this.setFilter} />
         <FilterDataButtons title={'Challenge'} values={getChallenge} setFilter={this.setFilter} />
       </div>
     )
@@ -104,6 +112,9 @@ class MonsterList extends Component {
     })
     .filter((monsterData) => {
       return _.includes(sortFilters['Type'], monsterData.type) || sortFilters['Type'].length === 0
+    })
+    .filter((monsterData) => {
+      return _.includes(sortFilters['Alignment'], monsterData.alignment) || sortFilters['Alignment'].length === 0
     })
     .filter((monsterData) => {
       return _.includes(sortFilters['Challenge'], monsterData.Challenge) || sortFilters['Challenge'].length === 0

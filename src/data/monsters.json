@@ -1,6 +1,7 @@
 [
   {
     "name": "Acolyte",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 10,
@@ -42,6 +43,7 @@
   },
   {
     "name": "Archmage",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 12,
@@ -89,6 +91,7 @@
   },
   {
     "name": "Assassin",
+    "alignment": "Any non-good alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 15,
@@ -141,6 +144,7 @@
   },
   {
     "name": "Bandit",
+    "alignment": "Any non-lawful alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 12,
@@ -174,6 +178,7 @@
   },
   {
     "name": "Bandit Captain",
+    "alignment": "Any non-lawful alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 15,
@@ -223,6 +228,7 @@
   },
   {
     "name": "Berserker",
+    "alignment": "Any chaotic alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 13,
@@ -259,6 +265,7 @@
   },
   {
     "name": "Commoner",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 10,
@@ -291,6 +298,7 @@
   },
   {
     "name": "Cultist",
+    "alignment": "Any non-good alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 12,
@@ -332,6 +340,7 @@
   },
   {
     "name": "Cult Fanatic",
+    "alignment": "Any non-good alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 13,
@@ -376,6 +385,7 @@
   },
   {
     "name": "Druid",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 11,
@@ -418,6 +428,7 @@
   },
   {
     "name": "Gladiator",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 16,
@@ -472,6 +483,7 @@
   },
   {
     "name": "Guard",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 16,
@@ -508,6 +520,7 @@
   },
   {
     "name": "Knight",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 18,
@@ -556,6 +569,7 @@
   },
   {
     "name": "Mage",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 12,
@@ -602,6 +616,7 @@
   },
   {
     "name": "Noble",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 15,
@@ -644,6 +659,7 @@
   },
   {
     "name": "Priest",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 13,
@@ -687,6 +703,7 @@
   },
   {
     "name": "Scout",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 13,
@@ -732,6 +749,7 @@
   },
   {
     "name": "Spy",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 12,
@@ -781,6 +799,7 @@
   },
   {
     "name": "Thug",
+    "alignment": "Any non-good alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 11,
@@ -823,6 +842,7 @@
   },
   {
     "name": "Tribal Warrior",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 12,
@@ -859,6 +879,7 @@
   },
   {
     "name": "Veteran",
+    "alignment": "Any alignment",
     "size": "Medium",
     "type": "Humanoid",
     "AC": 17,
@@ -899,6 +920,7 @@
   },
   {
     "name": "Rakshasa",
+    "alignment": "Lawful evil",
     "size": "Medium",
     "type": "Fiend",
     "AC": 16,
@@ -945,6 +967,7 @@
   },
   {
     "name": "Aarakocra",
+    "alignment": "Neutral good",
     "size": "Medium",
     "type": "Fiend",
     "AC": 12,
@@ -986,6 +1009,7 @@
   },
   {
     "name": "Aboleth",
+    "alignment": "Lawful evil",
     "size": "Large",
     "type": "Aberration",
     "AC": 17,
@@ -1045,6 +1069,7 @@
   },
   {
     "name": "Deva",
+    "alignment": "Lawful good",
     "size": "Medium",
     "type": "Celestial",
     "AC": 17,
@@ -1097,6 +1122,7 @@
   },
   {
     "name": "Planetar",
+    "alignment": "Lawful good",
     "size": "Large",
     "type": "Celestial",
     "AC": 19,
@@ -1150,6 +1176,7 @@
   },
   {
     "name": "Solar",
+    "alignment": "Lawful good",
     "size": "Large",
     "type": "Celestial",
     "AC": 21,
@@ -1213,6 +1240,7 @@
   },
   {
     "name": "Animated Armor",
+    "alignment": "Unaligned",
     "size": "Medium",
     "type": "Construct",
     "AC": 18,
@@ -1254,6 +1282,7 @@
   },
   {
     "name": "Flying Sword",
+    "alignment": "Unaligned",
     "size": "Small",
     "type": "Construct",
     "AC": 17,
@@ -1298,6 +1327,7 @@
   },
   {
     "name": "Rug of Smothering",
+    "alignment": "Unaligned",
     "size": "Large",
     "type": "Construct",
     "AC": 12,
@@ -1339,6 +1369,7 @@
   },
   {
     "name": "Ankheg",
+    "alignment": "Unaligned",
     "size": "Large",
     "type": "Monstrosity",
     "AC": "14, 11 while prone",
@@ -1376,6 +1407,7 @@
   },
   {
     "name": "Azer",
+    "alignment": "Lawful neutral",
     "size": "Medium",
     "type": "Elemental",
     "AC": "17 (with shield)",
@@ -1420,6 +1452,7 @@
   },
   {
     "name": "Banshee",
+    "alignment": "Chaotic evil",
     "size": "Medium",
     "type": "Undead",
     "AC": 12,
@@ -1467,6 +1500,7 @@
   },
   {
     "name": "Basilisk",
+    "alignment": "Unaligned",
     "size": "Medium",
     "type": "Monstrosity",
     "AC": 15,
@@ -1504,6 +1538,7 @@
   },
   {
     "name": "Behir",
+    "alignment": "Neutral evil",
     "size": "Huge",
     "type": "Monstrosity",
     "AC": 17,
@@ -1550,6 +1585,7 @@
   },
   {
     "name": "Beholder",
+    "alignment": "Lawful evil",
     "size": "Large",
     "type": "Aberration",
     "AC": 18,
@@ -1614,6 +1650,7 @@
   },
   {
     "name": "Death Tyrant",
+    "alignment": "Lawful evil",
     "size": "Large",
     "type": "Undead",
     "AC": 19,
@@ -1681,6 +1718,7 @@
   },
   {
     "name": "Spectator",
+    "alignment": "Lawful neutral",
     "size": "Medium",
     "type": "Aberration",
     "AC": 14,
@@ -1732,6 +1770,7 @@
   },
   {
     "name": "Needle Blight",
+    "alignment": "Neutral evil",
     "size": "Medium",
     "type": "Plant",
     "AC": 12,
@@ -1770,6 +1809,7 @@
   },
   {
     "name": "Twig Blight",
+    "alignment": "Neutral evil",
     "size": "Small",
     "type": "Plant",
     "AC": 13,
@@ -1810,6 +1850,7 @@
   },
   {
     "name": "Vine Blight",
+    "alignment": "Neutral evil",
     "size": "Medium",
     "type": "Plant",
     "AC": 12,
@@ -1845,6 +1886,379 @@
       {
         "Constrict": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage, and a Large or smaller target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the blight can't constrict another target.",
         "Entangling Plants (Recharge 5-6)": "Grasping roots and vines sprout in a 15-foot radius centered on the blight, withering away after 1 minute. For the duration, that area is difficult terrain for non plant creatures. In addition, each creature of the blight's choice in that area when the plants appear must succeed on a DC 12 Strength saving throw or become restrained. A creature can use its action to make a DC 12 Strength check, freeing itself or another entangled creature within reach on a success."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Bugbear",
+    "alignment": "Chaotic evil",
+    "size": "Medium",
+    "type": "Humanoid",
+    "AC": 16,
+    "HP": 27,
+    "speed": 30,
+    "stats": [
+      {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 8,
+        "Wisdom": 11,
+        "Charisma": 9
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Stealth": 6,
+        "Survival": 2
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 10,
+    "Language": "Common, Goblin",
+    "Challenge": "1",
+    "Features": [
+      {
+        "Senses": "darkvision 60 feet",
+        "Brute":"A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).",
+        "Surprise Attack": "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+      }
+    ],
+    "Actions": [
+      {
+        "Morningstar": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.",
+        "Javelin": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Bugbear Chief",
+    "alignment": "Chaotic evil",
+    "size": "Medium",
+    "type": "Humanoid",
+    "AC": 17,
+    "HP": 65,
+    "speed": 30,
+    "stats": [
+      {
+        "Strength": 17,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 11,
+        "Wisdom": 12,
+        "Charisma": 11
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Intimidation": 2,
+        "Stealth": 6,
+        "Survival": 3
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 11,
+    "Language": "Common, Goblin",
+    "Challenge": "3",
+    "Features": [
+      {
+        "Senses": "darkvision 60 feet",
+        "Brute":"A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).",
+        "Heart of Hruggek": "The bugbear has advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.",
+        "Surprise Attack": "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The bugbear makes two melee attacks.",
+        "Morningstar": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.",
+        "Javelin": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 10 (2d6 + 3) piercing damage in melee or 6 (1d6 + 3) piercing damage at range."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Bulette",
+    "alignment": "Unaligned",
+    "size": "Large",
+    "type": "Monstrosity",
+    "AC": 17,
+    "HP": 94,
+    "speed": 40,
+    "stats": [
+      {
+        "Strength": 19,
+        "Dexterity": 11,
+        "Constitution": 21,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Perception": 6
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 16,
+    "Language": "-",
+    "Challenge": "5",
+    "Features": [
+      {
+        "Senses": "darkvision 60 feet, tremorsense 60 feet",
+        "Standing Leap": "The bulette's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+      }
+    ],
+    "Actions": [
+      {
+        "Bite": "Mefee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30 (4d12 + 4) piercing damage.",
+        "Deadly Leap": "If the bulette jumps at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 feet out of the bulette's s pace into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the bulette's space."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Bullywug",
+    "alignment": "Neutral evil",
+    "size": "Medium",
+    "type": "Humanoid",
+    "AC": 15,
+    "HP": 11,
+    "speed": 20,
+    "stats": [
+      {
+        "Strength": 12,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 7,
+        "Wisdom": 10,
+        "Charisma": 7
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Stealth": 3
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 10,
+    "Language": "Bullywug",
+    "Challenge": "1/4",
+    "Features": [
+      {
+        "Amphibious": "The bullywug can breathe air and water.",
+        "Speak with Frogs and Toads": "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug.",
+        "Swamp Camouflage": "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.",
+        "Standing Leap": "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The bullywug makes two melee attacks: one with its bite and one with its spear.",
+        "Bite": "Mefee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
+        "Spear": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + ) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Cambion",
+    "alignment": "Any evil alignment",
+    "size": "Medium",
+    "type": "Fiend",
+    "AC": 19,
+    "HP": 82,
+    "speed": 30,
+    "stats": [
+      {
+        "Strength": 18,
+        "Dexterity": 18,
+        "Constitution": 16,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    ],
+    "saving_throws": [
+      {
+        "Strength": 7,
+        "Constitution": 6,
+        "Intelligence" : 5,
+        "Charisma": 6
+      }
+    ],
+    "skills": [
+      {
+        "Deception": 6,
+        "Intimidation": 6,
+        "Perception": 4,
+        "Stealth": 7
+      }
+    ],
+    "damageResistance": "cold, fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "passivePerception": 14,
+    "Language": "Abyssal, Common, Infernal",
+    "Challenge": "5",
+    "Features": [
+      {
+        "Fiendish Blessing": "The AC of the cambion includes its Charisma bonus.",
+        "Innate Spellcasting": "The cambion's spellcasting ability is Charisma (spell save DC 14). The cambion can innately cast the following spells, requiring no material components: 3/day each: alter self, command, detect magic 1/day: plane shift (self only)"
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The cam bion makes two melee attacks or uses its Fire Ray twice.",
+        "Spear": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (d6) fire damage.",
+        "Fire Ray": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 10 (3d6) fire damage.",
+        "Fiendish Charm": "One humanoid the cambion can see within 30 feet of it must succeed on a DC 14 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, the target can repeat the saving throw, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm for the next 24 hours."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Carrion Crawler",
+    "alignment": "Unaligned",
+    "size": "Large",
+    "type": "Monstrosity",
+    "AC": 11,
+    "HP": 51,
+    "speed": 30,
+    "stats": [
+      {
+        "Strength": 14,
+        "Dexterity": 13,
+        "Constitution": 16,
+        "Intelligence": 1,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Perception": 3
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 13,
+    "Language": "-",
+    "Challenge": "2",
+    "Features": [
+      {
+        "Senses": "Darkvision 60 feet",
+        "Keen Smell": "The carrion crawler has advantage on Wisdom (Perception) checks that rely on smell.",
+        "Spider Climb": "The carrion crawler can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The carrion crawler makes two attacks: one with its tentacles and one with its bite.",
+        "Tentacles": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 4 (1d4 + 2) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.",
+        "Bite": "Mefee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 +2) piercing damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Centaur",
+    "alignment": "Neutral good",
+    "size": "Large",
+    "type": "Monstrosity",
+    "AC": 12,
+    "HP": 45,
+    "speed": 50,
+    "stats": [
+      {
+        "Strength": 18,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 9,
+        "Wisdom": 13,
+        "Charisma": 11
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Athletics": 6,
+        "Perception": 3,
+        "Survival": 3
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 13,
+    "Language": "Elvish, Sylvan",
+    "Challenge": "2",
+    "Features": [
+      {
+        "Charge": "If the centaur moves at least 30 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (3d6) piercing damage."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The centaur makes two attacks: one with its pike and one with its hooves or two with its longbow.",
+        "Pike": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (1d1O + 4) piercing damage.",
+        "Hooves": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.",
+        "Longbow": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Chimera",
+    "alignment": "Chaotic evil",
+    "size": "Large",
+    "type": "Monstrosity",
+    "AC": 14,
+    "HP": 114,
+    "speed": "30 ft, fly 60 ft",
+    "stats": [
+      {
+        "Strength": 19,
+        "Dexterity": 11,
+        "Constitution": 19,
+        "Intelligence": 3,
+        "Wisdom": 14,
+        "Charisma": 10
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Perception": 8
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 18,
+    "Language": "understands Draconic but can't speak",
+    "Challenge": "6",
+    "Features": [
+      {
+        "Senses":"Darkvision 60 feet"
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The chimera makes three attacks: one with its bite, one with its horns, and one with its claws. When its fire breath is available, it can use the breath in place of its bite or horns.",
+        "Bite": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+        "Horns": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d2 + 4) bludgeoning damage.",
+        "Claws": "Melee Weapon Attack: +7 to hit, reach 5 ft. , one target. Hit: 11 (2d6 + 4) slashing damage.",
+        "Fire Breath (Recharge 5-6)": "The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one."
       }
     ],
     "Reactions": [],

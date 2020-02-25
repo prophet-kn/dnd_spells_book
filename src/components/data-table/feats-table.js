@@ -120,9 +120,9 @@ class FeatsTable extends Component {
 
     featParamUrls.set('f_id', this.state.pin['ids'])
 
-    const oldPath = (window.location.pathname + window.location.search).substr(1)
+    const oldPath = ('/' + window.location.search).substr(1)
     var newPath = oldPath
-    const fRegex = /\?f_id=[\d,]*/gi;
+    const fRegex = /\?f_id=[\d,]*/gi
 
     if (fRegex.test(oldPath)) {
       newPath = oldPath.replace(fRegex, '?f_id=' + featParamUrls.get('f_id'))
@@ -138,7 +138,7 @@ class FeatsTable extends Component {
   }
 
   componentDidMount() {
-    const idRegex = /\?f_id=([\d,]*)/;
+    const idRegex = /\?f_id=([\d,]*)/
 
     if (window.location.search.match(idRegex)) {
       let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')

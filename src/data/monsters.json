@@ -969,7 +969,7 @@
     "name": "Aarakocra",
     "alignment": "Neutral good",
     "size": "Medium",
-    "type": "Fiend",
+    "type": "Humanoid",
     "AC": 12,
     "HP": 13,
     "speed": "20 ft, fly 50 ft",
@@ -2119,7 +2119,7 @@
     ],
     "Actions": [
       {
-        "Multiattack": "The cam bion makes two melee attacks or uses its Fire Ray twice.",
+        "Multiattack": "The cambion makes two melee attacks or uses its Fire Ray twice.",
         "Spear": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (d6) fire damage.",
         "Fire Ray": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 10 (3d6) fire damage.",
         "Fiendish Charm": "One humanoid the cambion can see within 30 feet of it must succeed on a DC 14 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, the target can repeat the saving throw, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm for the next 24 hours."
@@ -2673,5 +2673,507 @@
         "Vile Curse (Costs 3 Actions)": "The demilich targets one creature it can see within 30 feet of it. The target must succeed on a DC 15 Wisdom saving throw or be magically cursed. Until the curse ends, the target has disadvantage on attack rolls and saving throws. The target can repeat the saving throw at the end of each of its turns, ending the curse on a success."
       }
     ]
+  },
+  {
+    "name": "Balor",
+    "size": "Huge",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 19,
+    "HP": 262,
+    "speed": "40 ft, fly 80 ft",
+    "stats": [
+      {
+        "Strength": 26,
+        "Dexterity": 15,
+        "Constitution": 22,
+        "Intelligence": 20,
+        "Wisdom": 16,
+        "Charisma": 22
+      }
+    ],
+    "saving_throws": [
+      {
+        "Strength": 14,
+        "Constitution": 12,
+        "Wisdom": 9,
+        "Charisma": 12
+      }
+    ],
+    "skills": [],
+    "damageResistance": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "passivePerception": 13,
+    "Language": "Abyssal, telepathy 120 ft",
+    "Challenge": "19",
+    "Features": [
+      {
+        "Damage Immunities": "fire, poison",
+        "Condition Immunities": "poisoned",
+        "Senses": "truesight 120 ft",
+        "Death Throes": "When the balor dies, it explodes, and each creature with in 30 feet of it must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the baler's weapons.",
+        "Fire Aura": "At the start of each of the baler's turns, each creature within 5 feet of it takes 10 (3d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the baler or hits it with a melee attack while within 5 feet of it takes 10 (3d6) fire damage.",
+        "Magic Resistance": "The balor has advantage on saving throws against spells and other magical effects.",
+        "Magic Weapons": "The baler's weapon attacks are magical."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The baler makes two attacks: one with its longsword and one with its whip.",
+        "Longsword": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) slashing damage plus 13 (3d8) lightning damage. If the balor scores a critical hit, it rolls damage dice three times, instead of twice.",
+        "Whip": "Melee Weapon Attack: +14 to hit, reach 30 ft., one target. Hit: 15 (2d6 + 8) slashing damage plus 10 (3d6) fire damage, and the target must succeed on a DC 20 Strength saving throw or be pulled up to 25 feet toward the balor.",
+        "Teleport": "The balor magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Barlgura",
+    "size": "Large",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 15,
+    "HP": 68,
+    "speed": "40 ft, climb 40 ft",
+    "stats": [
+      {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 7,
+        "Wisdom": 14,
+        "Charisma": 9
+      }
+    ],
+    "saving_throws": [
+      {
+        "Dexterity": 5,
+        "Constitution": 6
+      }
+    ],
+    "skills": [
+      {
+        "Perception": 5,
+        "Stealth": 5
+      }
+    ],
+    "damageResistance": "cold, fire, lightning",
+    "passivePerception": 15,
+    "Language": "Abyssal, telepathy 120 ft",
+    "Challenge": "5",
+    "Features": [
+      {
+        "Senses": "blindsight 30 ft, darkvision 120 ft.",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "poisoned",
+        "Innate Spellcasting": "The barlgura's spellcasting ability is Wisdom (spell save DC 13). The barlgura can innately cast the following spells, requiring no material components: 1/day each: entangle, phantasmal force 2/day each: disguise self, invisibility (self only)",
+        "Reckless": "At the start of its turn, the barlgura can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.",
+        "Running Leap": "The barlgura's long jump is up to 40 feet and its high jump is up to 20 feet when it has a running start."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The barlgura makes three attacks: one with its bite and two with its fists.",
+        "Bite": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+        "Fist": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d1O + 4) bludgeoning damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Chasme",
+    "size": "Large",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 15,
+    "HP": 84,
+    "speed": "20 ft, fly 60 ft",
+    "stats": [
+      {
+        "Strength": 15,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 11,
+        "Wisdom": 14,
+        "Charisma": 10
+      }
+    ],
+    "saving_throws": [
+      {
+        "Dexterity": 5,
+        "Wisdom": 5
+      }
+    ],
+    "skills": [
+      {
+        "Perception": 5
+      }
+    ],
+    "damageResistance": "cold, fire, lightning",
+    "passivePerception": 15,
+    "Language": "Abyssal, telepathy 120 ft",
+    "Challenge": "6",
+    "Features": [
+      {
+        "Senses": "blindsight 10 ft, darkvision 120 ft.",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "poisoned",
+        "Drone": "The chasme produces a horrid droning sound to which demons are immune. Any other creature that starts its turn within 30 feet of the chasme must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. A creature that can't hear the drone automatically succeeds on the save. The effect on the creature ends if it takes damage or if another creature takes an action to splash it with holy water. If a creature's saving throw is successful or the effect ends for it, it is immune to the drone for the next 24 hours.",
+        "Magic Resistance": "The chasme has advantage on saving throws against spells and other magical effects.",
+        "Spider Climb": "The chasme can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      }
+    ],
+    "Actions": [
+      {
+        "Proboscis": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 16 (4d6 + 2) piercing damage plus 24 (7d6) necrotic damage, and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. If this effect reduces a creature's h it point maximum to 0, the creature dies. This reduction to a creature's hit point maximum lasts until the creature finishes a long rest or until it is affected by a spell like greater restoration."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Dretch",
+    "size": "Small",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 11,
+    "HP": 18,
+    "speed": "20 ft",
+    "stats": [
+      {
+        "Strength": 11,
+        "Dexterity": 11,
+        "Constitution": 12,
+        "Intelligence": 5,
+        "Wisdom": 8,
+        "Charisma": 3
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "cold, fire, lightning",
+    "passivePerception": 9,
+    "Language": "Abyssal, telepathy 60 ft. (works only with creatures that understand Abyssal)",
+    "Challenge": "1/4",
+    "Features": [
+      {
+        "Senses": "darkvision 60 ft",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "poisoned"
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The dretch makes two attacks: one with its bite and one with its claws.",
+        "Bite": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.",
+        "Claws": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.",
+        "Fetid Cloud (1/Day)": "A 10-foot radius of disgusting green gas extends out from the dretch. The gas spreads a round corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC 11 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Glabrezu",
+    "size": "Large",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 17,
+    "HP": 157,
+    "speed": "40 ft",
+    "stats": [
+      {
+        "Strength": 20,
+        "Dexterity": 15,
+        "Constitution": 21,
+        "Intelligence": 19,
+        "Wisdom": 17,
+        "Charisma": 16
+      }
+    ],
+    "saving_throws": [
+      {
+        "Strength": 9,
+        "Constitution": 9,
+        "Wisdom": 7,
+        "Charisma": 7
+      }
+    ],
+    "skills": [],
+    "damageResistance": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "passivePerception": 13,
+    "Language": "Abyssal, telepathy 120 ft.",
+    "Challenge": "9",
+    "Features": [
+      {
+        "Senses": "truesight 120 ft",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "poisoned",
+        "Innate Spellcasting": "The glabrezu's spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components: At will: darkness, detect magic, dispel magic 1/day each: confusion, fly, power word stun",
+        "Magic Resistance": "The glabrezu has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The glabrezu makes four attacks: two with its pincers and two with its fists. Alternatively, it makes two attacks with its pincers and casts one spell.",
+        "Pincer": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target.",
+        "Fist": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Goristro",
+    "size": "Huge",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 19,
+    "HP": 310,
+    "speed": "40 ft",
+    "stats": [
+      {
+        "Strength": 25,
+        "Dexterity": 11,
+        "Constitution": 25,
+        "Intelligence": 6,
+        "Wisdom": 13,
+        "Charisma": 14
+      }
+    ],
+    "saving_throws": [
+      {
+        "Strength": 13,
+        "Dexterity": 6,
+        "Constitution": 13,
+        "Wisdom": 7
+      }
+    ],
+    "skills": [
+      {
+        "Perception": 7
+      }
+    ],
+    "damageResistance": "cold, fire, lightning; bludgeoning, piercing, and slashing from non magical attacks",
+    "passivePerception": 17,
+    "Language": "Abyssal",
+    "Challenge": "17",
+    "Features": [
+      {
+        "Senses": "darkvision 120 ft",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "poisoned",
+        "Charge": "If the goristro moves at least 15 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 38 (7d10) piercing damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be pushed up to 20 feet away and knocked prone.",
+        "Labyrinthine Recall": "The goristro can perfectly recall any path it has traveled.",
+        "Magic Resistance": "The goristro has advantage on saving throws against spells and other magical effects.",
+        "Siege Monster": "The goristro deals double damage to objects and structures."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The goristro makes three attacks: two with its fists and one with its hoof.",
+        "Fist": "Melee Weapon Attack: +13 to hit, reach 10 ft., one ta rget. Hit: 20 (3d8 + 7) bludgeoning damage.",
+        "Hoof": "Melee Weapon Attack: + 13 to hit, reach 5 ft., one target. Hit: 23 (3d 10 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone.",
+        "Gore": "Melee Weapon Attack: +13 to h it , reach 10 ft., one target. Hit: 45 (7d10 + 7) piercing damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Hezrou",
+    "size": "Large",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 16,
+    "HP": 136,
+    "speed": "30 ft",
+    "stats": [
+      {
+        "Strength": 19,
+        "Dexterity": 17,
+        "Constitution": 20,
+        "Intelligence": 5,
+        "Wisdom": 12,
+        "Charisma": 13
+      }
+    ],
+    "saving_throws": [
+      {
+        "Strength": 7,
+        "Constitution": 8,
+        "Wisdom": 4
+      }
+    ],
+    "skills": [],
+    "damageResistance": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "passivePerception": 11,
+    "Language": "Abyssal, telepathy 120 ft.",
+    "Challenge": "8",
+    "Features": [
+      {
+        "Senses": "darkvision 120 ft",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "poisoned",
+        "Magic Resistance": "The hezrou has advantage on saving throws against spells and other magical effects.",
+        "Stench": "Any creature that starts its turn within 10 feet of the hezrou must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The hezrou makes three attacks: one with its bite and two with its claws.",
+        "Bite": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage.",
+        "Claw": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage"
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Manes",
+    "size": "Small",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 9,
+    "HP": 9,
+    "speed": "20 ft",
+    "stats": [
+      {
+        "Strength": 10,
+        "Dexterity": 9,
+        "Constitution": 13,
+        "Intelligence": 3,
+        "Wisdom": 8,
+        "Charisma": 4
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "cold, fire, lightning",
+    "passivePerception": 9,
+    "Language": "understands Abyssal but can't speak",
+    "Challenge": "1/8",
+    "Features": [
+      {
+        "Senses": "darkvision 60 ft",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "charmed, frightened, poisoned"
+      }
+    ],
+    "Actions": [
+      {
+        "Claws": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Marilith",
+    "size": "Large",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 18,
+    "HP": 189,
+    "speed": "40 ft",
+    "stats": [
+      {
+        "Strength": 18,
+        "Dexterity": 20,
+        "Constitution": 20,
+        "Intelligence": 18,
+        "Wisdom": 16,
+        "Charisma": 20
+      }
+    ],
+    "saving_throws": [
+      {
+        "Strength": 9,
+        "Constitution": 10,
+        "Wisdom": 8,
+        "Charisma": 10
+      }
+    ],
+    "skills": [],
+    "damageResistance": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "passivePerception": 13,
+    "Language": "Abyssal, telepathy 120 ft.",
+    "Challenge": "16",
+    "Features": [
+      {
+        "Senses": "truesight 120 ft",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "poisoned",
+        "Magic Resistance": "The marilith has advantage on saving throws against spells and other magical effects.",
+        "Magic Weapons": "The marilith's weapon attacks are magical",
+        "Reactive": "The marilith can take one reaction on every turn in a combat."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The marilith makes seven attacks: six with its longswords and one with its tail.",
+        "Longsword": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
+        "Tail": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 15 (2d10 + 4) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 19). Until this gra pple ends, the target is restrained, the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets.",
+        "Teleport": "The marilith magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+      }
+    ],
+    "Reactions": [
+      {
+        "Parry": "The marilith adds 5 to its AC against one melee attack that would hit it. To do so, the marilith must see the attacker and be wielding a melee weapon."
+      }
+    ],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Nalfeshnee",
+    "size": "Large",
+    "type": "Fiend (demon)",
+    "alignment": "Chaotic evil",
+    "AC": 18,
+    "HP": 184,
+    "speed": "20 ft, fly 30 ft",
+    "stats": [
+      {
+        "Strength": 21,
+        "Dexterity": 10,
+        "Constitution": 22,
+        "Intelligence": 19,
+        "Wisdom": 12,
+        "Charisma": 15
+      }
+    ],
+    "saving_throws": [
+      {
+        "Constitution": 11,
+        "Intelligence": 9,
+        "Wisdom": 9,
+        "Charisma": 7
+      }
+    ],
+    "skills": [],
+    "damageResistance": "cold, fire, lightning; bludgeoning, piercing, and slashing from non magical attacks",
+    "passivePerception": 11,
+    "Language": "Abyssal, telepathy 120 ft.",
+    "Challenge": "13",
+    "Features": [
+      {
+        "Senses": "truesight 120 ft",
+        "Damage Immunities": "poison",
+        "Condition Immunities": "poisoned",
+        "Magic Resistance": "The nalfeshnee has advantage on saving th rows against spells and other magical effects."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The nalfeshnee uses Horror Nimbus if it can. It then makes three attacks: one with its bite and two with its claws.",
+        "Bite": "Melee Weapon Attack: +10 to hit, reach 5 ft.. one target. Hit: 32 (5d10 + 5) piercing damage.",
+        "Claw": "Melee Weapon Attack: + 10 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) slashing damage.",
+        "Horror Nimbus (Recharge 5-6)": "The nalfeshnee magically emits scintillating, multicolored light. Each creature within 15 feet of the nalfeshnee that can see the light must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee's Horror Nimbus for the next 24 hours.",
+        "Teleport": "The nalfeshnee magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
   }
 ]

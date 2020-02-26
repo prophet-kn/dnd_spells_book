@@ -105,8 +105,8 @@ class Output extends Component {
         <div className={'lander-button disabled'} view={'classFeatures'}>
           <span>Class Features</span>
         </div>
-        <div className={'lander-button disabled'} view={'featsList'}>
-          <span>List of Feats</span>
+        <div className={'lander-button disabled'} view={'initiativeHpTracker'}>
+          <span>Initiative/HP Tracker</span>
         </div>
         <div className={'lander-button disabled'} view={'characterSheet'}>
           <span>Character Sheet</span>

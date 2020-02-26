@@ -149,9 +149,9 @@ class SpellsTable extends Component {
       queryIds['ids'] = queryIds['ids'].filter(f => f !== id)
     }
 
-    const oldPath = (window.location.pathname + window.location.search).substr(1)
+    const oldPath = ('/' + window.location.search).substr(1)
     var newPath = oldPath
-    const sRegex = /\?s_id=[\d,]*/gi;
+    const sRegex = /\?s_id=[\d,]*/gi
 
     spellParamUrls.set('s_id', this.state.pin['ids'])
 
@@ -169,7 +169,7 @@ class SpellsTable extends Component {
   }
 
   componentDidMount() {
-    const idRegex = /\?s_id=([\d,]*)/;
+    const idRegex = /\?s_id=([\d,]*)/
 
     if (window.location.search.match(idRegex)) {
       let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')

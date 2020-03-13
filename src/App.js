@@ -44,7 +44,7 @@ class App extends Component {
           </div>
           <div className={'dndapp-footer'}>
             <i>Va'esse deireádh aep eigean, va'esse eigh faidh'ar</i>
-            <i>by: <a href="https://github.com/prophet-kn">prophet-kn</a></i>
+            <i>by: <a target="_blank" rel="noopener noreferrer" href="https://github.com/prophet-kn">prophet-kn</a> {'&'} <a target="_blank" rel="noopener noreferrer" href="https://github.com/CuriousCactus">CuriousCactus</a></i>
             <br></br>
             <i>
               Wizards of the Coast, Dungeons &#38; Dragons, and their logos are trademarks of Wizards of the Coast LLC in the United States and other countries. © 1993-2020 Wizards. All Rights Reserved.

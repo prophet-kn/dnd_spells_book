@@ -76,7 +76,7 @@ class FeatsTable extends Component {
   filterDropdowns() {
     return (
       <div className={this.state.filterButton === true ? "filter-dropdown active" : "filter-dropdown hidden"}>
-        <div className={"filter-close"} onClick={this.onClickFilter.bind(this)}></div>
+        <svg width="30" height="30" viewBox="0 0 12 16" className={"filter-close"} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
         <FilterDataButtons title={'Race prerequisite'} values={uniqueRacePrerequisite} setFilter={this.setFilter} />
         <FilterDataButtons title={'Skill prerequisite'} values={uniqueSkillPrerequisite} setFilter={this.setFilter} />
       </div>
@@ -120,9 +120,9 @@ class FeatsTable extends Component {
 
     featParamUrls.set('f_id', this.state.pin['ids'])
 
-    const oldPath = (window.location.pathname + window.location.search).substr(1)
+    const oldPath = ('/' + window.location.search).substr(1)
     var newPath = oldPath
-    const fRegex = /\?f_id=[\d,]*/gi;
+    const fRegex = /\?f_id=[\d,]*/gi
 
     if (fRegex.test(oldPath)) {
       newPath = oldPath.replace(fRegex, '?f_id=' + featParamUrls.get('f_id'))
@@ -138,7 +138,7 @@ class FeatsTable extends Component {
   }
 
   componentDidMount() {
-    const idRegex = /\?f_id=([\d,]*)/;
+    const idRegex = /\?f_id=([\d,]*)/
 
     if (window.location.search.match(idRegex)) {
       let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')

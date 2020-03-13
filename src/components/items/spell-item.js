@@ -31,6 +31,7 @@ class SpellItem extends Component {
             <div className={"item-range"}><b>Range:</b> {spellItem.s_range}</div>
             <div className={"item-components"}><b>Components:</b> {spellItem.s_components}</div>
             <div className={"item-duration"}><b>Duration:</b> {spellItem.s_duration}</div>
+            <div className={"item-damage"}><b>Damage:</b> {spellItem.s_damage_dice} {spellItem.s_damage_type}</div>
           </div>
           <div className={"item-description"}>{ReactHtmlParser(spellItem.s_description)}</div>
         </div>
@@ -54,6 +55,9 @@ class SpellItem extends Component {
       <div className={this.state.showList === i ? "item-dropdown" : "item-dropdown hide-child"}>
         <div className={"item-name"} onClick={(e) => {this.addClassName(e, i)}}>
           <span>{spellItem.s_name}</span>
+          {spellItem.s_damage_type !== "None" &&
+            <img src={require("./svgs/"+spellItem.s_damage_type+".svg")} alt={spellItem.s_damage_type} className={"spell-damage-icon"} />
+          }
           <div className={"item-tooltip"}>L: {spellItem.s_lvl.slice(0, 1)}</div>
           <svg className={this.state.showList === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
         </div>

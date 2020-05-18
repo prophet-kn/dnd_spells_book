@@ -1,7 +1,7 @@
 var gulp = require('gulp')
 var sass = require('gulp-sass')
-var bulkSass = require("gulp-sass-bulk-import");
-var autoprefixer = require("gulp-autoprefixer");
+var bulkSass = require('gulp-sass-bulk-import');
+var autoprefixer = require('gulp-autoprefixer');
 var clean = require('gulp-clean-css')
 
 var input = 'src/styles'
@@ -9,7 +9,7 @@ var output = 'src/compiled'
 
 gulp.task('sass:all', function () {
   return gulp
-    .src('./src/styles/**/*.scss')
+    .src('./src/styles/theme.scss')
     .pipe(bulkSass())
     .pipe(sass())
     .on('error', sass.logError)

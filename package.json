@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://prophet-kn.github.io/dnd_spells_book/",
   "dependencies": {
-    "browser-sync": "^2.26.7",
     "create-react-class": "^15.6.3",
     "eslint-utils": "1.4.2",
     "gh-pages": "^2.1.1",

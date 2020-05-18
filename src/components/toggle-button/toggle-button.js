@@ -29,7 +29,7 @@ class ToggleButton extends React.Component {
       classNames.push('selected')
     }
 
-    var label = ""
+    let label = ""
     if (this.props.type !== undefined) {
       label = this.cFC(this.props.type.toString())
     }

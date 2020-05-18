@@ -1,7 +1,7 @@
 var gulp = require('gulp')
 var sass = require('gulp-sass')
-var bulkSass = require('gulp-sass-bulk-import');
-var autoprefixer = require('gulp-autoprefixer');
+var bulkSass = require('gulp-sass-bulk-import')
+var autoprefixer = require('gulp-autoprefixer')
 var clean = require('gulp-clean-css')
 
 var input = 'src/styles'

@@ -31,9 +31,9 @@ class SpellItem extends Component {
             <div className={"item-range"}><b>Range:</b> {spellItem.s_range}</div>
             <div className={"item-components"}><b>Components:</b> {spellItem.s_components}</div>
             <div className={"item-duration"}><b>Duration:</b> {spellItem.s_duration}</div>
-            <div className={"item-can-cast"}><b>Can Cast:</b> {spellItem.s_class_usage.join(', ')}</div>
           </div>
           <div className={"item-description"}>{ReactHtmlParser(spellItem.s_description)}</div>
+          <div className={"item-can-cast"}><i>Classes: {spellItem.s_class_usage.join(', ')}</i></div>
         </div>
       )
     }

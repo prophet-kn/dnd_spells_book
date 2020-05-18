@@ -535,6 +535,11 @@
     }
   }
 
+  &-can-cast {
+    border-top: 2px solid;
+    margin-top: 10px;
+  }
+
   &-undefined {
     font-size: $medium-size;
     padding: 25px 0;

@@ -39,9 +39,6 @@
     ],
     "development": [
       "last 1 version"
-    ],
-    "ssr": [
-      "node 12"
     ]
   },
   "devDependencies": {

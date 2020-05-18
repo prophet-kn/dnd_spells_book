@@ -4,14 +4,20 @@
   "private": true,
   "homepage": "https://prophet-kn.github.io/dnd_spells_book/",
   "dependencies": {
+    "browser-sync": "^2.26.7",
     "create-react-class": "^15.6.3",
     "eslint-utils": "1.4.2",
     "gh-pages": "^2.1.1",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-param": "1.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-bulk-import": "1.0.1",
+    "gulp-sourcemaps": "^2.6.5",
     "lodash": "^4.17.15",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -37,9 +43,10 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 version"
+    ],
+    "ssr": [
+      "node 12"
     ]
   },
   "devDependencies": {

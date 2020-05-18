@@ -1,4 +1,5 @@
 .dndapp {
+  width: 100%;
   max-width: 600px;
   min-height: 100vh;
   margin-top: 10px;
@@ -127,9 +128,10 @@
       &-roll {
         display: grid;
         grid-template-columns: 20% 20% 40% 20%;
-        align-items: center;
         flex: 0 1 100%;
         padding-bottom: 50px;
+
+        & > * { align-self: center }
 
         &-label {
           margin-bottom: 5px;
@@ -301,7 +303,8 @@
                 grid-template-columns: 50% 50%;
                 border-bottom: 2px solid;
                 margin-bottom: 10px;
-                align-items: center;
+
+                & > * { align-self: center }
 
                 h2 {
                   &:first-child {
@@ -347,7 +350,8 @@
                   display: grid;
                   border-bottom: 2px solid;
                   margin-bottom: 10px;
-                  align-items: center;
+
+                  & > * { align-self: center }
                 }
 
                 &-stats {
@@ -625,7 +629,7 @@
       flex-direction: column;
       max-width: 600px;
       margin: auto;
-      position: fixed;
+      position: absolute;
       z-index: 3;
       top: 0;
       right: 0;
@@ -666,12 +670,12 @@ input {
   &.search {
     &-input {
       display: flex;
-      width: -webkit-fill-available;
+      width: stretch;
       height: 30px;
       border: 2px solid;
       border-radius: 25px;
       padding: 10px;
-      background: transparent;
+      background: green;
       font-size: $big-size;
       margin-bottom: 10px;
 
@@ -699,7 +703,6 @@ svg {
 
 // global
 .dndapp-main {
-  align-items: center;
   display: flex;
   flex-direction: column;
   font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
@@ -707,6 +710,8 @@ svg {
   min-height: 100vh;
   text-align: center;
   transition: .25s ease-in-out;
+
+  & > * { align-self: center }
 }
 
 body {

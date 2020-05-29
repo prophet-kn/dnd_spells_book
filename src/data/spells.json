@@ -73,7 +73,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the DM has the creature's game statistics).<br> On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.<br> The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.<br> <b>At Higher Levels.</b> When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones."
   },
@@ -92,7 +93,8 @@
       "Sorcerer"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.<br> As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.<br> An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a f1yingspeed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is O. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.<br> If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The DM might rule that a specific object inflicts slashing or piercing damage based on its form. <br> <b>At Higher Levels.</b> If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th."
   },
@@ -153,7 +155,8 @@
       "Ranger"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as -a man or woman dressed in the uniform of the town guard- or -a red-haired dwarf wearing a pointed hat.- You also speak a message of up twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals. When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell. <br><b>At Higher Levels.</b> If you cast this spell using a spell slot of 2nd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd."
   },
@@ -363,7 +366,8 @@
       "Warlock"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. <br><br>You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot"
   },
@@ -493,7 +497,8 @@
       "Druid"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Summoning"
     ],
     "s_description": "After spending the casting time tracing magical pathways within a precious gemstone, you touch a huge or smaller beast or plant. <br><br>The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vinces, creepers, and so forth, and it gains senses similar to a huamn’s. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree. <br><br>The awakened beast or plant is charmed by you for 30 days or until you and your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed."
   },
@@ -571,7 +576,8 @@
       "Ranger"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "You touch a willing creature. Until the spellends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than 16, regardless of what kind of armor it is wearing."
   },
@@ -609,7 +615,8 @@
       "Ranger"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Communication"
     ],
     "s_description": "You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast’s Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see."
   },
@@ -1364,7 +1371,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "For the duration, you understand the literal meaning of any spoken language that you hear. <br>You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface of which the words are written. It takes about 1 minute to read one page of text. <br><br>This spell doesn’t decode secret messages in a text or glyph, such as an arcane sigil, that isn’t part of a written language."
   },
@@ -1441,7 +1449,8 @@
       "Ranger"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. <br><br>Choose one of the following options for what appears: <br><br>• One beast of challenge rating 2 or lower <br>• Two beasts of challenge rating 1 or lower <br>• Four beasts of challenge rating 1/2 or lower <br>• Eight beasts of challenge rating 1/4 or lower <br><br>Each beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends. <br><br>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. <br>The DM has the creatures’ statistics.<br><br><b>At higher level</b><br>When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: <br><br>twice as many with a 5th-level slot<br>three times as many with a 7th-level slot <br>four times as many with a 9th-level slot."
   },
@@ -1477,7 +1486,8 @@
       "Cleric"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends. <br><br>The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don’t violate its alignment. If you don’t issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions <br>The DM has the celestial’s statistics. <br><br><br>At higher level</br><br>When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower."
   },
@@ -1496,7 +1506,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "You call forth an elemental servant. <br>Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends. <br><br>The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions. <br><br>If your concentration is broken, the elemental doesn’t disappear. Instead, you lose control of the elemental, it becom es hostile toward you and your companions, and it might attack. An uncontrolled elemental can’t be dismissed by you, and it disappears 1 hour after you summoned it. The DM has the elemental’s statistics. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
   },
@@ -1515,7 +1526,8 @@
       "Warlock"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "You summon a fey creature of challenge rating 6 or lower, or a fey spirit that takes the form of a beast of challenge rating 6 or lower. <br>It appears in an unoccupied space that you can see within range. The fey creature disappears when it drops to 0 hit points or when the spell ends. <br><br>The fey creature is friendly to you and your companions for the duration. Roll initiative for the creature, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don’t violate its alignment. If you don’t issue any commands to the fey creature, it defends itself from hostile creatures but otherwise takes no actions. <br><br>If your concentration is broken, the fey creature doesn’t disappear. Instead, you lose control of the fey creature, it becomes hostile toward you and your companions, and it might attack. An uncontrolled fey creature can’t be dismissed by you, and it disappears 1 hour after you summoned it. <br>The DM has the fey creature’s statistics. <br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th"
   },
@@ -1534,7 +1546,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "You summon elementals that appear in unoccupied spaces that you can see within range.<br>You choose one the following options for what appears: <br>- One elemental of challenge rating 2 or lower <br>- Two elementals of challenge rating 1 or lower <br>- Four elementals of challenge rating 1/2 or lower <br>- Eight elementals of challenge rating 1/4 or lower. <br><br>An elemental summoned by this spell disappears when it drops to 0 hit points or when the spell ends. <br><br>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. <br>The DM has the creatures’ statistics. <br><br><b>At higher level</b><br>When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot."
   },
@@ -1571,7 +1584,8 @@
       "Druid"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "You summon fey creatures that appear in unoccupied spaces that you can see within range. <br><br>Choose one of the following options for what appears: <br> • One fey creature of challenge rating 2 or lower <br> • Two fey creatures of challenge rating 1 or lower <br> • Four fey creatures of challenge rating 1/2 or lower <br> • Eight fey creatures of challenge rating 1/4 or lower <br><br>A summoned creature disappears when it drops to 0 hit points or when the spell ends. <br><br>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. <br>The DM has the creatures’ statistics. <br><br><b>At higher level</b><br>When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: <br>twice as many with a 6th-level slot<br>three times as many with an 8th-level slot."
   },
@@ -1862,7 +1876,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "You can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a ghoul under your control. (The DM has game statistics for these creatures.) <br><br>As a bonus action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete. <br><br>The creature is under your control for 24 hours, after which it stops obeying any command you have given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell, rather than animating new ones. <br><br><b>At higher level</b><br>When you cast this spell using a 7th-level spell slot, you can animate or reassert control over four ghouls. <br>When you cast this spell using an 8th-level spell slot, you can animate or reassert control over five ghouls or two ghasts or wights. <br>When you cast this spell using a 9th-level spell slot, you can animate or reassert control over six ghouls, three ghasts or wights, or two mummies."
   },
@@ -2003,7 +2018,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton (the statistics for zombies and skeletons are in the Monster Manual), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier. You can use a bonus action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what action the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. lfyou issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.<br>The creatures are under your control until the spell ends, after which they become inanimate once more.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot‘ of 6th level or higher, you animate up to two additional corpses for each slot level above 5th."
   },
@@ -2106,7 +2122,8 @@
       "Artificer"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Protection"
     ],
     "s_description": "You touch a creature and grant it a measure of protection from death. <br>The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spells ends."
   },
@@ -2443,9 +2460,10 @@
       "Sorcerer"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
-    "s_description": "You attempt to beguile a beast that you can see within range. <br>It must succeed on a W isdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw. <br><br>While the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as 'Attack that creature,' 'Run over there,' or 'Fetch that object.' If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. <br><br>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. <br><br>Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.<br><br><b>At higher level</b><br>When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes. <br>When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. <br>When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours"
+    "s_description": "You attempt to beguile a beast that you can see within range. <br>It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw. <br><br>While the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as 'Attack that creature,' 'Run over there,' or 'Fetch that object.' If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. <br><br>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. <br><br>Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.<br><br><b>At higher level</b><br>When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes. <br>When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. <br>When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours"
   },
   {
     "s_id": 124,
@@ -2484,7 +2502,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "You attempt to beguile a humanoid that you can see within range. <br>It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw. <br><br>While the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as 'Attack that creature', 'Run over there', or 'Fetch that object'. If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. <br><br>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. <br><br>Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends. <br><br><b>At higher level</b><br>When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. <br>When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. <br>When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours."
   },
@@ -2541,7 +2560,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "This spell shapes a creature’s dreams. <br>Choose a creature known to you as the target of this spell. The target must be on the same plane of existence as you. Creatures that don’t sleep, such as elves, can’t be contacted by this spell. You, or a willing creature you touch, enters a trance state, acting as a messenger. While in the trance, the messenger is aware of his or her surroundings, but can’t take actions or move. <br><br>If the target is asleep, the messenger appears in the target’s dreams and can converse with the target as long as it remains asleep, through the duration of the spell. The messenger can also shape the environment of the dream, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the effect of the spell early. The target recalls the dream perfectly upon waking. If the target is awake when you cast the spell, the messenger knows it, and can either end the trance (and the spell) or wait for the target to fall asleep, at which point the messenger appears in the target’s dreams. <br><br>You can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a Wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target’s sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes 3d6 psychic damage. <br><br>If you have a body part, lock of hair, clipping from a nail, or similar portion of the target’s body, the target makes its saving throw with disadvantage."
   },
@@ -3135,7 +3155,9 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning",
+      "Communication"
     ],
     "s_description": "You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk. lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey or fiend (your choice) instead of a beast. <br><br>Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can’t attack, but it can take other actions as normal. <br><br>When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. <br><br>While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses. <br><br>As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits you summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. <br><br>You can’t have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature. <br><br>Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
   },
@@ -3153,7 +3175,9 @@
       "Paladin"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning",
+      "Transport"
     ],
     "s_description": "You summon a spirit that assumes the form of a loyal, majestic mount. Appearing in an unoccupied space within range, the spirit takes on a form you choose: a griffon, a pegasus, a peryton, a dire wolf, a rhinoceros, or a saber—toothed tiger. The creature has the statistics provided in the Monster Manual for the chosen form, though it is a celestial, a fey, or a fiend (your choice) instead of its normal creature type. Additionally, if it has an Intelligence score of 5 or lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak. You control the mount in combat. While the mount is within 1 mile of you, you can communicate with it te1epathically. While mounted on it, you can make any spell you cast that targets only you also target the mount. The mount disappears temporarily when it drops to 0 hit points or when you dismiss it as an action. Casting this spell again re—summons the bonded mount, with all its hit points restored and any conditions removed. You can’t have more than one mount bonded by this spell or find steed at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently. Whenever the mount disappears, it leaves behind any objects it was wearing or carrying."
   },
@@ -3171,7 +3195,10 @@
       "Paladin"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning",
+      "Transport",
+      "Communication"
     ],
     "s_description": "You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose, such as a warhorse, a pony, a camel, an elk, or a mastiff. (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.<br><br>Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, you can make any spell you cast that targets only you also target your steed.<br><br>When the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an action, causing it to disappear. In either case, casting this spell again summons the same steed, restored to its hit point maximum.<br><br>While your steed is within 1 mile of you, you can communicate with it telepathically. You can’t have more than one steed bonded by this spell at a time. As an action, you can release the steed from its bond at any time, causing it to disappear."
   },
@@ -3268,7 +3295,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.<br><br>The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.<br><br>In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield."
   },
@@ -3726,7 +3754,8 @@
       "Artificer"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Summoning"
     ],
     "s_description": "When you cast this spell, you inscribe a glyph that harms other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph.<br>If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place; if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.<br><br>The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found.<br><br>You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.<br><br>You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don’t trigger the glyph, such as those who say a certain password.<br><br>When you inscribe the glyph, choose explosive runes or a spell glyph.<br><br><b>Explosive Runes</b><br>When triggered, the glyph erupts with magical energy in a 20-foot-radius sphere centered on the glyph. The sphere spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or thunder damage on a failed saving throw (your choice when you create the glyph), or half as much damage on a successful one.<br><br><b>Spell Glyph</b><br>You can store a prepared spell of 3rd level or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 4th level or higher, the damage of an explosive runes glyph increases by 1d8 for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding."
   },
@@ -3822,7 +3851,8 @@
       "Druid"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Healing"
     ],
     "s_description": "You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target’s exhaustion level by one, or end one of the following effects on the target: <br>* One effect that charmed or petrified the target <br>* One curse, including the target’s attunement to a cursed magic item <br>* Any reduction to one of the target’s ability scores <br>* One effect reducing the target’s hit point maximum"
   },
@@ -3860,9 +3890,10 @@
       "Cleric"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Summoning"
     ],
-    "s_description": "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.<br><br>Any creature hostile to you that moves to a space within 10 feet of the guardian for the firs time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
+    "s_description": "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.<br><br>Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
   },
   {
     "s_id": 196,
@@ -4011,7 +4042,9 @@
       "Cleric"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication",
+      "Protection"
     ],
     "s_description": "You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell. The affected area is subject to the following effects.<br><br>First, celestials, elementals, fey, fiends, and undead can’t enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.<br><br>Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Som e of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as ores or trolls. When a creature that would be affected enters the spell’s area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.<br><br><b>Courage</b><br>Affected creatures can’t be frightened while in the area. <br><br><b>Darkness</b><br>Darkness fills the area. Normal light, as well as magical light created by spells of a lower level than the slot you used to cast this spell, can’t illuminate the area.<br><br><b>Daylight</b><br>Bright light fills the area. Magical darkness created by spells of a lower level than the slot you used to cast this spell can’t extinguish the light.<br><br><b>Energy Protection</b><br>Affected creatures in the area have resistance to one damage type of your choice, except for bludgeoning, piercing, or slashing.<br><br><b>Energy Vulnerability</b><br>Affected creatures in the area have vulnerability to one damage type of your choice, except for bludgeoning, piercing, or slashing.<br><br><b>Everlasting Rest</b><br>Dead bodies interred in the area can’t be turned into undead.<br><br><b>Extradimensional Interference</b><br>Affected creatures can’t move or travel using teleportation or by extradimensional or interplanar means.<br><br><b>Fear</b><br>Affected creatures are frightened while in the area.<br><br><b>Silence</b><br>No sound can emanate from within the area, and no sound can reach into it.<br><br><b>Tongues</b><br>Affected creatures can communicate with any other creature in the area, even if they don’t share a common language."
   },
@@ -4459,7 +4492,8 @@
       "Warlock"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "You write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration.<br><br>To you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.<br><br>Should the spell be dispelled, the original script and the illusion both disappear.<br>A creature with truesight can read the hidden message."
   },
@@ -4535,9 +4569,11 @@
       "Warlock"
     ],
     "s_type": [
-      "Damage"
+      "Damage",
+      "Summoning",
+      "Communication"
     ],
-    "s_description": "Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil’s type, which must be one of challenge rating 6 or lower, such as a barbed devil or a bearded devil. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.<br>The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master’s control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited service. The DM has the creature’s statistics.<br>On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma (Deception, Intimidation, or Persuasion) check contested by its Wisdom (Insight) check. You make the check with advantage if you say the devil’s true name. Ifyour check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command— such as 'attack my enemies,' 'explore the room ahead, or 'bear this message to the queen—until it completes the activity, at which point it returns to you to report having done so.<br>If your concentration ends before the spell reaches its full duration, the devil doesn‘t disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for 3d6 minutes, and then it disappears.<br>If you possess an individual devil’s talisman, you can summon that devil if it is of the appropriate challenge<br>rating plus 1, and it obeys all your commands, with no Charisma checks required.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
+    "s_description": "Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil’s type, which must be one of challenge rating 6 or lower, such as a barbed devil or a bearded devil. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.<br>The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master’s control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited service. The DM has the creature’s statistics.<br>On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma (Deception, Intimidation, or Persuasion) check contested by its Wisdom (Insight) check. You make the check with advantage if you say the devil’s true name. Ifyour check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command, such as 'attack my enemies', 'explore the room ahead', or 'bear this message to the queen', until it completes the activity, at which point it returns to you to report having done so.<br>If your concentration ends before the spell reaches its full duration, the devil doesn‘t disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for 3d6 minutes, and then it disappears.<br>If you possess an individual devil’s talisman, you can summon that devil if it is of the appropriate challenge<br>rating plus 1, and it obeys all your commands, with no Charisma checks required.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
   },
   {
     "s_id": 231,
@@ -4615,7 +4651,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Protection"
     ],
     "s_description": "Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell’s duration. The flames don’t harm you. Until the spell ends, you gain the following benefits:<br>• You are immune to fire damage and have resistance to cold damage.<br>• Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.<br>• You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direc- tion you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 4d8 fire damage on a failed save, or half as much damage on a successful one."
   },
@@ -4636,7 +4673,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Protection"
     ],
     "s_description": "Until the spell ends, ice rimes your body, and you gain the following benefits:<br>• You are immune to cold damage and have resistance to fire damage.<br>• You can move across difficult terrain created by ice or snow without spending extra movement.<br>• The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.<br>• You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn."
   },
@@ -4657,7 +4695,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Protection"
     ],
     "s_description": "Until the spell ends, bits of rock spread across your body, and you gain the following benefits:<br>• You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.<br>• You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone.<br>• You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can’t end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are stunned until the end of your next turn."
   },
@@ -4678,9 +4717,10 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Protection"
     ],
-    "s_description": "Until the spell ends, wind whirls around you, and you gain the following benefits:<br>• Ranged weapon attacks made against you have disad- vantage on the attack roll.<br>• You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can some- how prevent it.<br>• You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube."
+    "s_description": "Until the spell ends, wind whirls around you, and you gain the following benefits:<br>• Ranged weapon attacks made against you have disadvantage on the attack roll.<br>• You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can some- how prevent it.<br>• You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube."
   },
   {
     "s_id": 238,
@@ -4718,7 +4758,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "You are immune to all damage until the spell ends."
   },
@@ -4818,7 +4859,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Protection"
     ],
     "s_description": "A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.<br><br>Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can’t extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.<br><br>Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside."
   },
@@ -4841,7 +4883,8 @@
       "Artificer"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Healing"
     ],
     "s_description": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned."
   },
@@ -5103,7 +5146,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "You touch a willing creature who isn’t wearing armor, and a protective magical force surrounds it until the spell ends. The target’s base AC becomes 13 + its Dexterity modifier. The spell ends it if the target dons armor or if you dismiss the spell as an action."
   },
@@ -5517,7 +5561,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "You point your finger toward a creature within range and whisper a message.<br>The target (and only the target) hears the message and can reply in a whisper that only you can hear.<br><br>You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn’t have to follow a straight line and can travel freely around corners or through openings."
   },
@@ -6053,7 +6098,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Transport"
     ],
     "s_description": "A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature’s appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.<br><br>For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends if you use an action to dismiss it or if the steed takes any damage."
   },
@@ -6094,7 +6140,7 @@
     "s_type": [
       "Utility"
     ],
-    "s_description": "With this spell, you attempt to bind a celestial, an elemental, a fey, or a fiend to your service.<br>The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted magic circle in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the duration. If the creature w as summoned or created by another spell, that spell’s duration is extended to match the duration of this spell.<br><br>A bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of a higher level, the duration increases to:<br>10 days with a 6th-level slot,<br>30 days with a 7th-level slot,<br>180 days with an 8th-level slot, <br>1 year and 1 day with a 9th-level spell slot."
+    "s_description": "With this spell, you attempt to bind a celestial, an elemental, a fey, or a fiend to your service.<br>The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted magic circle in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the duration. If the creature was summoned or created by another spell, that spell’s duration is extended to match the duration of this spell.<br><br>A bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of a higher level, the duration increases to:<br>10 days with a 6th-level slot,<br>30 days with a 7th-level slot,<br>180 days with an 8th-level slot, <br>1 year and 1 day with a 9th-level spell slot."
   },
   {
     "s_id": 310,
@@ -6451,7 +6497,8 @@
       "Artificer"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder."
   },
@@ -6472,7 +6519,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.<br><br>The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can’t be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect."
   },
@@ -6494,7 +6542,8 @@
       "Artificer"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.<br><br>For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage."
   },
@@ -6593,7 +6642,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren’t affected by this spell.<br><br>Until the spell ends, the targets can communicated telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can’t extend to other planes of existence."
   },
@@ -6986,7 +7036,8 @@
       "Cleric"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "You send a short message of twenty-five words or less to a creature with you are familiar. The creature hears the message in its mind, regonizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.<br><br>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn’t arrive."
   },
@@ -7122,7 +7173,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "Reaction trigger: You are hit by an attack or targeted by the magic missile spell<br><br>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile."
   },
@@ -7142,7 +7194,8 @@
       "Artificer"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
   },
@@ -7414,7 +7467,8 @@
       "Warlock"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "1 reaction, which you take when a humanoid you can see within 60 feet of you dies<br><br>This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can’t be revived.<br>Steal Life. You can use a bonus action to drain vigor from the soul and regain 2d8 hit points.<br>Query Soul. You ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.<br>Borrow Experience. You can use a bonus action to bolster yourself with the soul’s life experience, making your next attack roll, ability check, or saving throw with advantage. If you don’t use this benefit before the start of your next turn, it is lost.<br>Eyes of the Dead. You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you’re currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.<br>A creature that can see the sensor (such as one using see invisibility or truesight) sees a translucent image of the tormented humanoid whose soul you caged."
   },
@@ -7471,7 +7525,8 @@
       "Cleric"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can’t be undead. The spell fails if the corpse was the target of this spell within the last 10 days.<br><br>Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events."
   },
@@ -7491,7 +7546,8 @@
       "Ranger"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "You imbue plants within 30 feet of you with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell’s area within the past day, gaining information about creatures that have passed, weather, and other circumstances.<br><br>You can also turn difficult terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into difficult terrain that lasts for the duration, causing vines and branches to hinder pursuers, for example.<br><br>Plants might be able to perform other tasks on your behalf, at the DM’s discretion. The spell doesn’t enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.<br><br>If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.<br><br>This spell can cause the plants created by the entangle spell to release a restrained creature."
   },
@@ -7668,7 +7724,8 @@
       "Artificer"
     ],
     "s_type": [
-      "Support"
+      "Support",
+      "Protection"
     ],
     "s_description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
   },
@@ -7745,7 +7802,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "You utter foul words, summoning one demon from the chaos of the Abyss. You choose the demon’s type, which must be one of challenge rating 5 or lower, such as a shadow demon or a barlgura. The demon appears in an unoccupied space you can see within range, and the demon disappears when it drops to 0 hit points or when the spell ends.<br>Roll initiative for the demon, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.<br>At the end of each of the demon’s turns, it makes a Charisma saving throw. The demon has disadvantage on this saving throw if you say its true name. On a failed save, the demon continues to obey you. On a successful save, your control of the demon ends for the rest of the duration, and the demon spends its turns pursuing and attacking the nearest non-demons to the best of its ability. If you stop concentrating on the spell before it reaches its full duration, an uncontrolled demon doesn’t disappear for 1d6 rounds if it still has hit points.<br>As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demon can’t cross the circle or harm it, and it can’t target anyone within it. Using the material component in this manner consumes it when the spell ends.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th."
   },
@@ -7764,7 +7822,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Summoning"
     ],
     "s_description": "You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.<br>d6 / Demons Summoned<br>1–2 / Two demons of challenge rating 1 or lower<br>3–4 / Four demons of challenge rating 1/2 or lower<br>5–6 / Eight demons of challenge rating 1/4 or lower<br><br>The DM chooses the demons, such as manes or dretches, and you choose the unoccupied spaces you can see within range where they appear. A summoned demon disappears when it drops to 0 hit points or when the spell ends.<br>The demons are hostile to all creatures, including you. Roll initiative for the summoned demons as a group, which has its own turns. The demons pursue and attack the nearest non-demons to the best of their ability.<br>As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demons can’t cross the circle or harm it, and they can’t target anyone within it. Using the material component in this manner consumes it when the spell ends.<br><br><b>At higher level</b><br>When you cast this spell using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons."
   },
@@ -7939,7 +7998,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "You create a telepathic link between yourself and a willing creature with which you are familiar.<br>The creature can be anywhere on the same plane of existence as you. The spell ends if you or the target are no longer on the same plane.<br><br>Until the spell ends, you and the target can instantaneously share words, images, sounds, and other sensory messages with one another through the link, and the target recognizes you as the creature it is communicating with. The spell enables a creature with an Intelligence score of at least 1 to understand the meaning of your words and take in the scope of any sensory messages you send to it."
   },
@@ -8252,7 +8312,8 @@
       "Wizard"
     ],
     "s_type": [
-      "Utility"
+      "Utility",
+      "Communication"
     ],
     "s_description": "This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says."
   },

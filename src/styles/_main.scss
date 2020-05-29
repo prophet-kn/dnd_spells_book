@@ -46,7 +46,7 @@
           font-size: $biggest-size;
           display: flex;
           margin: auto;
-          transform: rotate(-5deg);
+          transform: rotate(-5deg) translatey(-8px);
           text-align: left;
         }
       }
@@ -531,6 +531,11 @@
     b {
       line-height: 2.0;
     }
+  }
+
+  &-can-cast {
+    border-top: 2px solid;
+    margin-top: 10px;
   }
 
   &-undefined {

@@ -95,7 +95,7 @@
     "f_name": "Dual Wielder",
     "f_prerequisite_race": "None",
     "f_prerequisite_skill": "None",
-    "f_description": "You master fighting with two weapons, gaining the following benefits:<ul><li>You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.</li><li>You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren’t light.</li><li>You can draw or stow two one-handed weapons when you would normally b e able to draw or stow only one.</li></ul>"
+    "f_description": "You master fighting with two weapons, gaining the following benefits:<ul><li>You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.</li><li>You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren’t light.</li><li>You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.</li></ul>"
   },
   {
     "f_id": 14,

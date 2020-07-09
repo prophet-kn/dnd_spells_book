@@ -14,7 +14,7 @@
     "s_school": "Conjuration",
     "s_ritual": false,
     "s_name": "Acid Splash",
-    "s_description": "<p>You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or lake 1d6 acid damage. This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th leveI (3d6), and 17th level (4d6).</p>"
+    "s_description": "<p>You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or lake 1d6 acid damage. This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>"
   },
   {
     "s_id": 4,
@@ -32,7 +32,7 @@
     "s_school": "Enchantment",
     "s_ritual": false,
     "s_name": "Animal Friendship",
-    "s_description": "<p>This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 2nd leveI or higher, you can affect one additional beast for each slot level above 1st.</p>"
+    "s_description": "<p>This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.</p>"
   },
   {
     "s_id": 1,
@@ -50,7 +50,7 @@
     "s_school": "Abjuration",
     "s_ritual": false,
     "s_name": "Aid",
-    "s_description": "<p>Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 3rd leveI or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.</p>"
+    "s_description": "<p>Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.</p>"
   },
   {
     "s_id": 7,

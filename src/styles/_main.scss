@@ -483,14 +483,6 @@
     padding: 10px;
     text-align: left;
 
-    .item-label {
-      overflow: hidden;
-      margin-right: auto;
-      margin-left: 35px;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
     .chevron {
       position: absolute;
       right: 15px;
@@ -506,7 +498,8 @@
 
   &-label {
     overflow: hidden;
-    display: flex;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     margin-right: auto;
     margin-left: 35px;
   }

@@ -1,4 +1,5 @@
 .dndapp {
+  width: 100%;
   max-width: 600px;
   min-height: 100vh;
   margin-top: 10px;
@@ -482,6 +483,14 @@
     padding: 10px;
     text-align: left;
 
+    .item-label {
+      overflow: hidden;
+      margin-right: auto;
+      margin-left: 35px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
     .chevron {
       position: absolute;
       right: 15px;
@@ -513,6 +522,12 @@
     div {
       padding: 2px 0;
     }
+
+    .item-can-cast {
+      border-top: 2px solid;
+      padding-top: 5px;
+      margin-top: 5px;
+    }
   }
 
   &-details {
@@ -528,8 +543,13 @@
   &-description {
     line-height: 20px;
 
-    br {
+    p {
+      margin-top: 0;
       margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -559,6 +579,7 @@
     margin-right: 35px;
     font-size: $medium-size;
     opacity: .85;
+    white-space: nowrap;
   }
 }
 
@@ -629,7 +650,7 @@
       flex-direction: column;
       max-width: 600px;
       margin: auto;
-      position: fixed;
+      position: absolute;
       z-index: 3;
       top: 0;
       right: 0;
@@ -670,7 +691,7 @@ input {
   &.search {
     &-input {
       display: flex;
-      width: -webkit-fill-available;
+      width: stretch;
       height: 30px;
       border: 2px solid;
       border-radius: 25px;

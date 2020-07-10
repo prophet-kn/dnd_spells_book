@@ -35,6 +35,7 @@ class SpellItem extends Component {
             <div className={"item-damage"}><b>Damage:</b> {spellItem.s_damage_dice} {spellItem.s_damage_type}</div>
           </div>
           <div className={"item-description"}>{ReactHtmlParser(spellItem.s_description)}</div>
+          <div className={"item-can-cast"}><i>Classes: {spellItem.s_class_usage.join(', ')}</i></div>
         </div>
       )
     }

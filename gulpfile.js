@@ -1,32 +1,27 @@
 var gulp = require('gulp')
 var sass = require('gulp-sass')
 var bulkSass = require('gulp-sass-bulk-import')
-var concat = require('gulp-concat')
-var cssDest = './src/compiled/'
-var output = 'compressed'
-sass.compiler = require('node-sass')
+var autoprefixer = require('gulp-autoprefixer')
+var clean = require('gulp-clean-css')
 
-// Watch all scss changes.
-var source = './src/styles'
+var input = 'src/styles'
+var output = 'src/compiled'
 
 gulp.task('sass:all', function () {
   return gulp
-    .src('./src/styles/compile/_compile.scss')
+    .src('./src/styles/theme.scss')
     .pipe(bulkSass())
-    .pipe(concat('theme.css'))
-    .pipe(sass({
-      outputStyle: output,
-      precision: 10,
-      includePaths: ['./src/styles/'],
-    }))
+    .pipe(sass())
     .on('error', sass.logError)
-    .pipe(gulp.dest(cssDest))
+    .pipe(autoprefixer())
+    .pipe(clean())
+    .pipe(gulp.dest(output))
 })
 
 gulp.task('sass', gulp.series(['sass:all']))
- 
+
 gulp.task('sass:watch', gulp.series(['sass'], function() {
-  gulp.watch(source, gulp.series(['sass']))
+  gulp.watch(input, gulp.series(['sass']))
 }))
 
 gulp.task('default', gulp.parallel(['sass:watch']))

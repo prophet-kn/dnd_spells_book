@@ -6190,7 +6190,7 @@
     "s_duration": "Instantaneous",
     "s_type": "Damage",
     "s_damage_type": "death",
-    "s_damage_dice": "100",
+    "s_damage_dice": "",
     "s_class_usage": [
       "Bard",
       "Sorcerer",

@@ -32,7 +32,7 @@ class SpellItem extends Component {
             <div className={"item-range"}><b>Range:</b> {spellItem.s_range}</div>
             <div className={"item-components"}><b>Components:</b> {spellItem.s_components}</div>
             <div className={"item-duration"}><b>Duration:</b> {spellItem.s_duration}</div>
-            <div className={"item-damage"}><b>Damage:</b> {spellItem.s_damage_dice} {spellItem.s_damage_type}</div>
+            {spellItem.s_damage_type !== 'None' && <div className={"item-damage"}><b>Damage:</b> {spellItem.s_damage_dice} {spellItem.s_damage_type}</div>}
           </div>
           <div className={"item-description"}>{ReactHtmlParser(spellItem.s_description)}</div>
           <div className={"item-can-cast"}><i>Classes: {spellItem.s_class_usage.join(', ')}</i></div>

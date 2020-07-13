@@ -12,8 +12,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "acid",
     "s_damage_dice": "1d6",
+    "s_damage_type": "acid",
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -33,8 +33,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -55,8 +55,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin",
       "Cleric",
@@ -78,8 +78,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Wizard"
@@ -100,8 +100,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer"
@@ -121,8 +121,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Ranger",
       "Wizard",
@@ -144,8 +144,8 @@
       "Utility",
       "Disguise"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -167,8 +167,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -189,8 +189,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -209,8 +209,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "12d8",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -230,8 +230,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -253,8 +253,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "3d8",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -274,8 +274,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -294,8 +294,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Wizard"
@@ -315,8 +315,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -336,8 +336,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -358,8 +358,8 @@
       "Utility",
       "Transport"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Sorcerer",
@@ -380,8 +380,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -402,8 +402,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Warlock"
     ],
@@ -422,8 +422,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "2d6",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Warlock"
     ],
@@ -442,8 +442,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Warlock",
       "Wizard",
@@ -464,8 +464,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -484,8 +484,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin"
     ],
@@ -504,8 +504,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin"
     ],
@@ -525,8 +525,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin"
     ],
@@ -546,8 +546,8 @@
       "Support",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid"
@@ -567,8 +567,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric"
@@ -588,8 +588,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "5d10",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Paladin"
     ],
@@ -608,8 +608,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -633,8 +633,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -655,8 +655,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -676,8 +676,8 @@
       "Support",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -697,8 +697,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -718,8 +718,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "1d8",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -741,8 +741,8 @@
       "Damage",
       "Utility"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "4d8",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Wizard"
     ],
@@ -761,8 +761,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "slashing",
     "s_damage_dice": "6d10",
+    "s_damage_type": "slashing",
     "s_class_usage": [
       "Cleric"
     ],
@@ -781,8 +781,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -804,8 +804,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -825,8 +825,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "8d8",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -848,8 +848,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "3d8",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Paladin"
     ],
@@ -868,8 +868,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -891,8 +891,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -913,8 +913,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -935,8 +935,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "6d6",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid"
     ],
@@ -955,8 +955,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "thunder",
     "s_damage_dice": "1d8",
+    "s_damage_type": "thunder",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -977,8 +977,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "2d6",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Paladin"
     ],
@@ -997,8 +997,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "3d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1018,8 +1018,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "lightning",
     "s_damage_dice": "3d10",
+    "s_damage_type": "lightning",
     "s_class_usage": [
       "Druid"
     ],
@@ -1038,8 +1038,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric"
@@ -1059,8 +1059,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "3d8",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1080,8 +1080,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -1102,8 +1102,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -1123,8 +1123,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -1144,8 +1144,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "lightning",
     "s_damage_dice": "10d8",
+    "s_damage_type": "lightning",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1165,8 +1165,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "various",
     "s_damage_dice": "2d8 + 1d6",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Sorcerer"
     ],
@@ -1185,8 +1185,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -1209,8 +1209,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -1233,8 +1233,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "1d8",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -1255,8 +1255,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "various",
     "s_damage_dice": "3d8",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1276,8 +1276,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "8d6",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -1298,8 +1298,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin"
     ],
@@ -1318,8 +1318,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -1341,8 +1341,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -1361,8 +1361,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "slashing",
     "s_damage_dice": "4d4",
+    "s_damage_type": "slashing",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -1384,8 +1384,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "poison",
     "s_damage_dice": "5d8",
+    "s_damage_type": "poison",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1405,8 +1405,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1426,8 +1426,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -1447,8 +1447,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -1467,8 +1467,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -1488,8 +1488,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin"
     ],
@@ -1509,8 +1509,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -1532,8 +1532,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard"
     ],
@@ -1552,8 +1552,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "8d8",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1573,8 +1573,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -1597,8 +1597,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -1618,8 +1618,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "various",
     "s_damage_dice": "3d8",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Ranger"
     ],
@@ -1639,8 +1639,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -1660,8 +1660,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -1682,8 +1682,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Warlock"
@@ -1704,8 +1704,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -1725,8 +1725,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "various",
     "s_damage_dice": "8d8",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Ranger"
     ],
@@ -1746,8 +1746,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Ranger",
       "Druid"
@@ -1767,8 +1767,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "6d6",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -1788,8 +1788,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -1809,8 +1809,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -1829,8 +1829,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Cleric",
@@ -1851,8 +1851,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -1873,8 +1873,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "2d8",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -1895,8 +1895,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -1917,8 +1917,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -1939,8 +1939,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "piercing",
     "s_damage_dice": "1d6",
+    "s_damage_type": "piercing",
     "s_class_usage": [
       "Ranger"
     ],
@@ -1959,8 +1959,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -1981,8 +1981,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "1d8",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -2004,8 +2004,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -2025,8 +2025,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "piercing",
     "s_damage_dice": "2d4",
+    "s_damage_type": "piercing",
     "s_class_usage": [
       "Wizard"
     ],
@@ -2045,8 +2045,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Cleric"
@@ -2067,8 +2067,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Warlock",
       "Cleric",
@@ -2089,8 +2089,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -2110,8 +2110,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2133,8 +2133,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "4d12",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -2155,8 +2155,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "1d4",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Paladin"
     ],
@@ -2176,8 +2176,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin",
       "Bard",
@@ -2201,8 +2201,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2224,8 +2224,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -2245,8 +2245,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Warlock",
       "Wizard",
@@ -2267,8 +2267,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Sorcerer",
@@ -2291,8 +2291,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "4d10",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Wizard",
       "Cleric"
@@ -2312,8 +2312,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -2337,8 +2337,8 @@
       "Utility",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -2359,8 +2359,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "12d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -2380,8 +2380,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -2401,8 +2401,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "thunder",
     "s_damage_dice": "5d6",
+    "s_damage_type": "thunder",
     "s_class_usage": [
       "Paladin"
     ],
@@ -2421,8 +2421,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin",
       "Cleric"
@@ -2442,8 +2442,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -2468,8 +2468,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -2491,8 +2491,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2514,8 +2514,8 @@
       "Support",
       "Transport"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "4d6",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2538,8 +2538,8 @@
       "Support",
       "Disguise"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2561,8 +2561,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "10d6 + 40",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -2582,8 +2582,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -2603,8 +2603,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -2629,8 +2629,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "3d6",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Bard"
     ],
@@ -2649,8 +2649,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -2669,8 +2669,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "1d4",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Paladin"
     ],
@@ -2689,8 +2689,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -2710,8 +2710,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer"
@@ -2731,8 +2731,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2755,8 +2755,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2777,8 +2777,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "various",
     "s_damage_dice": "3d6",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -2798,8 +2798,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -2819,8 +2819,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "3d6",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Bard",
       "Warlock",
@@ -2841,8 +2841,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -2861,8 +2861,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -2881,8 +2881,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "1d8",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -2903,8 +2903,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "1d6",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -2926,8 +2926,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -2949,8 +2949,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "5d6",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -2971,8 +2971,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "1d10",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Warlock"
     ],
@@ -2991,8 +2991,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "various",
     "s_damage_dice": "2d6",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Warlock",
       "Druid",
@@ -3013,8 +3013,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "various",
     "s_damage_dice": "1d4",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Paladin"
     ],
@@ -3033,8 +3033,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -3056,8 +3056,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "4d8",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -3078,8 +3078,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Druid",
@@ -3102,8 +3102,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -3124,8 +3124,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "piercing",
     "s_damage_dice": "1d6",
+    "s_damage_type": "piercing",
     "s_class_usage": [
       "Ranger"
     ],
@@ -3144,8 +3144,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -3164,8 +3164,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Warlock"
@@ -3185,8 +3185,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "3d12",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -3207,8 +3207,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -3231,8 +3231,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "3d6",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Wizard"
     ],
@@ -3251,8 +3251,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -3274,8 +3274,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -3297,8 +3297,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -3318,8 +3318,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid"
@@ -3339,8 +3339,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -3362,8 +3362,8 @@
       "Utility",
       "Transport"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -3384,8 +3384,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -3407,8 +3407,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -3429,8 +3429,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "4d6",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Bard",
       "Wizard",
@@ -3452,8 +3452,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -3477,8 +3477,8 @@
       "Summoning",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -3499,8 +3499,8 @@
       "Summoning",
       "Transport"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin"
     ],
@@ -3522,8 +3522,8 @@
       "Transport",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin"
     ],
@@ -3542,8 +3542,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -3564,8 +3564,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -3586,8 +3586,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "7d8 + 30",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -3608,8 +3608,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "1d10",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -3630,8 +3630,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "2d8",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Wizard"
     ],
@@ -3650,8 +3650,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "7d10",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -3672,8 +3672,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "8d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -3693,8 +3693,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "1d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -3716,8 +3716,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "3d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Druid"
     ],
@@ -3736,8 +3736,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "4d6",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Cleric"
     ],
@@ -3756,8 +3756,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "2d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -3777,8 +3777,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -3798,8 +3798,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -3821,8 +3821,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -3844,8 +3844,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -3864,8 +3864,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Warlock",
@@ -3886,8 +3886,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -3909,8 +3909,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -3933,8 +3933,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -3956,8 +3956,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "1d6",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -3979,8 +3979,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -4002,8 +4002,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Sorcerer",
@@ -4024,8 +4024,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "5d10",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4048,8 +4048,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Wizard"
@@ -4069,8 +4069,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -4089,8 +4089,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Warlock"
@@ -4110,8 +4110,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -4132,8 +4132,8 @@
       "Support",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4155,8 +4155,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -4176,8 +4176,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -4197,8 +4197,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -4217,8 +4217,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -4240,8 +4240,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4262,8 +4262,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "your spellcasting ability modifier",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -4285,8 +4285,8 @@
       "Support",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -4305,8 +4305,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "1d6",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -4326,8 +4326,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -4347,8 +4347,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -4368,8 +4368,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "4d6",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Cleric"
     ],
@@ -4388,8 +4388,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -4410,8 +4410,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -4432,8 +4432,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "piercing",
     "s_damage_dice": "1d10",
+    "s_damage_type": "piercing",
     "s_class_usage": [
       "Ranger"
     ],
@@ -4454,8 +4454,8 @@
       "Communication",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -4474,8 +4474,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -4497,8 +4497,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "14d6",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Cleric"
     ],
@@ -4517,8 +4517,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -4540,8 +4540,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -4562,8 +4562,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -4584,8 +4584,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4606,8 +4606,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "2d8",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Bard",
       "Druid"
@@ -4627,8 +4627,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "2d10",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Warlock"
     ],
@@ -4647,8 +4647,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -4668,8 +4668,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Paladin"
@@ -4689,8 +4689,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "1d6",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Warlock"
     ],
@@ -4709,8 +4709,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -4732,8 +4732,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4757,8 +4757,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -4777,8 +4777,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "4d8",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -4798,8 +4798,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "acid",
     "s_damage_dice": "2d6",
+    "s_damage_type": "acid",
     "s_class_usage": [
       "Warlock"
     ],
@@ -4818,8 +4818,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Ranger"
     ],
@@ -4838,8 +4838,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -4861,8 +4861,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "2d6",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -4883,8 +4883,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "4d6",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -4905,8 +4905,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -4926,8 +4926,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -4947,8 +4947,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Bard",
@@ -4969,8 +4969,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "4d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -4990,8 +4990,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -5011,8 +5011,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "10d8",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -5034,8 +5034,8 @@
       "Summoning",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -5055,8 +5055,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "poison",
     "s_damage_dice": "1d6",
+    "s_damage_type": "poison",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5078,8 +5078,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "3d10",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Cleric"
     ],
@@ -5098,8 +5098,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "piercing",
     "s_damage_dice": "4d10",
+    "s_damage_type": "piercing",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -5121,8 +5121,8 @@
       "Utility",
       "Protection"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "4d8",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5145,8 +5145,8 @@
       "Utility",
       "Protection"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "4d6",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5169,8 +5169,8 @@
       "Utility",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5193,8 +5193,8 @@
       "Utility",
       "Protection"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "2d10",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5216,8 +5216,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5241,8 +5241,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -5261,8 +5261,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -5285,8 +5285,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5307,8 +5307,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5329,8 +5329,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -5351,8 +5351,8 @@
       "Utility",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -5373,8 +5373,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5398,8 +5398,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -5421,8 +5421,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "4d8",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Cleric",
       "Wizard"
@@ -5442,8 +5442,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5465,8 +5465,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "lightning",
     "s_damage_dice": "2d8",
+    "s_damage_type": "lightning",
     "s_class_usage": [
       "Ranger"
     ],
@@ -5485,8 +5485,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "lightning",
     "s_damage_dice": "8d6",
+    "s_damage_type": "lightning",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -5506,8 +5506,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "lightning",
     "s_damage_dice": "1d8",
+    "s_damage_type": "lightning",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -5528,8 +5528,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -5550,8 +5550,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5575,8 +5575,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5600,8 +5600,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -5624,8 +5624,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "8d8",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -5645,8 +5645,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "6d6",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid"
     ],
@@ -5666,8 +5666,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -5687,8 +5687,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5710,8 +5710,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -5733,8 +5733,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -5753,8 +5753,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "1d4 + 1",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -5774,8 +5774,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -5795,8 +5795,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "1d6 + your spellcasting ability modifier",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid",
       "Warlock"
@@ -5816,8 +5816,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Paladin",
       "Wizard",
@@ -5838,8 +5838,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5862,8 +5862,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5885,8 +5885,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -5906,8 +5906,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -5927,8 +5927,8 @@
       "Support",
       "Disguise"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5949,8 +5949,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5972,8 +5972,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "2d6",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -5993,8 +5993,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -6013,8 +6013,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -6034,8 +6034,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "acid",
     "s_damage_dice": "2d4",
+    "s_damage_type": "acid",
     "s_class_usage": [
       "Wizard"
     ],
@@ -6054,8 +6054,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "2d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -6075,8 +6075,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -6099,8 +6099,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "10d10",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -6122,8 +6122,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6144,8 +6144,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "20d6",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -6165,8 +6165,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -6185,8 +6185,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6206,8 +6206,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "3d8",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -6228,8 +6228,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6251,8 +6251,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -6273,8 +6273,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -6295,8 +6295,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -6317,8 +6317,8 @@
       "Utility",
       "Transport"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -6339,8 +6339,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6360,8 +6360,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -6382,8 +6382,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "2d10",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Druid"
     ],
@@ -6402,8 +6402,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "piercing",
     "s_damage_dice": "4d8",
+    "s_damage_type": "piercing",
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -6423,8 +6423,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6444,8 +6444,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -6465,8 +6465,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "3d10",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6486,8 +6486,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -6508,8 +6508,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "5d12",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -6529,8 +6529,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Ranger",
@@ -6551,8 +6551,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -6571,8 +6571,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "10d6",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Wizard"
     ],
@@ -6591,8 +6591,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -6612,8 +6612,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6633,8 +6633,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -6654,8 +6654,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -6674,8 +6674,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "1d6",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Wizard",
       "Bard",
@@ -6696,8 +6696,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "4d10",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Wizard"
     ],
@@ -6717,8 +6717,8 @@
       "Utility",
       "Transport"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -6737,8 +6737,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -6757,8 +6757,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -6781,8 +6781,8 @@
       "Utility",
       "Transport"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -6805,8 +6805,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -6827,8 +6827,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "poison",
     "s_damage_dice": "1d12",
+    "s_damage_type": "poison",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -6851,8 +6851,8 @@
       "Utility",
       "Disguise"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -6875,8 +6875,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard"
     ],
@@ -6895,8 +6895,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "death",
     "s_damage_dice": "",
+    "s_damage_type": "death",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6918,8 +6918,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -6940,8 +6940,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6964,8 +6964,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -6984,8 +6984,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7007,8 +7007,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "acid",
     "s_damage_dice": "1d10",
+    "s_damage_type": "acid",
     "s_class_usage": [
       "Druid"
     ],
@@ -7027,8 +7027,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -7047,8 +7047,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "various",
     "s_damage_dice": "10d6",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -7068,8 +7068,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "various",
     "s_damage_dice": "10d6",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Wizard"
     ],
@@ -7088,8 +7088,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "1d8",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Druid"
     ],
@@ -7108,8 +7108,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -7129,8 +7129,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -7151,8 +7151,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -7177,8 +7177,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -7201,8 +7201,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -7225,8 +7225,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "14d6",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7248,8 +7248,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -7270,8 +7270,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7292,8 +7292,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -7315,8 +7315,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -7335,8 +7335,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -7356,8 +7356,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "1d8",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -7377,8 +7377,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "poison",
     "s_damage_dice": "2d8",
+    "s_damage_type": "poison",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -7399,8 +7399,8 @@
       "Support",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -7421,8 +7421,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -7441,8 +7441,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -7464,8 +7464,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -7485,8 +7485,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Bard"
@@ -7506,8 +7506,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -7528,8 +7528,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -7550,8 +7550,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -7571,8 +7571,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "1d8",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Cleric"
     ],
@@ -7591,8 +7591,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Artificer"
@@ -7613,8 +7613,8 @@
       "Utility",
       "Transport"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -7635,8 +7635,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "2d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -7656,8 +7656,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -7680,8 +7680,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "1d6",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Paladin"
     ],
@@ -7700,8 +7700,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7724,8 +7724,8 @@
       "Support",
       "Disguise"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7747,8 +7747,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Wizard",
@@ -7769,8 +7769,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -7789,8 +7789,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "2d8",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -7811,8 +7811,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "2d8",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Warlock"
     ],
@@ -7831,8 +7831,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -7854,8 +7854,8 @@
       "Utility",
       "Disguise"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -7875,8 +7875,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "thunder",
     "s_damage_dice": "3d8",
+    "s_damage_type": "thunder",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7899,8 +7899,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -7921,8 +7921,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -7943,8 +7943,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -7963,8 +7963,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "lightning",
     "s_damage_dice": "1d8",
+    "s_damage_type": "lightning",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -7984,8 +7984,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "4d10",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -8006,8 +8006,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -8028,8 +8028,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8050,8 +8050,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -8070,8 +8070,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8092,8 +8092,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Wizard",
@@ -8114,8 +8114,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8136,8 +8136,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -8158,8 +8158,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -8179,8 +8179,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -8201,8 +8201,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "3d6",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -8223,8 +8223,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -8244,8 +8244,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer"
     ],
@@ -8264,8 +8264,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -8287,8 +8287,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric"
@@ -8309,8 +8309,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -8331,8 +8331,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -8354,8 +8354,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "piercing",
     "s_damage_dice": "2d4",
+    "s_damage_type": "piercing",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -8375,8 +8375,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "3d8",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Cleric"
     ],
@@ -8395,8 +8395,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "1d8 + your spellcasting ability modifier",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Cleric"
     ],
@@ -8415,8 +8415,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "4d6",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Paladin"
     ],
@@ -8436,8 +8436,8 @@
       "Damage",
       "Transport"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "6d10",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Ranger",
       "Wizard"
@@ -8457,8 +8457,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8479,8 +8479,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -8503,8 +8503,8 @@
       "Support",
       "Protection"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -8527,8 +8527,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "1d6",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Druid"
     ],
@@ -8547,8 +8547,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "lightning",
     "s_damage_dice": "4d6",
+    "s_damage_type": "lightning",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -8568,8 +8568,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8592,8 +8592,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -8614,8 +8614,8 @@
       "Utility",
       "Summoning"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -8635,8 +8635,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "6d8",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -8657,8 +8657,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "12d6",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -8679,8 +8679,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Ranger"
     ],
@@ -8699,8 +8699,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "1d6",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -8721,8 +8721,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "10d10",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -8743,8 +8743,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "8d6",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8766,8 +8766,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -8787,8 +8787,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -8809,8 +8809,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -8830,8 +8830,8 @@
       "Utility",
       "Transport"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "3d10",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8853,8 +8853,8 @@
       "Utility",
       "Transport"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8875,8 +8875,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -8895,8 +8895,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -8915,8 +8915,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -8935,8 +8935,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -8955,8 +8955,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "piercing",
     "s_damage_dice": "1d6",
+    "s_damage_type": "piercing",
     "s_class_usage": [
       "Druid"
     ],
@@ -8976,8 +8976,8 @@
       "Damage",
       "Transport"
     ],
-    "s_damage_type": "thunder",
     "s_damage_dice": "3d10",
+    "s_damage_type": "thunder",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -8998,8 +8998,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "thunder",
     "s_damage_dice": "1d6",
+    "s_damage_type": "thunder",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -9022,8 +9022,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "thunder",
     "s_damage_dice": "2d6",
+    "s_damage_type": "thunder",
     "s_class_usage": [
       "Paladin"
     ],
@@ -9042,8 +9042,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "thunder",
     "s_damage_dice": "2d8",
+    "s_damage_type": "thunder",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -9065,8 +9065,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "4d8",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9087,8 +9087,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -9108,8 +9108,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -9128,8 +9128,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "1d12",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Warlock",
       "Cleric",
@@ -9151,8 +9151,8 @@
       "Utility",
       "Communication"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -9175,8 +9175,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "4d8",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -9196,8 +9196,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -9216,8 +9216,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -9238,8 +9238,8 @@
       "Utility",
       "Disguise"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Warlock",
@@ -9260,8 +9260,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -9281,8 +9281,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -9305,8 +9305,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -9328,8 +9328,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "5d10",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid"
     ],
@@ -9348,8 +9348,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Warlock",
@@ -9371,8 +9371,8 @@
       "Damage",
       "Healing"
     ],
-    "s_damage_type": "necrotic",
     "s_damage_dice": "3d6",
+    "s_damage_type": "necrotic",
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -9392,8 +9392,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "1d4",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Bard"
     ],
@@ -9412,8 +9412,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "acid",
     "s_damage_dice": "5d4",
+    "s_damage_type": "acid",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -9433,8 +9433,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "5d8",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9455,8 +9455,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -9475,8 +9475,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "cold",
     "s_damage_dice": "10d6",
+    "s_damage_type": "cold",
     "s_class_usage": [
       "Wizard"
     ],
@@ -9495,8 +9495,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "4d8",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -9517,8 +9517,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -9537,8 +9537,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9559,8 +9559,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "slashing",
     "s_damage_dice": "7d8",
+    "s_damage_type": "slashing",
     "s_class_usage": [
       "Druid"
     ],
@@ -9579,8 +9579,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9601,8 +9601,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -9621,8 +9621,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -9644,8 +9644,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -9668,8 +9668,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -9692,8 +9692,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9714,8 +9714,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "fire",
     "s_damage_dice": "2d4",
+    "s_damage_type": "fire",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -9735,8 +9735,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "4d10",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Wizard"
     ],
@@ -9755,8 +9755,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "10d6",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9777,8 +9777,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid"
     ],
@@ -9797,8 +9797,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "bludgeoning",
     "s_damage_dice": "3d8",
+    "s_damage_type": "bludgeoning",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -9818,8 +9818,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -9839,8 +9839,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "lightning",
     "s_damage_dice": "1d12",
+    "s_damage_type": "lightning",
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -9861,8 +9861,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "1d6",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Cleric"
     ],
@@ -9882,8 +9882,8 @@
       "Support",
       "Transport"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -9902,8 +9902,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "slashing",
     "s_damage_dice": "4d6",
+    "s_damage_type": "slashing",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -9923,8 +9923,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "psychic",
     "s_damage_dice": "1d6",
+    "s_damage_type": "psychic",
     "s_class_usage": [
       "Paladin"
     ],
@@ -9943,8 +9943,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "1d8",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Ranger"
     ],
@@ -9963,8 +9963,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -9985,8 +9985,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -10007,8 +10007,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "radiant",
     "s_damage_dice": "1d6",
+    "s_damage_type": "radiant",
     "s_class_usage": [
       "Cleric"
     ],
@@ -10028,8 +10028,8 @@
       "Utility",
       "Healing"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -10049,8 +10049,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Warlock",
@@ -10071,8 +10071,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Warlock",
@@ -10093,8 +10093,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard",
       "Sorcerer",
@@ -10115,8 +10115,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard"
     ],
@@ -10135,8 +10135,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric"
     ],
@@ -10155,8 +10155,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -10176,8 +10176,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -10199,8 +10199,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -10221,8 +10221,8 @@
     "s_type": [
       "Utility"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -10242,8 +10242,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Cleric",
       "Wizard",
@@ -10264,8 +10264,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Wizard"
     ],
@@ -10284,8 +10284,8 @@
     "s_type": [
       "Damage"
     ],
-    "s_damage_type": "force",
     "s_damage_dice": "2d4",
+    "s_damage_type": "force",
     "s_class_usage": [
       "Wizard"
     ],
@@ -10304,8 +10304,8 @@
     "s_type": [
       "Support"
     ],
-    "s_damage_type": "None",
     "s_damage_dice": "None",
+    "s_damage_type": "None",
     "s_class_usage": [
       "Bard",
       "Cleric"

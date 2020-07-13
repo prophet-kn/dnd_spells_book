@@ -4,11 +4,11 @@
     "s_name": "Acid Splash",
     "s_lvl": "Cantrip",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -25,11 +25,11 @@
     "s_name": "Animal Friendship",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a morsel of food)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -47,11 +47,11 @@
     "s_name": "Aid",
     "s_lvl": "2nd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a tiny strip of white cloth)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -69,11 +69,11 @@
     "s_name": "Animate Dead",
     "s_lvl": "3rd",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "10 feet",
     "s_components": "V, S, M (a drop of blood, a piece of flesh and a pinch of bone dust)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -91,11 +91,11 @@
     "s_name": "Animate Objects",
     "s_lvl": "5th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -113,11 +113,11 @@
     "s_name": "Alarm",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a tiny bell and a piece of fine silver wire)",
     "s_duration": "8 hours",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -135,11 +135,11 @@
     "s_name": "Alter Self",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Disguise"
@@ -158,11 +158,11 @@
     "s_name": "Animal Messenger",
     "s_lvl": "2nd",
     "s_school": "Enchantment",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a morsel of food)",
     "s_duration": "24 hours",
-    "s_ritual": true,
     "s_type": [
       "Utility",
       "Communication"
@@ -181,11 +181,11 @@
     "s_name": "Animal Shapes",
     "s_lvl": "8th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -201,11 +201,11 @@
     "s_name": "Abi-Dalzim’s Horrid Wilting",
     "s_lvl": "8th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (a bit of sponge)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -222,11 +222,11 @@
     "s_name": "Absorb Elements",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "Reaction",
     "s_range": "Self",
     "s_components": "S",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -245,11 +245,11 @@
     "s_name": "Aganazzar's Scorcher",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a red dragon’s scale)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -266,11 +266,11 @@
     "s_name": "Antilife Shell",
     "s_lvl": "5th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (10-foot radius)",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -286,11 +286,11 @@
     "s_name": "Antimagic Field",
     "s_lvl": "8th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (10-foot-radius sphere)",
     "s_components": "V, S M (a pinch of powdered iron or iron filings)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -307,11 +307,11 @@
     "s_name": "Antipathy/Sympathy",
     "s_lvl": "8th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "60 feet",
     "s_components": "V, S, M (either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect)",
     "s_duration": "10 days",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -328,11 +328,11 @@
     "s_name": "Arcane Eye",
     "s_lvl": "4th",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a bit of bat fur)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -349,11 +349,11 @@
     "s_name": "Arcane Gate",
     "s_lvl": "6th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "500 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Transport"
@@ -372,11 +372,11 @@
     "s_name": "Arcane Lock",
     "s_lvl": "2nd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (gold dust worth at least 25 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -393,11 +393,11 @@
     "s_name": "Armor of Agathys",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a cup of water)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -414,11 +414,11 @@
     "s_name": "Arms of Hadar",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (10-foot radius)",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -434,11 +434,11 @@
     "s_name": "Astral Projection",
     "s_lvl": "9th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "10 feet",
     "s_components": "V, S, M (for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes)",
     "s_duration": "Special",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -456,11 +456,11 @@
     "s_name": "Augury",
     "s_lvl": "2nd",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Self",
     "s_components": "V, S, M (specially marked sticks, bones, or similar tokens worth at least 25 gp)",
     "s_duration": "Instantaneous",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -476,11 +476,11 @@
     "s_name": "Aura of Life",
     "s_lvl": "4th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (30-foot radius)",
     "s_components": "V",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -496,11 +496,11 @@
     "s_name": "Aura of Purity",
     "s_lvl": "4th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (30-foot radius)",
     "s_components": "V",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -516,11 +516,11 @@
     "s_name": "Aura of Vitality",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (30-foot radius)",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -537,11 +537,11 @@
     "s_name": "Awaken",
     "s_lvl": "5th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "8 hours",
     "s_range": "Touch",
     "s_components": "V, S, M (an agate worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Summoning"
@@ -559,11 +559,11 @@
     "s_name": "Bane",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (A drop of blood)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -580,11 +580,11 @@
     "s_name": "Banishing Smite",
     "s_lvl": "5th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -600,11 +600,11 @@
     "s_name": "Banishment",
     "s_lvl": "4th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (an item distasteful to the target)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -624,11 +624,11 @@
     "s_name": "Barkskin",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (A handful of oak bark)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -646,11 +646,11 @@
     "s_name": "Beacon of Hope",
     "s_lvl": "3rd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -667,11 +667,11 @@
     "s_name": "Beast Bond",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a bit of fur wrapped in a cloth)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Communication"
@@ -689,11 +689,11 @@
     "s_name": "Beast Sense",
     "s_lvl": "2nd",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -710,11 +710,11 @@
     "s_name": "Bestow Curse",
     "s_lvl": "3rd",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -732,11 +732,11 @@
     "s_name": "Bigby’s Hand",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (An eggshell and a snakeskin glove)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -752,11 +752,11 @@
     "s_name": "Blade Barrier",
     "s_lvl": "6th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -772,11 +772,11 @@
     "s_name": "Blade Ward",
     "s_lvl": "Cantrip",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -795,11 +795,11 @@
     "s_name": "Bless",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a sprinkling of holy water)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -816,11 +816,11 @@
     "s_name": "Blight",
     "s_lvl": "4th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -839,11 +839,11 @@
     "s_name": "Blinding Smite",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -859,11 +859,11 @@
     "s_name": "Blindness/Deafness",
     "s_lvl": "2nd",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -882,11 +882,11 @@
     "s_name": "Blink",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -904,11 +904,11 @@
     "s_name": "Blur",
     "s_lvl": "2nd",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -926,11 +926,11 @@
     "s_name": "Bones of the Earth",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -946,11 +946,11 @@
     "s_name": "Booming Blade",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
     "s_components": "V, M (a weapon)",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -968,11 +968,11 @@
     "s_name": "Branding Smite",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -988,11 +988,11 @@
     "s_name": "Burning Hands",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (15-foot cone)",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1009,11 +1009,11 @@
     "s_name": "Call Lightning",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1029,11 +1029,11 @@
     "s_name": "Calm Emotions",
     "s_lvl": "2nd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1050,11 +1050,11 @@
     "s_name": "Catapult",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1071,11 +1071,11 @@
     "s_name": "Catnap",
     "s_lvl": "3rd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "S, M (a pinch of sand)",
     "s_duration": "10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1093,11 +1093,11 @@
     "s_name": "Cause Fear",
     "s_lvl": "1st",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1114,11 +1114,11 @@
     "s_name": "Ceremony",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": true,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
     "s_components": "V, S, M (25 gp worth of powdered silver, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -1135,11 +1135,11 @@
     "s_name": "Chain Lightning",
     "s_lvl": "6th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1156,11 +1156,11 @@
     "s_name": "Chaos Bolt",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1176,11 +1176,11 @@
     "s_name": "Charm Monster",
     "s_lvl": "4th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1200,11 +1200,11 @@
     "s_name": "Charm Person",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1224,11 +1224,11 @@
     "s_name": "Chill Touch",
     "s_lvl": "Cantrip",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1246,11 +1246,11 @@
     "s_name": "Chromatic Orb",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (a diamond worth at least 50 gp)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1267,11 +1267,11 @@
     "s_name": "Circle of Death",
     "s_lvl": "6th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (the powder of a crushed black pearl worth at least 500 gp)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1289,11 +1289,11 @@
     "s_name": "Circle of Power",
     "s_lvl": "5th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (30-foot radius)",
     "s_components": "V",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -1309,11 +1309,11 @@
     "s_name": "Clairvoyance",
     "s_lvl": "3rd",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "1 mile",
     "s_components": "V, S, M (a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for seeing",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1332,11 +1332,11 @@
     "s_name": "Clone",
     "s_lvl": "8th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
     "s_components": "V, S, M (a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a sarcophagus",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1352,11 +1352,11 @@
     "s_name": "Cloud of Daggers",
     "s_lvl": "2nd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a sliver of glass)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1375,11 +1375,11 @@
     "s_name": "Cloudkill",
     "s_lvl": "5th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1396,11 +1396,11 @@
     "s_name": "Color Spray",
     "s_lvl": "1st",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (15-foot cone)",
     "s_components": "V, S, M (A pinch of powder or sand that is colored red, yellow, and blue)",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1417,11 +1417,11 @@
     "s_name": "Command",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1438,11 +1438,11 @@
     "s_name": "Commune",
     "s_lvl": "5th",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Self",
     "s_components": "V, S, M (incense and a vial of holy or unholy water",
     "s_duration": "1 minute",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -1458,11 +1458,11 @@
     "s_name": "Commune with Nature",
     "s_lvl": "5th",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "1 minute",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -1479,11 +1479,11 @@
     "s_name": "Compelled Duel",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "30 feet",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1499,11 +1499,11 @@
     "s_name": "Comprehend Languages",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a pinch of soot and salt)",
     "s_duration": "1 hour",
-    "s_ritual": true,
     "s_type": [
       "Utility",
       "Communication"
@@ -1523,11 +1523,11 @@
     "s_name": "Compulsion",
     "s_lvl": "4th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1543,11 +1543,11 @@
     "s_name": "Cone of Cold",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (60-foot cone)",
     "s_components": "V, S, M (a small crystal or glass cone)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1564,11 +1564,11 @@
     "s_name": "Confusion",
     "s_lvl": "4th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (three nut shells)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1587,11 +1587,11 @@
     "s_name": "Conjure Animals",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -1609,11 +1609,11 @@
     "s_name": "Conjure Barrage",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (60-foot cone)",
     "s_components": "V, S, M (one piece of ammunition or a thrown weapon)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1629,11 +1629,11 @@
     "s_name": "Conjure Celestial",
     "s_lvl": "7th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -1650,11 +1650,11 @@
     "s_name": "Conjure Elemental",
     "s_lvl": "5th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
     "s_components": "V, S, M (burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -1672,11 +1672,11 @@
     "s_name": "Conjure Fey",
     "s_lvl": "6th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -1694,11 +1694,11 @@
     "s_name": "Conjure Minor Elementals",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -1716,11 +1716,11 @@
     "s_name": "Conjure Volley",
     "s_lvl": "5th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (one piece of ammunition or one thrown weapon)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -1736,11 +1736,11 @@
     "s_name": "Conjure Woodland Beings",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (one holly berry per creature summoned)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -1758,11 +1758,11 @@
     "s_name": "Contact Other Plane",
     "s_lvl": "5th",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "1 minute",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -1779,11 +1779,11 @@
     "s_name": "Contagion",
     "s_lvl": "5th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "7 days",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1800,11 +1800,11 @@
     "s_name": "Contingency",
     "s_lvl": "6th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Self",
     "s_components": "V, S, M (a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp)",
     "s_duration": "10 days",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1820,11 +1820,11 @@
     "s_name": "Continual Flame",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (ruby dust worth 50 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1842,11 +1842,11 @@
     "s_name": "Control Flames",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "S",
     "s_duration": "Instantaneous or 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1864,11 +1864,11 @@
     "s_name": "Control Water",
     "s_lvl": "4th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
     "s_components": "V, S, M (a drop of water and a pinch of dust)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1886,11 +1886,11 @@
     "s_name": "Control Weather",
     "s_lvl": "8th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Self (5-mile radius)",
     "s_components": "V, S, M (burning incense and bits of earth and wood mixed in water)",
     "s_duration": "Concentration, up to 8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1908,11 +1908,11 @@
     "s_name": "Control Winds",
     "s_lvl": "5th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1930,11 +1930,11 @@
     "s_name": "Cordon of Arrows",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
     "s_components": "V, S, M (four or more arrows or bolts)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1950,11 +1950,11 @@
     "s_name": "Counterspell",
     "s_lvl": "3rd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 reaction",
     "s_range": "60 feet",
     "s_components": "S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -1972,11 +1972,11 @@
     "s_name": "Create Bonfire",
     "s_lvl": "Cantrip",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -1995,11 +1995,11 @@
     "s_name": "Create Food and Water",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2016,11 +2016,11 @@
     "s_name": "Create Homunculus",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
     "s_components": "V, S, M (clay, ash, and mandrake root, all of which the spell consumes, and a jewel-encrusted dagger worth at least 1,000 gp)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2036,11 +2036,11 @@
     "s_name": "Create or Destroy Water",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a drop of water if creating water or a few grains of sand if destroying it)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2057,11 +2057,11 @@
     "s_name": "Create Undead",
     "s_lvl": "6th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "10 feet",
     "s_components": "V, S, M (one clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -2080,11 +2080,11 @@
     "s_name": "Creation",
     "s_lvl": "5th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "30 feet",
     "s_components": "V, S, M (a tiny piece of matter of the same type of the item you plan to create",
     "s_duration": "Special",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2101,11 +2101,11 @@
     "s_name": "Crown of Madness",
     "s_lvl": "2nd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2124,11 +2124,11 @@
     "s_name": "Crown of Stars",
     "s_lvl": "7th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2146,11 +2146,11 @@
     "s_name": "Crusader’s Mantle",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -2166,11 +2166,11 @@
     "s_name": "Cure Wounds",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -2192,11 +2192,11 @@
     "s_name": "Dancing Lights",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a bit of phosphorus or wychwood, or a glowworm)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2214,11 +2214,11 @@
     "s_name": "Danse Macabre",
     "s_lvl": "5th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -2236,11 +2236,11 @@
     "s_name": "Darkness",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, M (bat fur and a drop of pitch or piece of coal)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2258,11 +2258,11 @@
     "s_name": "Darkvision",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (either a pinch of dried carrot or an agate)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2282,11 +2282,11 @@
     "s_name": "Dawn",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a sunburst pendant worth at least 100 gp)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2303,11 +2303,11 @@
     "s_name": "Daylight",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2327,11 +2327,11 @@
     "s_name": "Death Ward",
     "s_lvl": "4th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Protection"
@@ -2350,11 +2350,11 @@
     "s_name": "Delayed Blast Fireball",
     "s_lvl": "7th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (a tiny ball of bat guano and sulfur)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2371,11 +2371,11 @@
     "s_name": "Demiplane",
     "s_lvl": "8th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "S",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2392,11 +2392,11 @@
     "s_name": "Destructive Wave",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (30-foot radius)",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2412,11 +2412,11 @@
     "s_name": "Detect Evil and Good",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -2433,11 +2433,11 @@
     "s_name": "Detect Magic",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": true,
     "s_type": [
       "Support"
     ],
@@ -2459,11 +2459,11 @@
     "s_name": "Detect Poison and Disease",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a yew leaf)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -2482,11 +2482,11 @@
     "s_name": "Detect Thoughts",
     "s_lvl": "2nd",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a copper piece)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -2504,11 +2504,11 @@
     "s_name": "Dimension Door",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "500 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Transport"
@@ -2528,11 +2528,11 @@
     "s_name": "Disguise Self",
     "s_lvl": "1st",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Disguise"
@@ -2552,11 +2552,11 @@
     "s_name": "Disintegrate",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a lodestone and a pinch of dust)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2573,11 +2573,11 @@
     "s_name": "Dispel Evil and Good",
     "s_lvl": "5th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (holy water or powdered silver and iron)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -2594,11 +2594,11 @@
     "s_name": "Dispel Magic",
     "s_lvl": "3rd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -2620,11 +2620,11 @@
     "s_name": "Dissonant Whispers",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2640,11 +2640,11 @@
     "s_name": "Divination",
     "s_lvl": "4th",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -2660,11 +2660,11 @@
     "s_name": "Divine Favor",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2680,11 +2680,11 @@
     "s_name": "Divine Word",
     "s_lvl": "7th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "30 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -2700,11 +2700,11 @@
     "s_name": "Dominate Beast",
     "s_lvl": "4th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -2722,11 +2722,11 @@
     "s_name": "Dominate Monster",
     "s_lvl": "8th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2745,11 +2745,11 @@
     "s_name": "Dominate Person",
     "s_lvl": "5th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -2768,11 +2768,11 @@
     "s_name": "Dragon's Breath",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
     "s_components": "V, S, M (a hot pepper)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2789,11 +2789,11 @@
     "s_name": "Drawmij’s Instant Summons",
     "s_lvl": "6th",
     "s_school": "Conjuration",
+    "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
     "s_components": "V, S, M (a sapphire worth 1,000 gp)",
     "s_duration": "Until dispelled",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -2809,11 +2809,11 @@
     "s_name": "Dream",
     "s_lvl": "5th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Special",
     "s_components": "V, S, M (a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins) (a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -2832,11 +2832,11 @@
     "s_name": "Druid Grove",
     "s_lvl": "6th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Touch",
     "s_components": "V, S, M (mistletoe, which the spell consumes, that was harvested with a golden sickle under the light of a full moon)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2852,11 +2852,11 @@
     "s_name": "Druidcraft",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -2872,11 +2872,11 @@
     "s_name": "Dust Devil",
     "s_lvl": "2nd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a pinch of dust)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2894,11 +2894,11 @@
     "s_name": "Earth Tremor",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (10-foot radius)",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2917,11 +2917,11 @@
     "s_name": "Earthbind",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -2940,11 +2940,11 @@
     "s_name": "Earthquake",
     "s_lvl": "8th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "500 feet",
     "s_components": "V, S, M (a pinch o f dirt, a piece o f rock, and a lump of clay)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2962,11 +2962,11 @@
     "s_name": "Eldritch Blast",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -2982,11 +2982,11 @@
     "s_name": "Elemental Bane",
     "s_lvl": "4th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3004,11 +3004,11 @@
     "s_name": "Elemental Weapon",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3024,11 +3024,11 @@
     "s_name": "Enemies abound",
     "s_lvl": "3rd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3047,11 +3047,11 @@
     "s_name": "Enervation",
     "s_lvl": "5th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3069,11 +3069,11 @@
     "s_name": "Enhance Ability",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (fur or a feather from a beast)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -3093,11 +3093,11 @@
     "s_name": "Enlarge/Reduce",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a pinch of powdered iron)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -3115,11 +3115,11 @@
     "s_name": "Ensnaring Strike",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3135,11 +3135,11 @@
     "s_name": "Entangle",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3155,11 +3155,11 @@
     "s_name": "Enthrall",
     "s_lvl": "2nd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3176,11 +3176,11 @@
     "s_name": "Erupting Earth",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a piece of obsidian)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3198,11 +3198,11 @@
     "s_name": "Etherealness",
     "s_lvl": "7th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Up to 8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3222,11 +3222,11 @@
     "s_name": "Evard’s Black Tentacles",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (a piece of tentacle from a giant octopus or a giant squid)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3242,11 +3242,11 @@
     "s_name": "Expeditious Retreat",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -3265,11 +3265,11 @@
     "s_name": "Eyebite",
     "s_lvl": "6th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3288,11 +3288,11 @@
     "s_name": "Fabricate",
     "s_lvl": "4th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3309,11 +3309,11 @@
     "s_name": "Faerie Fire",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3330,11 +3330,11 @@
     "s_name": "False Life",
     "s_lvl": "1st",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a small amount of alcohol or distilled spirits)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -3352,11 +3352,11 @@
     "s_name": "Far Step",
     "s_lvl": "5th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Transport"
@@ -3375,11 +3375,11 @@
     "s_name": "Fear",
     "s_lvl": "3rd",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (30-foot cone)",
     "s_components": "V, S, M (a white feather or the heart of a hen)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3398,11 +3398,11 @@
     "s_name": "Feather Fall",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "special",
     "s_range": "60 feet",
     "s_components": "V, M (a small feather or piece of down)",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -3420,11 +3420,11 @@
     "s_name": "Feeblemind",
     "s_lvl": "8th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (a handful of clay, crystal, glass, or mineral spheres)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3443,11 +3443,11 @@
     "s_name": "Feign Death",
     "s_lvl": "3rd",
     "s_school": "Necromancy",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "touch",
     "s_components": "V, S, M (a pinch of graveyard dirt)",
     "s_duration": "1 hour",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -3466,11 +3466,11 @@
     "s_name": "Find Familiar",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": true,
     "s_cast_time": "1 hour",
     "s_range": "10 feet",
     "s_components": "V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)",
     "s_duration": "Instantaneous",
-    "s_ritual": true,
     "s_type": [
       "Utility",
       "Summoning",
@@ -3488,11 +3488,11 @@
     "s_name": "Find Greater Steed",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning",
@@ -3510,11 +3510,11 @@
     "s_name": "Find Steed",
     "s_lvl": "2nd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning",
@@ -3533,11 +3533,11 @@
     "s_name": "Find the Path",
     "s_lvl": "6th",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Self",
     "s_components": "V, S, M (a set of divinatory tools – such as bones, ivory sticks, cards, teeth, or carved runes – worth 100 gp and an object from the location you wish to find)",
     "s_duration": "Concentration, up to 1 day",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3555,11 +3555,11 @@
     "s_name": "Find Traps",
     "s_lvl": "2nd",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3577,11 +3577,11 @@
     "s_name": "Finger of Death",
     "s_lvl": "7th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3599,11 +3599,11 @@
     "s_name": "Fire Bolt",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3620,11 +3620,11 @@
     "s_name": "Fire Shield",
     "s_lvl": "4th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a bit of phosphorus or a firefly)",
     "s_duration": "10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -3641,11 +3641,11 @@
     "s_name": "Fire Storm",
     "s_lvl": "7th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3663,11 +3663,11 @@
     "s_name": "Fireball",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (a tiny ball of bat guano and sulfur)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3684,11 +3684,11 @@
     "s_name": "Flame Arrows",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3707,11 +3707,11 @@
     "s_name": "Flame Blade",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V, S, M (leaf of sumac)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3727,11 +3727,11 @@
     "s_name": "Flame Strike",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (pinch of sulfur)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3747,11 +3747,11 @@
     "s_name": "Flaming Sphere",
     "s_lvl": "2nd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3768,11 +3768,11 @@
     "s_name": "Flesh to Stone",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a pinch of lime, water, and earth)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3789,11 +3789,11 @@
     "s_name": "Fly",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a wing feather from any bird)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3812,11 +3812,11 @@
     "s_name": "Fog Cloud",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3835,11 +3835,11 @@
     "s_name": "Forbiddance",
     "s_lvl": "6th",
     "s_school": "Abjuration",
+    "s_ritual": true,
     "s_cast_time": "10 minutes",
     "s_range": "Touch",
     "s_components": "V, S, M (a sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp)",
     "s_duration": "1 day",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -3855,11 +3855,11 @@
     "s_name": "Forcecage",
     "s_lvl": "7th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "100 feet",
     "s_components": "V, S, M (ruby dust worth 1,500 gp)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3877,11 +3877,11 @@
     "s_name": "Foresight",
     "s_lvl": "9th",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
     "s_components": "V, S, M (a hummingbird feather)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3900,11 +3900,11 @@
     "s_name": "Freedom of Movement",
     "s_lvl": "4th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -3924,11 +3924,11 @@
     "s_name": "Friends",
     "s_lvl": "Cantrip",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "S, M (a small amount of makeup applied to the face as this spell is cast)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -3947,11 +3947,11 @@
     "s_name": "Frostbite",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -3970,11 +3970,11 @@
     "s_name": "Gaseous Form",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a bit of gauze and a wisp of smoke)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -3993,11 +3993,11 @@
     "s_name": "Gate",
     "s_lvl": "9th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a diamond worth at least 5,000 gp)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4015,11 +4015,11 @@
     "s_name": "Geas",
     "s_lvl": "5th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "30 days",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4039,11 +4039,11 @@
     "s_name": "Gentle Repose",
     "s_lvl": "2nd",
     "s_school": "Necromancy",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a pinch of salt and one copper piece placed on each of the corpse’s eyes, which must remain there for the duration)",
     "s_duration": "10 days",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -4060,11 +4060,11 @@
     "s_name": "Giant Insect",
     "s_lvl": "4th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4080,11 +4080,11 @@
     "s_name": "Glibness",
     "s_lvl": "8th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4101,11 +4101,11 @@
     "s_name": "Globe of Invulnerability",
     "s_lvl": "6th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (10-foot radius)",
     "s_components": "V, S, M (a glass or crystal bead that shatters when the spell ends)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -4122,11 +4122,11 @@
     "s_name": "Glyph of Warding",
     "s_lvl": "3rd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
     "s_components": "V, S, M (incense and powdered diamond worth at least 200 gp, which the spell consumes)",
     "s_duration": "Until dispelled or triggered",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Summoning"
@@ -4146,11 +4146,11 @@
     "s_name": "Goodberry",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a sprig of mistletoe)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -4167,11 +4167,11 @@
     "s_name": "Grasping Vine",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -4188,11 +4188,11 @@
     "s_name": "Grease",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a bit of pork rind or butter)",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4208,11 +4208,11 @@
     "s_name": "Greater Invisibility",
     "s_lvl": "4th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -4230,11 +4230,11 @@
     "s_name": "Greater Restoration",
     "s_lvl": "5th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -4253,11 +4253,11 @@
     "s_name": "Green-Flame Blade",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
     "s_components": "V, M (a weapon)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4275,11 +4275,11 @@
     "s_name": "Guardian of Faith",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Summoning"
@@ -4296,11 +4296,11 @@
     "s_name": "Guardian of Nature",
     "s_lvl": "4th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -4317,11 +4317,11 @@
     "s_name": "Guards and Wards",
     "s_lvl": "6th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Touch",
     "s_components": "V, S, M (burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4338,11 +4338,11 @@
     "s_name": "Guidance",
     "s_lvl": "Cantrip",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4359,11 +4359,11 @@
     "s_name": "Guiding Bolt",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4379,11 +4379,11 @@
     "s_name": "Gust",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4401,11 +4401,11 @@
     "s_name": "Gust of Wind",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (60-foot line)",
     "s_components": "V, S, M (a legume seed)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4423,11 +4423,11 @@
     "s_name": "Hail of Thorns",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4443,11 +4443,11 @@
     "s_name": "Hallow",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "24 hours",
     "s_range": "Touch",
     "s_components": "V, S, M (herbs, oils, and incense worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication",
@@ -4465,11 +4465,11 @@
     "s_name": "Hallucinatory Terrain",
     "s_lvl": "4th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "300 feet",
     "s_components": "V, S, M (a stone, a twig, and a bit of green plant)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4488,11 +4488,11 @@
     "s_name": "Harm",
     "s_lvl": "6th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4508,11 +4508,11 @@
     "s_name": "Haste",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a shaving of licorice root)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -4530,11 +4530,11 @@
     "s_name": "Heal",
     "s_lvl": "6th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -4552,11 +4552,11 @@
     "s_name": "Healing Spirit",
     "s_lvl": "2nd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -4574,11 +4574,11 @@
     "s_name": "Healing Word",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -4597,11 +4597,11 @@
     "s_name": "Heat Metal",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a piece of iron and a flame)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4618,11 +4618,11 @@
     "s_name": "Hellish Rebuke",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "Special",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4638,11 +4638,11 @@
     "s_name": "Heroes’ Feast",
     "s_lvl": "6th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "30 feet",
     "s_components": "V, S, M (a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4659,11 +4659,11 @@
     "s_name": "Heroism",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -4680,11 +4680,11 @@
     "s_name": "Hex",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "90 feet",
     "s_components": "V, S, M (the petrified eye of a newt)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4700,11 +4700,11 @@
     "s_name": "Hold Monster",
     "s_lvl": "5th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (a small, straight piece of iron)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4723,11 +4723,11 @@
     "s_name": "Hold Person",
     "s_lvl": "2nd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a small, straight piece of iron)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4748,11 +4748,11 @@
     "s_name": "Holy Aura",
     "s_lvl": "8th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint’s robe or a piece of parchment from a religious text)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -4768,11 +4768,11 @@
     "s_name": "Holy Weapon",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4789,11 +4789,11 @@
     "s_name": "Hunger of Hadar",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (a pickled octopus tentacle)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4809,11 +4809,11 @@
     "s_name": "Hunter’s Mark",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "90 feet",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4829,11 +4829,11 @@
     "s_name": "Hypnotic Pattern",
     "s_lvl": "3rd",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4852,11 +4852,11 @@
     "s_name": "Ice Knife",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "S, M (a drop of water or piece of ice)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4874,11 +4874,11 @@
     "s_name": "Ice Storm",
     "s_lvl": "4th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
     "s_components": "V, S, M (a pinch of dust and a few drops of water)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4896,11 +4896,11 @@
     "s_name": "Identify",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a pearl worth at least 100 gp and an owl feather)",
     "s_duration": "Instantaneous",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -4917,11 +4917,11 @@
     "s_name": "Illusory Dragon",
     "s_lvl": "8th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -4937,11 +4937,11 @@
     "s_name": "Illusory Script",
     "s_lvl": "1st",
     "s_school": "Illusion",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "S, M (a lead-based ink worth at least 10 gp, which the spell consumes)",
     "s_duration": "10 days",
-    "s_ritual": true,
     "s_type": [
       "Utility",
       "Communication"
@@ -4960,11 +4960,11 @@
     "s_name": "Immolation",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -4981,11 +4981,11 @@
     "s_name": "Imprisonment",
     "s_lvl": "9th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "30 feet",
     "s_components": "V, S, M (a vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500 gp per Hit Die of the target)",
     "s_duration": "Until dispelled",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5002,11 +5002,11 @@
     "s_name": "Incendiary Cloud",
     "s_lvl": "8th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "150 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5023,11 +5023,11 @@
     "s_name": "Infernal Calling",
     "s_lvl": "5th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
     "s_components": "V, S, M (a ruby worth at least 999 gp)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Damage",
       "Summoning",
@@ -5046,11 +5046,11 @@
     "s_name": "Infestation",
     "s_lvl": "Cantrip",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a living flea)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5069,11 +5069,11 @@
     "s_name": "Inflict Wounds",
     "s_lvl": "1st",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5089,11 +5089,11 @@
     "s_name": "Insect Plague",
     "s_lvl": "5th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
     "s_components": "V, S, M (a few grains of sugar, some kernels of grain, and a smear of fat)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5111,11 +5111,11 @@
     "s_name": "Investiture of Flame",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Protection"
@@ -5135,11 +5135,11 @@
     "s_name": "Investiture of Ice",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Protection"
@@ -5159,11 +5159,11 @@
     "s_name": "Investiture of Stone",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Protection"
@@ -5183,11 +5183,11 @@
     "s_name": "Investiture of Wind",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Protection"
@@ -5207,11 +5207,11 @@
     "s_name": "Invisibility",
     "s_lvl": "2nd",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (an eyelash encased in gum arabic)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5231,11 +5231,11 @@
     "s_name": "Invulnerability",
     "s_lvl": "9th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a small piece of adamantine worth at least 500 gp, which the spell consumes)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -5252,11 +5252,11 @@
     "s_name": "Jump",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a grasshopper’s hind leg)",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5276,11 +5276,11 @@
     "s_name": "Knock",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5298,11 +5298,11 @@
     "s_name": "Legend Lore",
     "s_lvl": "5th",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Self",
     "s_components": "V, S, M (incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5320,11 +5320,11 @@
     "s_name": "Leomund’s Secret Chest",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (an exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5341,11 +5341,11 @@
     "s_name": "Leomund’s Tiny Hut",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Self (10-foot-radius hemisphere)",
     "s_components": "V, S, M (a small crystal bead)",
     "s_duration": "8 hours",
-    "s_ritual": true,
     "s_type": [
       "Utility",
       "Protection"
@@ -5363,11 +5363,11 @@
     "s_name": "Lesser Restoration",
     "s_lvl": "2nd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -5389,11 +5389,11 @@
     "s_name": "Levitate",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5411,11 +5411,11 @@
     "s_name": "Life Transference",
     "s_lvl": "3rd",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -5433,11 +5433,11 @@
     "s_name": "Light",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, M (a firefly or phosphorescent moss)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5456,11 +5456,11 @@
     "s_name": "Lightning Arrow",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5476,11 +5476,11 @@
     "s_name": "Lightning Bolt",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (100-foot line)",
     "s_components": "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5497,11 +5497,11 @@
     "s_name": "Lightning Lure",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "15 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5519,11 +5519,11 @@
     "s_name": "Locate Animals or Plant",
     "s_lvl": "2nd",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a bit of fur from a bloodhound)",
     "s_duration": "Instantaneous",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -5541,11 +5541,11 @@
     "s_name": "Locate Creature",
     "s_lvl": "4th",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a bit of fur from a bloodhound)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5566,11 +5566,11 @@
     "s_name": "Locate Object",
     "s_lvl": "2nd",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a forked twig)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5591,11 +5591,11 @@
     "s_name": "Longstrider",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a pinch of dirt)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5615,11 +5615,11 @@
     "s_name": "Maddening Darkness",
     "s_lvl": "8th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, M (a drop of pitch mixed with a drop of mercury)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5636,11 +5636,11 @@
     "s_name": "Maelstrom",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, M (paper or leaf in the shape of a funnel)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5656,11 +5656,11 @@
     "s_name": "Mage Armor",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a piece of cured leather)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -5678,11 +5678,11 @@
     "s_name": "Mage Hand",
     "s_lvl": "Cantrip",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -5701,11 +5701,11 @@
     "s_name": "Magic Circle",
     "s_lvl": "3rd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "10 feet",
     "s_components": "V, S, M (holy water or powdered silver and iron worth at least 100 gp, which the spell consumes)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -5724,11 +5724,11 @@
     "s_name": "Magic Jar",
     "s_lvl": "6th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Self",
     "s_components": "V, S, M (a gem, crystal, reliquary, or some other ornamental container worth at least 500 gp)",
     "s_duration": "Until dispelled",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -5744,11 +5744,11 @@
     "s_name": "Magic Missile",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5765,11 +5765,11 @@
     "s_name": "Magic Mouth",
     "s_lvl": "2nd",
     "s_school": "Illusion",
+    "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "30 feet",
     "s_components": "V, S, M (a small bit of honeycomb and jade dust worth at least 10 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
-    "s_ritual": true,
     "s_type": [
       "Support"
     ],
@@ -5786,11 +5786,11 @@
     "s_name": "Magic Stone",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5807,11 +5807,11 @@
     "s_name": "Magic Weapon",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -5829,11 +5829,11 @@
     "s_name": "Major Image",
     "s_lvl": "3rd",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a bit of fleece)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -5852,11 +5852,11 @@
     "s_name": "Mass Cure Wounds",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -5875,11 +5875,11 @@
     "s_name": "Mass Heal",
     "s_lvl": "9th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -5896,11 +5896,11 @@
     "s_name": "Mass Healing Word",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -5917,11 +5917,11 @@
     "s_name": "Mass Polymorph",
     "s_lvl": "9th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a caterpillar cocoon)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Disguise"
@@ -5940,11 +5940,11 @@
     "s_name": "Mass Suggestion",
     "s_lvl": "6th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, M (a snake’s tongue and either a bit of honeycomb or a drop of sweet oil)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -5963,11 +5963,11 @@
     "s_name": "Maximilian’s Earthen Grasp",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a miniature hand sculpted from clay)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -5984,11 +5984,11 @@
     "s_name": "Maze",
     "s_lvl": "8th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -6004,11 +6004,11 @@
     "s_name": "Meld into Stone",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "8 hours",
-    "s_ritual": true,
     "s_type": [
       "Support"
     ],
@@ -6025,11 +6025,11 @@
     "s_name": "Melf’s Acid Arrow",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (powdered rhubarb leaf and an adder’s stomach)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6045,11 +6045,11 @@
     "s_name": "Melf’s Minute Meteors",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (niter, sulfur, and pine tar formed into a bead)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6066,11 +6066,11 @@
     "s_name": "Mending",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
     "s_components": "V, S, M (two lodestones)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6090,11 +6090,11 @@
     "s_name": "Mental Prison",
     "s_lvl": "6th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6112,11 +6112,11 @@
     "s_name": "Message",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a short piece of copper wire)",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -6135,11 +6135,11 @@
     "s_name": "Meteor Swarm",
     "s_lvl": "9th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "1 mile",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6156,11 +6156,11 @@
     "s_name": "Mighty Fortress",
     "s_lvl": "8th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "1 mile",
     "s_components": "V, S, M (a diamond worth at least 500 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -6176,11 +6176,11 @@
     "s_name": "Mind Blank",
     "s_lvl": "8th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6197,11 +6197,11 @@
     "s_name": "Mind Spike",
     "s_lvl": "2nd",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6219,11 +6219,11 @@
     "s_name": "Minor Illusion",
     "s_lvl": "Cantrip",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "S, M (a bit of fleece)",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6242,11 +6242,11 @@
     "s_name": "Mirage Arcane",
     "s_lvl": "7th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Sight",
     "s_components": "V, S",
     "s_duration": "10 days",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6264,11 +6264,11 @@
     "s_name": "Mirror Image",
     "s_lvl": "2nd",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6286,11 +6286,11 @@
     "s_name": "Mislead",
     "s_lvl": "5th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6307,11 +6307,11 @@
     "s_name": "Misty Step",
     "s_lvl": "2nd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Transport"
@@ -6330,11 +6330,11 @@
     "s_name": "Modify Memory",
     "s_lvl": "5th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6351,11 +6351,11 @@
     "s_name": "Mold earth",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "S",
     "s_duration": "Instantaneous or 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6373,11 +6373,11 @@
     "s_name": "Moonbeam",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6393,11 +6393,11 @@
     "s_name": "Mordenkainen’s Faithful Hound",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a tiny silver whistle, a piece of bone, and a thread)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6414,11 +6414,11 @@
     "s_name": "Mordenkainen’s Magnificent Mansion",
     "s_lvl": "7th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
     "s_components": "V, S, M (a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6435,11 +6435,11 @@
     "s_name": "Mordenkainen’s Private Sanctum",
     "s_lvl": "4th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "120 feet",
     "s_components": "V, S, M (a thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6456,11 +6456,11 @@
     "s_name": "Mordenkainen’s Sword",
     "s_lvl": "7th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6477,11 +6477,11 @@
     "s_name": "Move Earth",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (an iron blade and a small bag containing a mixture of soils—clay, loam, and sand)",
     "s_duration": "Concentration, up to 2 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6499,11 +6499,11 @@
     "s_name": "Negative Energy Flood",
     "s_lvl": "5th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a broken bone and a square of black silk)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6520,11 +6520,11 @@
     "s_name": "Nondetection",
     "s_lvl": "3rd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6542,11 +6542,11 @@
     "s_name": "Nystul’s Magic Aura",
     "s_lvl": "2nd",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a small square of silk)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6562,11 +6562,11 @@
     "s_name": "Otiluke’s Freezing Sphere",
     "s_lvl": "6th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
     "s_components": "V, S, M (a small crystal sphere)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6582,11 +6582,11 @@
     "s_name": "Otiluke’s Resilient Sphere",
     "s_lvl": "4th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -6603,11 +6603,11 @@
     "s_name": "Otto’s Irresistible Dance",
     "s_lvl": "6th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -6624,11 +6624,11 @@
     "s_name": "Pass Without Trace",
     "s_lvl": "2nd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (ashes from a burned leaf of mistletoe and a sprig of spruce)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -6645,11 +6645,11 @@
     "s_name": "Passwall",
     "s_lvl": "5th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a pinch of sesame seeds)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6665,11 +6665,11 @@
     "s_name": "Phantasmal Force",
     "s_lvl": "2nd",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a bit of fleece)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6687,11 +6687,11 @@
     "s_name": "Phantasmal Killer",
     "s_lvl": "4th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6707,11 +6707,11 @@
     "s_name": "Phantom Steed",
     "s_lvl": "3rd",
     "s_school": "Illusion",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "1 hour",
-    "s_ritual": true,
     "s_type": [
       "Utility",
       "Transport"
@@ -6728,11 +6728,11 @@
     "s_name": "Planar Ally",
     "s_lvl": "6th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6748,11 +6748,11 @@
     "s_name": "Planar Binding",
     "s_lvl": "5th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "60 feet",
     "s_components": "V, S, M (a jewel worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6771,11 +6771,11 @@
     "s_name": "Plane Shift",
     "s_lvl": "7th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Transport"
@@ -6796,11 +6796,11 @@
     "s_name": "Plant Growth",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "Special",
     "s_range": "150 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6818,11 +6818,11 @@
     "s_name": "Poison Spray",
     "s_lvl": "Cantrip",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6841,11 +6841,11 @@
     "s_name": "Polymorph",
     "s_lvl": "4th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a caterpillar cocoon)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Disguise"
@@ -6865,11 +6865,11 @@
     "s_name": "Power Word Heal",
     "s_lvl": "9th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -6886,11 +6886,11 @@
     "s_name": "Power Word Kill",
     "s_lvl": "9th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6909,11 +6909,11 @@
     "s_name": "Power Word Pain",
     "s_lvl": "7th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -6931,11 +6931,11 @@
     "s_name": "Power Word Stun",
     "s_lvl": "8th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6954,11 +6954,11 @@
     "s_name": "Prayer of Healing",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "30 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -6975,11 +6975,11 @@
     "s_name": "Prestidigitation",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
     "s_components": "V, S",
     "s_duration": "Up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -6998,11 +6998,11 @@
     "s_name": "Primal Savagery",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7018,11 +7018,11 @@
     "s_name": "Primordial Ward",
     "s_lvl": "6th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7038,11 +7038,11 @@
     "s_name": "Prismatic Spray",
     "s_lvl": "7th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (60-foot cone)",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7059,11 +7059,11 @@
     "s_name": "Prismatic Wall",
     "s_lvl": "9th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7079,11 +7079,11 @@
     "s_name": "Produce Flame",
     "s_lvl": "Cantrip",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7099,11 +7099,11 @@
     "s_name": "Programmed Illusion",
     "s_lvl": "6th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a bit of fleece and jade dust worth at least 25 gp)",
     "s_duration": "Until dispelled",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -7120,11 +7120,11 @@
     "s_name": "Project Image",
     "s_lvl": "7th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "500 miles",
     "s_components": "V, S, M (a small replica of you made from materials worth at least 5 gp)",
     "s_duration": "Concentration, up to 1 day",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -7141,11 +7141,11 @@
     "s_name": "Protection from Energy",
     "s_lvl": "3rd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -7167,11 +7167,11 @@
     "s_name": "Protection from Evil and Good",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (holy water or powdered silver and iron, which the spell consumes)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -7191,11 +7191,11 @@
     "s_name": "Protection from Poison",
     "s_lvl": "2nd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -7216,11 +7216,11 @@
     "s_name": "Psychic Scream",
     "s_lvl": "9th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7239,11 +7239,11 @@
     "s_name": "Purify Food and Drink",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -7261,11 +7261,11 @@
     "s_name": "Pyrotechnics",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -7283,11 +7283,11 @@
     "s_name": "Raise Dead",
     "s_lvl": "5th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
     "s_components": "V, S, M (a diamond worth at least 500 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -7305,11 +7305,11 @@
     "s_name": "Rary’s Telepathic Bond",
     "s_lvl": "5th",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (pieces of eggshell from two different kinds of creatures)",
     "s_duration": "1 hour",
-    "s_ritual": true,
     "s_type": [
       "Utility",
       "Communication"
@@ -7326,11 +7326,11 @@
     "s_name": "Ray of Enfeeblement",
     "s_lvl": "2nd",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -7347,11 +7347,11 @@
     "s_name": "Ray of Frost",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7368,11 +7368,11 @@
     "s_name": "Ray of Sickness",
     "s_lvl": "1st",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7389,11 +7389,11 @@
     "s_name": "Regenerate",
     "s_lvl": "7th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
     "s_components": "V, S, M (a prayer wheel and holy water)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Healing"
@@ -7412,11 +7412,11 @@
     "s_name": "Reincarnate",
     "s_lvl": "5th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
     "s_components": "V, S, M (rare oils and unguents worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7432,11 +7432,11 @@
     "s_name": "Remove Curse",
     "s_lvl": "3rd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7455,11 +7455,11 @@
     "s_name": "Resistance",
     "s_lvl": "Cantrip",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a miniature cloak)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7476,11 +7476,11 @@
     "s_name": "Resurrection",
     "s_lvl": "7th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
     "s_components": "V, S, M (a diamond worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7497,11 +7497,11 @@
     "s_name": "Reverse Gravity",
     "s_lvl": "7th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "100 feet",
     "s_components": "V, S, M (a lodestone and iron filings)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -7519,11 +7519,11 @@
     "s_name": "Revivify",
     "s_lvl": "3rd",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (diamonds worth 300 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7541,11 +7541,11 @@
     "s_name": "Rope Trick",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (powdered corn extract and a twisted loop of parchment)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7562,11 +7562,11 @@
     "s_name": "Sacred Flame",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7582,11 +7582,11 @@
     "s_name": "Sanctuary",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a small silver mirror)",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7603,11 +7603,11 @@
     "s_name": "Scatter",
     "s_lvl": "6th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Transport"
@@ -7626,11 +7626,11 @@
     "s_name": "Scorching Ray",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7647,11 +7647,11 @@
     "s_name": "Scrying",
     "s_lvl": "5th",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Self",
     "s_components": "V, S, M (a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -7671,11 +7671,11 @@
     "s_name": "Searing Smite",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7691,11 +7691,11 @@
     "s_name": "See invisibility",
     "s_lvl": "2nd",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a pinch of talc and a small sprinkling of powdered silver)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7714,11 +7714,11 @@
     "s_name": "Seeming",
     "s_lvl": "5th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Disguise"
@@ -7737,11 +7737,11 @@
     "s_name": "Sending",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Unlimited",
     "s_components": "V, S, M (a short piece of fine copper wire)",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -7760,11 +7760,11 @@
     "s_name": "Sequester",
     "s_lvl": "7th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -7780,11 +7780,11 @@
     "s_name": "Shadow Blade",
     "s_lvl": "2nd",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7802,11 +7802,11 @@
     "s_name": "Shadow of Moil",
     "s_lvl": "4th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (an undead eyeball encased in a gem worth at least 150 gp)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7822,11 +7822,11 @@
     "s_name": "Shape Water",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "S",
     "s_duration": "Instantaneous or 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -7844,11 +7844,11 @@
     "s_name": "Shapechange",
     "s_lvl": "9th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Disguise"
@@ -7866,11 +7866,11 @@
     "s_name": "Shatter",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a chip of mica)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7889,11 +7889,11 @@
     "s_name": "Shield",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "Special",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -7911,11 +7911,11 @@
     "s_name": "Shield of Faith",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a small parchment with a bit of holy text written on it)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -7934,11 +7934,11 @@
     "s_name": "Shillelagh",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
     "s_components": "V, S, M (mistletoe, a shamrock leaf, and a club or quarterstaff)",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -7954,11 +7954,11 @@
     "s_name": "Shocking Grasp",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7975,11 +7975,11 @@
     "s_name": "Sickening Radiance",
     "s_lvl": "4th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -7997,11 +7997,11 @@
     "s_name": "Silence",
     "s_lvl": "2nd",
     "s_school": "Illusion",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -8019,11 +8019,11 @@
     "s_name": "Silent Image",
     "s_lvl": "1st",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a bit of fleece)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8041,11 +8041,11 @@
     "s_name": "Simulacrum",
     "s_lvl": "7th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "12 hours",
     "s_range": "Touch",
     "s_components": "V, S, M (snow or ice in quantities sufficient to made a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature’s body placed inside the snow or ice; and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell)",
     "s_duration": "Until dispelled",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8061,11 +8061,11 @@
     "s_name": "Skill Empowerment",
     "s_lvl": "5th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -8083,11 +8083,11 @@
     "s_name": "Skywrite",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Sight",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -8105,11 +8105,11 @@
     "s_name": "Sleep",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (a pinch of fine sand, rose petals, or a cricket)",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8127,11 +8127,11 @@
     "s_name": "Sleet Storm",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (a pinch of dust and a few drops of water)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8149,11 +8149,11 @@
     "s_name": "Slow",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a drop of molasses)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8170,11 +8170,11 @@
     "s_name": "Snare",
     "s_lvl": "1st",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "S, M (25 feet of rope, which the spell consumes)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8192,11 +8192,11 @@
     "s_name": "Snilloc’s Snowball Swarm",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (a piece of ice or a small white rock chip)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8213,11 +8213,11 @@
     "s_name": "Soul Cage",
     "s_lvl": "6th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "Special",
     "s_range": "60 feet",
     "s_components": "V, S, M (a tiny silver cage worth 100 gp)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -8235,11 +8235,11 @@
     "s_name": "Spare the Dying",
     "s_lvl": "Cantrip",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8255,11 +8255,11 @@
     "s_name": "Speak with Animals",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "10 minutes",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -8277,11 +8277,11 @@
     "s_name": "Speak with Dead",
     "s_lvl": "3rd",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
     "s_components": "V, S, M (burning incense)",
     "s_duration": "10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -8299,11 +8299,11 @@
     "s_name": "Speak with Plants",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (30-foot radius)",
     "s_components": "V, S",
     "s_duration": "10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -8322,11 +8322,11 @@
     "s_name": "Spider Climb",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a drop of bitumen and a spider)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8345,11 +8345,11 @@
     "s_name": "Spike Growth",
     "s_lvl": "2nd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (seven sharp thorns or seven small twigs, each sharpened to a point)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8366,11 +8366,11 @@
     "s_name": "Spirit Guardians",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (15-foot-radius)",
     "s_components": "V, S, M (a holy symbol)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -8386,11 +8386,11 @@
     "s_name": "Spiritual Weapon",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8406,11 +8406,11 @@
     "s_name": "Staggering Smite",
     "s_lvl": "4th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8426,11 +8426,11 @@
     "s_name": "Steel Wind Strike",
     "s_lvl": "5th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "S, M (a melee weapon worth at least 1 sp)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage",
       "Transport"
@@ -8448,11 +8448,11 @@
     "s_name": "Stinking Cloud",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (a rotten egg or several skunk cabbage leaves)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8470,11 +8470,11 @@
     "s_name": "Stone Shape",
     "s_lvl": "4th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (soft clay, which must be worked into roughly the desired shape of the stone object)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -8493,11 +8493,11 @@
     "s_name": "Stoneskin",
     "s_lvl": "4th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Protection"
@@ -8518,11 +8518,11 @@
     "s_name": "Storm of Vengeance",
     "s_lvl": "9th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Sight",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8538,11 +8538,11 @@
     "s_name": "Storm Sphere",
     "s_lvl": "4th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8559,11 +8559,11 @@
     "s_name": "Suggestion",
     "s_lvl": "2nd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, M (a snake’s tongue and either a bit of honeycomb or a drop of sweet oil)",
     "s_duration": "Concentration, up to 8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8582,11 +8582,11 @@
     "s_name": "Summon Greater Demon",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a vial of blood from a humanoid killed within the past 24 hours)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -8604,11 +8604,11 @@
     "s_name": "Summon Lesser Demons",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a vial of blood from a humanoid killed within the past 24 hours)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Summoning"
@@ -8626,11 +8626,11 @@
     "s_name": "Sunbeam",
     "s_lvl": "6th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (60-foot line)",
     "s_components": "V, S, M (a magnifying glass)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8648,11 +8648,11 @@
     "s_name": "Sunburst",
     "s_lvl": "8th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (fire and a piece of sunstone)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8670,11 +8670,11 @@
     "s_name": "Swift Quiver",
     "s_lvl": "5th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
     "s_components": "V, S, M (a quiver containing at least one piece of ammunition)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8690,11 +8690,11 @@
     "s_name": "Sword Burst",
     "s_lvl": "Cantrip",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8712,11 +8712,11 @@
     "s_name": "Symbol",
     "s_lvl": "7th",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
     "s_components": "V, S, M (mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes)",
     "s_duration": "Until dispelled or triggered",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8734,11 +8734,11 @@
     "s_name": "Synaptic Static",
     "s_lvl": "5th",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -8757,11 +8757,11 @@
     "s_name": "Tasha’s Hideous Laughter",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (tiny tarts and a feather that is waved in the air)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8778,11 +8778,11 @@
     "s_name": "Telekinesis",
     "s_lvl": "5th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8799,11 +8799,11 @@
     "s_name": "Telepathy",
     "s_lvl": "8th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Unlimited",
     "s_components": "V, S, M (a pair of linked silver rings)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -8820,11 +8820,11 @@
     "s_name": "Teleport",
     "s_lvl": "7th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Transport"
@@ -8843,11 +8843,11 @@
     "s_name": "Teleportation Circle",
     "s_lvl": "5th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "10 feet",
     "s_components": "V, M (rare chalks and inks infused with precious gems with 50 gp, which the spell consumes)",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Transport"
@@ -8866,11 +8866,11 @@
     "s_name": "Temple of the Gods",
     "s_lvl": "7th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "120 feet",
     "s_components": "V, S, M (a holy symbol worth at least 5 gp)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8886,11 +8886,11 @@
     "s_name": "Tenser’s Floating Disk",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a drop of mercury)",
     "s_duration": "1 hour",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -8906,11 +8906,11 @@
     "s_name": "Tenser’s Transformation",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a few hairs from a bull)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8926,11 +8926,11 @@
     "s_name": "Thaumaturgy",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V",
     "s_duration": "Up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8946,11 +8946,11 @@
     "s_name": "Thorn Whip",
     "s_lvl": "Cantrip",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (the stem of a plant with thorns)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -8966,11 +8966,11 @@
     "s_name": "Thunder Step",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage",
       "Transport"
@@ -8989,11 +8989,11 @@
     "s_name": "Thunderclap",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
     "s_components": "S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9013,11 +9013,11 @@
     "s_name": "Thunderous Smite",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9033,11 +9033,11 @@
     "s_name": "Thunderwave",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (15-foot cube)",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9056,11 +9056,11 @@
     "s_name": "Tidal Wave",
     "s_lvl": "3rd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a drop of water)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9078,11 +9078,11 @@
     "s_name": "Time Stop",
     "s_lvl": "9th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9099,11 +9099,11 @@
     "s_name": "Tiny Servant",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9119,11 +9119,11 @@
     "s_name": "Toll the Dead",
     "s_lvl": "Cantrip",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9141,11 +9141,11 @@
     "s_name": "Tongues",
     "s_lvl": "3rd",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, M (a small clay model of a ziggurat)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Communication"
@@ -9166,11 +9166,11 @@
     "s_name": "Transmute Rock",
     "s_lvl": "5th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (clay and water)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9187,11 +9187,11 @@
     "s_name": "Transport via Plants",
     "s_lvl": "6th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
     "s_components": "V, S",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9207,11 +9207,11 @@
     "s_name": "Tree Stride",
     "s_lvl": "5th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9228,11 +9228,11 @@
     "s_name": "True Polymorph",
     "s_lvl": "9th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a drop of mercury, a dollop of gum arabic, and a wisp of smoke)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Disguise"
@@ -9251,11 +9251,11 @@
     "s_name": "True Resurrection",
     "s_lvl": "9th",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
     "s_components": "V, S, M (a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9272,11 +9272,11 @@
     "s_name": "True Seeing",
     "s_lvl": "6th",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9296,11 +9296,11 @@
     "s_name": "True Strike",
     "s_lvl": "Cantrip",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 round",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -9319,11 +9319,11 @@
     "s_name": "Tsunami",
     "s_lvl": "8th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Sight",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 6 rounds",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9339,11 +9339,11 @@
     "s_name": "Unseen Servant",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a piece of string and a bit of wood)",
     "s_duration": "1 hour",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -9361,11 +9361,11 @@
     "s_name": "Vampiric Touch",
     "s_lvl": "3rd",
     "s_school": "Necromancy",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage",
       "Healing"
@@ -9383,11 +9383,11 @@
     "s_name": "Vicious Mockery",
     "s_lvl": "Cantrip",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9403,11 +9403,11 @@
     "s_name": "Vitriolic Sphere",
     "s_lvl": "4th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
     "s_components": "V, S, M (a drop of giant slug bile)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9424,11 +9424,11 @@
     "s_name": "Wall of Fire",
     "s_lvl": "4th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a small piece of phosphorus)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9446,11 +9446,11 @@
     "s_name": "Wall of Force",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9466,11 +9466,11 @@
     "s_name": "Wall of Ice",
     "s_lvl": "6th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a small piece of quartz)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9486,11 +9486,11 @@
     "s_name": "Wall of Light",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a hand mirror)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9508,11 +9508,11 @@
     "s_name": "Wall of Sand",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (a handful of sand)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9528,11 +9528,11 @@
     "s_name": "Wall of Stone",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a small block of granite)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9550,11 +9550,11 @@
     "s_name": "Wall of Thorns",
     "s_lvl": "6th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a handful of thorns)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9570,11 +9570,11 @@
     "s_name": "Wall of Water",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a drop of water)",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9592,11 +9592,11 @@
     "s_name": "Warding Bond",
     "s_lvl": "2nd",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and target must wear for the duration)",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -9612,11 +9612,11 @@
     "s_name": "Warding Wind",
     "s_lvl": "2nd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9635,11 +9635,11 @@
     "s_name": "Water Breathing",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a short reed or piece of straw)",
     "s_duration": "24 hours",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -9659,11 +9659,11 @@
     "s_name": "Water Walk",
     "s_lvl": "3rd",
     "s_school": "Transmutation",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a piece of cork)",
     "s_duration": "1 hour",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -9683,11 +9683,11 @@
     "s_name": "Watery Sphere",
     "s_lvl": "4th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
     "s_components": "V, S, M (a droplet of water)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9705,11 +9705,11 @@
     "s_name": "Web",
     "s_lvl": "2nd",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S, M (a bit of spiderweb)",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9726,11 +9726,11 @@
     "s_name": "Weird",
     "s_lvl": "9th",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9746,11 +9746,11 @@
     "s_name": "Whirlwind",
     "s_lvl": "7th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
     "s_components": "V, M (a piece of straw)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9768,11 +9768,11 @@
     "s_name": "Wind Walk",
     "s_lvl": "6th",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (fire and holy water)",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9788,11 +9788,11 @@
     "s_name": "Wind Wall",
     "s_lvl": "3rd",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (a tiny fan and a feather of exotic origin)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9809,11 +9809,11 @@
     "s_name": "Wish",
     "s_lvl": "9th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9830,11 +9830,11 @@
     "s_name": "Witch Bolt",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V, S, M (a twig from a tree that has been struck by lightning)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9852,11 +9852,11 @@
     "s_name": "Word of Radiance",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
     "s_components": "V, M (a holy symbol)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9872,11 +9872,11 @@
     "s_name": "Word of Recall",
     "s_lvl": "6th",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Support",
       "Transport"
@@ -9893,11 +9893,11 @@
     "s_name": "Wrath of Nature",
     "s_lvl": "5th",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -9914,11 +9914,11 @@
     "s_name": "Wrathful Smite",
     "s_lvl": "1st",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9934,11 +9934,11 @@
     "s_name": "Zephyr Strike",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -9954,11 +9954,11 @@
     "s_name": "Zone of Truth",
     "s_lvl": "2nd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V, S",
     "s_duration": "10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -9976,11 +9976,11 @@
     "s_name": "Guiding Hand",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "5 feet",
     "s_components": "V, S",
     "s_duration": "Concentration up to 8 hours",
-    "s_ritual": true,
     "s_type": [
       "Utility"
     ],
@@ -9998,11 +9998,11 @@
     "s_name": "Hand of Radiance",
     "s_lvl": "Cantrip",
     "s_school": "Evocation",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (5 feet radius)",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -10018,11 +10018,11 @@
     "s_name": "Healing Elixir",
     "s_lvl": "1st",
     "s_school": "Conjuration",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Self",
     "s_components": "V, S, M (Alchemist's Supplies)",
     "s_duration": "24 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility",
       "Healing"
@@ -10040,11 +10040,11 @@
     "s_name": "Puppet",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "S",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -10062,11 +10062,11 @@
     "s_name": "Sense Emotion",
     "s_lvl": "1st",
     "s_school": "Divination",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -10084,11 +10084,11 @@
     "s_name": "Sudden Awakening",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "10 feet",
     "s_components": "V",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -10106,11 +10106,11 @@
     "s_name": "Unearthly Chorus",
     "s_lvl": "1st",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self (30-foot radius)",
     "s_components": "V",
     "s_duration": "Concentration, up to 10 minutes",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -10126,11 +10126,11 @@
     "s_name": "Virtue",
     "s_lvl": "Cantrip",
     "s_school": "Abjuration",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
     "s_components": "V, S",
     "s_duration": "1 round",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -10146,11 +10146,11 @@
     "s_name": "Wild Cunning",
     "s_lvl": "1st",
     "s_school": "Transmutation",
+    "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
-    "s_ritual": true,
     "s_type": [
       "Support"
     ],
@@ -10167,11 +10167,11 @@
     "s_name": "Distort Value",
     "s_lvl": "1st",
     "s_school": "Illusion",
+    "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
     "s_components": "V",
     "s_duration": "8 hours",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -10190,11 +10190,11 @@
     "s_name": "Fast Friends",
     "s_lvl": "3rd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -10212,11 +10212,11 @@
     "s_name": "Gift of Gab",
     "s_lvl": "2nd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 reaction, which you can take when you speak to another creature",
     "s_range": "Self",
     "s_components": "V, S, M (2 gold pieces)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Utility"
     ],
@@ -10233,11 +10233,11 @@
     "s_name": "Incite Greed",
     "s_lvl": "3rd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
     "s_components": "V, S, M (a gem worth at least 50gp)",
     "s_duration": "Concentration, up to 1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -10255,11 +10255,11 @@
     "s_name": "Jim's Glowing Coin",
     "s_lvl": "2nd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "S, M (2 gold pieces, must be coins)",
     "s_duration": "1 minute",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],
@@ -10275,11 +10275,11 @@
     "s_name": "Jim's Magic Missile",
     "s_lvl": "1st",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
     "s_components": "V, S, M (1 gold piece)",
     "s_duration": "Instantaneous",
-    "s_ritual": false,
     "s_type": [
       "Damage"
     ],
@@ -10295,11 +10295,11 @@
     "s_name": "Motivational Speech",
     "s_lvl": "3rd",
     "s_school": "Enchantment",
+    "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
     "s_components": "V",
     "s_duration": "1 hour",
-    "s_ritual": false,
     "s_type": [
       "Support"
     ],

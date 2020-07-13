@@ -6325,7 +6325,7 @@
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": "Damage",
-    "s_damage_type": "cold",
+    "s_damage_type": "various",
     "s_damage_dice": "10d6",
     "s_class_usage": [
       "Sorcerer",
@@ -6344,7 +6344,7 @@
     "s_components": "V, S",
     "s_duration": "10 minutes",
     "s_type": "Damage",
-    "s_damage_type": "cold",
+    "s_damage_type": "various",
     "s_damage_dice": "10d6",
     "s_class_usage": [
       "Wizard"

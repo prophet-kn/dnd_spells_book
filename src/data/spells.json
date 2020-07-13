@@ -738,10 +738,11 @@
     "s_components": "V, S, M (An eggshell and a snakeskin glove)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
+      "Damage",
       "Utility"
     ],
-    "s_damage_type": "None",
-    "s_damage_dice": "None",
+    "s_damage_type": "force",
+    "s_damage_dice": "4d8",
     "s_class_usage": [
       "Wizard"
     ],

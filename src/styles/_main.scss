@@ -47,7 +47,7 @@
           font-size: $biggest-size;
           display: flex;
           margin: auto;
-          transform: rotate(-5deg);
+          transform: rotate(-5deg) translatey(-8px);
           text-align: left;
         }
       }
@@ -483,14 +483,6 @@
     padding: 10px;
     text-align: left;
 
-    span {
-      overflow: hidden;
-      margin-right: auto;
-      margin-left: 35px;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
     .chevron {
       position: absolute;
       right: 15px;
@@ -504,6 +496,14 @@
     }
   }
 
+  &-label {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: auto;
+    margin-left: 35px;
+  }
+
   &-definitions {
     border: 2px solid;
     border-radius: 25px;
@@ -512,14 +512,11 @@
     text-align: left;
     animation: fade-in .5s ease-in-out;
 
-    div {
-      padding: 2px 0;
-    }
-
     .item-can-cast {
       border-top: 2px solid;
-      padding-top: 5px;
-      margin-top: 5px;
+      padding-top: 10px;
+      padding-bottom: 3px;
+      margin-top: 10px;
     }
   }
 
@@ -527,10 +524,7 @@
     border-bottom: 2px solid;
     border-top: 2px solid;
     margin: 10px 0;
-
-    div {
-      padding: 2px 0;
-    }
+    padding: 10px 0;
   }
 
   &-description {
@@ -557,6 +551,10 @@
     position: absolute;
     top: 8px;
     z-index: 1;
+  }
+
+  &-damage-icon {
+    margin-right: 15px;
   }
 
   &-dropdown {
@@ -738,7 +736,7 @@ h6 {
 }
 
 ul {
-  margin: 5px 0;
+  margin: 10px 0;
   padding-inline-start: 20px;
 
   li {

@@ -31,6 +31,15 @@ let uniqueType = sortType.map(function(type) {
 .uniq()
 .value()
 
+let sortDamageType = _.chain(Data)
+let uniqueDamageType = sortDamageType.map(function(damage_type) {
+  return damage_type.s_damage_type
+})
+.sort()
+.flatten()
+.uniq()
+.value()
+
 let sortClass = _.chain(Data)
 let uniqueClass = sortClass.map(function(classes) {
   return classes.s_class_usage
@@ -66,6 +75,7 @@ class SpellsTable extends Component {
         'School of Magic': [],
         'Level': [],
         'Effect Type': [],
+        'Damage Type': [],
         'Class': [],
         'Ritual': []
       }
@@ -109,6 +119,7 @@ class SpellsTable extends Component {
         <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
         <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
         <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Damage Type'} values={uniqueDamageType} setFilter={this.setFilter} />
         <FilterDataButtons title={'Ritual'} values={uniqueRitual} setFilter={this.setFilter} />
       </div>
     )
@@ -209,6 +220,9 @@ class SpellsTable extends Component {
     })
     .filter((spell) => {
       return _.includes(sortFilters['Effect Type'], spell.s_type) || sortFilters['Effect Type'].length === 0
+    })
+    .filter((spell) => {
+      return _.includes(sortFilters['Damage Type'], spell.s_damage_type) || sortFilters['Damage Type'].length === 0
     })
     .filter((spell) => {
       return sortFilters['Class'].some(c => spell.s_class_usage.includes(c)) || sortFilters['Class'].length === 0

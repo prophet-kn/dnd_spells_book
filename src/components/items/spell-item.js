@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactHtmlParser from 'react-html-parser'
+import { ReactSVG } from 'react-svg'
 
 class SpellItem extends Component {
   constructor(props) {
@@ -31,6 +32,7 @@ class SpellItem extends Component {
             <div className={"item-range"}><b>Range:</b> {spellItem.s_range}</div>
             <div className={"item-components"}><b>Components:</b> {spellItem.s_components}</div>
             <div className={"item-duration"}><b>Duration:</b> {spellItem.s_duration}</div>
+            {spellItem.s_damage_type !== 'None' && <div className={"item-damage"}><b>Damage:</b> {spellItem.s_damage_dice} {spellItem.s_damage_type}</div>}
           </div>
           <div className={"item-description"}>{ReactHtmlParser(spellItem.s_description)}</div>
           <div className={"item-can-cast"}><i>Classes: {spellItem.s_class_usage.join(', ')}</i></div>
@@ -54,7 +56,8 @@ class SpellItem extends Component {
     return (
       <div className={this.state.showList === i ? "item-dropdown" : "item-dropdown hide-child"}>
         <div className={"item-name"} onClick={(e) => {this.addClassName(e, i)}}>
-          <span>{spellItem.s_name}</span>
+          <span className={"item-label"}>{spellItem.s_name}</span>
+          <ReactSVG src={"svgs/"+spellItem.s_damage_type+".svg"} className="item-damage-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}}/>
           <div className={"item-tooltip"}>L: {spellItem.s_lvl.slice(0, 1)}</div>
           <svg className={this.state.showList === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
         </div>

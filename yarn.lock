@@ -1088,6 +1088,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.8.7":
+  version "7.8.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.7.tgz#8fefce9802db54881ba59f90bb28719b4996324d"
+  integrity sha512-+AATMUFppJDw6aiR5NVPHqIQBlV/Pj8wY/EZH+lmvRdUo9xBaz/rF3alAwFJQavvKfeOlPE7oaaDHVbcySbCsg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.10.4", "@babel/template@^7.4.0", "@babel/template@^7.8.6":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.10.4.tgz#3251996c4200ebc71d1a8fc405fba940f36ba278"
@@ -1434,6 +1441,13 @@
     "@svgr/plugin-jsx" "^4.1.0"
     "@svgr/plugin-svgo" "^4.0.3"
     loader-utils "^1.1.0"
+
+"@tanem/svg-injector@^8.0.43":
+  version "8.0.43"
+  resolved "https://registry.yarnpkg.com/@tanem/svg-injector/-/svg-injector-8.0.43.tgz#14febd2f90f027fb7c8c4323f2e72b04966393ad"
+  integrity sha512-fbVfy0Vaq8amQOannydGkJ+jAzVbWFDbJJ8n7sd9miY/EX7/xyt+68cxuSXzXtY8fzbbRmNngCGEOUMN/9kl8w==
+  dependencies:
+    "@babel/runtime" "^7.8.4"
 
 "@types/babel__core@^7.1.0":
   version "7.1.9"
@@ -9194,7 +9208,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.6.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9482,6 +9496,15 @@ react-scripts@3.0.1:
     workbox-webpack-plugin "4.2.0"
   optionalDependencies:
     fsevents "2.0.6"
+
+react-svg@^11.0.14:
+  version "11.0.14"
+  resolved "https://registry.yarnpkg.com/react-svg/-/react-svg-11.0.14.tgz#13f72ba76dc1c7466031196468612f9d27b94fbe"
+  integrity sha512-W+aMO+fvZMP4WJMAOzoTrxkfRwOd62QikXLgkNqPMTKfo0WxJj+hKwTYZZajSZyQ/nHd49o/VgvjEtE3FdVm3g==
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    "@tanem/svg-injector" "^8.0.43"
+    prop-types "^15.7.2"
 
 react@^16.9.0:
   version "16.13.1"

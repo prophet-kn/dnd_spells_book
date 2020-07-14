@@ -219,7 +219,7 @@ class SpellsTable extends Component {
       return _.includes(sortFilters['Level'], spell.s_lvl) || sortFilters['Level'].length === 0
     })
     .filter((spell) => {
-      return _.includes(sortFilters['Effect Type'], spell.s_type) || sortFilters['Effect Type'].length === 0
+      return sortFilters['Effect Type'].some(c => spell.s_type.includes(c)) || sortFilters['Effect Type'].length === 0
     })
     .filter((spell) => {
       return _.includes(sortFilters['Damage Type'], spell.s_damage_type) || sortFilters['Damage Type'].length === 0

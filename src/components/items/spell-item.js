@@ -53,11 +53,22 @@ class SpellItem extends Component {
     let spellItem = this.props.spell
     let i = spellItem.s_id
 
+    const elements = spellItem.s_type;
+    const items = []
+    for (const [index, value] of elements.entries()) {
+      if (value !== "damage" && value !== "support" && value !== "utility") {
+        items.push(<ReactSVG src={"svgs/"+value+".svg"} className="item-category-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}}/>)
+      }
+      if (value === "damage") {
+        items.push(<ReactSVG src={"svgs/"+spellItem.s_damage_type+".svg"} className="item-damage-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}}/>)
+      }
+    }
+
     return (
       <div className={this.state.showList === i ? "item-dropdown" : "item-dropdown hide-child"}>
         <div className={"item-name"} onClick={(e) => {this.addClassName(e, i)}}>
           <span className={"item-label"}>{spellItem.s_name}</span>
-          <ReactSVG src={"svgs/"+spellItem.s_damage_type+".svg"} className="item-damage-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}}/>
+          {items}
           <div className={"item-tooltip"}>L: {spellItem.s_lvl.slice(0, 1)}</div>
           <svg className={this.state.showList === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
         </div>

@@ -56,10 +56,10 @@ class SpellItem extends Component {
 
     for (const [index, value] of spellItem.s_type.entries()) {
       if (value !== "damage" && value !== "support" && value !== "utility") {
-        icons.push(<ReactSVG src={"svgs/"+value+".svg"} className="item-category-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}} key={index}/>)
+        icons.push(<ReactSVG src={"svgs/" + value + ".svg"} className="item-category-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}} key={index}/>)
       }
       if (value === "damage" && spellItem.s_damage_type !== "None") {
-        icons.push(<ReactSVG src={"svgs/"+spellItem.s_damage_type+".svg"} className="item-damage-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}} key={index}/>)
+        icons.push(<ReactSVG src={"svgs/" + spellItem.s_damage_type + ".svg"} className="item-damage-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}} key={index}/>)
       }
     }
 

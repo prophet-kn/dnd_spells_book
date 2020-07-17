@@ -5,8 +5,8 @@ import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import FeatItem from './../items/feat-item'
 
 const sortRacePrerequisite = _.chain(Data)
-const uniqueRacePrerequisite = sortRacePrerequisite.map(function (prerequisite_race) {
-  return prerequisite_race.f_prerequisite_race
+const uniqueRacePrerequisite = sortRacePrerequisite.map(function (prerequisiteRace) {
+  return prerequisiteRace.f_prerequisite_race
 })
   .flatten()
   .sort()
@@ -14,8 +14,8 @@ const uniqueRacePrerequisite = sortRacePrerequisite.map(function (prerequisite_r
   .value()
 
 const sortSkillPrerequisite = _.chain(Data)
-const uniqueSkillPrerequisite = sortSkillPrerequisite.map(function (prerequisite_skill) {
-  return prerequisite_skill.f_prerequisite_skill
+const uniqueSkillPrerequisite = sortSkillPrerequisite.map(function (prerequisiteSkill) {
+  return prerequisiteSkill.f_prerequisite_skill
 })
   .flatten()
   .sort()

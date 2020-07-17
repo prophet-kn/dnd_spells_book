@@ -5,7 +5,6 @@
   "homepage": "https://prophet-kn.github.io/dnd_spells_book/",
   "dependencies": {
     "create-react-class": "^15.6.3",
-    "eslint-utils": "1.4.2",
     "gh-pages": "^2.1.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -17,7 +16,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-html-parser": "^2.0.2",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.4.1",
     "react-svg": "^11.0.14",
     "yarn": "^1.22.0"
   },
@@ -43,7 +42,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.4.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
@@ -52,6 +50,7 @@
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.8",
     "eslint-plugin-standard": "^4.0.1",
+    "eslint-utils": "1.4.2",
     "gulp-eslint": "^6.0.0",
     "gulp-sass-lint": "^1.4.0",
     "json-loader": "^0.5.7"

@@ -193,7 +193,7 @@ class NPCRandomizer extends Component {
                 </div>
                 <div className={'dndapp-npcrandomizer-choices-card-details-list-top-misc'}>
                   <span><strong>Age:</strong> {age}</span>
-                  <span><strong>Size:</strong> {sizeFeet}'{sizeInches}''</span>
+                  <span><strong>Size:</strong> {sizeFeet}&apos;{sizeInches}&apos;&apos;</span>
                   <span><strong>Weight:</strong> {weight}</span>
                   <span><strong>Speed:</strong> {speed} feet</span>
                   <span><strong>Languages:</strong> {languages[0].map(e => e + ' ')}</span>

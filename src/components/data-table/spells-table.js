@@ -32,8 +32,8 @@ const uniqueType = sortType.map(function (type) {
   .value()
 
 const sortDamageType = _.chain(Data)
-const uniqueDamageType = sortDamageType.map(function (damage_type) {
-  return damage_type.s_damage_type
+const uniqueDamageType = sortDamageType.map(function (damageType) {
+  return damageType.s_damage_type
 })
   .sort()
   .flatten()

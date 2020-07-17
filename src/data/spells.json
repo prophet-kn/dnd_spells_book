@@ -354,7 +354,7 @@
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -438,7 +438,7 @@
     "s_components": "V, S, M (for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes)",
     "s_duration": "Special",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -586,7 +586,7 @@
     "s_type": [
       "damage",
       "disruption",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "5d10",
     "s_damage_type": "force",
@@ -607,7 +607,7 @@
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
       "disruption",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -739,7 +739,7 @@
       "damage",
       "disruption",
       "protection",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "force",
@@ -891,7 +891,7 @@
     "s_components": "V, S",
     "s_duration": "1 minute",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -1882,7 +1882,7 @@
       "damage",
       "disruption",
       "telekinesis",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "2d8",
     "s_damage_type": "bludgeoning",
@@ -2396,7 +2396,7 @@
     "s_duration": "1 hour",
     "s_type": [
       "shelter",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -2529,7 +2529,7 @@
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "force",
@@ -2597,7 +2597,7 @@
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
       "protection",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -2819,7 +2819,7 @@
     "s_duration": "Until dispelled",
     "s_type": [
       "knowledge",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -3235,7 +3235,7 @@
       "disguise",
       "protection",
       "shelter",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "twice the number of feet you are moved",
     "s_damage_type": "force",
@@ -3390,7 +3390,7 @@
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -3529,7 +3529,7 @@
     "s_type": [
       "communication",
       "summoning",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -3551,7 +3551,7 @@
     "s_type": [
       "communication",
       "summoning",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -3826,7 +3826,7 @@
     "s_components": "V, S, M (a wing feather from any bird)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -3940,7 +3940,7 @@
     "s_components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
     "s_duration": "1 hour",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -4036,7 +4036,7 @@
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
       "summoning",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -4212,7 +4212,7 @@
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
       "disruption",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -4426,7 +4426,7 @@
     "s_type": [
       "disruption",
       "illusion",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -4449,7 +4449,7 @@
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
       "disruption",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -4556,7 +4556,7 @@
     "s_components": "V, S, M (a shaving of licorice root)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -5033,7 +5033,7 @@
     "s_duration": "Until dispelled",
     "s_type": [
       "disruption",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -5232,6 +5232,7 @@
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
+      "damage",
       "protection"
     ],
     "s_damage_dice": "2d10",
@@ -5242,7 +5243,7 @@
       "Warlock",
       "Wizard"
     ],
-    "s_description": "<p>Until the spell ends, wind whirls around you, and you gain the following benefits:</p><ul><li>Ranged weapon attacks made against you have disad- vantage on the attack roll.</li><li>You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can some- how prevent it.</li><li>You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.</li></ul></p>"
+    "s_description": "<p>Until the spell ends, wind whirls around you, and you gain the following benefits:</p><ul><li>Ranged weapon attacks made against you have disad- vantage on the attack roll.</li><li>You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.</li><li>You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.</li></ul></p>"
   },
   {
     "s_id": 238,
@@ -5299,7 +5300,7 @@
     "s_components": "V, S, M (a grasshopper’s hind leg)",
     "s_duration": "1 minute",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -5435,7 +5436,7 @@
     "s_components": "V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -5636,7 +5637,7 @@
     "s_components": "V, S, M (a pinch of dirt)",
     "s_duration": "1 hour",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -6025,7 +6026,7 @@
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
       "disruption",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -6357,7 +6358,7 @@
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -6700,7 +6701,7 @@
     "s_components": "V, S, M (a pinch of sesame seeds)",
     "s_duration": "1 hour",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -6769,7 +6770,7 @@
     "s_duration": "1 hour",
     "s_type": [
       "summoning",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -6832,7 +6833,7 @@
     "s_components": "V, S, M (a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence)",
     "s_duration": "Instantaneous",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -7557,7 +7558,7 @@
     "s_type": [
       "damage",
       "disruption",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -7602,7 +7603,7 @@
     "s_duration": "1 hour",
     "s_type": [
       "shelter",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -7665,7 +7666,7 @@
     "s_duration": "Instantaneous",
     "s_type": [
       "disruption",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -8387,7 +8388,7 @@
     "s_components": "V, S, M (a drop of bitumen and a spider)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -8493,7 +8494,7 @@
     "s_duration": "Instantaneous",
     "s_type": [
       "damage",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "6d10",
     "s_damage_type": "force",
@@ -8892,7 +8893,7 @@
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "3d10",
     "s_damage_type": "force",
@@ -8914,7 +8915,7 @@
     "s_components": "V, M (rare chalks and inks infused with precious gems with 50 gp, which the spell consumes)",
     "s_duration": "1 round",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -8959,7 +8960,7 @@
     "s_components": "V, S, M (a drop of mercury)",
     "s_duration": "1 hour",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -9021,7 +9022,7 @@
     "s_duration": "Instantaneous",
     "s_type": [
       "damage",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "piercing",
@@ -9042,7 +9043,7 @@
     "s_duration": "Instantaneous",
     "s_type": [
       "damage",
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "3d10",
     "s_damage_type": "thunder",
@@ -9262,7 +9263,7 @@
     "s_components": "V, S",
     "s_duration": "1 round",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -9282,7 +9283,7 @@
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -9748,7 +9749,7 @@
     "s_components": "V, S, M (a piece of cork)",
     "s_duration": "1 hour",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -9859,7 +9860,7 @@
     "s_components": "V, S, M (fire and holy water)",
     "s_duration": "8 hours",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -9965,7 +9966,7 @@
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
-      "transport"
+      "movement"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -10380,7 +10381,7 @@
     "s_class_usage": [
       "Wizard"
     ],
-    "s_description": "<p>Any apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather's magic with this improved version of the spell, as used by Jim Darkmagic! You create three twisting, whistling, hypoallergenic, gluten-free darts of magical force. Each dart targets a creature of your choice that you can see within range. Make a ranged spell attack for each missile. On a hit. a missile deals 2d4 force damage to its target. lf the attack roll scores a critical hit, the target of that missile takes 5d4 force damage instead of you rolling damage twice for a critical hit. If the attack roll for any missile is a 1, all missiles miss their targets and blow up in your face. dealing I force damage per missile to you.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart, and the royalty component increases by 1 gp. for each slot level above 1st.</p>"
+    "s_description": "<p>Any apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather's magic with this improved version of the spell, as used by Jim Darkmagic! You create three twisting, whistling, hypoallergenic, gluten-free darts of magical force. Each dart targets a creature of your choice that you can see within range. Make a ranged spell attack for each missile. On a hit, a missile deals 2d4 force damage to its target. If the attack roll scores a critical hit, the target of that missile takes 5d4 force damage instead of you rolling damage twice for a critical hit. If the attack roll for any missile is a 1, all missiles miss their targets and blow up in your face, dealing 1 force damage per missile to you.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart, and the royalty component increases by 1 gp for each slot level above 1st.</p>"
   },
   {
     "s_id": 474,

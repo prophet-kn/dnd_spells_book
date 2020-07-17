@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactHtmlParser from 'react-html-parser'
-import { ReactSVG } from 'react-svg'
+import Icon from '../icon/icon'
 
 class SpellItem extends Component {
   constructor(props) {
@@ -56,10 +56,10 @@ class SpellItem extends Component {
 
     for (const [index, value] of spellItem.s_type.entries()) {
       if (value !== "damage" && value !== "support" && value !== "utility") {
-        icons.push(<ReactSVG src={"svgs/" + value + ".svg"} className="item-category-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}} key={index}/>)
+        icons.push(<Icon title={value} key={index}/>)
       }
       if (value === "damage" && spellItem.s_damage_type !== "None") {
-        icons.push(<ReactSVG src={"svgs/" + spellItem.s_damage_type + ".svg"} className="item-damage-icon" beforeInjection={svg => {svg.setAttribute('style', 'height: 28px');}} key={index}/>)
+        icons.push(<Icon title={spellItem.s_damage_type} key={index}/>)
       }
     }
 

@@ -1,12 +1,12 @@
 .extend-menu-button {
   border: 2px solid;
+  border-radius: 25px;
   cursor: pointer;
-  padding: 5px;
+  display: flex;
   font-size: $biggest-size;
   height: 100px;
-  display: flex;
   margin: 5px;
-  border-radius: 25px;
+  padding: 5px;
 
   span {
     margin: auto;

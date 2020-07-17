@@ -1,8 +1,8 @@
 .dndapp {
-  width: 100%;
+  margin-top: 10px;
   max-width: 600px;
   min-height: 100vh;
-  margin-top: 10px;
+  width: 100%;
 
   &-footer {
     display: flex;
@@ -26,8 +26,8 @@
 
   &-lander {
     display: inline-flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
 
     .lander {
@@ -37,47 +37,47 @@
 
       &-logo {
         border: 2px solid;
-        padding: 5px;
-        height: 100px;
-        display: flex;
-        margin: 5px;
         border-radius: 25px;
+        display: flex;
+        height: 100px;
+        margin: 5px;
+        padding: 5px;
 
         span {
-          font-size: $biggest-size;
           display: flex;
+          font-size: $biggest-size;
           margin: auto;
-          transform: rotate(-5deg) translatey(-8px);
           text-align: left;
+          transform: rotate(-5deg) translatey(-8px);
         }
       }
     }
 
     &-extra {
-      margin-top: 30px;
       font-size: $medium-size;
+      margin-top: 30px;
 
       &-button {
         a {
+          border: 2px solid;
+          border-radius: 25px;
           display: flex;
           flex-flow: column;
           margin-left: auto;
           margin-right: auto;
           margin-top: 30px;
-          width: 150px;
-          border: 2px solid;
           padding: 10px;
-          border-radius: 25px;
           text-decoration: none;
+          width: 150px;
         }
       }
     }
   }
 
   &-menu {
+    animation: zoom .5s ease-in-out;
     display: grid;
     grid-template-columns: 50% 50%;
-    animation: zoom .5s ease-in-out;
   }
 
   &-wrapper {
@@ -85,8 +85,8 @@
 
     &-theme {
       display: flex;
-      margin-top: 25px;
       justify-content: center;
+      margin-top: 25px;
 
       &-picker {
         cursor: pointer;
@@ -94,20 +94,6 @@
         &:hover {
           transform: scale(1.25);
           transition: .1s ease-in-out;
-        }
-
-        &.dark {
-          svg,
-          path {
-            fill: rgb(56, 56, 56);
-          }
-        }
-
-        &.light {
-          svg,
-          path {
-            fill: rgb(255, 255, 255);
-          }
         }
       }
     }
@@ -120,16 +106,16 @@
       padding-top: 50px;
 
       &-title {
+        font-size: $medium-size;
         margin: auto;
         padding: 10px 0 30px;
-        font-size: $medium-size;
       }
 
       &-roll {
-        display: grid;
-        grid-template-columns: 20% 20% 40% 20%;
         align-items: center;
+        display: grid;
         flex: 0 1 100%;
+        grid-template-columns: 20% 20% 40% 20%;
         padding-bottom: 50px;
 
         &-label {
@@ -142,18 +128,18 @@
 
         &-dice {
           cursor: pointer;
-          height: 100px;
-          width: 100px;
           display: flex;
-          transition-duration: .2s;
-          transition: all 1s ease;
+          height: 100px;
           margin-right: 50px;
+          transition: all 1s ease;
+          transition-duration: .2s;
+          width: 100px;
 
           &.rolling {
-            transform: rotate(69deg);
-            transition-duration: 1s;
             background: $dnd-red;
+            transform: rotate(69deg);
             transition: all .5s ease;
+            transition-duration: 1s;
           }
 
           &:active {
@@ -161,39 +147,6 @@
             transition: all .5s ease-in-out;
           }
         }
-/*
-        &.d100 {
-
-        }
-
-        &.d20 {
-
-        }
-
-        &.d12 {
-
-        }
-
-        &.d10 {
-
-        }
-
-        &.d8 {
-
-        }
-
-        &.d6 {
-
-        }
-
-        &.d4 {
-
-        }
-
-        &.d2 {
-
-        }
-*/
       }
     }
   }
@@ -203,67 +156,57 @@
 
     &-burger {
       cursor: pointer;
-      top: 6px;
-      right: 5px;
       position: absolute;
-      z-index: 3;
+      right: 5px;
+      top: 6px;
       transition: .25s ease-in-out;
+      z-index: 3;
 
 
       &-line {
         &::before {
-          content: '';
           border-top: 2px solid;
+          content: '';
           display: block;
-          width: 35px;
           height: 12px;
+          width: 35px;
         }
       }
 
       &:hover {
-        transition: .25s ease-in-out;
         transform: scale(1.25);
+        transition: .25s ease-in-out;
       }
     }
 
     &.toggled {
       .dnd-navigation-menu {
         .dndapp-menu {
+          flex-flow: column;
+          left: 0;
+          margin: auto;
+          max-width: 600px;
+          padding-top: 60px;
+          position: fixed;
+          right: 0;
+          top: 0;
+          z-index: 2;
+
           .lander {
             &-button {
               @extend .extend-menu-button;
             }
           }
-        }
-      }
-
-      .dnd-navigation-menu {
-        .dndapp-menu {
-          position: fixed;
-          z-index: 2;
-          flex-flow: column;
-          margin: auto;
-          top: 0;
-          left: 0;
-          right: 0;
-          max-width: 600px;
-          padding-top: 60px;
 
           &::before {
             content: '';
-            position: fixed;
-            width: 100vw;
             height: 100vh;
-            z-index: -1;
-            top: 0;
             left: 0;
+            position: fixed;
             right: 0;
-          }
-
-          .lander {
-            &-button {
-              @extend .extend-menu-button;
-            }
+            top: 0;
+            width: 100vw;
+            z-index: -1;
           }
         }
       }
@@ -298,11 +241,11 @@
               border-radius: 25px;
 
               &-names {
+                align-items: center;
+                border-bottom: 2px solid;
                 display: grid;
                 grid-template-columns: 50% 50%;
-                border-bottom: 2px solid;
                 margin-bottom: 10px;
-                align-items: center;
 
                 h2 {
                   &:first-child {
@@ -314,23 +257,23 @@
               &-misc {
                 display: flex;
                 flex-flow: column;
-                text-align: left;
-                padding-left: 10px;
                 padding-bottom: 10px;
+                padding-left: 10px;
+                text-align: left;
               }
             }
 
             &-racial-features {
               &-title {
-                border-top: 2px solid;
                 border-bottom: 2px solid;
+                border-top: 2px solid;
                 margin-bottom: 10px;
               }
 
               &-values {
                 display: inline-grid;
-                text-align: left;
                 padding-left: 10px;
+                text-align: left;
 
                 &-value {
                   margin-bottom: 10px;
@@ -339,36 +282,36 @@
             }
 
             &-class {
-              margin-top: 15px;
               border: 2px solid;
               border-radius: 25px;
+              margin-top: 15px;
 
               &-top {
                 &-name {
-                  display: grid;
-                  border-bottom: 2px solid;
-                  margin-bottom: 10px;
                   align-items: center;
+                  border-bottom: 2px solid;
+                  display: grid;
+                  margin-bottom: 10px;
                 }
 
                 &-stats {
                   display: flex;
                   flex-flow: column;
-                  text-align: left;
-                  padding-left: 10px;
                   padding-bottom: 10px;
+                  padding-left: 10px;
+                  text-align: left;
                 }
               }
 
               &-stats {
-                display: grid;
-                grid-template-columns: repeat(6, 1fr);
                 border-bottom: 2px solid;
                 border-top: 2px solid;
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
 
                 span {
-                  padding-top: 10px;
                   padding-bottom: 10px;
+                  padding-top: 10px;
 
                   &:not(:last-child) {
                     border-right: 2px solid;
@@ -378,13 +321,13 @@
 
               &-attributes {
                 &-saving-throws {
+                  border-bottom: 2px solid;
                   display: flex;
                   flex-flow: row;
-                  text-align: left;
-                  padding-left: 10px;
                   padding-bottom: 10px;
+                  padding-left: 10px;
                   padding-top: 10px;
-                  border-bottom: 2px solid;
+                  text-align: left;
 
                   span {
                     padding-right: 5px;
@@ -394,10 +337,10 @@
                 &-misc {
                   display: flex;
                   flex-flow: column;
-                  text-align: left;
-                  padding-left: 10px;
                   padding-bottom: 10px;
+                  padding-left: 10px;
                   padding-top: 10px;
+                  text-align: left;
                 }
               }
 
@@ -405,12 +348,12 @@
               &-features,
               &-actions,
               &-reactions {
+                border-top: 2px solid;
                 display: flex;
                 flex-flow: column;
-                text-align: left;
                 padding-left: 10px;
-                border-top: 2px solid;
                 padding-top: 10px;
+                text-align: left;
 
                 &-value {
                   margin-bottom: 10px;
@@ -422,14 +365,14 @@
           &-racial-extra {
             &-features {
               &-title {
-                border-top: 2px solid;
                 border-bottom: 2px solid;
+                border-top: 2px solid;
                 margin-bottom: 10px;
               }
 
               &-list {
-                text-align: left;
                 padding-left: 10px;
+                text-align: left;
 
                 &-value {
                   margin-bottom: 10px;
@@ -497,26 +440,26 @@
   }
 
   &-label {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    margin-right: auto;
     margin-left: 35px;
+    margin-right: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   &-definitions {
+    animation: fade-in .5s ease-in-out;
     border: 2px solid;
     border-radius: 25px;
     margin: 0 0 25px;
     padding: 10px;
     text-align: left;
-    animation: fade-in .5s ease-in-out;
 
     .item-can-cast {
       border-top: 2px solid;
-      padding-top: 10px;
-      padding-bottom: 3px;
       margin-top: 10px;
+      padding-bottom: 3px;
+      padding-top: 10px;
     }
   }
 
@@ -531,8 +474,8 @@
     line-height: 20px;
 
     p {
-      margin-top: 0;
       margin-bottom: 10px;
+      margin-top: 0;
 
       &:last-child {
         margin-bottom: 0;
@@ -563,8 +506,8 @@
 
   &-tooltip {
     display: flex;
-    margin-right: 35px;
     font-size: $medium-size;
+    margin-right: 35px;
     opacity: .85;
     white-space: nowrap;
   }
@@ -573,13 +516,13 @@
 // filter
 .filter {
   &-wrapper {
-    display: flex;
-    height: 30px;
-    padding: 10px;
-    flex-flow: column;
-    justify-content: center;
     border: 2px solid;
     cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    height: 30px;
+    justify-content: center;
+    padding: 10px;
     position: relative;
   }
 
@@ -587,44 +530,44 @@
     margin-right: 5px;
 
     &::after {
+      border-right: 2px solid;
       content: '';
       display: flex;
+      height: 15px;
       position: absolute;
       right: 10px;
       top: 26px;
       transform: rotate(165deg);
       width: 15px;
-      height: 15px;
-      border-right: 2px solid;
       z-index: -1;
     }
 
     &::before {
-      content: '';
-      display: flex;
-      position: absolute;
-      width: 15px;
-      height: 15px;
       border: 2px solid;
       border-radius: 100%;
+      content: '';
+      display: flex;
+      height: 15px;
+      position: absolute;
       right: 21px;
       top: 12px;
+      width: 15px;
       z-index: -1;
     }
   }
 
   &-field {
-    display: flex;
-    flex-flow: column;
-    height: 30px;
+    background: transparent;
     border: 2px solid;
     border-radius: 25px;
-    padding: 10px;
-    background: transparent;
-    font-size: $big-size;
-    margin-bottom: 10px;
-    justify-content: center;
     cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    font-size: $big-size;
+    height: 30px;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
   }
 
   &-dropdown {
@@ -635,35 +578,35 @@
     &.active {
       display: flex;
       flex-direction: column;
-      max-width: 600px;
-      margin: auto;
-      position: absolute;
-      z-index: 3;
-      top: 0;
-      right: 0;
       left: 0;
+      margin: auto;
+      max-width: 600px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 3;
 
       &::before {
-        content: '';
-        position: fixed;
-        width: 100vw;
-        height: 100vh;
-        z-index: -1;
-        top: 0;
-        right: 0;
-        left: 0;
         bottom: 0;
+        content: '';
+        height: 100vh;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100vw;
+        z-index: -1;
       }
     }
   }
 
   &-close {
+    cursor: pointer;
     display: block;
     height: 40px;
-    width: 40px;
     position: absolute;
     right: 10px;
-    cursor: pointer;
+    width: 40px;
   }
 
   &-button {
@@ -677,15 +620,15 @@
 input {
   &.search {
     &-input {
-      display: flex;
-      width: stretch;
-      height: 30px;
+      background: transparent;
       border: 2px solid;
       border-radius: 25px;
-      padding: 10px;
-      background: transparent;
+      display: flex;
       font-size: $big-size;
+      height: 30px;
       margin-bottom: 10px;
+      padding: 10px;
+      width: stretch;
 
       &::placeholder {
         font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
@@ -699,10 +642,10 @@ svg {
   &.item {
     &-remove {
       &-pin {
+        cursor: pointer;
+        left: 15px;
         position: absolute;
         top: 18px;
-        left: 15px;
-        cursor: pointer;
         z-index: 1;
       }
     }

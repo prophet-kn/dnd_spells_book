@@ -1,0 +1,9 @@
+rules:
+  nesting-depth:
+    - 1
+    -
+      max-depth: 6
+  force-pseudo-nesting:
+    - 0
+  clean-import-paths:
+    - 0

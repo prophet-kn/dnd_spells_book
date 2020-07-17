@@ -1,6 +1,6 @@
 .light-theme {
-  color: $light-colour-light;
   background-color: $dominant-colour-light;
+  color: $light-colour-light;
 
   &.dndapp-main {
     .dndapp {
@@ -61,9 +61,9 @@
           &-roll {
             svg,
             path {
+              fill: $dominant-colour-light;
               stroke: $light-colour-light;
               stroke-width: 3px;
-              fill: $dominant-colour-light;
 
               &:active {
                 fill: $dnd-red;
@@ -80,6 +80,20 @@
 
     &.selected {
       border-color: $dominant-colour-light;
+    }
+
+    &:hover {
+      background-color: $light-colour-light;
+      color: $dominant-colour-light;
+    }
+
+    &.disabled {
+      background: $background-button-light;
+
+      &:hover {
+        background-color: $background-button-hover-light;
+        color: $light-colour-light;
+      }
     }
   }
 
@@ -218,32 +232,16 @@
   }
 
   a:hover {
-    color: $dominant-colour-light;
     background-color: $light-colour-light;
+    color: $dominant-colour-light;
   }
 
   a:active {
-    color: $dnd-red;
     background-color: $light-colour-light;
+    color: $dnd-red;
   }
 
   a {
     text-decoration: none;
-  }
-
-  .btn {
-    &:hover {
-      background-color: $light-colour-light;
-      color: $dominant-colour-light;
-    }
-
-    &.disabled {
-      background: $background-button-light;
-
-      &:hover {
-        background-color: $background-button-hover-light;
-        color: $light-colour-light;
-      }
-    }
   }
 }

@@ -2,15 +2,15 @@ import React from 'react'
 import ToggleButton from '../toggle-button/toggle-button'
 
 class FilterDataButtons extends React.Component {
-  onClickButton(filter, value) {
+  onClickButton (filter, value) {
     this.props.setFilter(this.props.title, filter, value)
   }
 
-  render() {
+  render () {
     return (
-      <div className={"filter-button-wrapper"}>
+      <div className={'filter-button-wrapper'}>
         <h2>{this.props.title}</h2>
-        <div className={"selector"}>
+        <div className={'selector'}>
           {this.props.values.map((value, i) => {
             return <ToggleButton type={value} key={i} onClick={this.onClickButton.bind(this)} />
           })}
@@ -18,7 +18,6 @@ class FilterDataButtons extends React.Component {
       </div>
     )
   }
-
 }
 
 export default FilterDataButtons

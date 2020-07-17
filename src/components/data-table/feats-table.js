@@ -4,29 +4,29 @@ import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import FeatItem from './../items/feat-item'
 
-let sortRacePrerequisite = _.chain(Data)
-let uniqueRacePrerequisite = sortRacePrerequisite.map(function(prerequisite_race) {
+const sortRacePrerequisite = _.chain(Data)
+const uniqueRacePrerequisite = sortRacePrerequisite.map(function (prerequisite_race) {
   return prerequisite_race.f_prerequisite_race
 })
-.flatten()
-.sort()
-.uniq()
-.value()
+  .flatten()
+  .sort()
+  .uniq()
+  .value()
 
-let sortSkillPrerequisite = _.chain(Data)
-let uniqueSkillPrerequisite = sortSkillPrerequisite.map(function(prerequisite_skill) {
+const sortSkillPrerequisite = _.chain(Data)
+const uniqueSkillPrerequisite = sortSkillPrerequisite.map(function (prerequisite_skill) {
   return prerequisite_skill.f_prerequisite_skill
 })
-.flatten()
-.sort()
-.uniq()
-.value()
+  .flatten()
+  .sort()
+  .uniq()
+  .value()
 
 const thisUrl = new URL(window.location)
 const featParamUrls = new URLSearchParams(thisUrl.searchParams)
 
 class FeatsTable extends Component {
-  constructor(props) {
+  constructor (props) {
     super()
     this.state = {
       data: Data,
@@ -35,7 +35,7 @@ class FeatsTable extends Component {
       filterSearch: '',
       filterButton: false,
       pin: {
-        'id': []
+        id: []
       },
       filters: {
         'Race prerequisite': [],
@@ -47,43 +47,43 @@ class FeatsTable extends Component {
     this.pinStatus = this.pinStatus.bind(this)
   }
 
-  searchBar() {
+  searchBar () {
     return (
-      <div className={"filter-search"}>
-        <input placeholder={"Search"} className={"search-input"} onChange={(e) => {
-          this.setState({filterSearch: e.target.value})
-          }}/>
+      <div className={'filter-search'}>
+        <input placeholder={'Search'} className={'search-input'} onChange={(e) => {
+          this.setState({ filterSearch: e.target.value })
+        }}/>
       </div>
     )
   }
 
-  onClickFilter() {
+  onClickFilter () {
     this.setState({
-      filterButton: this.state.filterButton === true ? false : true,
+      filterButton: this.state.filterButton !== true
     })
   }
 
-  filterFilter() {
+  filterFilter () {
     return (
-      <div className={"filter-filter"} onClick={this.onClickFilter.bind(this)}>
-        <div className={"filter-field"}>
+      <div className={'filter-filter'} onClick={this.onClickFilter.bind(this)}>
+        <div className={'filter-field'}>
           Filters
         </div>
       </div>
     )
   }
 
-  filterDropdowns() {
+  filterDropdowns () {
     return (
-      <div className={this.state.filterButton === true ? "filter-dropdown active" : "filter-dropdown hidden"}>
-        <svg width="30" height="30" viewBox="0 0 12 16" className={"filter-close"} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+      <div className={this.state.filterButton === true ? 'filter-dropdown active' : 'filter-dropdown hidden'}>
+        <svg width="30" height="30" viewBox="0 0 12 16" className={'filter-close'} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
         <FilterDataButtons title={'Race prerequisite'} values={uniqueRacePrerequisite} setFilter={this.setFilter} />
         <FilterDataButtons title={'Skill prerequisite'} values={uniqueSkillPrerequisite} setFilter={this.setFilter} />
       </div>
     )
   }
 
-  setFilter(type, filter, value) {
+  setFilter (type, filter, value) {
     const newFilters = this.state.filters
     if (!newFilters[type]) {
       newFilters[type] = []
@@ -91,8 +91,7 @@ class FeatsTable extends Component {
 
     if (value.toggled === true) {
       newFilters[type].push(filter.type)
-    }
-    else {
+    } else {
       newFilters[type] = newFilters[type].filter(f => f !== filter.type)
     }
 
@@ -101,24 +100,22 @@ class FeatsTable extends Component {
     })
   }
 
-  pinStatus(toggle, id) {
-    let queryIds = this.state.pin
+  pinStatus (toggle, id) {
+    const queryIds = this.state.pin
 
-    if (!queryIds['ids']) {
-      queryIds['ids'] = []
-    }
-
-    if (toggle !== false && _.includes(queryIds['ids'], id) === false) {
-      queryIds['ids'].push(id)
-    }
-    else if (toggle !== true && _.includes(queryIds['ids'], id) === false) {
-      queryIds['ids'].push(id)
-    }
-    else {
-      queryIds['ids'] = queryIds['ids'].filter(f => f !== id)
+    if (!queryIds.ids) {
+      queryIds.ids = []
     }
 
-    featParamUrls.set('f_id', this.state.pin['ids'])
+    if (toggle !== false && _.includes(queryIds.ids, id) === false) {
+      queryIds.ids.push(id)
+    } else if (toggle !== true && _.includes(queryIds.ids, id) === false) {
+      queryIds.ids.push(id)
+    } else {
+      queryIds.ids = queryIds.ids.filter(f => f !== id)
+    }
+
+    featParamUrls.set('f_id', this.state.pin.ids)
 
     const oldPath = ('/' + window.location.search).substr(1)
     var newPath = oldPath
@@ -137,18 +134,18 @@ class FeatsTable extends Component {
     })
   }
 
-  componentDidMount() {
+  componentDidMount () {
     const idRegex = /\?f_id=([\d,]*)/
 
     if (window.location.search.match(idRegex)) {
-      let firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')
-      let initialState = this.state.pin
+      const firstLoaderUrl = window.location.search.match(idRegex)[1].split(',')
+      const initialState = this.state.pin
 
-      if (!initialState['ids']) {
-        initialState['ids'] = []
+      if (!initialState.ids) {
+        initialState.ids = []
       }
 
-      initialState['ids'] = firstLoaderUrl.map(int => parseInt(int)).filter(int => !Number.isNaN(int))
+      initialState.ids = firstLoaderUrl.map(int => parseInt(int)).filter(int => !Number.isNaN(int))
 
       this.setState({
         pin: initialState
@@ -156,70 +153,69 @@ class FeatsTable extends Component {
     }
   }
 
-  dataTable() {
-    let pinnedFeats = this.state.pin
+  dataTable () {
+    const pinnedFeats = this.state.pin
 
-    const pinnedData =  _.chain(Data)
-    .orderBy('f_name')
-    .filter((feat) => {
-      return _.includes(pinnedFeats['ids'], feat.f_id)
-    })
-    .value()
+    const pinnedData = _.chain(Data)
+      .orderBy('f_name')
+      .filter((feat) => {
+        return _.includes(pinnedFeats.ids, feat.f_id)
+      })
+      .value()
 
-    let sortFilters = this.state.filters
+    const sortFilters = this.state.filters
 
-    const filteredData =  _.chain(Data)
-    .orderBy('f_name')
-    .filter((feat) => {
-      return sortFilters['Race prerequisite'].some(c => feat.f_prerequisite_race.includes(c)) || sortFilters['Race prerequisite'].length === 0
-    })
-    .filter((feat) => {
-      return sortFilters['Skill prerequisite'].some(c => feat.f_prerequisite_skill.includes(c)) || sortFilters['Skill prerequisite'].length === 0
-    })
-    .filter((feat) => {
-      return feat.f_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
-    })
-    .value()
+    const filteredData = _.chain(Data)
+      .orderBy('f_name')
+      .filter((feat) => {
+        return sortFilters['Race prerequisite'].some(c => feat.f_prerequisite_race.includes(c)) || sortFilters['Race prerequisite'].length === 0
+      })
+      .filter((feat) => {
+        return sortFilters['Skill prerequisite'].some(c => feat.f_prerequisite_skill.includes(c)) || sortFilters['Skill prerequisite'].length === 0
+      })
+      .filter((feat) => {
+        return feat.f_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
+      })
+      .value()
 
     return (
-      <div className={"dndapp-data"}>
-        {pinnedData.length > 0 ?
-          <div className={"list-wrap pinned"}>
+      <div className={'dndapp-data'}>
+        {pinnedData.length > 0
+          ? <div className={'list-wrap pinned'}>
             <h1>Pinned feat list</h1>
             {_.orderBy(pinnedData, 'f_name').map((feat, i) => {
               return (
-                <div className={"item-wrap"} key={i}>
+                <div className={'item-wrap'} key={i}>
                   <FeatItem feat={feat} key={i} pinStatus={this.pinStatus} />
                 </div>
               )
             })}
           </div>
-        :
-          null
+          : null
         }
-        <div className={"list-wrapper"}>
+        <div className={'list-wrapper'}>
           <h1>Feat list</h1>
           {_.orderBy(filteredData, 'f_name').map((feat, i) => {
             return (
-              <div className={"item-wrapper"} key={i}>
+              <div className={'item-wrapper'} key={i}>
                 <FeatItem feat={feat} key={i} pinStatus={this.pinStatus} />
               </div>
             )
           })}
-          {filteredData.length === 0 ?
-            <div className={"item-undefined"}>
+          {filteredData.length === 0
+            ? <div className={'item-undefined'}>
               Sorry, no feats found for this criteria!
             </div>
-          : null}
+            : null}
         </div>
       </div>
     )
   }
 
-  render() {
+  render () {
     return (
-      <div className={"dndapp-table"}>
-        <div className={"dndapp-selectors"}>
+      <div className={'dndapp-table'}>
+        <div className={'dndapp-selectors'}>
           {this.searchBar()}
           {this.filterFilter()}
           {this.filterDropdowns()}

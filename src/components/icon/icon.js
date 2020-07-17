@@ -1,5 +1,6 @@
 import React from 'react'
 import { ReactSVG } from 'react-svg'
+import {cFC} from '../helpers/helpers';
 
 class Icon extends React.Component {
   render() {
@@ -11,13 +12,11 @@ class Icon extends React.Component {
         aria-label = {this.props.title}
         beforeInjection = {
           svg => {
-            var path = svg.firstChild
-            const title = document.createElement('title')
-            title.innerHTML = this.props.title
-            svg.prepend(title)
-            path.appendChild(title)
-
             svg.setAttribute('height', '28px')
+
+            const title = document.createElement('title')
+            title.innerHTML = cFC(this.props.title)
+            svg.prepend(title)
           }
         }
       />

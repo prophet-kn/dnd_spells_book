@@ -9,7 +9,7 @@ var sassLint = require('gulp-sass-lint')
 var input = 'src/styles'
 var output = 'src/compiled'
 
-gulp.task('sass:all', function () {
+gulp.task('sass:all', function() {
   return gulp
     .src('./src/styles/theme.scss')
     .pipe(bulkSass())
@@ -22,19 +22,19 @@ gulp.task('sass:all', function () {
 
 gulp.task('sass', gulp.series(['sass:all']))
 
-gulp.task('sass:watch', gulp.series(['sass'], function () {
+gulp.task('sass:watch', gulp.series(['sass'], function() {
   gulp.watch(input, gulp.series(['sass']))
 }))
 
-gulp.task('sass:lint', function () {
+gulp.task('sass:lint', function() {
   return gulp.src(['src/styles/**/*.scss'])
     .pipe(sassLint())
     .pipe(sassLint.format())
     .pipe(sassLint.failOnError())
 })
 
-gulp.task('js:lint', function () {
-  return gulp.src(['src/**/*.js'])
+gulp.task('js:lint', function() {
+  return gulp.src(['src/**/*.js', '*.js'])
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError())

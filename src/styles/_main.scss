@@ -32,7 +32,7 @@
 
     .lander {
       &-button {
-        @extend .extend-menu-button;
+        @extend %extend-menu-button;
       }
 
       &-logo {
@@ -131,20 +131,18 @@
           width: 100px;
           height: 100px;
           margin-right: 50px;
-          transition: all 1s ease;
-          transition-duration: .2s;
+          transition: transform .2s ease;
           cursor: pointer;
 
           &.rolling {
             transform: rotate(69deg);
-            transition: all .5s ease;
-            transition-duration: 1s;
+            transition: transform 1s ease;
             background: $dnd-red;
           }
 
           &:active {
             transform: rotate(123deg);
-            transition: all .5s ease-in-out;
+            transition: transform .5s ease-in-out;
           }
         }
       }
@@ -194,7 +192,7 @@
 
           .lander {
             &-button {
-              @extend .extend-menu-button;
+              @extend %extend-menu-button;
             }
           }
 
@@ -223,14 +221,6 @@
         display: grid;
         padding-bottom: 20px;
         grid-template-columns: 50% 50%;
-
-        &-btn {
-          @extend .btn;
-
-          &.disabled {
-            cursor: no-drop;
-          }
-        }
       }
 
       &-card {
@@ -401,6 +391,10 @@
 
   &:not(:last-child) {
     margin-right: 5px;
+  }
+
+  &.disabled {
+    cursor: no-drop;
   }
 }
 

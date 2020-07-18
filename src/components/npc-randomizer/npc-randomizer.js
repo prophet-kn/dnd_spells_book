@@ -346,10 +346,10 @@ class NPCRandomizer extends Component {
             <h1>Randomize NPC</h1>
           </div>
           <div className={'dndapp-npcrandomizer-choices-btns'}>
-            <div className={'dndapp-npcrandomizer-choices-btns-btn'} onClick={(e) => this.pickRace()} >
+            <div className={'btn'} onClick={(e) => this.pickRace()} >
               <span>Total Randomize</span>
             </div>
-            <div className={'dndapp-npcrandomizer-choices-btns-btn disabled'}>
+            <div className={'btn disabled'}>
               <span>Partial Randomize</span>
             </div>
           </div>

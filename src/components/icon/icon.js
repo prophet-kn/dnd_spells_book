@@ -14,7 +14,7 @@ class Icon extends React.Component {
           svg => {
             svg.setAttribute('height', '28px')
 
-            const title = document.createElement('title')
+            const title = document.createElementNS('http://www.w3.org/2000/svg', 'title')
             title.innerHTML = cFC(this.props.title)
             svg.prepend(title)
           }

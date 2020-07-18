@@ -5,7 +5,7 @@ import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import SpellItem from './../items/spell-item'
 
 const sortLevel = _.chain(Data)
-const uniqueLevel = sortLevel.map(function (level) {
+const uniqueLevel = sortLevel.map(function(level) {
   return level.s_lvl
 })
   .sort()
@@ -14,7 +14,7 @@ const uniqueLevel = sortLevel.map(function (level) {
   .value()
 
 const sortSchool = _.chain(Data)
-const uniqueSchool = sortSchool.map(function (school) {
+const uniqueSchool = sortSchool.map(function(school) {
   return school.s_school
 })
   .sort()
@@ -23,7 +23,7 @@ const uniqueSchool = sortSchool.map(function (school) {
   .value()
 
 const sortType = _.chain(Data)
-const uniqueType = sortType.map(function (type) {
+const uniqueType = sortType.map(function(type) {
   return type.s_type
 })
   .sort()
@@ -32,7 +32,7 @@ const uniqueType = sortType.map(function (type) {
   .value()
 
 const sortDamageType = _.chain(Data)
-const uniqueDamageType = sortDamageType.map(function (damageType) {
+const uniqueDamageType = sortDamageType.map(function(damageType) {
   return damageType.s_damage_type
 })
   .sort()
@@ -41,7 +41,7 @@ const uniqueDamageType = sortDamageType.map(function (damageType) {
   .value()
 
 const sortClass = _.chain(Data)
-const uniqueClass = sortClass.map(function (classes) {
+const uniqueClass = sortClass.map(function(classes) {
   return classes.s_class_usage
 })
   .sort()
@@ -50,7 +50,7 @@ const uniqueClass = sortClass.map(function (classes) {
   .value()
 
 const sortRitual = _.chain(Data)
-const uniqueRitual = sortRitual.map(function (rituals) {
+const uniqueRitual = sortRitual.map(function(rituals) {
   return rituals.s_ritual
 })
   .sort()
@@ -62,7 +62,7 @@ const thisUrl = new URL(window.location)
 const spellParamUrls = new URLSearchParams(thisUrl.searchParams)
 
 class SpellsTable extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       data: Data,
@@ -85,7 +85,7 @@ class SpellsTable extends Component {
     this.pinStatus = this.pinStatus.bind(this)
   }
 
-  searchBar () {
+  searchBar() {
     return (
       <div className={'filter-search'}>
         <input placeholder={'Search'} className={'search-input'} onChange={(e) => {
@@ -95,13 +95,13 @@ class SpellsTable extends Component {
     )
   }
 
-  onClickFilter () {
+  onClickFilter() {
     this.setState({
       filterButton: this.state.filterButton !== true
     })
   }
 
-  filterFilter () {
+  filterFilter() {
     return (
       <div className={'filter-filter'} onClick={this.onClickFilter.bind(this)}>
         <div className={'filter-field'}>
@@ -111,7 +111,7 @@ class SpellsTable extends Component {
     )
   }
 
-  filterDropdowns () {
+  filterDropdowns() {
     return (
       <div className={this.state.filterButton === true ? 'filter-dropdown active' : 'filter-dropdown hidden'}>
         <svg width="30" height="30" viewBox="0 0 12 16" className={'filter-close'} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
@@ -125,7 +125,7 @@ class SpellsTable extends Component {
     )
   }
 
-  setFilter (type, filter, value) {
+  setFilter(type, filter, value) {
     const newFilters = this.state.filters
     if (!newFilters[type]) {
       newFilters[type] = []
@@ -142,7 +142,7 @@ class SpellsTable extends Component {
     })
   }
 
-  pinStatus (toggle, id) {
+  pinStatus(toggle, id) {
     const queryIds = this.state.pin
 
     if (!queryIds.ids) {
@@ -176,7 +176,7 @@ class SpellsTable extends Component {
     })
   }
 
-  componentDidMount () {
+  componentDidMount() {
     const idRegex = /\?s_id=([\d,]*)/
 
     if (window.location.search.match(idRegex)) {
@@ -195,7 +195,7 @@ class SpellsTable extends Component {
     }
   }
 
-  dataTable () {
+  dataTable() {
     const pinnedSpells = this.state.pin
 
     const pinnedData = _.chain(Data)
@@ -266,7 +266,7 @@ class SpellsTable extends Component {
     )
   }
 
-  render () {
+  render() {
     return (
       <div className={'dndapp-table'}>
         <div className={'dndapp-selectors'}>

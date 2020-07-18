@@ -4,25 +4,25 @@ import NPCData from './../../data/npc_randomizer.json'
 import NPCStats from './../../data/npc_stats.json'
 
 const getData = _.chain(NPCData)
-  .map(function (data) {
+  .map(function(data) {
     return data
   })
   .sort().flatten().uniq().value()
 
 const getRaces = _.chain(NPCData)
-  .map(function (data) {
+  .map(function(data) {
     return data.race
   })
   .sort().flatten().uniq().value()
 
 const getStats = _.chain(NPCStats)
-  .map(function (data) {
+  .map(function(data) {
     return data
   })
   .sort().flatten().uniq().value()
 
 class NPCRandomizer extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       race: '',
@@ -34,7 +34,7 @@ class NPCRandomizer extends Component {
     this.getModifier = this.getModifier.bind(this)
   }
 
-  pickRace () {
+  pickRace() {
     const pickRaceOnClick = getRaces[Math.floor(Math.random() * getRaces.length)]
     const pickClassOnClick = getStats[Math.floor(Math.random() * getStats.length)]
 
@@ -44,7 +44,7 @@ class NPCRandomizer extends Component {
     })
   }
 
-  getModifier (int) {
+  getModifier(int) {
     let mod = int
     switch (int) {
       case 0:
@@ -102,7 +102,7 @@ class NPCRandomizer extends Component {
     return mod
   }
 
-  npcCard () {
+  npcCard() {
     const checkRace = this.state.race
     const getClass = this.state.stats
     const dataPerRace = _.chain(getData)
@@ -338,7 +338,7 @@ class NPCRandomizer extends Component {
     )
   }
 
-  render () {
+  render() {
     return (
       <div className={'dndapp-npcrandomzier'}>
         <div className={'dndapp-npcrandomizer-choices'}>

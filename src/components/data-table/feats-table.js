@@ -5,7 +5,7 @@ import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import FeatItem from './../items/feat-item'
 
 const sortRacePrerequisite = _.chain(Data)
-const uniqueRacePrerequisite = sortRacePrerequisite.map(function (prerequisiteRace) {
+const uniqueRacePrerequisite = sortRacePrerequisite.map(function(prerequisiteRace) {
   return prerequisiteRace.f_prerequisite_race
 })
   .flatten()
@@ -14,7 +14,7 @@ const uniqueRacePrerequisite = sortRacePrerequisite.map(function (prerequisiteRa
   .value()
 
 const sortSkillPrerequisite = _.chain(Data)
-const uniqueSkillPrerequisite = sortSkillPrerequisite.map(function (prerequisiteSkill) {
+const uniqueSkillPrerequisite = sortSkillPrerequisite.map(function(prerequisiteSkill) {
   return prerequisiteSkill.f_prerequisite_skill
 })
   .flatten()
@@ -26,7 +26,7 @@ const thisUrl = new URL(window.location)
 const featParamUrls = new URLSearchParams(thisUrl.searchParams)
 
 class FeatsTable extends Component {
-  constructor (props) {
+  constructor(props) {
     super()
     this.state = {
       data: Data,
@@ -47,7 +47,7 @@ class FeatsTable extends Component {
     this.pinStatus = this.pinStatus.bind(this)
   }
 
-  searchBar () {
+  searchBar() {
     return (
       <div className={'filter-search'}>
         <input placeholder={'Search'} className={'search-input'} onChange={(e) => {
@@ -57,13 +57,13 @@ class FeatsTable extends Component {
     )
   }
 
-  onClickFilter () {
+  onClickFilter() {
     this.setState({
       filterButton: this.state.filterButton !== true
     })
   }
 
-  filterFilter () {
+  filterFilter() {
     return (
       <div className={'filter-filter'} onClick={this.onClickFilter.bind(this)}>
         <div className={'filter-field'}>
@@ -73,7 +73,7 @@ class FeatsTable extends Component {
     )
   }
 
-  filterDropdowns () {
+  filterDropdowns() {
     return (
       <div className={this.state.filterButton === true ? 'filter-dropdown active' : 'filter-dropdown hidden'}>
         <svg width="30" height="30" viewBox="0 0 12 16" className={'filter-close'} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
@@ -83,7 +83,7 @@ class FeatsTable extends Component {
     )
   }
 
-  setFilter (type, filter, value) {
+  setFilter(type, filter, value) {
     const newFilters = this.state.filters
     if (!newFilters[type]) {
       newFilters[type] = []
@@ -100,7 +100,7 @@ class FeatsTable extends Component {
     })
   }
 
-  pinStatus (toggle, id) {
+  pinStatus(toggle, id) {
     const queryIds = this.state.pin
 
     if (!queryIds.ids) {
@@ -134,7 +134,7 @@ class FeatsTable extends Component {
     })
   }
 
-  componentDidMount () {
+  componentDidMount() {
     const idRegex = /\?f_id=([\d,]*)/
 
     if (window.location.search.match(idRegex)) {
@@ -153,7 +153,7 @@ class FeatsTable extends Component {
     }
   }
 
-  dataTable () {
+  dataTable() {
     const pinnedFeats = this.state.pin
 
     const pinnedData = _.chain(Data)
@@ -212,7 +212,7 @@ class FeatsTable extends Component {
     )
   }
 
-  render () {
+  render() {
     return (
       <div className={'dndapp-table'}>
         <div className={'dndapp-selectors'}>

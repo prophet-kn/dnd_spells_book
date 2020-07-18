@@ -1,14 +1,14 @@
 import React from 'react'
 
 class ToggleButton extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super()
     this.state = {
       toggled: true
     }
   }
 
-  onClickButton () {
+  onClickButton() {
     this.props.onClick(this.props, this.state)
 
     this.setState({
@@ -17,12 +17,12 @@ class ToggleButton extends React.Component {
   }
 
   // cFC - capitalize First Character
-  cFC (string) {
+  cFC(string) {
     var capital = string.charAt(0).toUpperCase() + string.slice(1)
     return capital
   }
 
-  render () {
+  render() {
     const classNames = ['btn']
 
     if (this.state.toggled === false) {

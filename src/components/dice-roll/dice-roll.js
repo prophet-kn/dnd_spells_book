@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class DiceRolls extends Component {
-  constructor (props) {
+  constructor(props) {
     super()
     this.state = {
       d100: 'Roll d100',
@@ -29,56 +29,56 @@ class DiceRolls extends Component {
     }
   }
 
-  rollD100 () {
+  rollD100() {
     const roll = Math.floor(Math.random() * 100 + 1)
     this.setState({ d100: roll })
     this.state.resultD100.push(roll + ', ')
     this.setState({ totalD100: this.state.totalD100 + roll })
   }
 
-  rollD20 () {
+  rollD20() {
     const roll = Math.floor(Math.random() * 20 + 1)
     this.setState({ d20: roll })
     this.state.resultD20.push(roll + ', ')
     this.setState({ totalD20: this.state.totalD20 + roll })
   }
 
-  rollD12 () {
+  rollD12() {
     const roll = Math.floor(Math.random() * 12 + 1)
     this.setState({ d12: roll })
     this.state.resultD12.push(roll + ', ')
     this.setState({ totalD12: this.state.totalD12 + roll })
   }
 
-  rollD10 () {
+  rollD10() {
     const roll = Math.floor(Math.random() * 10 + 1)
     this.setState({ d10: roll })
     this.state.resultD10.push(roll + ', ')
     this.setState({ totalD10: this.state.totalD10 + roll })
   }
 
-  rollD8 () {
+  rollD8() {
     const roll = Math.floor(Math.random() * 8 + 1)
     this.setState({ d8: roll })
     this.state.resultD8.push(roll + ', ')
     this.setState({ totalD8: this.state.totalD8 + roll })
   }
 
-  rollD6 () {
+  rollD6() {
     const roll = Math.floor(Math.random() * 6 + 1)
     this.setState({ d6: roll })
     this.state.resultD6.push(roll + ', ')
     this.setState({ totalD6: this.state.totalD6 + roll })
   }
 
-  rollD4 () {
+  rollD4() {
     const roll = Math.floor(Math.random() * 4 + 1)
     this.setState({ d4: roll })
     this.state.resultD4.push(roll + ', ')
     this.setState({ totalD4: this.state.totalD4 + roll })
   }
 
-  toggleRollAnimation () {
+  toggleRollAnimation() {
     this.props.onClick(this.props, this.state)
 
     this.setState({
@@ -86,7 +86,7 @@ class DiceRolls extends Component {
     })
   }
 
-  render () {
+  render() {
     return (
       <div className={'dndapp-dice-rolls'}>
         <span className={'dndapp-dice-rolls-title'}>For best outcome, click and hold, then release for your roll! On mobile you can safely tap!</span>

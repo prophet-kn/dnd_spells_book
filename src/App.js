@@ -3,7 +3,7 @@ import Output from './components/output/output'
 import '../src/compiled/theme.css'
 
 class App extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       theme: 'dark'
@@ -12,7 +12,7 @@ class App extends Component {
     this.pickTheme = this.pickTheme.bind(this)
   }
 
-  pickTheme () {
+  pickTheme() {
     return (
       <div className={'dndapp-wrapper-theme'}>
         <div className={'dndapp-wrapper-theme-picker dark'} onClick={() => this.setState({ theme: 'dark' })}>
@@ -25,7 +25,7 @@ class App extends Component {
     )
   }
 
-  render () {
+  render() {
     const themeClass = ['dndapp-main']
 
     if (this.state.theme === 'dark') {

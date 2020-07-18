@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ReactHtmlParser from 'react-html-parser'
 
 class featItem extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       showList: false,
@@ -13,13 +13,13 @@ class featItem extends Component {
     this.onPinClick = this.onPinClick.bind(this)
   }
 
-  addClassName (e, i) {
+  addClassName(e, i) {
     const featState = this.state
     featState.showList = featState.showList === i ? false : i
     this.setState(featState)
   }
 
-  featDescription (featItem, i) {
+  featDescription(featItem, i) {
     if (this.state.showList === i) {
       return (
         <div className={'item-definitions'}>
@@ -36,14 +36,14 @@ class featItem extends Component {
     }
   }
 
-  onPinClick () {
+  onPinClick() {
     this.props.pinStatus(this.state.toggled, this.props.feat.f_id)
     this.setState({
       toggled: this.state.toggled === false
     })
   }
 
-  render () {
+  render() {
     const featItem = this.props.feat
     const i = featItem.f_id
 

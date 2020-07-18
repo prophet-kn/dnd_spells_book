@@ -3,7 +3,7 @@ import ReactHtmlParser from 'react-html-parser'
 import { ReactSVG } from 'react-svg'
 
 class SpellItem extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       showList: false,
@@ -14,13 +14,13 @@ class SpellItem extends Component {
     this.onPinClick = this.onPinClick.bind(this)
   }
 
-  addClassName (e, i) {
+  addClassName(e, i) {
     const spellState = this.state
     spellState.showList = spellState.showList === i ? false : i
     this.setState(spellState)
   }
 
-  spellDescription (spellItem, i) {
+  spellDescription(spellItem, i) {
     if (this.state.showList === i) {
       return (
         <div className={'item-definitions'}>
@@ -41,22 +41,32 @@ class SpellItem extends Component {
     }
   }
 
-  onPinClick () {
+  onPinClick() {
     this.props.pinStatus(this.state.toggled, this.props.spell.s_id)
     this.setState({
       toggled: this.state.toggled === false
     })
   }
 
-  render () {
+  render() {
     const spellItem = this.props.spell
     const i = spellItem.s_id
+
+    // Create an array with key: damage type, value: actual path to svg
+    const reqSVGs = require.context('../../svgs/', true, /\.svg$/)
+    const svgs = reqSVGs.keys().reduce(
+      (images, path) => {
+        const key = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'))
+        images[key] = reqSVGs(path)
+        return images
+      }, {}
+    )
 
     return (
       <div className={this.state.showList === i ? 'item-dropdown' : 'item-dropdown hide-child'}>
         <div className={'item-name'} onClick={(e) => { this.addClassName(e, i) }}>
           <span className={'item-label'}>{spellItem.s_name}</span>
-          <ReactSVG src={'svgs/' + spellItem.s_damage_type + '.svg'} className="item-damage-icon" beforeInjection={svg => { svg.setAttribute('style', 'height: 28px') }}/>
+          {spellItem.s_damage_type !== 'None' && <ReactSVG src={svgs[spellItem.s_damage_type]} className="item-damage-icon" beforeInjection={svg => { svg.setAttribute('style', 'height: 28px') }}/>}
           <div className={'item-tooltip'}>L: {spellItem.s_lvl.slice(0, 1)}</div>
           <svg className={this.state.showList === i ? 'chevron opened' : 'chevron'} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
         </div>

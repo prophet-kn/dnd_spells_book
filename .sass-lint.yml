@@ -7,3 +7,7 @@ rules:
     - 0
   clean-import-paths:
     - 0
+  property-sort-order:
+    - 1
+    -
+      order: 'smacss'

@@ -1,15 +1,15 @@
 .dndapp {
-  margin-top: 10px;
+  width: 100%;
   max-width: 600px;
   min-height: 100vh;
-  width: 100%;
+  margin-top: 10px;
 
   &-footer {
     display: flex;
     flex-flow: column;
-    font-size: $smallest-size;
-    margin-bottom: 10px;
     margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: $smallest-size;
   }
 
   &-selectors {
@@ -36,47 +36,47 @@
       }
 
       &-logo {
-        border: 2px solid;
-        border-radius: 25px;
         display: flex;
         height: 100px;
         margin: 5px;
         padding: 5px;
+        border: 2px solid;
+        border-radius: 25px;
 
         span {
           display: flex;
-          font-size: $biggest-size;
           margin: auto;
-          text-align: left;
           transform: rotate(-5deg) translatey(-8px);
+          font-size: $biggest-size;
+          text-align: left;
         }
       }
     }
 
     &-extra {
-      font-size: $medium-size;
       margin-top: 30px;
+      font-size: $medium-size;
 
       &-button {
         a {
-          border: 2px solid;
-          border-radius: 25px;
           display: flex;
           flex-flow: column;
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 30px;
-          padding: 10px;
-          text-decoration: none;
           width: 150px;
+          margin-top: 30px;
+          margin-right: auto;
+          margin-left: auto;
+          padding: 10px;
+          border: 2px solid;
+          border-radius: 25px;
+          text-decoration: none;
         }
       }
     }
   }
 
   &-menu {
-    animation: zoom .5s ease-in-out;
     display: grid;
+    animation: zoom .5s ease-in-out;
     grid-template-columns: 50% 50%;
   }
 
@@ -106,17 +106,17 @@
       padding-top: 50px;
 
       &-title {
-        font-size: $medium-size;
         margin: auto;
         padding: 10px 0 30px;
+        font-size: $medium-size;
       }
 
       &-roll {
-        align-items: center;
         display: grid;
         flex: 0 1 100%;
-        grid-template-columns: 20% 20% 40% 20%;
+        align-items: center;
         padding-bottom: 50px;
+        grid-template-columns: 20% 20% 40% 20%;
 
         &-label {
           margin-bottom: 5px;
@@ -127,19 +127,19 @@
         }
 
         &-dice {
-          cursor: pointer;
           display: flex;
+          width: 100px;
           height: 100px;
           margin-right: 50px;
           transition: all 1s ease;
           transition-duration: .2s;
-          width: 100px;
+          cursor: pointer;
 
           &.rolling {
-            background: $dnd-red;
             transform: rotate(69deg);
             transition: all .5s ease;
             transition-duration: 1s;
+            background: $dnd-red;
           }
 
           &:active {
@@ -155,21 +155,21 @@
     z-index: 2;
 
     &-burger {
-      cursor: pointer;
       position: absolute;
-      right: 5px;
       top: 6px;
+      right: 5px;
       transition: .25s ease-in-out;
+      cursor: pointer;
       z-index: 3;
 
 
       &-line {
         &::before {
+          display: block;
+          width: 35px;
+          height: 12px;
           border-top: 2px solid;
           content: '';
-          display: block;
-          height: 12px;
-          width: 35px;
         }
       }
 
@@ -182,14 +182,14 @@
     &.toggled {
       .dnd-navigation-menu {
         .dndapp-menu {
-          flex-flow: column;
-          left: 0;
-          margin: auto;
-          max-width: 600px;
-          padding-top: 60px;
           position: fixed;
-          right: 0;
           top: 0;
+          right: 0;
+          left: 0;
+          flex-flow: column;
+          max-width: 600px;
+          margin: auto;
+          padding-top: 60px;
           z-index: 2;
 
           .lander {
@@ -199,13 +199,13 @@
           }
 
           &::before {
-            content: '';
-            height: 100vh;
-            left: 0;
             position: fixed;
-            right: 0;
             top: 0;
+            right: 0;
+            left: 0;
             width: 100vw;
+            height: 100vh;
+            content: '';
             z-index: -1;
           }
         }
@@ -221,8 +221,8 @@
 
       &-btns {
         display: grid;
-        grid-template-columns: 50% 50%;
         padding-bottom: 20px;
+        grid-template-columns: 50% 50%;
 
         &-btn {
           @extend .btn;
@@ -241,11 +241,11 @@
               border-radius: 25px;
 
               &-names {
-                align-items: center;
-                border-bottom: 2px solid;
                 display: grid;
-                grid-template-columns: 50% 50%;
+                align-items: center;
                 margin-bottom: 10px;
+                border-bottom: 2px solid;
+                grid-template-columns: 50% 50%;
 
                 h2 {
                   &:first-child {
@@ -265,9 +265,9 @@
 
             &-racial-features {
               &-title {
-                border-bottom: 2px solid;
-                border-top: 2px solid;
                 margin-bottom: 10px;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
               }
 
               &-values {
@@ -282,16 +282,16 @@
             }
 
             &-class {
+              margin-top: 15px;
               border: 2px solid;
               border-radius: 25px;
-              margin-top: 15px;
 
               &-top {
                 &-name {
-                  align-items: center;
-                  border-bottom: 2px solid;
                   display: grid;
+                  align-items: center;
                   margin-bottom: 10px;
+                  border-bottom: 2px solid;
                 }
 
                 &-stats {
@@ -304,14 +304,14 @@
               }
 
               &-stats {
-                border-bottom: 2px solid;
-                border-top: 2px solid;
                 display: grid;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
                 grid-template-columns: repeat(6, 1fr);
 
                 span {
-                  padding-bottom: 10px;
                   padding-top: 10px;
+                  padding-bottom: 10px;
 
                   &:not(:last-child) {
                     border-right: 2px solid;
@@ -321,12 +321,12 @@
 
               &-attributes {
                 &-saving-throws {
-                  border-bottom: 2px solid;
                   display: flex;
                   flex-flow: row;
+                  padding-top: 10px;
                   padding-bottom: 10px;
                   padding-left: 10px;
-                  padding-top: 10px;
+                  border-bottom: 2px solid;
                   text-align: left;
 
                   span {
@@ -337,9 +337,9 @@
                 &-misc {
                   display: flex;
                   flex-flow: column;
+                  padding-top: 10px;
                   padding-bottom: 10px;
                   padding-left: 10px;
-                  padding-top: 10px;
                   text-align: left;
                 }
               }
@@ -348,11 +348,11 @@
               &-features,
               &-actions,
               &-reactions {
-                border-top: 2px solid;
                 display: flex;
                 flex-flow: column;
-                padding-left: 10px;
                 padding-top: 10px;
+                padding-left: 10px;
+                border-top: 2px solid;
                 text-align: left;
 
                 &-value {
@@ -365,9 +365,9 @@
           &-racial-extra {
             &-features {
               &-title {
-                border-bottom: 2px solid;
-                border-top: 2px solid;
                 margin-bottom: 10px;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
               }
 
               &-list {
@@ -389,11 +389,11 @@
 
 // btn
 .btn {
+  margin: 5px 0;
+  padding: 10px;
   border: 2px solid;
   border-radius: 25px;
   cursor: pointer;
-  margin: 5px 0;
-  padding: 10px;
 
   &.selected {
     border: 2px solid;
@@ -414,17 +414,17 @@
   }
 
   &-name {
-    border: 2px solid;
-    border-radius: 25px;
-    cursor: pointer;
     display: flex;
-    font-size: $medium-size;
-    height: 30px;
     justify-content: center;
-    line-height: 1.75;
+    height: 30px;
     margin: 10px 0;
     padding: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+    font-size: $medium-size;
+    line-height: 1.75;
     text-align: left;
+    cursor: pointer;
 
     .chevron {
       position: absolute;
@@ -440,42 +440,42 @@
   }
 
   &-label {
-    margin-left: 35px;
     margin-right: auto;
-    overflow: hidden;
+    margin-left: 35px;
     text-overflow: ellipsis;
     white-space: nowrap;
+    overflow: hidden;
   }
 
   &-definitions {
-    animation: fade-in .5s ease-in-out;
-    border: 2px solid;
-    border-radius: 25px;
     margin: 0 0 25px;
     padding: 10px;
+    border: 2px solid;
+    border-radius: 25px;
     text-align: left;
+    animation: fade-in .5s ease-in-out;
 
     .item-can-cast {
-      border-top: 2px solid;
       margin-top: 10px;
-      padding-bottom: 3px;
       padding-top: 10px;
+      padding-bottom: 3px;
+      border-top: 2px solid;
     }
   }
 
   &-details {
-    border-bottom: 2px solid;
-    border-top: 2px solid;
     margin: 10px 0;
     padding: 10px 0;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
   }
 
   &-description {
     line-height: 20px;
 
     p {
-      margin-bottom: 10px;
       margin-top: 0;
+      margin-bottom: 10px;
 
       &:last-child {
         margin-bottom: 0;
@@ -484,15 +484,15 @@
   }
 
   &-undefined {
-    font-size: $medium-size;
     padding: 25px 0;
+    font-size: $medium-size;
   }
 
   &-pin {
-    cursor: pointer;
-    left: 6px;
     position: absolute;
     top: 8px;
+    left: 6px;
+    cursor: pointer;
     z-index: 1;
   }
 
@@ -506,68 +506,68 @@
 
   &-tooltip {
     display: flex;
-    font-size: $medium-size;
     margin-right: 35px;
-    opacity: .85;
+    font-size: $medium-size;
     white-space: nowrap;
+    opacity: .85;
   }
 }
 
 // filter
 .filter {
   &-wrapper {
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    justify-content: center;
+    height: 30px;
+    padding: 10px;
     border: 2px solid;
     cursor: pointer;
-    display: flex;
-    flex-flow: column;
-    height: 30px;
-    justify-content: center;
-    padding: 10px;
-    position: relative;
   }
 
   &-search {
     margin-right: 5px;
 
     &::after {
+      display: flex;
+      position: absolute;
+      top: 26px;
+      right: 10px;
+      width: 15px;
+      height: 15px;
+      transform: rotate(165deg);
       border-right: 2px solid;
       content: '';
-      display: flex;
-      height: 15px;
-      position: absolute;
-      right: 10px;
-      top: 26px;
-      transform: rotate(165deg);
-      width: 15px;
       z-index: -1;
     }
 
     &::before {
+      display: flex;
+      position: absolute;
+      top: 12px;
+      right: 21px;
+      width: 15px;
+      height: 15px;
       border: 2px solid;
       border-radius: 100%;
       content: '';
-      display: flex;
-      height: 15px;
-      position: absolute;
-      right: 21px;
-      top: 12px;
-      width: 15px;
       z-index: -1;
     }
   }
 
   &-field {
-    background: transparent;
-    border: 2px solid;
-    border-radius: 25px;
-    cursor: pointer;
     display: flex;
     flex-flow: column;
-    font-size: $big-size;
-    height: 30px;
     justify-content: center;
+    height: 30px;
     margin-bottom: 10px;
     padding: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+    background: transparent;
+    font-size: $big-size;
+    cursor: pointer;
   }
 
   &-dropdown {
@@ -577,36 +577,36 @@
 
     &.active {
       display: flex;
-      flex-direction: column;
-      left: 0;
-      margin: auto;
-      max-width: 600px;
       position: absolute;
-      right: 0;
       top: 0;
+      right: 0;
+      left: 0;
+      flex-direction: column;
+      max-width: 600px;
+      margin: auto;
       z-index: 3;
 
       &::before {
-        bottom: 0;
-        content: '';
-        height: 100vh;
-        left: 0;
         position: fixed;
-        right: 0;
         top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         width: 100vw;
+        height: 100vh;
+        content: '';
         z-index: -1;
       }
     }
   }
 
   &-close {
-    cursor: pointer;
     display: block;
-    height: 40px;
     position: absolute;
     right: 10px;
     width: 40px;
+    height: 40px;
+    cursor: pointer;
   }
 
   &-button {
@@ -620,15 +620,15 @@
 input {
   &.search {
     &-input {
-      background: transparent;
-      border: 2px solid;
-      border-radius: 25px;
       display: flex;
-      font-size: $big-size;
+      width: stretch;
       height: 30px;
       margin-bottom: 10px;
       padding: 10px;
-      width: stretch;
+      border: 2px solid;
+      border-radius: 25px;
+      background: transparent;
+      font-size: $big-size;
 
       &::placeholder {
         font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
@@ -642,10 +642,10 @@ svg {
   &.item {
     &-remove {
       &-pin {
-        cursor: pointer;
-        left: 15px;
         position: absolute;
         top: 18px;
+        left: 15px;
+        cursor: pointer;
         z-index: 1;
       }
     }
@@ -654,14 +654,14 @@ svg {
 
 // global
 .dndapp-main {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+  align-items: center;
   justify-content: center;
   min-height: 100vh;
-  text-align: center;
   transition: .25s ease-in-out;
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+  text-align: center;
 }
 
 body {

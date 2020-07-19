@@ -1,20 +1,71 @@
 .dndapp {
-  width: 100%;
-  max-width: 600px;
   min-height: 100vh;
-  margin-top: 10px;
+  margin: auto;
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+
+  &-top-menu {
+    max-width: 600px;
+    margin: auto;
+
+    .navbar-nav {
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      border-bottom: 2px solid;
+      padding: 10px 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .headroom {
+      top: 0;
+      z-index: 2;
+      max-width: 600px;
+      width: 100%;
+    }
+    .headroom--unfixed {
+      position: relative;
+      transform: translateY(0);
+    }
+    .headroom--scrolled {
+      transition: transform 200ms ease-in-out;
+    }
+    .headroom--unpinned {
+      position: fixed;
+      transform: translateY(-100%);
+    }
+    .headroom--pinned {
+      position: fixed;
+      transform: translateY(0%);
+    }
+  }
+
+  &-main {
+    max-width: 600px;
+    margin: auto;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: .25s ease-in-out;
+  }
 
   &-footer {
+    max-width: 600px;
+    margin: auto;
     display: flex;
     flex-flow: column;
     font-size: $smallest-size;
-    margin-bottom: 10px;
     margin-top: 50px;
+    padding: 10px;
   }
 
   &-selectors {
     display: grid;
-    grid-template-columns: 60% 25%;
+    grid-template-columns: 75% 25%;
 
     .selector {
       display: flex;
@@ -43,7 +94,7 @@
         margin: 5px;
         border-radius: 25px;
 
-        span {
+        a, span {
           font-size: $biggest-size;
           display: flex;
           margin: auto;
@@ -111,6 +162,11 @@
         }
       }
     }
+  }
+
+  &-table {
+    width: 100%;
+    margin-top: 15px;
   }
 
   &-dice {
@@ -194,78 +250,6 @@
 
         }
 */
-      }
-    }
-  }
-
-  &-navigation {
-    z-index: 2;
-
-    &-burger {
-      cursor: pointer;
-      top: 6px;
-      right: 5px;
-      position: absolute;
-      z-index: 3;
-      transition: .25s ease-in-out;
-
-
-      &-line {
-        &::before {
-          content: '';
-          border-top: 2px solid;
-          display: block;
-          width: 35px;
-          height: 12px;
-        }
-      }
-
-      &:hover {
-        transition: .25s ease-in-out;
-        transform: scale(1.25);
-      }
-    }
-
-    &.toggled {
-      .dnd-navigation-menu {
-        .dndapp-menu {
-          .lander {
-            &-button {
-              @extend .extend-menu-button;
-            }
-          }
-        }
-      }
-
-      .dnd-navigation-menu {
-        .dndapp-menu {
-          position: fixed;
-          z-index: 2;
-          flex-flow: column;
-          margin: auto;
-          top: 0;
-          left: 0;
-          right: 0;
-          max-width: 600px;
-          padding-top: 60px;
-
-          &::before {
-            content: '';
-            position: fixed;
-            width: 100vw;
-            height: 100vh;
-            z-index: -1;
-            top: 0;
-            left: 0;
-            right: 0;
-          }
-
-          .lander {
-            &-button {
-              @extend .extend-menu-button;
-            }
-          }
-        }
       }
     }
   }
@@ -707,18 +691,6 @@ svg {
       }
     }
   }
-}
-
-// global
-.dndapp-main {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
-  transition: .25s ease-in-out;
 }
 
 body {

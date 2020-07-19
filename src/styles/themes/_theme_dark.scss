@@ -2,78 +2,59 @@
   color: $light-colour;
   background-color: $dominant-colour;
 
-  &.dndapp-main {
-    .dndapp {
-      &-lander {
-        .lander {
-          &-button {
-            border-color: $light-colour;
+  .dndapp-top-menu {
+    .navbar {
+      background-color: $dominant-colour;
+
+      a:hover {
+        color: unset;
+        background-color: unset;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .dndapp {
+    &-lander {
+      .lander {
+        &-button {
+          border-color: $light-colour;
+
+          &:hover {
+            background-color: $light-colour;
+            color: $dominant-colour;
+          }
+
+          &.disabled {
+            background: $background-button;
 
             &:hover {
-              background-color: $light-colour;
-              color: $dominant-colour;
-            }
-
-            &.disabled {
-              background: $background-button;
-
-              &:hover {
-                background-color: $background-button-hover;
-                color: $light-colour;
-              }
+              background-color: $background-button-hover;
+              color: $light-colour;
             }
           }
         }
       }
+    }
 
-      &-navigation {
-        &.toggled {
-          .dnd-navigation-menu {
-            .dndapp-menu {
-              .lander-button {
-                border-color: $light-colour;
+    &-dice {
+      &-rolls {
+        &-roll {
+          svg,
+          path {
+            stroke: $light-colour;
+            stroke-width: 3px;
+            fill: $dominant-colour;
 
-                &:hover {
-                  background-color: $light-colour;
-                  color: $dominant-colour;
-                }
-
-                &.disabled {
-                  background: $background-button;
-
-                  &:hover {
-                    background-color: $background-button-hover;
-                    color: $light-colour;
-                  }
-                }
-              }
-
-              &::before {
-                background: $dominant-colour;
-              }
-            }
-          }
-        }
-      }
-
-      &-dice {
-        &-rolls {
-          &-roll {
-            svg,
-            path {
-              stroke: $light-colour;
-              stroke-width: 3px;
-              fill: $dominant-colour;
-
-              &:active {
-                fill: $dnd-red;
-              }
+            &:active {
+              fill: $dnd-red;
             }
           }
         }
       }
     }
   }
+
 
   .btn {
     border-color: $light-colour;

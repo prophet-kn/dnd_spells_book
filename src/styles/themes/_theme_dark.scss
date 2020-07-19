@@ -3,13 +3,9 @@
   background-color: $dominant-colour;
 
   .dndapp {
-    &-menu {
-      .navbar {
+    &-top-menu {
+      nav {
         background-color: $dominant-colour;
-
-        a:hover {
-          text-decoration: underline;
-        }
       }
     }
 

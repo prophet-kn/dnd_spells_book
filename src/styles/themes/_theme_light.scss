@@ -4,12 +4,8 @@
 
   .dndapp {
     &-menu {
-      .navbar {
+      nav {
         background-color: $dominant-colour-light;
-
-        a:hover {
-          text-decoration: underline;
-        }
       }
     }
 

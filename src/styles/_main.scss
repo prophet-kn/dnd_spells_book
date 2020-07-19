@@ -7,7 +7,7 @@
     max-width: 600px;
     margin: auto;
 
-    .navbar-nav {
+    ul {
       display: grid;
       grid-template-columns: 20% 20% 20% 20% 20%;
       border-bottom: 2px solid;
@@ -16,6 +16,10 @@
       list-style: none;
       text-align: center;
       font-weight: bold;
+
+      a:hover {
+        text-decoration: underline;
+      }
     }
 
     .headroom {

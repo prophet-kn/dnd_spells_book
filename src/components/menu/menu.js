@@ -1,20 +1,19 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 import Headroom from 'react-headroom'
-import {withRouter} from 'react-router-dom';
 
 class Menu extends Component {
   header() {
     return (
       <header className={"dndapp-top-menu"}>
         <Headroom disableInlineStyles>
-          <nav className="navbar">
-            <ul className="navbar-nav">
-              <li><Link to={'/'} className="nav-link">Home</Link></li>
-              <li><Link to={'/spells'} className="nav-link">Spells</Link></li>
-              <li><Link to={'/feats'} className="nav-link">Feats</Link></li>
-              <li><Link to={'/dice'} className="nav-link">Dice</Link></li>
-              <li><Link to={'/npcs'} className="nav-link">NPCs</Link></li>
+          <nav>
+            <ul>
+              <li><Link to={'/'}>Home</Link></li>
+              <li><Link to={'/spells'}>Spells</Link></li>
+              <li><Link to={'/feats'}>Feats</Link></li>
+              <li><Link to={'/dice'}>Dice</Link></li>
+              <li><Link to={'/npcs'}>NPCs</Link></li>
             </ul>
           </nav>
         </Headroom>

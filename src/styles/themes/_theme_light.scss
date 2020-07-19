@@ -2,27 +2,29 @@
   color: $light-colour-light;
   background-color: $dominant-colour-light;
 
-  .dndapp-top-menu {
-    .navbar {
-      background-color: $dominant-colour-light;
+  .dndapp {
+    &-menu {
+      .navbar {
+        background-color: $dominant-colour-light;
 
-      a:hover {
-        color: unset;
-        background-color: unset;
-        text-decoration: underline;
+        a:hover {
+          text-decoration: underline;
+        }
       }
     }
-  }
 
-  .dndapp {
     &-lander {
       .lander {
-        &-button {
+        &-button,
+        &-logo {
           border-color: $light-colour-light;
 
           &:hover {
             background-color: $light-colour-light;
-            color: $dominant-colour-light;
+
+            a {
+              color: $dominant-colour-light;
+            }
           }
 
           &.disabled {
@@ -195,16 +197,6 @@
 
   a:visited {
     color: $light-colour-light;
-  }
-
-  a:hover {
-    color: $dominant-colour-light;
-    background-color: $light-colour-light;
-  }
-
-  a:active {
-    color: $dnd-red;
-    background-color: $light-colour-light;
   }
 
   a {

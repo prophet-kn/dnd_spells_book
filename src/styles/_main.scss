@@ -76,10 +76,11 @@
   }
 
   &-lander {
-    display: inline-flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    max-width: 600px;
+    margin: auto;
 
     .lander {
       &-button {
@@ -94,7 +95,7 @@
         margin: 5px;
         border-radius: 25px;
 
-        a, span {
+        a {
           font-size: $biggest-size;
           display: flex;
           margin: auto;

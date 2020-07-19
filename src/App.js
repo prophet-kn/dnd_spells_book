@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import Headroom from 'react-headroom'
-import Home from './components/home/home'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Menu from './components/menu/menu'
 import SpellsTable from './components/data-table/spells-table'
 import FeatsTable from './components/data-table/feats-table'
 import DiceRolls from './components/dice-roll/dice-roll'
@@ -35,22 +34,10 @@ class App extends Component {
     document.getElementById('dndapp').className = "dndapp " + this.state.theme + "-theme"
     return (
       <Router>
-        <header className={"dndapp-top-menu"}>
-          <Headroom disableInlineStyles>
-            <nav className="navbar">
-              <ul className="navbar-nav">
-                <li><Link to={'/'} className="nav-link">Home</Link></li>
-                <li><Link to={'/spells'} className="nav-link">Spells</Link></li>
-                <li><Link to={'/feats'} className="nav-link">Feats</Link></li>
-                <li><Link to={'/dice'} className="nav-link">Dice</Link></li>
-                <li><Link to={'/npcs'} className="nav-link">NPCs</Link></li>
-              </ul>
-            </nav>
-          </Headroom>
-        </header>
+        <Menu />
         <main className={"dndapp-main"}>
           <Switch>
-            <Route exact path='/' component={Home} />
+            <Route exact path='/' />
             <Route path='/spells' component={SpellsTable} />
             <Route path='/feats' component={FeatsTable} />
             <Route path='/dice' component={DiceRolls} />

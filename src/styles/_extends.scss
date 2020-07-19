@@ -9,7 +9,10 @@
   border-radius: 25px;
 
   a, span {
-    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &.disabled {

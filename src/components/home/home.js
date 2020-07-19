@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Link } from 'react-router-dom'
 import SpellsTable from '../../components/data-table/spells-table'
 import FeatsTable from '../../components/data-table/feats-table'
 import DiceRolls from '../../components/dice-roll/dice-roll'

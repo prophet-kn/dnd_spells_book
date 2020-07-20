@@ -7,16 +7,13 @@
 - `feature/PC-{next-number}_{name-of-feature}`
 
 ### in example:
-
 - `feature/PC-3_landing_page`
 
 ### If you are refactoring or fixing a piece of already existing code:
 - `refactor/PCF-{next-number}_{name-of-refactor}`
 
 ### in example:
-
 - `refactor/PCF-2_fixing_sass`
-
 
 # installation
 - Run:
@@ -25,8 +22,6 @@
   - `git clone https://github.com/prophet-kn/dnd_spells_book.git`
   - `cd dnd_spells_book`
   - `yarn install`
-- or:
-  - `npm install`
 
 # running locally
 - Make sure you're using the correct node version in your terminal:
@@ -35,6 +30,3 @@
 - In two separate terminals, run:
   - `yarn gulp`
   - `yarn start`
-- or
-  - `gulp`
-  - `npm start`

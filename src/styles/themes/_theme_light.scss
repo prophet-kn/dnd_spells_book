@@ -1,6 +1,6 @@
 .light-theme {
-  color: $light-colour-light;
   background-color: $dominant-colour-light;
+  color: $light-colour-light;
 
   .dndapp {
     &-menu {
@@ -58,6 +58,20 @@
 
     &.selected {
       border-color: $dominant-colour-light;
+    }
+
+    &:hover {
+      background-color: $light-colour-light;
+      color: $dominant-colour-light;
+    }
+
+    &.disabled {
+      background: $background-button-light;
+
+      &:hover {
+        background-color: $background-button-hover-light;
+        color: $light-colour-light;
+      }
     }
   }
 
@@ -197,21 +211,5 @@
 
   a {
     text-decoration: none;
-  }
-
-  .btn {
-    &:hover {
-      background-color: $light-colour-light;
-      color: $dominant-colour-light;
-    }
-
-    &.disabled {
-      background: $background-button-light;
-
-      &:hover {
-        background-color: $background-button-hover-light;
-        color: $light-colour-light;
-      }
-    }
   }
 }

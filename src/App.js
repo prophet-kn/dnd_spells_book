@@ -19,11 +19,11 @@ class App extends Component {
 
   pickTheme() {
     return (
-      <div className={"dndapp-wrapper-theme"}>
-        <div className={"dndapp-wrapper-theme-picker dark"} onClick={() => this.setState({theme: 'dark'})}>
+      <div className={'dndapp-wrapper-theme'}>
+        <div className={'dndapp-wrapper-theme-picker dark'} onClick={() => this.setState({ theme: 'dark' })}>
           <svg width="50" height="50" viewBox="0 0 8 16"><path fillRule="evenodd" d="M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"></path></svg>
         </div>
-        <div className={"dndapp-wrapper-theme-picker light"} onClick={() => this.setState({theme: 'light'})}>
+        <div className={'dndapp-wrapper-theme-picker light'} onClick={() => this.setState({ theme: 'light' })}>
           <svg width="50" height="50" viewBox="0 0 8 16"><path fillRule="evenodd" d="M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"></path></svg>
         </div>
       </div>

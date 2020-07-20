@@ -43,9 +43,9 @@ class App extends Component {
             <Route path='/dice' component={DiceRolls} />
             <Route path='/npcs' component={NPCRandomizer} />
           </Switch>
-          {this.pickTheme()}
         </main>
         <footer className={'dndapp-footer'}>
+          {this.pickTheme()}
           <i>Va'esse deireádh aep eigean, va'esse eigh faidh'ar</i>
           <i>by: <a target="_blank" rel="noopener noreferrer" href="https://github.com/prophet-kn">prophet-kn</a> {'&'} <a target="_blank" rel="noopener noreferrer" href="https://github.com/CuriousCactus">CuriousCactus</a></i>
           <br></br>

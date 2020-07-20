@@ -56,6 +56,12 @@ class Menu extends Component {
             <span>Music Board</span>
           </div>
         </div>
+        <div className={'dndapp-lander-extra'}>
+          <span>You can help expanding the app by contributing to the open source repository.</span>
+          <div className={'dndapp-lander-extra-button'}>
+            <a href="https://github.com/prophet-kn/dnd_spells_book" target="_blank" rel="noopener noreferrer"><span>Contribute</span></a>
+          </div>
+        </div>
       </div>
     )
   }

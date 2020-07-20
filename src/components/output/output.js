@@ -9,7 +9,7 @@ class Output extends Component {
     super(props)
     this.state = {
       currentView: 'default',
-      navigationToggle: false,
+      navigationToggle: false
     }
 
     this.escFunction = this.escFunction.bind(this)
@@ -20,8 +20,7 @@ class Output extends Component {
       this.setState({
         navigationToggle: true
       })
-    }
-    else {
+    } else {
       this.setState({
         navigationToggle: false
       })
@@ -29,7 +28,7 @@ class Output extends Component {
   }
 
   pickView = (e) => {
-    let thisView = e.currentTarget.getAttribute('view')
+    const thisView = e.currentTarget.getAttribute('view')
 
     this.setState({
       currentView: thisView
@@ -38,33 +37,31 @@ class Output extends Component {
 
   escFunction(event) {
     if (event.keyCode === 27 && this.state.currentView !== 'default') {
-      this.setState({currentView: 'default'})
+      this.setState({ currentView: 'default' })
     }
   }
 
   componentDidMount() {
-    document.addEventListener("keydown", this.escFunction, false)
+    document.addEventListener('keydown', this.escFunction, false)
   }
 
   componentWillUnmount() {
-    document.removeEventListener("keydown", this.escFunction, false)
+    document.removeEventListener('keydown', this.escFunction, false)
   }
 
   navigation = () => {
     if (this.state.currentView !== 'default') {
       return (
-        <div className={this.state.navigationToggle === false ? "dndapp-navigation" : "dndapp-navigation toggled"} onClick={() => this.toggleNavigation()}>
-          <div className={"dndapp-navigation-burger"}>
+        <div className={this.state.navigationToggle === false ? 'dndapp-navigation' : 'dndapp-navigation toggled'} onClick={() => this.toggleNavigation()}>
+          <div className={'dndapp-navigation-burger'}>
             {this.state.navigationToggle === false
-            ? <svg width="50" height="50" viewBox="0 0 8 16" className={"burger"}><path fillRule="evenodd" d="M8 4v1H0V4h8zM0 8h8V7H0v1zm0 3h8v-1H0v1z"></path></svg>
-            : <svg width="30" height="30" viewBox="0 0 12 16"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+              ? <svg width="50" height="50" viewBox="0 0 8 16" className={'burger'}><path fillRule="evenodd" d="M8 4v1H0V4h8zM0 8h8V7H0v1zm0 3h8v-1H0v1z"></path></svg>
+              : <svg width="30" height="30" viewBox="0 0 12 16"><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
             }
           </div>
           {this.state.navigationToggle === false
-          ?
-            null
-          :
-            <div className={"dnd-navigation-menu"}>
+            ? null
+            : <div className={'dnd-navigation-menu'}>
               {this.menuItems()}
             </div>
           }
@@ -75,27 +72,25 @@ class Output extends Component {
 
   menuItems = () => {
     return (
-      <div className={"dndapp-menu"}>
+      <div className={'dndapp-menu'}>
         {this.state.currentView !== 'default'
-        ?
-          <div className={'lander-button'} view={'default'} onClick={(e) => {this.pickView(e)}}>
-            <span>Prophet's Companion</span>
+          ? <div className={'lander-button'} view={'default'} onClick={(e) => { this.pickView(e) }}>
+            <span>Prophet&apos;s Companion</span>
           </div>
-        :
-        <div className={'lander-logo'}>
-          <span>Prophet&#39;s<br></br>Companion<br></br>v0.60:41ph4</span>
-        </div>
+          : <div className={'lander-logo'}>
+            <span>Prophet&apos;s<br></br>Companion<br></br>v0.61:41ph4</span>
+          </div>
         }
-        <div className={'lander-button'} view={'spellsTable'} onClick={(e) => {this.pickView(e)}}>
+        <div className={'lander-button'} view={'spellsTable'} onClick={(e) => { this.pickView(e) }}>
           <span>List of Spells</span>
         </div>
-        <div className={'lander-button'} view={'featsTable'} onClick={(e) => {this.pickView(e)}}>
+        <div className={'lander-button'} view={'featsTable'} onClick={(e) => { this.pickView(e) }}>
           <span>List of Feats</span>
         </div>
-        <div className={'lander-button'} view={'diceRoll'} onClick={(e) => {this.pickView(e)}}>
+        <div className={'lander-button'} view={'diceRoll'} onClick={(e) => { this.pickView(e) }}>
           <span>Dice Roll</span>
         </div>
-        <div className={'lander-button'} view={'npcRandomizer'} onClick={(e) => {this.pickView(e)}}>
+        <div className={'lander-button'} view={'npcRandomizer'} onClick={(e) => { this.pickView(e) }}>
           <span>NPC Randomizer</span>
         </div>
         <div className={'lander-button disabled'} view={'monsterList'}>
@@ -130,31 +125,25 @@ class Output extends Component {
           </div>
         </div>
       )
-    }
-    else if (this.state.currentView === 'spellsTable') {
+    } else if (this.state.currentView === 'spellsTable') {
       return <SpellsTable />
-    }
-    else if (this.state.currentView === 'featsTable') {
+    } else if (this.state.currentView === 'featsTable') {
       return <FeatsTable />
-    }
-    else if (this.state.currentView === 'diceRoll') {
+    } else if (this.state.currentView === 'diceRoll') {
       return <DiceRolls />
-    }
-    else if (this.state.currentView === 'npcRandomizer') {
+    } else if (this.state.currentView === 'npcRandomizer') {
       return <NPCRandomizer />
     }
   }
 
   render() {
     return (
-      <div className={"dndapp-wrapper"}>
+      <div className={'dndapp-wrapper'}>
         {this.navigation()}
         {this.showView()}
       </div>
     )
-
   }
-
 }
 
 export default Output

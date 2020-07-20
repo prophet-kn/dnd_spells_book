@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactSVG } from 'react-svg'
-import {cFC} from '../helpers/helpers';
+import { cFC } from '../helpers/helpers';
 
 class Icon extends React.Component {
   render() {

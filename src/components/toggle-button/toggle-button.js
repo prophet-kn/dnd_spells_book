@@ -1,5 +1,5 @@
 import React from 'react'
-import {cFC} from '../helpers/helpers';
+import { cFC } from '../helpers/helpers';
 
 class ToggleButton extends React.Component {
   constructor(props) {

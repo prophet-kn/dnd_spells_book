@@ -95,6 +95,20 @@
           transform: scale(1.25);
           transition: .1s ease-in-out;
         }
+
+        &.dark {
+          svg,
+          path {
+            fill: rgb(56, 56, 56);
+          }
+        }
+
+        &.light {
+          svg,
+          path {
+            fill: rgb(255, 255, 255);
+          }
+        }
       }
     }
   }

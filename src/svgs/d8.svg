@@ -1,0 +1,6 @@
+<svg width="98" height="112" xmlns="http://www.w3.org/2000/svg">
+  <g fill-rule="evenodd">
+    <path d="M49 1l47.631 27.5v55L49 111 1.369 83.5v-55z"/>
+    <path stroke-linejoin="round" d="M1.369 28.5L49 111l47.631-82.5z"/>
+  </g>
+</svg>

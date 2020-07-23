@@ -2,7 +2,6 @@
   width: 100%;
   max-width: 600px;
   min-height: 100vh;
-  margin-top: 10px;
 
   &-footer {
     display: flex;
@@ -14,7 +13,7 @@
 
   &-selectors {
     display: grid;
-    grid-template-columns: 60% 25%;
+    grid-template-columns: 75% 25%;
 
     .selector {
       display: flex;
@@ -54,7 +53,6 @@
     }
 
     &-extra {
-      margin-top: 30px;
       font-size: $medium-size;
 
       &-button {
@@ -91,6 +89,7 @@
       &-picker {
         cursor: pointer;
 
+        &:active,
         &:hover {
           transform: scale(1.25);
           transition: .1s ease-in-out;
@@ -185,6 +184,7 @@
         }
       }
 
+      &:active,
       &:hover {
         transform: scale(1.25);
         transition: .25s ease-in-out;
@@ -536,32 +536,6 @@
 
   &-search {
     margin-right: 5px;
-
-    &::after {
-      display: flex;
-      position: absolute;
-      top: 26px;
-      right: 10px;
-      width: 15px;
-      height: 15px;
-      transform: rotate(165deg);
-      border-right: 2px solid;
-      content: '';
-      z-index: -1;
-    }
-
-    &::before {
-      display: flex;
-      position: absolute;
-      top: 12px;
-      right: 21px;
-      width: 15px;
-      height: 15px;
-      border: 2px solid;
-      border-radius: 100%;
-      content: '';
-      z-index: -1;
-    }
   }
 
   &-field {

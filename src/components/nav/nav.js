@@ -40,11 +40,11 @@ class Nav extends Component {
         </div>
         <div className={'dndapp-nav-links'}>
           <ul className={this.state.menuToggle === true ? 'active' : 'hidden'}>
-            <Link to={'/dnd_spells_book/'}><li onClick={this.toggleMenu.bind(this)}>Welcome</li></Link>
-            <Link to={'/dnd_spells_book/spells-table'}><li onClick={this.toggleMenu.bind(this)}>List of Spells</li></Link>
-            <Link to={'/dnd_spells_book/feats-table'}><li onClick={this.toggleMenu.bind(this)}>List of Feats</li></Link>
-            <Link to={'/dnd_spells_book/dice-rolls'}><li onClick={this.toggleMenu.bind(this)}>Dice Roll</li></Link>
-            <Link to={'/dnd_spells_book/npc-randomizer'}><li onClick={this.toggleMenu.bind(this)}>NPC Randomizer</li></Link>
+            <Link to={'/'}><li onClick={this.toggleMenu.bind(this)}>Welcome</li></Link>
+            <Link to={'/spells-table'}><li onClick={this.toggleMenu.bind(this)}>List of Spells</li></Link>
+            <Link to={'/feats-table'}><li onClick={this.toggleMenu.bind(this)}>List of Feats</li></Link>
+            <Link to={'/dice-rolls'}><li onClick={this.toggleMenu.bind(this)}>Dice Roll</li></Link>
+            <Link to={'/npc-randomizer'}><li onClick={this.toggleMenu.bind(this)}>NPC Randomizer</li></Link>
           </ul>
         </div>
       </nav>

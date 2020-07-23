@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Nav from './components/nav/nav'
 import SpellsTable from './components/data-table/spells-table'
 import FeatsTable from './components/data-table/feats-table'
@@ -48,11 +48,11 @@ class App extends Component {
             <Nav />
             <div className={'dndapp-body'}>
               <Switch>
-                <Route exact path='/dnd_spells_book/' component={Lander} />
-                <Route exact path='/dnd_spells_book/spells-table' component={ SpellsTable } />
-                <Route exact path='/dnd_spells_book/feats-table' component={ FeatsTable } />
-                <Route exact path='/dnd_spells_book/dice-rolls' component={ DiceRolls } />
-                <Route exact path='/dnd_spells_book/npc-randomizer' component={ NPCRandomizer } />
+                <Route exact path='/' component={Lander} />
+                <Route exact path='/spells-table' component={ SpellsTable } />
+                <Route exact path='/feats-table' component={ FeatsTable } />
+                <Route exact path='/dice-rolls' component={ DiceRolls } />
+                <Route exact path='/npc-randomizer' component={ NPCRandomizer } />
               </Switch>
             </div>
           </Router>

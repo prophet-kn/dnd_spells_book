@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
-import Output from './components/output/output'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Nav from './components/nav/nav'
+import SpellsTable from './components/data-table/spells-table'
+import FeatsTable from './components/data-table/feats-table'
+import DiceRolls from './components/dice-roll/dice-roll'
+import NPCRandomizer from './components/npc-randomizer/npc-randomizer'
+import Lander from './components/lander/lander'
 import '../src/compiled/theme.css'
 
 class App extends Component {
@@ -37,8 +43,21 @@ class App extends Component {
     return (
       <div className={themeClass.join(' ')}>
         <div className={'dndapp'}>
+
+          <Router>
+            <Nav />
+            <div className={'dndapp-body'}>
+              <Switch>
+                <Route exact path='/' component={Lander} />
+                <Route exact path='/spells-table' component={ SpellsTable } />
+                <Route exact path='/feats-table' component={ FeatsTable } />
+                <Route exact path='/dice-rolls' component={ DiceRolls } />
+                <Route exact path='/npc-randomizer' component={ NPCRandomizer } />
+              </Switch>
+            </div>
+          </Router>
+
           <div className={'dndapp-body'}>
-            <Output />
             {this.pickTheme()}
           </div>
           <div className={'dndapp-footer'}>

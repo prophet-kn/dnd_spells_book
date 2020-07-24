@@ -15,14 +15,15 @@ jobs:
       matrix:
         node-version: [12.x]
     steps:
-    - uses: actions/checkout@master
-
+    - name: Checkout master
+      uses: actions/checkout@master
     - name: Use Node.js 12.x
       uses: actions/setup-node@v1
       with:
-        version: 12.x
+        node-version: 12
     - name: Build Test
       run: |
         npm install
+        yarn gulp sass
         npm run build --if-present
         npm audit fix

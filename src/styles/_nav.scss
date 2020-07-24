@@ -1,0 +1,64 @@
+.dndapp-nav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin-bottom: 5px;
+  border-bottom: 2px solid;
+
+  &-menu {
+    display: grid;
+    height: 50px;
+    padding: 5px 0;
+    grid-template-columns: 90% 10%;
+
+    h1 {
+      text-align: left;
+      padding: 0 0 0 10px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    svg {
+      margin: auto;
+      z-index: 3;
+      transition-duration: .5s;
+      transform: rotate(90deg);
+
+      &.close {
+        transition-duration: .5s;
+        transform: rotate(0deg);
+      }
+    }
+  }
+
+  &-links {
+    ul {
+      margin: 0;
+      padding-inline-start: 0;
+      list-style-type: none;
+  
+      li {
+        margin: 2px auto;
+        cursor: pointer;
+        margin-bottom: 0;
+        padding: 9px 0;
+        border-radius: 50px;
+      }
+  
+      &.hidden {
+        display: none;
+      }
+  
+      &.active {
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        padding: 0 0 2px;
+        border-bottom: 2px solid;
+        animation: fade-in .5s ease-in-out;
+      }
+    }
+  }
+}

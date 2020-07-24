@@ -1,6 +1,6 @@
 .dark-theme {
-  color: $light-colour;
   background-color: $dominant-colour;
+  color: $light-colour;
 
   &.dndapp-main {
     .dndapp {
@@ -9,6 +9,7 @@
           &-button {
             border-color: $light-colour;
 
+            &:active,
             &:hover {
               background-color: $light-colour;
               color: $dominant-colour;
@@ -17,6 +18,7 @@
             &.disabled {
               background: $background-button;
 
+              &:active,
               &:hover {
                 background-color: $background-button-hover;
                 color: $light-colour;
@@ -33,6 +35,7 @@
               .lander-button {
                 border-color: $light-colour;
 
+                &:active,
                 &:hover {
                   background-color: $light-colour;
                   color: $dominant-colour;
@@ -41,6 +44,7 @@
                 &.disabled {
                   background: $background-button;
 
+                  &:active,
                   &:hover {
                     background-color: $background-button-hover;
                     color: $light-colour;
@@ -61,9 +65,9 @@
           &-roll {
             svg,
             path {
+              fill: $dominant-colour;
               stroke: $light-colour;
               stroke-width: 3px;
-              fill: $dominant-colour;
 
               &:active {
                 fill: $dnd-red;
@@ -80,6 +84,22 @@
 
     &.selected {
       border-color: $dominant-colour;
+    }
+
+    &:active,
+    &:hover {
+      background-color: $light-colour;
+      color: $dominant-colour;
+    }
+
+    &.disabled {
+      background: $background-button;
+
+      &:active,
+      &:hover {
+        background-color: $background-button-hover;
+        color: $light-colour;
+      }
     }
   }
 
@@ -139,6 +159,7 @@
     }
 
     &-name {
+      &:active,
       &:hover {
         background-color: $light-colour;
         color: $dominant-colour;
@@ -162,6 +183,7 @@
     &-pin {
       fill: $light-colour;
 
+      &:active,
       &:hover {
         svg,
         path {
@@ -171,6 +193,7 @@
     }
 
     &-dropdown {
+      &:active,
       &:hover {
         .item-pin {
           svg,
@@ -204,6 +227,7 @@
       border-color:  $light-colour;
       color: $light-colour;
 
+      &:active,
       &:hover {
         background-color: $light-colour;
         color: $dominant-colour;
@@ -261,32 +285,31 @@
     color: $light-colour;
   }
 
+  a:active,
   a:hover {
+    background-color: $light-colour;
     color: $dominant-colour;
-    background-color: $light-colour;
-  }
-
-  a:active {
-    color: $dnd-red;
-    background-color: $light-colour;
   }
 
   a {
     text-decoration: none;
   }
 
-  .btn {
-    &:hover {
-      background-color: $light-colour;
-      color: $dominant-colour;
-    }
+  .dndapp-nav {
+    background-color: $dominant-colour;
 
-    &.disabled {
-      background: $background-button;
+    &-links {
+      ul {
+        background-color: $dominant-colour;
+      }
 
-      &:hover {
-        background-color: $background-button-hover;
-        color: $light-colour;
+      a {
+        &:active,
+        &:hover {
+          > li {
+            background-color: $light-colour;
+          }
+        }
       }
     }
   }

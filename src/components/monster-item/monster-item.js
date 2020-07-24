@@ -4,7 +4,7 @@ class MonsterItem extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      showList: false,
+      showList: false
     }
 
     this.addClassName = this.addClassName.bind(this)
@@ -12,14 +12,14 @@ class MonsterItem extends Component {
   }
 
   addClassName(e, i) {
-    let monsterState = this.state
+    const monsterState = this.state
     monsterState.showList = monsterState.showList === i ? false : i
     this.setState(monsterState)
   }
 
   getModifier(int) {
     let mod = int
-    switch(int) {
+    switch (int) {
       case 0:
       case 1:
         mod = '-5'
@@ -77,52 +77,52 @@ class MonsterItem extends Component {
 
   monsterDescription(monsterItem, i) {
     // Parse data.
-    let name = monsterItem.name,
-        AC = monsterItem.AC,
-        HP = monsterItem.HP,
-        npcSize = monsterItem.size,
-        npcType = monsterItem.type,
-        alignment = monsterItem.alignment,
-        classSpeed = monsterItem.speed,
-        damageResistances = monsterItem.damageResistance,
-        passivePerception = monsterItem.passivePerception,
-        classLanguage = monsterItem.Language,
-        challengeRating = monsterItem.Challenge,
-      // Get nested arrays from Class.
-        classStats = monsterItem.stats[0],
-        getSavingThrows = monsterItem.saving_throws[0] !== undefined ? monsterItem.saving_throws[0] : '',
-      // Skills.
-        classSkills = monsterItem.skills[0],
-        classSkillsList = classSkills !== undefined ? Object.entries(classSkills): '',
-      // Features.
-        classFeatures = monsterItem.Features[0],
-        classFeaturesList = classFeatures !== undefined ? Object.entries(classFeatures): '',
-      // Actions.
-        classActions = monsterItem.Actions[0],
-        classActionsList = classActions !== undefined ? Object.entries(classActions): '',
-      // Reactions.
-        classReactions = monsterItem.Reactions[0],
-        classReactionsList = classReactions !== undefined ? Object.entries(classReactions): '',
-      // Legendary Actions.
-        classLegendaryActions = monsterItem.LegendaryActions[0],
-        classLegendaryActionsList = classLegendaryActions !== undefined ? Object.entries(classLegendaryActions): ''
+    const name = monsterItem.name
+    const AC = monsterItem.AC
+    const HP = monsterItem.HP
+    const npcSize = monsterItem.size
+    const npcType = monsterItem.type
+    const alignment = monsterItem.alignment
+    const classSpeed = monsterItem.speed
+    const damageResistances = monsterItem.damageResistance
+    const passivePerception = monsterItem.passivePerception
+    const classLanguage = monsterItem.Language
+    const challengeRating = monsterItem.Challenge
+    // Get nested arrays from Class
+    const classStats = monsterItem.stats[0]
+    const getSavingThrows = monsterItem.saving_throws[0] !== undefined ? monsterItem.saving_throws[0] : ''
+    // Skills
+    const classSkills = monsterItem.skills[0]
+    const classSkillsList = classSkills !== undefined ? Object.entries(classSkills) : ''
+    // Features
+    const classFeatures = monsterItem.Features[0]
+    const classFeaturesList = classFeatures !== undefined ? Object.entries(classFeatures) : ''
+    // Actions
+    const classActions = monsterItem.Actions[0]
+    const classActionsList = classActions !== undefined ? Object.entries(classActions) : ''
+    // Reactions
+    const classReactions = monsterItem.Reactions[0]
+    const classReactionsList = classReactions !== undefined ? Object.entries(classReactions) : ''
+    // Legendary Actions
+    const classLegendaryActions = monsterItem.LegendaryActions[0]
+    const classLegendaryActionsList = classLegendaryActions !== undefined ? Object.entries(classLegendaryActions) : ''
 
     if (this.state.showList === i) {
       return (
-        <div className={"monster-definitions"}>
-          <div className={"monster-definitions-top"}>
-            <div className={"monster-definitions-top-name"}>
+        <div className={'monster-definitions'}>
+          <div className={'monster-definitions-top'}>
+            <div className={'monster-definitions-top-name'}>
               <h2>{name}</h2>
             </div>
-            <div className={"monster-definitions-top-stats"}>
+            <div className={'monster-definitions-top-stats'}>
               <span><i>{npcSize} {npcType}, {alignment}</i></span>
-              <span><strong>Armor Class</strong> {AC}</span>
-              <span><strong>Hit Points</strong> {HP}</span>
-              <span><strong>Speed</strong> {classSpeed}</span>
+              <span><strong>Armor Class: </strong> {AC}</span>
+              <span><strong>Hit Points: </strong> {HP}</span>
+              <span><strong>Speed: </strong> {classSpeed}</span>
             </div>
           </div>
 
-          <div className={"monster-definitions-stats"}>
+          <div className={'monster-definitions-stats'}>
             <span><strong>STR</strong> {classStats.Strength} ({this.getModifier(classStats.Strength)})</span>
             <span><strong>DEX</strong> {classStats.Dexterity} ({this.getModifier(classStats.Dexterity)})</span>
             <span><strong>CON</strong> {classStats.Constitution} ({this.getModifier(classStats.Constitution)})</span>
@@ -131,107 +131,106 @@ class MonsterItem extends Component {
             <span><strong>CHA</strong> {classStats.Charisma } ({this.getModifier(classStats.Charisma)})</span>
           </div>
 
-          <div className={"monster-definitions-attributes"}>
-            {getSavingThrows !== '' ?
-            <div className={"monster-definitions-attributes-saving-throws"}>
-              <span><strong>Saving Throws</strong></span>
-              {getSavingThrows.Strength !== undefined ? <span>Str + {getSavingThrows.Strength}, </span> : ''}
-              {getSavingThrows.Dexterity !== undefined ? <span>Dex + {getSavingThrows.Dexterity}, </span> : ''}
-              {getSavingThrows.Constitution !== undefined ? <span>Con + {getSavingThrows.Constitution}, </span> : ''}
-              {getSavingThrows.Intelligence !== undefined ? <span>Int + {getSavingThrows.Intelligence}, </span> : ''}
-              {getSavingThrows.Wisdom !== undefined ? <span>Wis + {getSavingThrows.Wisdom}, </span> : ''}
-              {getSavingThrows.Charisma !== undefined ? <span>Cha + {getSavingThrows.Charisma}, </span> : ''}
-            </div>
-          : ''}
-            <div className={"monster-definitions-attributes-misc"}>
-              {damageResistances !== '' ? <span><strong>Damage resistance</strong> {damageResistances}</span> : ''}
-              {passivePerception !== '' ? <span><strong>Passive perception</strong> {passivePerception}</span> : ''}
-              {classLanguage !== '' ? <span><strong>Languages</strong> {classLanguage}</span> : ''}
-              {challengeRating !== '' ? <span><strong>Challenge</strong> {challengeRating}</span> : ''}
+          <div className={'monster-definitions-attributes'}>
+            {getSavingThrows !== ''
+              ? <div className={'monster-definitions-attributes-saving-throws'}>
+                <span><strong>Saving Throws: </strong></span>
+                {getSavingThrows.Strength !== undefined ? <span>Str + {getSavingThrows.Strength}, </span> : ''}
+                {getSavingThrows.Dexterity !== undefined ? <span>Dex + {getSavingThrows.Dexterity}, </span> : ''}
+                {getSavingThrows.Constitution !== undefined ? <span>Con + {getSavingThrows.Constitution}, </span> : ''}
+                {getSavingThrows.Intelligence !== undefined ? <span>Int + {getSavingThrows.Intelligence}, </span> : ''}
+                {getSavingThrows.Wisdom !== undefined ? <span>Wis + {getSavingThrows.Wisdom}, </span> : ''}
+                {getSavingThrows.Charisma !== undefined ? <span>Cha + {getSavingThrows.Charisma}, </span> : ''}
+              </div>
+              : ''}
+            <div className={'monster-definitions-attributes-misc'}>
+              {damageResistances !== '' ? <span><strong>Damage resistance: </strong> {damageResistances}</span> : ''}
+              {passivePerception !== '' ? <span><strong>Passive perception: </strong> {passivePerception}</span> : ''}
+              {classLanguage !== '' ? <span><strong>Languages: </strong> {classLanguage}</span> : ''}
+              {challengeRating !== '' ? <span><strong>Challenge: </strong> {challengeRating}</span> : ''}
             </div>
           </div>
 
-          {classSkillsList !== '' ? 
-            <div className={"monster-definitions-skills"}>
+          {classSkillsList !== ''
+            ? <div className={'monster-definitions-skills'}>
               {classSkillsList.map(([key, value]) => {
                 return (
-                  <div key={key} className={"monster-definitions-skills-value"}>
+                  <div key={key} className={'monster-definitions-skills-value'}>
                     <span><b>{key}: </b>{value}</span>
                   </div>
-                  )
+                )
               })}
             </div>
-          : null}
+            : null}
 
-          {classFeaturesList !== '' ? 
-            <div className={"monster-definitions-features"}>
+          {classFeaturesList !== ''
+            ? <div className={'monster-definitions-features'}>
               {classFeaturesList.map(([key, value]) => {
                 return (
-                  <div key={key} className={"monster-definitions-features-value"}>
+                  <div key={key} className={'monster-definitions-features-value'}>
                     <span><b>{key}: </b>{value}</span>
                   </div>
-                  )
+                )
               })}
             </div>
-          : null}
+            : null}
 
-          {classActionsList !== '' ? 
-            <div className={"monster-definitions-actions"}>
+          {classActionsList !== ''
+            ? <div className={'monster-definitions-actions'}>
               {classActionsList.map(([key, value]) => {
                 return (
-                  <div key={key} className={"monster-definitions-actions-value"}>
+                  <div key={key} className={'monster-definitions-actions-value'}>
                     <span><b>{key}: </b>{value}</span>
                   </div>
-                  )
+                )
               })}
             </div>
-          : null}
+            : null}
 
-          {classReactionsList !== '' ? 
-            <div className={"monster-definitions-reactions"}>
+          {classReactionsList !== ''
+            ? <div className={'monster-definitions-reactions'}>
               {classReactionsList.map(([key, value]) => {
                 return (
-                  <div key={key} className={"monster-definitions-reactions-value"}>
+                  <div key={key} className={'monster-definitions-reactions-value'}>
                     <span><b>{key}: </b>{value}</span>
                   </div>
-                  )
+                )
               })}
             </div>
-          : null}
+            : null}
 
-          {classLegendaryActionsList !== '' ? 
-            <div className={"monster-definitions-reactions"}>
+          {classLegendaryActionsList !== ''
+            ? <div className={'monster-definitions-reactions'}>
               {classLegendaryActionsList.map(([key, value]) => {
                 return (
-                  <div key={key} className={"monster-definitions-legendary-actions-value"}>
+                  <div key={key} className={'monster-definitions-legendary-actions-value'}>
                     <span><b>{key}: </b>{value}</span>
                   </div>
-                  )
+                )
               })}
             </div>
-          : null}
+            : null}
         </div>
       )
     }
   }
 
   render() {
-    let monsterItem = this.props.monsterData
-    let i = monsterItem.name
+    const monsterItem = this.props.monsterData
+    const i = monsterItem.name
 
     return (
-      <div className={this.state.showList === i ? "monster-dropdown" : "monster-dropdown hide-child"}>
-        <div className={"monster-name"} onClick={(e) => {this.addClassName(e, i)}}>
+      <div className={this.state.showList === i ? 'monster-dropdown' : 'monster-dropdown hide-child'}>
+        <div className={'monster-name'} onClick={ (e) => { this.addClassName(e, i) } }>
           <span>{monsterItem.name}</span>
-          <div className={"monster-tooltip"}>AC: {monsterItem.AC}, HP: {monsterItem.HP}, C: {monsterItem.Challenge}</div>
-          <svg className={this.state.showList === i ? "chevron opened" : "chevron"} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
+          <div className={'monster-tooltip'}>CR: {monsterItem.Challenge}</div>
+          <svg className={this.state.showList === i ? 'chevron opened' : 'chevron'} width='30' height='30' viewBox='0 0 10 16'><path fillRule='evenodd' d='M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z'></path></svg>
         </div>
 
         {this.monsterDescription(monsterItem, i)}
       </div>
     )
   }
-
 }
 
 export default MonsterItem

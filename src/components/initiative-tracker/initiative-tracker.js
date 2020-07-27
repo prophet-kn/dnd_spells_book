@@ -13,19 +13,21 @@ class initiativeTracker extends Component {
 
     for (let i = 0; i < this.state.items; i += 1) {
       items.push(
-        <div key={i}>
-          <input type={'number'}></input>
-          <input type={'text'}></input>
-          <input type={'number'}></input>
-          <input type={'number'}></input>
-        </div>
+        <li id={i} key={i}>
+          <input id={'initiative-' + i} type={'number'}></input>
+          <input id={'name-' + i} type={'text'}></input>
+          <input id={'current-hp-' + i} type={'number'}></input>
+          <input id={'modify-hp-' + i} type={'number'}></input>
+        </li>
       )
     }
 
     return (
       <div>
-        init count, name, hp, add or remove
-        {items}
+        init count, name, current hp, add or remove hp
+        <ul>
+          {items}
+        </ul>
       </div>
     )
   }

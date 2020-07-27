@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
 class initiativeTracker extends Component {
-  constructor(props) {
+  constructor() {
     super()
     this.state = {
-      items: 0
+      items: 1,
+      currentHp: [0, 0]
     }
   }
 
@@ -14,22 +15,53 @@ class initiativeTracker extends Component {
     for (let i = 0; i < this.state.items; i += 1) {
       items.push(
         <li id={i} key={i}>
-          <input id={'initiative-' + i} type={'number'}></input>
-          <input id={'name-' + i} type={'text'}></input>
-          <input id={'current-hp-' + i} type={'number'}></input>
-          <input id={'modify-hp-' + i} type={'number'}></input>
+          <input id={'initiative'} type={'number'}></input>
+          <input id={'name'} type={'text'} defaultValue={'Name'}></input>
+          <input id={'current-hp'} type={'number'} value={this.state.currentHp[1]} onChange={(e) => this.setState({ currentHp: [i, e.target.value] })}></input>
+          <input id={'add-hp'} type={'number'} onKeyDown={(e) => this.updateHP(items, i, e, 'add')}></input>
+          <input id={'remove-hp'} type={'number'} onKeyDown={(e) => this.updateHP(items, i, e, 'remove')}></input>
         </li>
       )
     }
 
     return (
       <div>
-        init count, name, current hp, add or remove hp
+        init count, name, current hp, add hp, remove hp
         <ul>
           {items}
         </ul>
       </div>
     )
+  }
+
+  updateHP(items, currentKey, value, check) {
+    if (value.key === 'Enter') {
+      items.map((val, key) => {
+        if (currentKey === key) {
+          val.props.children.map((child, i) => {
+            if (child.props.id === 'current-hp') {
+              if (check === 'add') {
+                this.setState({
+                  currentHp: [
+                    currentKey,
+                    parseInt(this.state.currentHp[1]) + parseInt(value.target.value)
+                  ]
+                })
+                value.target.value = null
+              } else if (check === 'remove') {
+                this.setState({
+                  currentHp: [
+                    currentKey,
+                    parseInt(this.state.currentHp[1]) - parseInt(value.target.value)
+                  ]
+                })
+                value.target.value = null
+              }
+            }
+          })
+        }
+      })
+    }
   }
 
   addItem() {

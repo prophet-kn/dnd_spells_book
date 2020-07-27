@@ -1,12 +1,22 @@
 import React from 'react'
 import { ReactSVG } from 'react-svg'
-import { cFC } from '../helpers/helpers';
+import { cFC } from '../helpers/helpers'
+
+// Create an array with key: damage type, value: actual path to svg
+const reqSVGs = require.context('../../svgs/', true, /\.svg$/)
+const svgs = reqSVGs.keys().reduce(
+  (images, path) => {
+    const key = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'))
+    images[key] = reqSVGs(path)
+    return images
+  }, {}
+)
 
 class Icon extends React.Component {
   render() {
     return (
       <ReactSVG
-        src = {"svgs/" + this.props.title + ".svg"}
+        src = {svgs[this.props.title]}
         className = "item-icon"
         role = "img"
         aria-label = {this.props.title}

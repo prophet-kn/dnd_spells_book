@@ -1,32 +1,35 @@
 @keyframes spin {
   0% {
-    opacity: 0;
     transform: rotate(0deg);
+    opacity: 0;
   }
+
   100% {
+    transform: rotate(90deg);
     opacity: 1;
-    transform: rotate(180deg);
   }
 }
 
 @keyframes fade-in {
   from {
-    opacity: 0;
     transform: translateY(-15px);
+    opacity: 0;
   }
 }
 
 @keyframes zoom {
   0% {
-    opacity: 0;
     transform: scale(.95);
+    opacity: 0;
   }
+
   50% {
-    opacity: .5;
     transform: scale(1.05);
+    opacity: .5;
   }
+
   100% {
-    opacity: 1;
     transform: scale(1);
+    opacity: 1;
   }
 }

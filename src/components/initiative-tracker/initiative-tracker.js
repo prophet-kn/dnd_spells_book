@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 class initiativeTracker extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
       items: 1,
       currentHp: [0, 0]
@@ -35,10 +35,13 @@ class initiativeTracker extends Component {
   }
 
   updateHP(items, currentKey, value, check) {
+    console.log(
+      this.state.currentHp
+    )
     if (value.key === 'Enter') {
-      items.map((val, key) => {
+      items.forEach((val, key) => {
         if (currentKey === key) {
-          val.props.children.map((child, i) => {
+          val.props.children.forEach((child, i) => {
             if (child.props.id === 'current-hp') {
               if (check === 'add') {
                 this.setState({

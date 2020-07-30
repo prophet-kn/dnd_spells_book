@@ -3661,7 +3661,7 @@
       "protection"
     ],
     "s_damage_dice": "2d8",
-    "s_damage_type": "cold",
+    "s_damage_type": "various",
     "s_class_usage": [
       "Wizard"
     ],

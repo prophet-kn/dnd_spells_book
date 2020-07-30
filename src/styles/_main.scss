@@ -515,8 +515,21 @@
     z-index: 1;
   }
 
+  &-icons {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   &-icon {
     margin-right: 5px;
+
+    @media only screen and (max-width: 600px) {
+      display: none;
+
+      &:first-child {
+        display: block;
+      }
+    }
   }
 
   &-dropdown {

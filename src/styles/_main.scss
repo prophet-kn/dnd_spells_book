@@ -3,6 +3,10 @@
   max-width: 600px;
   min-height: 100vh;
 
+  &-body {
+    margin: 0 5px;
+  }
+
   &-footer {
     display: flex;
     flex-flow: column;
@@ -518,6 +522,7 @@
   &-icons {
     display: flex;
     flex-direction: row-reverse;
+    margin-right: 5px;
   }
 
   &-icon {

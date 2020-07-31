@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from './icon'
 
 class Icons extends React.Component {
-  render() {
+  getIcons() {
     const icons = []
 
     for (const [index, value] of this.props.item.s_type.entries()) {
@@ -14,9 +14,13 @@ class Icons extends React.Component {
       }
     }
 
+    return icons
+  }
+
+  render() {
     return (
       <span className={'item-icons'}>
-        { icons }
+        { this.getIcons() }
       </span>
     )
   }

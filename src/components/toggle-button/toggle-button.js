@@ -1,5 +1,6 @@
 import React from 'react'
 import { cFC } from '../helpers/helpers'
+import propTypes from 'prop-types'
 
 class ToggleButton extends React.Component {
   constructor(props) {
@@ -33,6 +34,11 @@ class ToggleButton extends React.Component {
       <div key={this.props.c} className={classNames.join(' ')} onClick={this.onClickButton.bind(this)}>{label}</div>
     )
   }
+}
+
+ToggleButton.propTypes = {
+  onClick: propTypes.func,
+  type: propTypes.string
 }
 
 export default ToggleButton

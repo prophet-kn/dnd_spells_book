@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import propTypes from 'prop-types'
 
 class DiceRolls extends Component {
   constructor(props) {
@@ -185,6 +186,10 @@ class DiceRolls extends Component {
       </div>
     )
   }
+}
+
+DiceRolls.propTypes = {
+  onClick: propTypes.func
 }
 
 export default DiceRolls

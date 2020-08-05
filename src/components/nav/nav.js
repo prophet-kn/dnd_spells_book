@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link, withRouter } from 'react-router-dom'
+import propTypes from 'prop-types'
 
 class Nav extends Component {
   constructor(props) {
@@ -69,6 +70,10 @@ class Nav extends Component {
       </nav>
     )
   }
+}
+
+Nav.propTypes = {
+  history: propTypes.object
 }
 
 export default withRouter(Nav)

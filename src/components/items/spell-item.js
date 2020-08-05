@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ReactHtmlParser from 'react-html-parser'
 import Icons from '../icons/icons'
+import propTypes from 'prop-types'
 
 class SpellItem extends Component {
   constructor(props) {
@@ -68,6 +69,11 @@ class SpellItem extends Component {
       </div>
     )
   }
+}
+
+SpellItem.propTypes = {
+  pinStatus: propTypes.func,
+  spell: propTypes.object
 }
 
 export default SpellItem

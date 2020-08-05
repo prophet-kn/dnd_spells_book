@@ -1,4 +1,5 @@
 import React from 'react'
+import { cFC } from '../helpers/helpers'
 
 class ToggleButton extends React.Component {
   constructor(props) {
@@ -16,12 +17,6 @@ class ToggleButton extends React.Component {
     })
   }
 
-  // cFC - capitalize First Character
-  cFC(string) {
-    var capital = string.charAt(0).toUpperCase() + string.slice(1)
-    return capital
-  }
-
   render() {
     const classNames = ['btn']
 
@@ -31,7 +26,7 @@ class ToggleButton extends React.Component {
 
     let label = ''
     if (this.props.type !== undefined) {
-      label = this.cFC(this.props.type.toString())
+      label = cFC(this.props.type.toString())
     }
 
     return (

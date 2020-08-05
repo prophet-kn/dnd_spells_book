@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactHtmlParser from 'react-html-parser'
-import { ReactSVG } from 'react-svg'
+import Icons from '../icons/icons'
 
 class SpellItem extends Component {
   constructor(props) {
@@ -52,21 +52,11 @@ class SpellItem extends Component {
     const spellItem = this.props.spell
     const i = spellItem.s_id
 
-    // Create an array with key: damage type, value: actual path to svg
-    const reqSVGs = require.context('../../svgs/', true, /\.svg$/)
-    const svgs = reqSVGs.keys().reduce(
-      (images, path) => {
-        const key = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'))
-        images[key] = reqSVGs(path)
-        return images
-      }, {}
-    )
-
     return (
       <div className={this.state.showList === i ? 'item-dropdown' : 'item-dropdown hide-child'}>
         <div className={'item-name'} onClick={(e) => { this.addClassName(e, i) }}>
           <span className={'item-label'}>{spellItem.s_name}</span>
-          {spellItem.s_damage_type !== 'None' && <ReactSVG src={svgs[spellItem.s_damage_type]} className="item-damage-icon" beforeInjection={svg => { svg.setAttribute('style', 'height: 28px') }}/>}
+          <Icons item={spellItem}/>
           <div className={'item-tooltip'}>L: {spellItem.s_lvl.slice(0, 1)}</div>
           <svg className={this.state.showList === i ? 'chevron opened' : 'chevron'} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
         </div>

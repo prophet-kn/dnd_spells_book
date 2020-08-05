@@ -23,7 +23,7 @@ jobs:
         node-version: 12
     - name: Build Test
       run: |
-        npm install
+        yarn install
         yarn gulp sass
-        npm run build --if-present
-        npm audit fix
+        yarn run build --if-present
+        yarn audit fix

@@ -3,6 +3,10 @@
   max-width: 600px;
   min-height: 100vh;
 
+  &-body {
+    margin: 0 5px;
+  }
+
   &-footer {
     display: flex;
     flex-flow: column;
@@ -468,6 +472,7 @@
       padding-top: 10px;
       padding-bottom: 3px;
       border-top: 2px solid;
+      line-height: 20px;
     }
   }
 
@@ -489,6 +494,16 @@
         margin-bottom: 0;
       }
     }
+
+    table {
+      width: 100%;
+      margin-bottom: 10px;
+      border-collapse: collapse;
+
+      th {
+        border-bottom: 1px solid;
+      }
+    }
   }
 
   &-undefined {
@@ -504,8 +519,22 @@
     z-index: 1;
   }
 
-  &-damage-icon {
-    margin-right: 15px;
+  &-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5px;
+  }
+
+  &-icon {
+    margin-right: 5px;
+
+    @media only screen and (max-width: 600px) {
+      display: none;
+
+      &:first-child {
+        display: block;
+      }
+    }
   }
 
   &-dropdown {

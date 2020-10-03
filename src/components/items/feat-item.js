@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactHtmlParser from 'react-html-parser'
+import propTypes from 'prop-types'
 
 class featItem extends Component {
   constructor(props) {
@@ -61,6 +62,11 @@ class featItem extends Component {
       </div>
     )
   }
+}
+
+featItem.propTypes = {
+  pinStatus: propTypes.func,
+  feat: propTypes.object
 }
 
 export default featItem

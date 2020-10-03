@@ -1,6 +1,7 @@
 import React from 'react'
 import { ReactSVG } from 'react-svg'
 import { cFC } from '../helpers/helpers'
+import propTypes from 'prop-types'
 
 // Create an array with key: damage type, value: actual path to svg
 const reqSVGs = require.context('../../svgs/', true, /\.svg$/)
@@ -32,6 +33,10 @@ class Icon extends React.Component {
       />
     )
   }
+}
+
+Icon.propTypes = {
+  title: propTypes.string
 }
 
 export default Icon

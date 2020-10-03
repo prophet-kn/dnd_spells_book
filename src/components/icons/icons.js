@@ -1,5 +1,6 @@
 import React from 'react'
 import Icon from './icon'
+import propTypes from 'prop-types'
 
 class Icons extends React.Component {
   getIcons() {
@@ -24,6 +25,10 @@ class Icons extends React.Component {
       </span>
     )
   }
+}
+
+Icons.propTypes = {
+  item: propTypes.object
 }
 
 export default Icons

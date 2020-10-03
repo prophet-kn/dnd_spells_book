@@ -503,6 +503,11 @@
       th {
         border-bottom: 1px solid;
       }
+
+      td:first-child {
+        width: 30%;
+        white-space: nowrap;
+      }
     }
   }
 

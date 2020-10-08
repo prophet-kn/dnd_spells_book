@@ -58,6 +58,15 @@ const uniqueRitual = sortRitual.map(function(rituals) {
   .uniq()
   .value()
 
+const sortRange = _.chain(Data)
+const uniqueRange = sortRange.map(function(ranges) {
+  return ranges.s_range
+})
+  .sort()
+  .flatten()
+  .uniq()
+  .value()
+
 const thisUrl = new URL(window.location)
 const spellParamUrls = new URLSearchParams(thisUrl.searchParams)
 
@@ -77,7 +86,8 @@ class SpellsTable extends Component {
         'Effect Type': [],
         'Damage Type': [],
         Class: [],
-        Ritual: []
+        Ritual: [],
+        Range: []
       }
     }
 
@@ -121,6 +131,7 @@ class SpellsTable extends Component {
         <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
         <FilterDataButtons title={'Damage Type'} values={uniqueDamageType} setFilter={this.setFilter} />
         <FilterDataButtons title={'Ritual'} values={uniqueRitual} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Range'} values={uniqueRange} setFilter={this.setFilter} />
       </div>
     )
   }
@@ -226,6 +237,9 @@ class SpellsTable extends Component {
       })
       .filter((spell) => {
         return _.includes(sortFilters.Ritual, spell.s_ritual) || sortFilters.Ritual.length === 0
+      })
+      .filter((spell) => {
+        return _.includes(sortFilters.Range, spell.s_range) || sortFilters.Range.length === 0
       })
       .filter((spell) => {
         return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''

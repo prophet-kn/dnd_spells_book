@@ -30,7 +30,7 @@ class SpellItem extends Component {
           </div>
           <div className={'item-details'}>
             <div className={'item-casting-time'}><b>Casting Time:</b> {spellItem.s_cast_time}</div>
-            <div className={'item-range'}><b>Range:</b> {spellItem.s_range}</div>
+            <div className={'item-range'}><b>Range:</b> {spellItem.s_range} {spellItem.s_area !== 'None' && <span>({spellItem.s_area})</span>}</div>
             <div className={'item-components'}><b>Components:</b> {spellItem.s_components}</div>
             <div className={'item-duration'}><b>Duration:</b> {spellItem.s_duration}</div>
             {spellItem.s_damage_type !== 'None' && <div className={'item-damage'}><b>Damage:</b> {spellItem.s_damage_dice} {spellItem.s_damage_type}</div>}

@@ -7,6 +7,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -28,6 +29,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a morsel of food)",
     "s_duration": "24 hours",
     "s_type": [
@@ -50,6 +52,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a tiny strip of white cloth)",
     "s_duration": "8 hours",
     "s_type": [
@@ -73,6 +76,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of blood, a piece of flesh and a pinch of bone dust)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -94,6 +98,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -115,6 +120,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a tiny bell and a piece of fine silver wire)",
     "s_duration": "8 hours",
     "s_type": [
@@ -137,6 +143,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -159,6 +166,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a morsel of food)",
     "s_duration": "24 hours",
     "s_type": [
@@ -181,6 +189,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 24 hours",
     "s_type": [
@@ -201,6 +210,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of sponge)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -222,6 +232,7 @@
     "s_ritual": false,
     "s_cast_time": "1 reaction",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "1 round",
     "s_type": [
@@ -246,6 +257,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a red dragon’s scale)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -266,7 +278,8 @@
     "s_school": "Abjuration",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (10-foot radius)",
+    "s_range": "Self",
+    "s_area": "10-foot radius",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -286,7 +299,8 @@
     "s_school": "Abjuration",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (10-foot-radius sphere)",
+    "s_range": "Self",
+    "s_area": "10-foot-radius sphere",
     "s_components": "V, S M (a pinch of powdered iron or iron filings)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -308,6 +322,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect)",
     "s_duration": "10 days",
     "s_type": [
@@ -330,6 +345,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of bat fur)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -351,6 +367,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "500 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -373,6 +390,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (gold dust worth at least 25 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -394,6 +412,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a cup of water)",
     "s_duration": "1 hour",
     "s_type": [
@@ -414,7 +433,8 @@
     "s_school": "Conjuration",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (10-foot radius)",
+    "s_range": "Self",
+    "s_area": "10-foot radius",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -435,6 +455,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S, M (for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes)",
     "s_duration": "Special",
     "s_type": [
@@ -457,6 +478,7 @@
     "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (specially marked sticks, bones, or similar tokens worth at least 25 gp)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -476,7 +498,8 @@
     "s_school": "Abjuration",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (30-foot radius)",
+    "s_range": "Self",
+    "s_area": "30-foot radius",
     "s_components": "V",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -497,7 +520,8 @@
     "s_school": "Abjuration",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (30-foot radius)",
+    "s_range": "Self",
+    "s_area": "30-foot radius",
     "s_components": "V",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -517,7 +541,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (30-foot radius)",
+    "s_range": "Self",
+    "s_area": "30-foot radius",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -538,6 +563,7 @@
     "s_ritual": false,
     "s_cast_time": "8 hours",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (an agate worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -560,6 +586,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (A drop of blood)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -581,6 +608,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -603,6 +631,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (an item distasteful to the target)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -628,6 +657,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (A handful of oak bark)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -649,6 +679,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -669,6 +700,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of fur wrapped in a cloth)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -690,6 +722,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -711,6 +744,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -733,6 +767,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (An eggshell and a snakeskin glove)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -756,6 +791,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -776,6 +812,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 round",
     "s_type": [
@@ -799,6 +836,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a sprinkling of holy water)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -820,6 +858,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -843,6 +882,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -864,6 +904,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "1 minute",
     "s_type": [
@@ -888,6 +929,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 minute",
     "s_type": [
@@ -910,6 +952,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -932,6 +975,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -953,6 +997,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
+    "s_area": "None",
     "s_components": "V, M (a weapon)",
     "s_duration": "1 round",
     "s_type": [
@@ -976,6 +1021,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -996,7 +1042,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (15-foot cone)",
+    "s_range": "Self",
+    "s_area": "15-foot cone",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1018,6 +1065,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -1038,6 +1086,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -1060,6 +1109,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1081,6 +1131,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "S, M (a pinch of sand)",
     "s_duration": "10 minutes",
     "s_type": [
@@ -1103,6 +1154,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -1125,6 +1177,7 @@
     "s_ritual": true,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (25 gp worth of powdered silver, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1146,6 +1199,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1167,6 +1221,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1187,6 +1242,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 hour",
     "s_type": [
@@ -1211,6 +1267,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 hour",
     "s_type": [
@@ -1235,6 +1292,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 round",
     "s_type": [
@@ -1257,6 +1315,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a diamond worth at least 50 gp)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1278,6 +1337,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (the powder of a crushed black pearl worth at least 500 gp)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1299,7 +1359,8 @@
     "s_school": "Abjuration",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (30-foot radius)",
+    "s_range": "Self",
+    "s_area": "30-foot radius",
     "s_components": "V",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -1320,6 +1381,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "1 mile",
+    "s_area": "None",
     "s_components": "V, S, M (a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for seeing",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -1344,6 +1406,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a sarcophagus",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1365,6 +1428,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a sliver of glass)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -1388,6 +1452,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -1408,7 +1473,8 @@
     "s_school": "Illusion",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (15-foot cone)",
+    "s_range": "Self",
+    "s_area": "15-foot cone",
     "s_components": "V, S, M (A pinch of powder or sand that is colored red, yellow, and blue)",
     "s_duration": "1 round",
     "s_type": [
@@ -1430,6 +1496,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "1 round",
     "s_type": [
@@ -1452,6 +1519,7 @@
     "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (incense and a vial of holy or unholy water",
     "s_duration": "1 minute",
     "s_type": [
@@ -1472,6 +1540,7 @@
     "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 minute",
     "s_type": [
@@ -1493,6 +1562,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -1514,6 +1584,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of soot and salt)",
     "s_duration": "1 hour",
     "s_type": [
@@ -1537,6 +1608,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -1557,7 +1629,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (60-foot cone)",
+    "s_range": "Self",
+    "s_area": "60-foot cone",
     "s_components": "V, S, M (a small crystal or glass cone)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1579,6 +1652,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (three nut shells)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -1603,6 +1677,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -1623,7 +1698,8 @@
     "s_school": "Conjuration",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (60-foot cone)",
+    "s_range": "Self",
+    "s_area": "60-foot cone",
     "s_components": "V, S, M (one piece of ammunition or a thrown weapon)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1644,6 +1720,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -1664,6 +1741,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -1685,6 +1763,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -1706,6 +1785,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -1727,6 +1807,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (one piece of ammunition or one thrown weapon)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1747,6 +1828,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (one holly berry per creature summoned)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -1768,6 +1850,7 @@
     "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "1 minute",
     "s_type": [
@@ -1790,6 +1873,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "7 days",
     "s_type": [
@@ -1812,6 +1896,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp)",
     "s_duration": "10 days",
     "s_type": [
@@ -1832,6 +1917,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (ruby dust worth 50 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -1854,6 +1940,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Instantaneous or 1 hour",
     "s_type": [
@@ -1877,6 +1964,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of water and a pinch of dust)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -1901,7 +1989,8 @@
     "s_school": "Transmutation",
     "s_ritual": false,
     "s_cast_time": "10 minutes",
-    "s_range": "Self (5-mile radius)",
+    "s_range": "Self",
+    "s_area": "5-mile radius",
     "s_components": "V, S, M (burning incense and bits of earth and wood mixed in water)",
     "s_duration": "Concentration, up to 8 hours",
     "s_type": [
@@ -1924,6 +2013,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -1949,6 +2039,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
+    "s_area": "None",
     "s_components": "V, S, M (four or more arrows or bolts)",
     "s_duration": "8 hours",
     "s_type": [
@@ -1971,6 +2062,7 @@
     "s_ritual": false,
     "s_cast_time": "1 reaction",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -1993,6 +2085,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2016,6 +2109,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2037,6 +2131,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (clay, ash, and mandrake root, all of which the spell consumes, and a jewel-encrusted dagger worth at least 1,000 gp)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2057,6 +2152,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of water if creating water or a few grains of sand if destroying it)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2078,6 +2174,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S, M (one clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2100,6 +2197,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a tiny piece of matter of the same type of the item you plan to create",
     "s_duration": "Special",
     "s_type": [
@@ -2122,6 +2220,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2146,6 +2245,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 hour",
     "s_type": [
@@ -2169,6 +2269,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2189,6 +2290,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2214,6 +2316,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of phosphorus or wychwood, or a glowworm)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2237,6 +2340,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -2258,6 +2362,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, M (bat fur and a drop of pitch or piece of coal)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -2280,6 +2385,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (either a pinch of dried carrot or an agate)",
     "s_duration": "8 hours",
     "s_type": [
@@ -2304,6 +2410,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a sunburst pendant worth at least 100 gp)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2326,6 +2433,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 hour",
     "s_type": [
@@ -2350,6 +2458,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "8 hours",
     "s_type": [
@@ -2373,6 +2482,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a tiny ball of bat guano and sulfur)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2394,6 +2504,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "1 hour",
     "s_type": [
@@ -2415,7 +2526,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (30-foot radius)",
+    "s_range": "Self",
+    "s_area": "30-foot radius",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2436,6 +2548,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -2457,6 +2570,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -2483,6 +2597,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a yew leaf)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -2506,6 +2621,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a copper piece)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2528,6 +2644,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "500 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2551,6 +2668,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 hour",
     "s_type": [
@@ -2574,6 +2692,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a lodestone and a pinch of dust)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2595,6 +2714,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (holy water or powdered silver and iron)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2617,6 +2737,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2643,6 +2764,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2663,6 +2785,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2683,6 +2806,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2703,6 +2827,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2725,6 +2850,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2748,6 +2874,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -2772,6 +2899,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2796,6 +2924,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a hot pepper)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2817,6 +2946,7 @@
     "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a sapphire worth 1,000 gp)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -2838,6 +2968,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Special",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins) (a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird)",
     "s_duration": "8 hours",
     "s_type": [
@@ -2861,6 +2992,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (mistletoe, which the spell consumes, that was harvested with a golden sickle under the light of a full moon)",
     "s_duration": "24 hours",
     "s_type": [
@@ -2882,6 +3014,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2903,6 +3036,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of dust)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2924,7 +3058,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (10-foot radius)",
+    "s_range": "Self",
+    "s_area": "10-foot radius",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -2948,6 +3083,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2971,6 +3107,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "500 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch o f dirt, a piece o f rock, and a lump of clay)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -2993,6 +3130,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3013,6 +3151,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3035,6 +3174,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -3055,6 +3195,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3079,6 +3220,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3101,6 +3243,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (fur or a feather from a beast)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -3125,6 +3268,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of powdered iron)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3147,6 +3291,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3168,6 +3313,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3188,6 +3334,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 minute",
     "s_type": [
@@ -3209,6 +3356,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a piece of obsidian)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3231,6 +3379,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Up to 8 hours",
     "s_type": [
@@ -3258,6 +3407,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a piece of tentacle from a giant octopus or a giant squid)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3279,6 +3429,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -3303,6 +3454,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3326,6 +3478,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3347,6 +3500,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3369,6 +3523,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a small amount of alcohol or distilled spirits)",
     "s_duration": "1 hour",
     "s_type": [
@@ -3391,6 +3546,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3412,7 +3568,8 @@
     "s_school": "Illusion",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (30-foot cone)",
+    "s_range": "Self",
+    "s_area": "30-foot cone",
     "s_components": "V, S, M (a white feather or the heart of a hen)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3438,6 +3595,7 @@
     "s_ritual": false,
     "s_cast_time": "1 reaction",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, M (a small feather or piece of down)",
     "s_duration": "1 minute",
     "s_type": [
@@ -3460,6 +3618,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a handful of clay, crystal, glass, or mineral spheres)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3482,7 +3641,8 @@
     "s_school": "Necromancy",
     "s_ritual": true,
     "s_cast_time": "1 action",
-    "s_range": "touch",
+    "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of graveyard dirt)",
     "s_duration": "1 hour",
     "s_type": [
@@ -3506,6 +3666,7 @@
     "s_ritual": true,
     "s_cast_time": "1 hour",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3528,6 +3689,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3550,6 +3712,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3572,7 +3735,8 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Self",
-    "s_components": "V, S, M (a set of divinatory tools - such as bones, ivory sticks, cards, teeth, or carved runes - worth 100 gp and an object from the location you wish to find)",
+    "s_area": "None",
+    "s_components": "V, S, M (a set of divinatory tools – such as bones, ivory sticks, cards, teeth, or carved runes – worth 100 gp and an object from the location you wish to find)",
     "s_duration": "Concentration, up to 1 day",
     "s_type": [
       "knowledge"
@@ -3594,6 +3758,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3616,6 +3781,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3638,6 +3804,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3659,6 +3826,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of phosphorus or a firefly)",
     "s_duration": "10 minutes",
     "s_type": [
@@ -3680,6 +3848,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3702,6 +3871,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a tiny ball of bat guano and sulfur)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3723,6 +3893,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -3746,6 +3917,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (leaf of sumac)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -3767,6 +3939,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (pinch of sulfur)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -3787,6 +3960,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3809,6 +3983,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of lime, water, and earth)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3830,6 +4005,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a wing feather from any bird)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -3853,6 +4029,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -3876,6 +4053,7 @@
     "s_ritual": true,
     "s_cast_time": "10 minutes",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp)",
     "s_duration": "1 day",
     "s_type": [
@@ -3897,6 +4075,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "100 feet",
+    "s_area": "None",
     "s_components": "V, S, M (ruby dust worth 1,500 gp)",
     "s_duration": "1 hour",
     "s_type": [
@@ -3919,6 +4098,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a hummingbird feather)",
     "s_duration": "8 hours",
     "s_type": [
@@ -3944,6 +4124,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
     "s_duration": "1 hour",
     "s_type": [
@@ -3968,6 +4149,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "S, M (a small amount of makeup applied to the face as this spell is cast)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -3992,6 +4174,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4015,6 +4198,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of gauze and a wisp of smoke)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -4039,6 +4223,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a diamond worth at least 5,000 gp)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4062,6 +4247,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "30 days",
     "s_type": [
@@ -4086,6 +4272,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of salt and one copper piece placed on each of the corpse’s eyes, which must remain there for the duration)",
     "s_duration": "10 days",
     "s_type": [
@@ -4107,6 +4294,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -4127,6 +4315,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "1 hour",
     "s_type": [
@@ -4148,7 +4337,8 @@
     "s_school": "Abjuration",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (10-foot radius)",
+    "s_range": "Self",
+    "s_area": "10-foot radius",
     "s_components": "V, S, M (a glass or crystal bead that shatters when the spell ends)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4170,6 +4360,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (incense and powdered diamond worth at least 200 gp, which the spell consumes)",
     "s_duration": "Until dispelled or triggered",
     "s_type": [
@@ -4194,6 +4385,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a sprig of mistletoe)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4216,6 +4408,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4238,6 +4431,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of pork rind or butter)",
     "s_duration": "1 minute",
     "s_type": [
@@ -4258,6 +4452,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4280,6 +4475,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4302,6 +4498,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
+    "s_area": "None",
     "s_components": "V, M (a weapon)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4324,6 +4521,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "8 hours",
     "s_type": [
@@ -4344,6 +4542,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4365,6 +4564,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp)",
     "s_duration": "24 hours",
     "s_type": [
@@ -4388,6 +4588,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4409,6 +4610,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 round",
     "s_type": [
@@ -4430,6 +4632,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4453,7 +4656,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (60-foot line)",
+    "s_range": "Self",
+    "s_area": "60-foot line",
     "s_components": "V, S, M (a legume seed)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4477,6 +4681,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4497,6 +4702,7 @@
     "s_ritual": false,
     "s_cast_time": "24 hours",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (herbs, oils, and incense worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -4519,6 +4725,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "300 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a stone, a twig, and a bit of green plant)",
     "s_duration": "24 hours",
     "s_type": [
@@ -4542,6 +4749,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4562,6 +4770,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a shaving of licorice root)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4584,6 +4793,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4605,6 +4815,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4626,6 +4837,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4648,6 +4860,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a piece of iron and a flame)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4669,6 +4882,7 @@
     "s_ritual": false,
     "s_cast_time": "1 reaction",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4689,6 +4903,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4711,6 +4926,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4732,6 +4948,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (the petrified eye of a newt)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -4753,6 +4970,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a small, straight piece of iron)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4776,6 +4994,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a small, straight piece of iron)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4801,6 +5020,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint’s robe or a piece of parchment from a religious text)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4824,6 +5044,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -4846,6 +5067,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pickled octopus tentacle)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4866,6 +5088,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -4887,6 +5110,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4911,6 +5135,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "S, M (a drop of water or piece of ice)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4933,6 +5158,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of dust and a few drops of water)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4955,6 +5181,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a pearl worth at least 100 gp and an owl feather)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -4976,6 +5203,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -4996,6 +5224,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "S, M (a lead-based ink worth at least 10 gp, which the spell consumes)",
     "s_duration": "10 days",
     "s_type": [
@@ -5018,6 +5247,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -5040,6 +5270,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500 gp per Hit Die of the target)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -5062,6 +5293,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -5083,6 +5315,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a ruby worth at least 999 gp)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -5106,6 +5339,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a living flea)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5129,6 +5363,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5149,6 +5384,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a few grains of sugar, some kernels of grain, and a smear of fat)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5171,6 +5407,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5195,6 +5432,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5218,6 +5456,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5241,6 +5480,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5265,6 +5505,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (an eyelash encased in gum arabic)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -5289,6 +5530,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a small piece of adamantine worth at least 500 gp, which the spell consumes)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5309,6 +5551,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a grasshopper’s hind leg)",
     "s_duration": "1 minute",
     "s_type": [
@@ -5333,6 +5576,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5355,6 +5599,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5377,6 +5622,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (an exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5397,7 +5643,8 @@
     "s_school": "Evocation",
     "s_ritual": true,
     "s_cast_time": "1 minute",
-    "s_range": "Self (10-foot-radius hemisphere)",
+    "s_range": "Self",
+    "s_area": "10-foot-radius hemisphere",
     "s_components": "V, S, M (a small crystal bead)",
     "s_duration": "8 hours",
     "s_type": [
@@ -5420,6 +5667,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5445,6 +5693,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5467,6 +5716,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5488,6 +5738,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, M (a firefly or phosphorescent moss)",
     "s_duration": "1 hour",
     "s_type": [
@@ -5511,6 +5762,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -5530,7 +5782,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (100-foot line)",
+    "s_range": "Self",
+    "s_area": "100-foot line",
     "s_components": "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5552,6 +5805,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "15 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5574,6 +5828,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of fur from a bloodhound)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5596,6 +5851,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of fur from a bloodhound)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -5621,6 +5877,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a forked twig)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5646,6 +5903,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of dirt)",
     "s_duration": "1 hour",
     "s_type": [
@@ -5670,6 +5928,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, M (a drop of pitch mixed with a drop of mercury)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5691,6 +5950,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, M (paper or leaf in the shape of a funnel)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5711,6 +5971,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a piece of cured leather)",
     "s_duration": "8 hours",
     "s_type": [
@@ -5732,6 +5993,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 minute",
     "s_type": [
@@ -5755,6 +6017,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S, M (holy water or powdered silver and iron worth at least 100 gp, which the spell consumes)",
     "s_duration": "1 hour",
     "s_type": [
@@ -5778,6 +6041,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a gem, crystal, reliquary, or some other ornamental container worth at least 500 gp)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -5798,6 +6062,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5819,6 +6084,7 @@
     "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a small bit of honeycomb and jade dust worth at least 10 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -5840,6 +6106,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 minute",
     "s_type": [
@@ -5861,6 +6128,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -5883,6 +6151,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of fleece)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -5906,6 +6175,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5928,6 +6198,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5948,6 +6219,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -5968,6 +6240,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a caterpillar cocoon)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -5990,6 +6263,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, M (a snake’s tongue and either a bit of honeycomb or a drop of sweet oil)",
     "s_duration": "24 hours",
     "s_type": [
@@ -6013,6 +6287,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a miniature hand sculpted from clay)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -6034,6 +6309,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -6055,6 +6331,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "8 hours",
     "s_type": [
@@ -6076,6 +6353,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (powdered rhubarb leaf and an adder’s stomach)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6096,6 +6374,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (niter, sulfur, and pine tar formed into a bead)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -6117,6 +6396,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (two lodestones)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6141,6 +6421,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -6165,6 +6446,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a short piece of copper wire)",
     "s_duration": "1 round",
     "s_type": [
@@ -6187,6 +6469,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "1 mile",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6208,6 +6491,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "1 mile",
+    "s_area": "None",
     "s_components": "V, S, M (a diamond worth at least 500 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6229,6 +6513,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "24 hours",
     "s_type": [
@@ -6250,6 +6535,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -6272,6 +6558,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "S, M (a bit of fleece)",
     "s_duration": "1 minute",
     "s_type": [
@@ -6295,6 +6582,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Sight",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "10 days",
     "s_type": [
@@ -6317,6 +6605,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 minute",
     "s_type": [
@@ -6343,6 +6632,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -6367,6 +6657,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6389,6 +6680,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -6410,6 +6702,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Instantaneous or 1 hour",
     "s_type": [
@@ -6432,6 +6725,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -6453,6 +6747,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a tiny silver whistle, a piece of bone, and a thread)",
     "s_duration": "8 hours",
     "s_type": [
@@ -6474,6 +6769,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp)",
     "s_duration": "24 hours",
     "s_type": [
@@ -6496,6 +6792,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite)",
     "s_duration": "24 hours",
     "s_type": [
@@ -6518,6 +6815,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -6539,6 +6837,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (an iron blade and a small bag containing a mixture of soils-clay, loam, and sand)",
     "s_duration": "Concentration, up to 2 hours",
     "s_type": [
@@ -6561,6 +6860,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a broken bone and a square of black silk)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6582,6 +6882,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes)",
     "s_duration": "8 hours",
     "s_type": [
@@ -6604,6 +6905,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a small square of silk)",
     "s_duration": "24 hours",
     "s_type": [
@@ -6625,6 +6927,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a small crystal sphere)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6646,6 +6949,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -6668,6 +6972,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -6690,6 +6995,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (ashes from a burned leaf of mistletoe and a sprig of spruce)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -6711,6 +7017,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of sesame seeds)",
     "s_duration": "1 hour",
     "s_type": [
@@ -6731,6 +7038,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of fleece)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -6756,6 +7064,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -6779,6 +7088,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 hour",
     "s_type": [
@@ -6800,6 +7110,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6820,6 +7131,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a jewel worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "24 hours",
     "s_type": [
@@ -6843,6 +7155,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6867,6 +7180,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action or 8 hours",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6890,6 +7204,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6913,6 +7228,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a caterpillar cocoon)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -6936,6 +7252,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6956,6 +7273,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -6979,6 +7297,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7002,6 +7321,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7025,6 +7345,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7045,6 +7366,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Up to 1 hour",
     "s_type": [
@@ -7068,6 +7390,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7088,6 +7411,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -7107,7 +7431,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (60-foot cone)",
+    "s_range": "Self",
+    "s_area": "60-foot cone",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7130,6 +7455,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "10 minutes",
     "s_type": [
@@ -7152,6 +7478,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "10 minutes",
     "s_type": [
@@ -7173,6 +7500,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of fleece and jade dust worth at least 25 gp)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -7194,6 +7522,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "500 miles",
+    "s_area": "None",
     "s_components": "V, S, M (a small replica of you made from materials worth at least 5 gp)",
     "s_duration": "Concentration, up to 1 day",
     "s_type": [
@@ -7216,6 +7545,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -7241,6 +7571,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (holy water or powdered silver and iron, which the spell consumes)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -7264,6 +7595,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 hour",
     "s_type": [
@@ -7288,6 +7620,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7312,6 +7645,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7334,6 +7668,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7356,6 +7691,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a diamond worth at least 500 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7378,6 +7714,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (pieces of eggshell from two different kinds of creatures)",
     "s_duration": "1 hour",
     "s_type": [
@@ -7398,6 +7735,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -7419,6 +7757,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7440,6 +7779,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7461,6 +7801,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a prayer wheel and holy water)",
     "s_duration": "1 hour",
     "s_type": [
@@ -7483,6 +7824,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (rare oils and unguents worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7503,6 +7845,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7526,6 +7869,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a miniature cloak)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -7547,6 +7891,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a diamond worth at least 1,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7568,6 +7913,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "100 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a lodestone and iron filings)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -7592,6 +7938,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (diamonds worth 300 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7614,6 +7961,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (powdered corn extract and a twisted loop of parchment)",
     "s_duration": "1 hour",
     "s_type": [
@@ -7636,6 +7984,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7656,6 +8005,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a small silver mirror)",
     "s_duration": "1 minute",
     "s_type": [
@@ -7677,6 +8027,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7700,6 +8051,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7721,6 +8073,7 @@
     "s_ritual": false,
     "s_cast_time": "10 minutes",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -7746,6 +8099,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -7766,6 +8120,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of talc and a small sprinkling of powdered silver)",
     "s_duration": "1 hour",
     "s_type": [
@@ -7789,6 +8144,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "8 hours",
     "s_type": [
@@ -7811,6 +8167,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Unlimited",
+    "s_area": "None",
     "s_components": "V, S, M (a short piece of fine copper wire)",
     "s_duration": "1 round",
     "s_type": [
@@ -7833,6 +8190,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -7854,6 +8212,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -7876,6 +8235,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (an undead eyeball encased in a gem worth at least 150 gp)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -7897,6 +8257,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Instantaneous or 1 hour",
     "s_type": [
@@ -7920,6 +8281,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -7942,6 +8304,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a chip of mica)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -7965,6 +8328,7 @@
     "s_ritual": false,
     "s_cast_time": "1 reaction",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 round",
     "s_type": [
@@ -7986,6 +8350,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a small parchment with a bit of holy text written on it)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -8008,6 +8373,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (mistletoe, a shamrock leaf, and a club or quarterstaff)",
     "s_duration": "1 minute",
     "s_type": [
@@ -8028,6 +8394,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -8049,6 +8416,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -8071,6 +8439,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -8093,6 +8462,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of fleece)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -8115,6 +8485,7 @@
     "s_ritual": false,
     "s_cast_time": "12 hours",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (snow or ice in quantities sufficient to made a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature’s body placed inside the snow or ice; and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell)",
     "s_duration": "Until dispelled",
     "s_type": [
@@ -8135,6 +8506,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -8157,6 +8529,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Sight",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -8180,6 +8553,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of fine sand, rose petals, or a cricket)",
     "s_duration": "1 minute",
     "s_type": [
@@ -8203,6 +8577,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of dust and a few drops of water)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -8225,6 +8600,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of molasses)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -8246,6 +8622,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "S, M (25 feet of rope, which the spell consumes)",
     "s_duration": "8 hours",
     "s_type": [
@@ -8268,6 +8645,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a piece of ice or a small white rock chip)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -8289,6 +8667,7 @@
     "s_ritual": false,
     "s_cast_time": "1 reaction",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a tiny silver cage worth 100 gp)",
     "s_duration": "8 hours",
     "s_type": [
@@ -8313,6 +8692,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -8333,6 +8713,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "10 minutes",
     "s_type": [
@@ -8355,6 +8736,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S, M (burning incense)",
     "s_duration": "10 minutes",
     "s_type": [
@@ -8377,7 +8759,8 @@
     "s_school": "Transmutation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (30-foot radius)",
+    "s_range": "Self",
+    "s_area": "30-foot radius",
     "s_components": "V, S",
     "s_duration": "10 minutes",
     "s_type": [
@@ -8401,6 +8784,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of bitumen and a spider)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -8424,6 +8808,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (seven sharp thorns or seven small twigs, each sharpened to a point)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -8444,7 +8829,8 @@
     "s_school": "Conjuration",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (15-foot-radius)",
+    "s_range": "Self",
+    "s_area": "15-foot-radius",
     "s_components": "V, S, M (a holy symbol)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -8466,6 +8852,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 minute",
     "s_type": [
@@ -8486,6 +8873,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -8506,6 +8894,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "S, M (a melee weapon worth at least 1 sp)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -8528,6 +8917,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a rotten egg or several skunk cabbage leaves)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -8550,6 +8940,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (soft clay, which must be worked into roughly the desired shape of the stone object)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -8573,6 +8964,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -8597,6 +8989,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Sight",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -8619,6 +9012,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -8640,6 +9034,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, M (a snake’s tongue and either a bit of honeycomb or a drop of sweet oil)",
     "s_duration": "Concentration, up to 8 hours",
     "s_type": [
@@ -8663,6 +9058,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a vial of blood from a humanoid killed within the past 24 hours)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -8684,6 +9080,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a vial of blood from a humanoid killed within the past 24 hours)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -8704,7 +9101,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (60-foot line)",
+    "s_range": "Self",
+    "s_area": "60-foot line",
     "s_components": "V, S, M (a magnifying glass)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -8729,6 +9127,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (fire and a piece of sunstone)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -8753,6 +9152,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a quiver containing at least one piece of ammunition)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -8773,6 +9173,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -8795,6 +9196,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes)",
     "s_duration": "Until dispelled or triggered",
     "s_type": [
@@ -8820,6 +9222,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -8844,6 +9247,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (tiny tarts and a feather that is waved in the air)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -8866,6 +9270,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -8887,6 +9292,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Unlimited",
+    "s_area": "None",
     "s_components": "V, S, M (a pair of linked silver rings)",
     "s_duration": "24 hours",
     "s_type": [
@@ -8907,6 +9313,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -8929,6 +9336,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, M (rare chalks and inks infused with precious gems with 50 gp, which the spell consumes)",
     "s_duration": "1 round",
     "s_type": [
@@ -8951,6 +9359,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a holy symbol worth at least 5 gp)",
     "s_duration": "24 hours",
     "s_type": [
@@ -8974,6 +9383,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of mercury)",
     "s_duration": "1 hour",
     "s_type": [
@@ -8994,6 +9404,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a few hairs from a bull)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -9015,6 +9426,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Up to 1 minute",
     "s_type": [
@@ -9035,6 +9447,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (the stem of a plant with thorns)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9056,6 +9469,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9079,6 +9493,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9103,6 +9518,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9122,7 +9538,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (15-foot cube)",
+    "s_range": "Self",
+    "s_area": "15-foot cube",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9146,6 +9563,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of water)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9168,6 +9586,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9189,6 +9608,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "8 hours",
     "s_type": [
@@ -9209,6 +9629,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9231,6 +9652,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, M (a small clay model of a ziggurat)",
     "s_duration": "1 hour",
     "s_type": [
@@ -9255,6 +9677,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (clay and water)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9277,6 +9700,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 round",
     "s_type": [
@@ -9297,6 +9721,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9318,6 +9743,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of mercury, a dollop of gum arabic, and a wisp of smoke)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -9340,6 +9766,7 @@
     "s_ritual": false,
     "s_cast_time": "1 hour",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9361,6 +9788,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell)",
     "s_duration": "1 hour",
     "s_type": [
@@ -9385,6 +9813,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Concentration, up to 1 round",
     "s_type": [
@@ -9408,6 +9837,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Sight",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 6 rounds",
     "s_type": [
@@ -9429,6 +9859,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a piece of string and a bit of wood)",
     "s_duration": "1 hour",
     "s_type": [
@@ -9451,6 +9882,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9473,6 +9905,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9493,6 +9926,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "150 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of giant slug bile)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9514,6 +9948,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a small piece of phosphorus)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9538,6 +9973,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -9559,6 +9995,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a small piece of quartz)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -9581,6 +10018,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a hand mirror)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -9606,6 +10044,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a handful of sand)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -9627,6 +10066,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a small block of granite)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -9651,6 +10091,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a handful of thorns)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -9673,6 +10114,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a drop of water)",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -9696,6 +10138,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and target must wear for the duration)",
     "s_duration": "1 hour",
     "s_type": [
@@ -9716,6 +10159,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "1 hour",
     "s_type": [
@@ -9740,6 +10184,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a short reed or piece of straw)",
     "s_duration": "24 hours",
     "s_type": [
@@ -9764,6 +10209,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a piece of cork)",
     "s_duration": "1 hour",
     "s_type": [
@@ -9788,6 +10234,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "90 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a droplet of water)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9810,6 +10257,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a bit of spiderweb)",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -9831,6 +10279,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9853,6 +10302,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "300 feet",
+    "s_area": "None",
     "s_components": "V, M (a piece of straw)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9875,6 +10325,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (fire and holy water)",
     "s_duration": "8 hours",
     "s_type": [
@@ -9895,6 +10346,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a tiny fan and a feather of exotic origin)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9918,6 +10370,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9939,6 +10392,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V, S, M (a twig from a tree that has been struck by lightning)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -9961,6 +10415,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
+    "s_area": "None",
     "s_components": "V, M (a holy symbol)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -9981,6 +10436,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "5 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -10001,6 +10457,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -10023,6 +10480,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -10045,6 +10503,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -10065,6 +10524,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "10 minutes",
     "s_type": [
@@ -10087,6 +10547,7 @@
     "s_ritual": true,
     "s_cast_time": "1 minute",
     "s_range": "5 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration up to 8 hours",
     "s_type": [
@@ -10108,7 +10569,8 @@
     "s_school": "Evocation",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (5 feet radius)",
+    "s_range": "Self",
+    "s_area": "5 feet radius",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -10129,7 +10591,8 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Self",
-    "s_components": "V, S, M (Alchemist’s Supplies)",
+    "s_area": "None",
+    "s_components": "V, S, M (Alchemist's Supplies)",
     "s_duration": "24 hours",
     "s_type": [
       "healing"
@@ -10150,6 +10613,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -10173,6 +10637,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -10195,6 +10660,7 @@
     "s_ritual": false,
     "s_cast_time": "1 bonus action",
     "s_range": "10 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -10216,7 +10682,8 @@
     "s_school": "Illusion",
     "s_ritual": false,
     "s_cast_time": "1 action",
-    "s_range": "Self (30-foot radius)",
+    "s_range": "Self",
+    "s_area": "30-foot radius",
     "s_components": "V",
     "s_duration": "Concentration, up to 10 minutes",
     "s_type": [
@@ -10238,6 +10705,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "1 round",
     "s_type": [
@@ -10258,6 +10726,7 @@
     "s_ritual": true,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -10281,6 +10750,7 @@
     "s_ritual": false,
     "s_cast_time": "1 minute",
     "s_range": "Touch",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "8 hours",
     "s_type": [
@@ -10304,6 +10774,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "30 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "Concentration, up to 1 hour",
     "s_type": [
@@ -10326,6 +10797,7 @@
     "s_ritual": false,
     "s_cast_time": "1 reaction",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (2 gold pieces)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -10347,6 +10819,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "Self",
+    "s_area": "None",
     "s_components": "V, S, M (a gem worth at least 50gp)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
@@ -10369,6 +10842,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "S, M (2 gold pieces, must be coins)",
     "s_duration": "1 minute",
     "s_type": [
@@ -10389,6 +10863,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "120 feet",
+    "s_area": "None",
     "s_components": "V, S, M (1 gold piece)",
     "s_duration": "Instantaneous",
     "s_type": [
@@ -10409,6 +10884,7 @@
     "s_ritual": false,
     "s_cast_time": "1 action",
     "s_range": "60 feet",
+    "s_area": "None",
     "s_components": "V",
     "s_duration": "1 hour",
     "s_type": [

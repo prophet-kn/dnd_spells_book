@@ -50,8 +50,8 @@ const uniqueClass = sortClass.map(function(classes) {
   .value()
 
 const sortRitual = _.chain(Data)
-const uniqueRitual = sortRitual.map(function(rituals) {
-  return rituals.s_ritual
+const uniqueRitual = sortRitual.map(function(ritual) {
+  return ritual.s_ritual
 })
   .sort()
   .flatten()
@@ -59,8 +59,17 @@ const uniqueRitual = sortRitual.map(function(rituals) {
   .value()
 
 const sortRange = _.chain(Data)
-const uniqueRange = sortRange.map(function(ranges) {
-  return ranges.s_range
+const uniqueRange = sortRange.map(function(range) {
+  return range.s_range
+})
+  .sort()
+  .flatten()
+  .uniq()
+  .value()
+
+const sortCastTime = _.chain(Data)
+const uniqueCastTime = sortCastTime.map(function(castTime) {
+  return castTime.s_cast_time
 })
   .sort()
   .flatten()
@@ -82,12 +91,13 @@ class SpellsTable extends Component {
       },
       filters: {
         'School of Magic': [],
-        Level: [],
+        'Level': [],
         'Effect Type': [],
         'Damage Type': [],
-        Class: [],
-        Ritual: [],
-        Range: []
+        'Class': [],
+        'Ritual': [],
+        'Range': [],
+        'Cast Time': []
       }
     }
 
@@ -132,6 +142,7 @@ class SpellsTable extends Component {
         <FilterDataButtons title={'Damage Type'} values={uniqueDamageType} setFilter={this.setFilter} />
         <FilterDataButtons title={'Ritual'} values={uniqueRitual} setFilter={this.setFilter} />
         <FilterDataButtons title={'Range'} values={uniqueRange} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Casting Time'} values={uniqueCastTime} setFilter={this.setFilter} />
       </div>
     )
   }
@@ -240,6 +251,9 @@ class SpellsTable extends Component {
       })
       .filter((spell) => {
         return _.includes(sortFilters.Range, spell.s_range) || sortFilters.Range.length === 0
+      })
+      .filter((spell) => {
+        return _.includes(sortFilters.Range, spell.s_cast_time) || sortFilters.Range.length === 0
       })
       .filter((spell) => {
         return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''

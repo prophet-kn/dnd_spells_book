@@ -26,6 +26,10 @@
     ],
     "react/prop-types": [
       "warn"
+    ],
+    "quote-props": [
+      "error",
+      "consistent"
     ]
   }
 }

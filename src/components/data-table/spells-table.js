@@ -76,6 +76,15 @@ const uniqueCastTime = sortCastTime.map(function(castTime) {
   .uniq()
   .value()
 
+const sortUpcastable = _.chain(Data)
+const uniqueUpcastable = sortUpcastable.map(function(upcastable) {
+  return upcastable.s_upcastable
+})
+  .sort()
+  .flatten()
+  .uniq()
+  .value()
+
 const thisUrl = new URL(window.location)
 const spellParamUrls = new URLSearchParams(thisUrl.searchParams)
 
@@ -97,7 +106,8 @@ class SpellsTable extends Component {
         'Class': [],
         'Ritual': [],
         'Range': [],
-        'Cast Time': []
+        'Cast Time': [],
+        'Upcastable': []
       }
     }
 
@@ -143,6 +153,7 @@ class SpellsTable extends Component {
         <FilterDataButtons title={'Ritual'} values={uniqueRitual} setFilter={this.setFilter} />
         <FilterDataButtons title={'Range'} values={uniqueRange} setFilter={this.setFilter} />
         <FilterDataButtons title={'Casting Time'} values={uniqueCastTime} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Upcastable'} values={uniqueUpcastable} setFilter={this.setFilter} />
       </div>
     )
   }
@@ -253,7 +264,10 @@ class SpellsTable extends Component {
         return _.includes(sortFilters.Range, spell.s_range) || sortFilters.Range.length === 0
       })
       .filter((spell) => {
-        return _.includes(sortFilters.Range, spell.s_cast_time) || sortFilters.Range.length === 0
+        return _.includes(sortFilters['Cast Time'], spell.s_cast_time) || sortFilters['Cast Time'].length === 0
+      })
+      .filter((spell) => {
+        return _.includes(sortFilters.Upcastable, spell.s_upcastable) || sortFilters.Upcastable.length === 0
       })
       .filter((spell) => {
         return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''

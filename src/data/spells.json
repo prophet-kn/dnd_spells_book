@@ -15,6 +15,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "acid",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -37,6 +38,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -61,6 +63,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Paladin",
       "Cleric",
@@ -84,6 +87,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Wizard"
@@ -106,6 +110,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer"
@@ -128,6 +133,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Ranger",
       "Wizard",
@@ -151,6 +157,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -174,6 +181,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -197,6 +205,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -218,6 +227,7 @@
     ],
     "s_damage_dice": "12d8",
     "s_damage_type": "necrotic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -241,6 +251,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -265,6 +276,7 @@
     ],
     "s_damage_dice": "3d8",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -287,6 +299,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -308,6 +321,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Wizard"
@@ -331,6 +345,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -353,6 +368,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -375,6 +391,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Sorcerer",
@@ -398,6 +415,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -421,6 +439,7 @@
     ],
     "s_damage_dice": "5",
     "s_damage_type": "cold",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock"
     ],
@@ -442,6 +461,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock"
     ],
@@ -463,6 +483,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Warlock",
       "Wizard",
@@ -486,6 +507,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -508,6 +530,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -529,6 +552,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -550,6 +574,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -572,6 +597,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid"
@@ -594,6 +620,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric"
@@ -618,6 +645,7 @@
     ],
     "s_damage_dice": "5d10",
     "s_damage_type": "force",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -640,6 +668,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -665,6 +694,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -687,6 +717,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -708,6 +739,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -730,6 +762,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -752,6 +785,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -778,6 +812,7 @@
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "force",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard"
     ],
@@ -799,6 +834,7 @@
     ],
     "s_damage_dice": "6d10",
     "s_damage_type": "slashing",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -820,6 +856,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -844,6 +881,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -866,6 +904,7 @@
     ],
     "s_damage_dice": "8d8",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -891,6 +930,7 @@
     ],
     "s_damage_dice": "3d8",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -913,6 +953,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -937,6 +978,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -960,6 +1002,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -984,6 +1027,7 @@
     ],
     "s_damage_dice": "6d6",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid"
     ],
@@ -1006,6 +1050,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "thunder",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -1030,6 +1075,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "radiant",
+    "s_upcastable": true,
     "s_class_usage": [
       "Paladin"
     ],
@@ -1051,6 +1097,7 @@
     ],
     "s_damage_dice": "3d6",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1073,6 +1120,7 @@
     ],
     "s_damage_dice": "3d10",
     "s_damage_type": "lightning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid"
     ],
@@ -1095,6 +1143,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric"
@@ -1117,6 +1166,7 @@
     ],
     "s_damage_dice": "3d8",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1139,6 +1189,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -1163,6 +1214,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -1185,6 +1237,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -1207,6 +1260,7 @@
     ],
     "s_damage_dice": "10d8",
     "s_damage_type": "lightning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1229,6 +1283,7 @@
     ],
     "s_damage_dice": "2d8 + 1d6",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer"
     ],
@@ -1250,6 +1305,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -1275,6 +1331,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -1300,6 +1357,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -1323,6 +1381,7 @@
     ],
     "s_damage_dice": "3d8",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1345,6 +1404,7 @@
     ],
     "s_damage_dice": "8d6",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -1368,6 +1428,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -1390,6 +1451,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -1415,6 +1477,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -1436,6 +1499,7 @@
     ],
     "s_damage_dice": "4d4",
     "s_damage_type": "slashing",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -1460,6 +1524,7 @@
     ],
     "s_damage_dice": "5d8",
     "s_damage_type": "poison",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1482,6 +1547,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1505,6 +1571,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -1527,6 +1594,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -1548,6 +1616,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -1571,6 +1640,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -1592,6 +1662,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -1617,6 +1688,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard"
     ],
@@ -1638,6 +1710,7 @@
     ],
     "s_damage_dice": "8d8",
     "s_damage_type": "cold",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -1661,6 +1734,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -1685,6 +1759,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -1707,6 +1782,7 @@
     ],
     "s_damage_dice": "3d8",
     "s_damage_type": "various",
+    "s_upcastable": false,
     "s_class_usage": [
       "Ranger"
     ],
@@ -1728,6 +1804,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric"
     ],
@@ -1749,6 +1826,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -1771,6 +1849,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Warlock"
@@ -1793,6 +1872,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -1815,6 +1895,7 @@
     ],
     "s_damage_dice": "8d8",
     "s_damage_type": "various",
+    "s_upcastable": false,
     "s_class_usage": [
       "Ranger"
     ],
@@ -1836,6 +1917,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Ranger",
       "Druid"
@@ -1859,6 +1941,7 @@
     ],
     "s_damage_dice": "6d6",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -1882,6 +1965,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -1904,6 +1988,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -1925,6 +2010,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Cleric",
@@ -1949,6 +2035,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -1975,6 +2062,7 @@
     ],
     "s_damage_dice": "2d8",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -1998,6 +2086,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -2024,6 +2113,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -2049,6 +2139,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "piercing",
+    "s_upcastable": true,
     "s_class_usage": [
       "Ranger"
     ],
@@ -2070,6 +2161,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -2093,6 +2185,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "fire",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -2117,6 +2210,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -2139,6 +2233,7 @@
     ],
     "s_damage_dice": "2d4",
     "s_damage_type": "piercing",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -2160,6 +2255,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Cleric"
@@ -2182,6 +2278,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Cleric",
@@ -2206,6 +2303,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -2229,6 +2327,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2254,6 +2353,7 @@
     ],
     "s_damage_dice": "4d12",
     "s_damage_type": "radiant",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -2277,6 +2377,7 @@
     ],
     "s_damage_dice": "1d4",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -2298,6 +2399,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Paladin",
       "Bard",
@@ -2325,6 +2427,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2348,6 +2451,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -2370,6 +2474,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Warlock",
       "Wizard",
@@ -2393,6 +2498,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Sorcerer",
@@ -2419,6 +2525,7 @@
     ],
     "s_damage_dice": "4d10",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Cleric"
@@ -2441,6 +2548,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -2467,6 +2575,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -2490,6 +2599,7 @@
     ],
     "s_damage_dice": "12d6",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -2513,6 +2623,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -2535,6 +2646,7 @@
     ],
     "s_damage_dice": "5d6",
     "s_damage_type": "thunder",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -2556,6 +2668,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin",
       "Cleric"
@@ -2578,6 +2691,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -2605,6 +2719,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -2629,6 +2744,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2652,6 +2768,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "force",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2676,6 +2793,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2700,6 +2818,7 @@
     ],
     "s_damage_dice": "10d6 + 40",
     "s_damage_type": "force",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -2723,6 +2842,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -2745,6 +2865,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -2772,6 +2893,7 @@
     ],
     "s_damage_dice": "3d6",
     "s_damage_type": "psychic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard"
     ],
@@ -2793,6 +2915,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -2814,6 +2937,7 @@
     ],
     "s_damage_dice": "1d4",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -2837,6 +2961,7 @@
     ],
     "s_damage_dice": "",
     "s_damage_type": "death",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -2860,6 +2985,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Sorcerer"
@@ -2883,6 +3009,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2909,6 +3036,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -2932,6 +3060,7 @@
     ],
     "s_damage_dice": "3d6",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -2955,6 +3084,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -2977,6 +3107,7 @@
     ],
     "s_damage_dice": "3d6",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Warlock",
@@ -3001,6 +3132,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -3023,6 +3155,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -3044,6 +3177,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -3067,6 +3201,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -3091,6 +3226,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -3115,6 +3251,7 @@
     ],
     "s_damage_dice": "5d6",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -3138,6 +3275,7 @@
     ],
     "s_damage_dice": "1d10",
     "s_damage_type": "force",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock"
     ],
@@ -3159,6 +3297,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Druid",
@@ -3182,6 +3321,7 @@
     ],
     "s_damage_dice": "1d4",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Paladin"
     ],
@@ -3204,6 +3344,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -3228,6 +3369,7 @@
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -3251,6 +3393,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Druid",
@@ -3276,6 +3419,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -3300,6 +3444,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "piercing",
+    "s_upcastable": true,
     "s_class_usage": [
       "Ranger"
     ],
@@ -3321,6 +3466,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -3342,6 +3488,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Warlock"
@@ -3364,6 +3511,7 @@
     ],
     "s_damage_dice": "3d12",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -3390,6 +3538,7 @@
     ],
     "s_damage_dice": "twice the number of feet you are moved",
     "s_damage_type": "force",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -3416,6 +3565,7 @@
     ],
     "s_damage_dice": "3d6",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -3438,6 +3588,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -3462,6 +3613,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -3486,6 +3638,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -3509,6 +3662,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid"
@@ -3531,6 +3685,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -3554,6 +3709,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -3579,6 +3735,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -3603,6 +3760,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -3626,6 +3784,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard",
@@ -3650,6 +3809,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -3676,6 +3836,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -3699,6 +3860,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -3722,6 +3884,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -3743,6 +3906,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -3766,6 +3930,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -3789,6 +3954,7 @@
     ],
     "s_damage_dice": "7d8 + 30",
     "s_damage_type": "necrotic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -3812,6 +3978,7 @@
     ],
     "s_damage_dice": "1d10",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -3835,6 +4002,7 @@
     ],
     "s_damage_dice": "2d8",
     "s_damage_type": "various",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -3856,6 +4024,7 @@
     ],
     "s_damage_dice": "7d10",
     "s_damage_type": "fire",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -3879,6 +4048,7 @@
     ],
     "s_damage_dice": "8d6",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -3901,6 +4071,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -3926,6 +4097,7 @@
     ],
     "s_damage_dice": "3d6",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid"
     ],
@@ -3947,6 +4119,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "radiant",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric"
     ],
@@ -3969,6 +4142,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -3991,6 +4165,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -4013,6 +4188,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -4037,6 +4213,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -4062,6 +4239,7 @@
     ],
     "s_damage_dice": "5d10",
     "s_damage_type": "various",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -4083,6 +4261,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Warlock",
@@ -4108,6 +4287,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -4132,6 +4312,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4158,6 +4339,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -4182,6 +4364,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "cold",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -4207,6 +4390,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -4232,6 +4416,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Sorcerer",
@@ -4255,6 +4440,7 @@
     ],
     "s_damage_dice": "5d10",
     "s_damage_type": "psychic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4280,6 +4466,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Wizard"
@@ -4302,6 +4489,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -4324,6 +4512,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Warlock"
@@ -4346,6 +4535,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -4367,8 +4557,9 @@
       "damage",
       "summoning"
     ],
-    "s_damage_dice": "5d8",
-    "s_damage_type": "various",
+    "s_damage_dice": "None",
+    "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4394,6 +4585,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -4417,6 +4609,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -4439,6 +4632,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -4460,6 +4654,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -4483,6 +4678,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4506,6 +4702,7 @@
     ],
     "s_damage_dice": "your spellcasting ability modifier",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -4529,6 +4726,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -4550,6 +4748,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "force",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -4574,6 +4773,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -4596,6 +4796,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -4619,6 +4820,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "radiant",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric"
     ],
@@ -4642,6 +4844,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -4666,6 +4869,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -4689,6 +4893,7 @@
     ],
     "s_damage_dice": "1d10",
     "s_damage_type": "piercing",
+    "s_upcastable": true,
     "s_class_usage": [
       "Ranger"
     ],
@@ -4712,6 +4917,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -4733,6 +4939,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -4757,6 +4964,7 @@
     ],
     "s_damage_dice": "14d6",
     "s_damage_type": "necrotic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -4778,6 +4986,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -4801,6 +5010,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -4823,6 +5033,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -4845,6 +5056,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -4868,6 +5080,7 @@
     ],
     "s_damage_dice": "2d8",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Druid"
@@ -4890,6 +5103,7 @@
     ],
     "s_damage_dice": "2d10",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock"
     ],
@@ -4912,6 +5126,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -4934,6 +5149,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Paladin"
@@ -4957,6 +5173,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock"
     ],
@@ -4978,6 +5195,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5002,6 +5220,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5031,6 +5250,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -5053,6 +5273,7 @@
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -5075,6 +5296,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "acid",
+    "s_upcastable": false,
     "s_class_usage": [
       "Warlock"
     ],
@@ -5097,6 +5319,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Ranger"
     ],
@@ -5119,6 +5342,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5143,6 +5367,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "cold",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -5166,6 +5391,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "cold",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -5189,6 +5415,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -5211,6 +5438,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -5232,6 +5460,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Bard",
@@ -5256,6 +5485,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "fire",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -5279,6 +5509,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -5301,6 +5532,7 @@
     ],
     "s_damage_dice": "10d8",
     "s_damage_type": "fire",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -5325,6 +5557,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -5347,6 +5580,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "poison",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5371,6 +5605,7 @@
     ],
     "s_damage_dice": "3d10",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric"
     ],
@@ -5392,6 +5627,7 @@
     ],
     "s_damage_dice": "4d10",
     "s_damage_type": "piercing",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -5416,6 +5652,7 @@
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "fire",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5440,6 +5677,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "cold",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5464,6 +5702,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5489,6 +5728,7 @@
     ],
     "s_damage_dice": "2d10",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -5513,6 +5753,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5538,6 +5779,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -5559,6 +5801,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -5584,6 +5827,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -5607,6 +5851,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5630,6 +5875,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -5653,6 +5899,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -5675,6 +5922,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5701,6 +5949,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -5724,6 +5973,7 @@
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Wizard"
@@ -5746,6 +5996,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5770,6 +6021,7 @@
     ],
     "s_damage_dice": "2d8",
     "s_damage_type": "lightning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Ranger"
     ],
@@ -5791,6 +6043,7 @@
     ],
     "s_damage_dice": "8d6",
     "s_damage_type": "lightning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -5813,6 +6066,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "lightning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -5836,6 +6090,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -5859,6 +6114,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5885,6 +6141,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -5911,6 +6168,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -5936,6 +6194,7 @@
     ],
     "s_damage_dice": "8d8",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -5958,6 +6217,7 @@
     ],
     "s_damage_dice": "6d6",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -5979,6 +6239,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -6001,6 +6262,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6025,6 +6287,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -6049,6 +6312,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -6070,6 +6334,7 @@
     ],
     "s_damage_dice": "1d4 + 1",
     "s_damage_type": "force",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -6092,6 +6357,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6114,6 +6380,7 @@
     ],
     "s_damage_dice": "1d6 + your spellcasting ability modifier",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Warlock"
@@ -6136,6 +6403,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Paladin",
       "Wizard",
@@ -6159,6 +6427,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6183,6 +6452,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -6206,6 +6476,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -6227,6 +6498,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric"
     ],
@@ -6248,6 +6520,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6271,6 +6544,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6295,6 +6569,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -6318,6 +6593,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -6339,6 +6615,7 @@
     ],
     "s_damage_dice": "6d6",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -6361,6 +6638,7 @@
     ],
     "s_damage_dice": "2d4",
     "s_damage_type": "acid",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard"
     ],
@@ -6382,6 +6660,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard",
       "Sorcerer"
@@ -6404,6 +6683,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -6431,6 +6711,7 @@
     ],
     "s_damage_dice": "10d10",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -6454,6 +6735,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6477,6 +6759,7 @@
     ],
     "s_damage_dice": "20d6",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -6500,6 +6783,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -6521,6 +6805,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6543,6 +6828,7 @@
     ],
     "s_damage_dice": "3d8",
     "s_damage_type": "psychic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -6566,6 +6852,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -6590,6 +6877,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -6617,6 +6905,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -6643,6 +6932,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -6665,6 +6955,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -6688,6 +6979,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6710,6 +7002,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -6734,6 +7027,7 @@
     ],
     "s_damage_dice": "2d10",
     "s_damage_type": "radiant",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid"
     ],
@@ -6755,6 +7049,7 @@
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "piercing",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -6778,6 +7073,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6801,6 +7097,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -6823,6 +7120,7 @@
     ],
     "s_damage_dice": "3d10",
     "s_damage_type": "force",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -6845,6 +7143,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -6868,6 +7167,7 @@
     ],
     "s_damage_dice": "5d12",
     "s_damage_type": "necrotic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -6890,6 +7190,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Ranger",
@@ -6914,6 +7215,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -6936,6 +7238,7 @@
     ],
     "s_damage_dice": "10d6",
     "s_damage_type": "cold",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard"
     ],
@@ -6958,6 +7261,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -6981,6 +7285,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Bard"
@@ -7003,6 +7308,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -7025,6 +7331,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -7049,6 +7356,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Bard",
@@ -7075,6 +7383,7 @@
     ],
     "s_damage_dice": "4d10",
     "s_damage_type": "psychic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard"
     ],
@@ -7097,6 +7406,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -7118,6 +7428,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -7139,6 +7450,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -7163,6 +7475,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -7189,6 +7502,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -7212,6 +7526,7 @@
     ],
     "s_damage_dice": "1d12",
     "s_damage_type": "poison",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -7236,6 +7551,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -7260,6 +7576,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard"
     ],
@@ -7281,6 +7598,7 @@
     ],
     "s_damage_dice": "",
     "s_damage_type": "death",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7306,6 +7624,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -7329,6 +7648,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7353,6 +7673,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric"
     ],
@@ -7374,6 +7695,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7398,6 +7720,7 @@
     ],
     "s_damage_dice": "1d10",
     "s_damage_type": "acid",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -7419,6 +7742,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -7441,6 +7765,7 @@
     ],
     "s_damage_dice": "10d6",
     "s_damage_type": "various",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -7465,6 +7790,7 @@
     ],
     "s_damage_dice": "10d6",
     "s_damage_type": "various",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -7487,6 +7813,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid"
     ],
@@ -7508,6 +7835,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -7531,6 +7859,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -7553,6 +7882,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -7579,6 +7909,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -7603,6 +7934,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -7629,6 +7961,7 @@
     ],
     "s_damage_dice": "14d6",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7653,6 +7986,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -7676,6 +8010,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -7699,6 +8034,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -7722,6 +8058,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -7743,6 +8080,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -7765,6 +8103,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "cold",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -7787,6 +8126,7 @@
     ],
     "s_damage_dice": "2d8",
     "s_damage_type": "poison",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -7809,6 +8149,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -7832,6 +8173,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -7853,6 +8195,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -7877,6 +8220,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -7899,6 +8243,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Bard"
@@ -7923,6 +8268,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -7946,6 +8292,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -7970,6 +8317,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -7992,6 +8340,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "radiant",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric"
     ],
@@ -8013,6 +8362,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Artificer"
@@ -8036,6 +8386,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -8059,6 +8410,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -8082,6 +8434,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -8107,6 +8460,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Paladin"
     ],
@@ -8128,6 +8482,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8152,6 +8507,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8175,6 +8531,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard",
@@ -8199,6 +8556,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -8220,6 +8578,7 @@
     ],
     "s_damage_dice": "2d8",
     "s_damage_type": "psychic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -8244,6 +8603,7 @@
     ],
     "s_damage_dice": "2d8",
     "s_damage_type": "necrotic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Warlock"
     ],
@@ -8266,6 +8626,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -8290,6 +8651,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -8312,6 +8674,7 @@
     ],
     "s_damage_dice": "3d8",
     "s_damage_type": "thunder",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8336,6 +8699,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -8358,6 +8722,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -8381,6 +8746,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -8402,6 +8768,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "lightning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -8424,6 +8791,7 @@
     ],
     "s_damage_dice": "4d10",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -8447,6 +8815,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -8470,6 +8839,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8493,6 +8863,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -8514,6 +8885,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8538,6 +8910,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard",
@@ -8562,6 +8935,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8585,6 +8959,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -8608,6 +8983,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -8630,6 +9006,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -8653,6 +9030,7 @@
     ],
     "s_damage_dice": "3d6",
     "s_damage_type": "cold",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -8678,6 +9056,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -8700,6 +9079,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer"
     ],
@@ -8721,6 +9101,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -8746,6 +9127,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric"
@@ -8769,6 +9151,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -8792,6 +9175,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -8816,6 +9200,7 @@
     ],
     "s_damage_dice": "2d4",
     "s_damage_type": "piercing",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -8839,6 +9224,7 @@
     ],
     "s_damage_dice": "3d8",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric"
     ],
@@ -8860,6 +9246,7 @@
     ],
     "s_damage_dice": "1d8 + your spellcasting ability modifier",
     "s_damage_type": "force",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric"
     ],
@@ -8881,6 +9268,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -8903,6 +9291,7 @@
     ],
     "s_damage_dice": "6d10",
     "s_damage_type": "force",
+    "s_upcastable": false,
     "s_class_usage": [
       "Ranger",
       "Wizard"
@@ -8925,6 +9314,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -8948,6 +9338,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -8972,6 +9363,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -8999,6 +9391,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "various",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -9020,6 +9413,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "lightning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -9042,6 +9436,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -9066,6 +9461,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -9088,6 +9484,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -9112,6 +9509,7 @@
     ],
     "s_damage_dice": "6d8",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9137,6 +9535,7 @@
     ],
     "s_damage_dice": "12d6",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9160,6 +9559,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Ranger"
     ],
@@ -9181,6 +9581,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "force",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -9207,6 +9608,7 @@
     ],
     "s_damage_dice": "10d10",
     "s_damage_type": "necrotic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -9231,6 +9633,7 @@
     ],
     "s_damage_dice": "8d6",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -9256,6 +9659,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -9278,6 +9682,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -9300,6 +9705,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -9321,6 +9727,7 @@
     ],
     "s_damage_dice": "3d10",
     "s_damage_type": "force",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -9344,6 +9751,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -9370,6 +9778,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -9391,6 +9800,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -9413,6 +9823,7 @@
     ],
     "s_damage_dice": "2d12",
     "s_damage_type": "force",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -9434,6 +9845,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -9456,6 +9868,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "piercing",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid"
     ],
@@ -9478,6 +9891,7 @@
     ],
     "s_damage_dice": "3d10",
     "s_damage_type": "thunder",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -9501,6 +9915,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "thunder",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -9526,6 +9941,7 @@
     ],
     "s_damage_dice": "2d6",
     "s_damage_type": "thunder",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -9547,6 +9963,7 @@
     ],
     "s_damage_dice": "2d8",
     "s_damage_type": "thunder",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -9571,6 +9988,7 @@
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9594,6 +10012,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -9616,6 +10035,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard"
     ],
@@ -9637,6 +10057,7 @@
     ],
     "s_damage_dice": "1d12",
     "s_damage_type": "necrotic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Warlock",
       "Cleric",
@@ -9660,6 +10081,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -9686,6 +10108,7 @@
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Wizard"
@@ -9708,6 +10131,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -9729,6 +10153,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -9751,6 +10176,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Warlock",
@@ -9774,6 +10200,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid"
@@ -9796,6 +10223,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -9821,6 +10249,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -9846,6 +10275,7 @@
     ],
     "s_damage_dice": "5d10",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -9867,6 +10297,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Warlock",
@@ -9891,6 +10322,7 @@
     ],
     "s_damage_dice": "3d6",
     "s_damage_type": "necrotic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -9913,6 +10345,7 @@
     ],
     "s_damage_dice": "1d4",
     "s_damage_type": "psychic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard"
     ],
@@ -9934,6 +10367,7 @@
     ],
     "s_damage_dice": "10d4",
     "s_damage_type": "acid",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -9958,6 +10392,7 @@
     ],
     "s_damage_dice": "5d8",
     "s_damage_type": "fire",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -9982,6 +10417,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -10005,6 +10441,7 @@
     ],
     "s_damage_dice": "10d6",
     "s_damage_type": "cold",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard"
     ],
@@ -10029,6 +10466,7 @@
     ],
     "s_damage_dice": "4d8",
     "s_damage_type": "radiant",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -10053,6 +10491,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -10076,6 +10515,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -10101,6 +10541,7 @@
     ],
     "s_damage_dice": "7d8",
     "s_damage_type": "piercing",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid"
     ],
@@ -10123,6 +10564,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -10146,6 +10588,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -10168,6 +10611,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Druid",
@@ -10192,6 +10636,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -10217,6 +10662,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Druid",
@@ -10242,6 +10688,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -10265,6 +10712,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -10289,6 +10737,7 @@
     ],
     "s_damage_dice": "4d10",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -10310,6 +10759,7 @@
     ],
     "s_damage_dice": "10d6",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Sorcerer",
@@ -10333,6 +10783,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid"
     ],
@@ -10356,6 +10807,7 @@
     ],
     "s_damage_dice": "3d8",
     "s_damage_type": "bludgeoning",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -10378,6 +10830,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -10400,6 +10853,7 @@
     ],
     "s_damage_dice": "1d12",
     "s_damage_type": "lightning",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -10423,6 +10877,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -10444,6 +10899,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -10466,6 +10922,7 @@
     ],
     "s_damage_dice": "4d6",
     "s_damage_type": "slashing",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -10490,6 +10947,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Paladin"
     ],
@@ -10511,6 +10969,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "force",
+    "s_upcastable": false,
     "s_class_usage": [
       "Ranger"
     ],
@@ -10532,6 +10991,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -10555,6 +11015,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Druid",
@@ -10578,6 +11039,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "radiant",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -10599,6 +11061,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Warlock"
@@ -10622,6 +11085,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Warlock",
@@ -10645,6 +11109,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Warlock",
@@ -10668,6 +11133,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard",
       "Sorcerer",
@@ -10692,6 +11158,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard"
     ],
@@ -10713,6 +11180,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric"
     ],
@@ -10736,6 +11204,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -10758,6 +11227,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -10782,6 +11252,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric",
@@ -10805,6 +11276,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Wizard"
@@ -10827,6 +11299,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
       "Wizard",
@@ -10850,6 +11323,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Wizard"
     ],
@@ -10871,6 +11345,7 @@
     ],
     "s_damage_dice": "2d4",
     "s_damage_type": "force",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard"
     ],
@@ -10892,6 +11367,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Cleric"

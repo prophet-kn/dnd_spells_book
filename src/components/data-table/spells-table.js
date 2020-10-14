@@ -3,87 +3,17 @@ import Data from './../../data/spells.json'
 import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import SpellItem from './../items/spell-item'
+import { unique } from '../helpers/helpers'
 
-const sortLevel = _.chain(Data)
-const uniqueLevel = sortLevel.map(function(level) {
-  return level.s_lvl
-})
-  .sort()
-  .flatten()
-  .uniq()
-  .value()
-
-const sortSchool = _.chain(Data)
-const uniqueSchool = sortSchool.map(function(school) {
-  return school.s_school
-})
-  .sort()
-  .flatten()
-  .uniq()
-  .value()
-
-const sortType = _.chain(Data)
-const uniqueType = sortType.map(function(type) {
-  return type.s_type
-})
-  .sort()
-  .flatten()
-  .uniq()
-  .value()
-
-const sortDamageType = _.chain(Data)
-const uniqueDamageType = sortDamageType.map(function(damageType) {
-  return damageType.s_damage_type
-})
-  .sort()
-  .flatten()
-  .uniq()
-  .value()
-
-const sortClass = _.chain(Data)
-const uniqueClass = sortClass.map(function(classes) {
-  return classes.s_class_usage
-})
-  .sort()
-  .flatten()
-  .uniq()
-  .value()
-
-const sortRitual = _.chain(Data)
-const uniqueRitual = sortRitual.map(function(ritual) {
-  return ritual.s_ritual
-})
-  .sort()
-  .flatten()
-  .uniq()
-  .value()
-
-const sortRange = _.chain(Data)
-const uniqueRange = sortRange.map(function(range) {
-  return range.s_range
-})
-  .sort()
-  .flatten()
-  .uniq()
-  .value()
-
-const sortCastTime = _.chain(Data)
-const uniqueCastTime = sortCastTime.map(function(castTime) {
-  return castTime.s_cast_time
-})
-  .sort()
-  .flatten()
-  .uniq()
-  .value()
-
-const sortUpcastable = _.chain(Data)
-const uniqueUpcastable = sortUpcastable.map(function(upcastable) {
-  return upcastable.s_upcastable
-})
-  .sort()
-  .flatten()
-  .uniq()
-  .value()
+const uniqueLevel = unique(Data, 's_lvl')
+const uniqueSchool = unique(Data, 's_school')
+const uniqueType = unique(Data, 's_type')
+const uniqueDamageType = unique(Data, 's_damage_type')
+const uniqueClass = unique(Data, 's_class_usage')
+const uniqueRitual = unique(Data, 's_ritual')
+const uniqueRange = unique(Data, 's_range')
+const uniqueCastTime = unique(Data, 's_cast_time')
+const uniqueUpcastable = unique(Data, 's_upcastable')
 
 const thisUrl = new URL(window.location)
 const spellParamUrls = new URLSearchParams(thisUrl.searchParams)
@@ -152,7 +82,7 @@ class SpellsTable extends Component {
         <FilterDataButtons title={'Damage Type'} values={uniqueDamageType} setFilter={this.setFilter} />
         <FilterDataButtons title={'Ritual'} values={uniqueRitual} setFilter={this.setFilter} />
         <FilterDataButtons title={'Range'} values={uniqueRange} setFilter={this.setFilter} />
-        <FilterDataButtons title={'Casting Time'} values={uniqueCastTime} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Cast Time'} values={uniqueCastTime} setFilter={this.setFilter} />
         <FilterDataButtons title={'Upcastable'} values={uniqueUpcastable} setFilter={this.setFilter} />
       </div>
     )
@@ -238,41 +168,71 @@ class SpellsTable extends Component {
       })
       .value()
 
-    const sortFilters = this.state.filters
+    //const sortFilters = this.state.filters
 
-    const filteredData = _.chain(Data)
-      .orderBy('s_name')
-      .filter((spell) => {
-        return _.includes(sortFilters['School of Magic'], spell.s_school) || sortFilters['School of Magic'].length === 0
-      })
-      .filter((spell) => {
-        return _.includes(sortFilters.Level, spell.s_lvl) || sortFilters.Level.length === 0
-      })
-      .filter((spell) => {
-        return sortFilters['Effect Type'].some(c => spell.s_type.includes(c)) || sortFilters['Effect Type'].length === 0
-      })
-      .filter((spell) => {
-        return _.includes(sortFilters['Damage Type'], spell.s_damage_type) || sortFilters['Damage Type'].length === 0
-      })
-      .filter((spell) => {
-        return sortFilters.Class.some(c => spell.s_class_usage.includes(c)) || sortFilters.Class.length === 0
-      })
-      .filter((spell) => {
-        return _.includes(sortFilters.Ritual, spell.s_ritual) || sortFilters.Ritual.length === 0
-      })
-      .filter((spell) => {
-        return _.includes(sortFilters.Range, spell.s_range) || sortFilters.Range.length === 0
-      })
-      .filter((spell) => {
-        return _.includes(sortFilters['Cast Time'], spell.s_cast_time) || sortFilters['Cast Time'].length === 0
-      })
-      .filter((spell) => {
-        return _.includes(sortFilters.Upcastable, spell.s_upcastable) || sortFilters.Upcastable.length === 0
-      })
-      .filter((spell) => {
-        return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
-      })
-      .value()
+    // const filteredData = _.chain(Data)
+    //   .orderBy('s_name')
+    //   .filter((spell) => {
+    //     return _.includes(sortFilters['School of Magic'], spell.s_school) || sortFilters['School of Magic'].length === 0
+    //   })
+    //   .filter((spell) => {
+    //     return _.includes(sortFilters['Level'], spell.s_lvl) || sortFilters['Level'].length === 0
+    //   })
+    //   .filter((spell) => {
+    //     return sortFilters['Effect Type'].some(c => spell.s_type.includes(c)) || sortFilters['Effect Type'].length === 0
+    //   })
+    //   .filter((spell) => {
+    //     return _.includes(sortFilters['Damage Type'], spell.s_damage_type) || sortFilters['Damage Type'].length === 0
+    //   })
+    //   .filter((spell) => {
+    //     return sortFilters['Class'].some(c => spell.s_class_usage.includes(c)) || sortFilters['Class'].length === 0
+    //   })
+    //   .filter((spell) => {
+    //     return _.includes(sortFilters['Ritual'], spell.s_ritual) || sortFilters['Ritual'].length === 0
+    //   })
+    //   .filter((spell) => {
+    //     return _.includes(sortFilters['Range'], spell.s_range) || sortFilters['Range'].length === 0
+    //   })
+    //   .filter((spell) => {
+    //     return _.includes(sortFilters['Cast Time'], spell.s_cast_time) || sortFilters['Cast Time'].length === 0
+    //   })
+    //   .filter((spell) => {
+    //     return _.includes(sortFilters['Upcastable'], spell.s_upcastable) || sortFilters['Upcastable'].length === 0
+    //   })
+    //   .filter((spell) => {
+    //     return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
+    //   })
+    //   .value()
+
+    var filters = {
+      s_school: this.state.filters['School of Magic'],
+      s_lvl: this.state.filters['Level'],
+      s_type: this.state.filters['Effect Type'],
+      s_damage_type: this.state.filters['Damage Type'],
+      s_class_usage: this.state.filters['Class'],
+      s_ritual: this.state.filters['Ritual'],
+      s_range: this.state.filters['Range'],
+      s_cast_time: this.state.filters['Cast Time'],
+      s_upcastable: this.state.filters['Upcastable']
+    }
+
+    var filteredData = Data.filter(function(item) {
+      for (const key in filters) {
+        if (filters[key].length === 0) {
+          continue
+        } else if (filters[key].some(c => item[key].includes(c)) === false) {
+          return false
+        }
+      }
+      return true
+    })
+
+    // var filteredData = Data.filter(function(country) {
+    //   if (filter['s_lvl'].length === 0) {
+    //     return true
+    //   }
+    //   return filter['s_lvl'].indexOf(country.s_lvl) !== -1
+    // });
 
     return (
       <div className={'dndapp-data'}>

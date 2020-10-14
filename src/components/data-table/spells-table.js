@@ -5,15 +5,25 @@ import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import SpellItem from './../items/spell-item'
 import { unique } from '../helpers/helpers'
 
-const uniqueLevel = unique(Data, 's_lvl')
-const uniqueSchool = unique(Data, 's_school')
-const uniqueType = unique(Data, 's_type')
-const uniqueDamageType = unique(Data, 's_damage_type')
-const uniqueClass = unique(Data, 's_class_usage')
-const uniqueRitual = unique(Data, 's_ritual')
-const uniqueRange = unique(Data, 's_range')
-const uniqueCastTime = unique(Data, 's_cast_time')
-const uniqueUpcastable = unique(Data, 's_upcastable')
+var filterNames = {
+  's_lvl': 'Level',
+  's_class_usage': 'Class',
+  's_school': 'School of Magic',
+  's_type': 'Effect Type',
+  's_damage_type': 'Damage Type',
+  's_ritual': 'Ritual',
+  's_range': 'Range',
+  's_cast_time': 'Cast Time',
+  's_upcastable': 'Upcastable'
+}
+
+var uniquePars = {}
+var initialFilters = {}
+
+for (const [key, value] of Object.entries(filterNames)) {
+  uniquePars[value] = unique(Data, key)
+  initialFilters[value] = []
+}
 
 const thisUrl = new URL(window.location)
 const spellParamUrls = new URLSearchParams(thisUrl.searchParams)
@@ -28,17 +38,7 @@ class SpellsTable extends Component {
       pin: {
         ids: []
       },
-      filters: {
-        'School of Magic': [],
-        'Level': [],
-        'Effect Type': [],
-        'Damage Type': [],
-        'Class': [],
-        'Ritual': [],
-        'Range': [],
-        'Cast Time': [],
-        'Upcastable': []
-      }
+      filters: initialFilters
     }
 
     this.setFilter = this.setFilter.bind(this)
@@ -75,15 +75,11 @@ class SpellsTable extends Component {
     return (
       <div className={this.state.filterButton === true ? 'filter-dropdown active' : 'filter-dropdown hidden'}>
         <svg width="30" height="30" viewBox="0 0 12 16" className={'filter-close'} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
-        <FilterDataButtons title={'Level'} values={uniqueLevel} setFilter={this.setFilter} />
-        <FilterDataButtons title={'Class'} values={uniqueClass} setFilter={this.setFilter} />
-        <FilterDataButtons title={'School of Magic'} values={uniqueSchool} setFilter={this.setFilter} />
-        <FilterDataButtons title={'Effect Type'} values={uniqueType} setFilter={this.setFilter} />
-        <FilterDataButtons title={'Damage Type'} values={uniqueDamageType} setFilter={this.setFilter} />
-        <FilterDataButtons title={'Ritual'} values={uniqueRitual} setFilter={this.setFilter} />
-        <FilterDataButtons title={'Range'} values={uniqueRange} setFilter={this.setFilter} />
-        <FilterDataButtons title={'Cast Time'} values={uniqueCastTime} setFilter={this.setFilter} />
-        <FilterDataButtons title={'Upcastable'} values={uniqueUpcastable} setFilter={this.setFilter} />
+        <div className={'filter-buttons-wrapper'}>
+          {Object.keys(uniquePars).map((key, index) => (
+            <FilterDataButtons key={index} title={key} values={uniquePars[key]} setFilter={this.setFilter}/>
+          ))}
+        </div>
       </div>
     )
   }
@@ -168,71 +164,26 @@ class SpellsTable extends Component {
       })
       .value()
 
-    //const sortFilters = this.state.filters
+    var filters = {}
 
-    // const filteredData = _.chain(Data)
-    //   .orderBy('s_name')
-    //   .filter((spell) => {
-    //     return _.includes(sortFilters['School of Magic'], spell.s_school) || sortFilters['School of Magic'].length === 0
-    //   })
-    //   .filter((spell) => {
-    //     return _.includes(sortFilters['Level'], spell.s_lvl) || sortFilters['Level'].length === 0
-    //   })
-    //   .filter((spell) => {
-    //     return sortFilters['Effect Type'].some(c => spell.s_type.includes(c)) || sortFilters['Effect Type'].length === 0
-    //   })
-    //   .filter((spell) => {
-    //     return _.includes(sortFilters['Damage Type'], spell.s_damage_type) || sortFilters['Damage Type'].length === 0
-    //   })
-    //   .filter((spell) => {
-    //     return sortFilters['Class'].some(c => spell.s_class_usage.includes(c)) || sortFilters['Class'].length === 0
-    //   })
-    //   .filter((spell) => {
-    //     return _.includes(sortFilters['Ritual'], spell.s_ritual) || sortFilters['Ritual'].length === 0
-    //   })
-    //   .filter((spell) => {
-    //     return _.includes(sortFilters['Range'], spell.s_range) || sortFilters['Range'].length === 0
-    //   })
-    //   .filter((spell) => {
-    //     return _.includes(sortFilters['Cast Time'], spell.s_cast_time) || sortFilters['Cast Time'].length === 0
-    //   })
-    //   .filter((spell) => {
-    //     return _.includes(sortFilters['Upcastable'], spell.s_upcastable) || sortFilters['Upcastable'].length === 0
-    //   })
-    //   .filter((spell) => {
-    //     return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
-    //   })
-    //   .value()
-
-    var filters = {
-      s_school: this.state.filters['School of Magic'],
-      s_lvl: this.state.filters['Level'],
-      s_type: this.state.filters['Effect Type'],
-      s_damage_type: this.state.filters['Damage Type'],
-      s_class_usage: this.state.filters['Class'],
-      s_ritual: this.state.filters['Ritual'],
-      s_range: this.state.filters['Range'],
-      s_cast_time: this.state.filters['Cast Time'],
-      s_upcastable: this.state.filters['Upcastable']
+    for (const [key, value] of Object.entries(filterNames)) {
+      filters[key] = this.state.filters[value]
     }
 
-    var filteredData = Data.filter(function(item) {
-      for (const key in filters) {
-        if (filters[key].length === 0) {
-          continue
-        } else if (filters[key].some(c => item[key].includes(c)) === false) {
-          return false
+    var filteredData = Data
+      .filter(function(item) {
+        for (const key in filters) {
+          if (filters[key].length === 0) {
+            continue
+          } else if (filters[key].some(c => item[key].includes(c)) === false) {
+            return false
+          }
         }
-      }
-      return true
-    })
-
-    // var filteredData = Data.filter(function(country) {
-    //   if (filter['s_lvl'].length === 0) {
-    //     return true
-    //   }
-    //   return filter['s_lvl'].indexOf(country.s_lvl) !== -1
-    // });
+        return true
+      })
+      .filter((spell) => {
+        return spell.s_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''
+      })
 
     return (
       <div className={'dndapp-data'}>
@@ -276,7 +227,6 @@ class SpellsTable extends Component {
           {this.filterFilter()}
           {this.filterDropdowns()}
         </div>
-
         {this.dataTable()}
       </div>
     )

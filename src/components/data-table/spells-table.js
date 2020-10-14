@@ -17,11 +17,11 @@ var filterNames = {
   's_upcastable': 'Upcastable'
 }
 
-var uniquePars = {}
+var uniqueFilters = {}
 var initialFilters = {}
 
 for (const [key, value] of Object.entries(filterNames)) {
-  uniquePars[value] = unique(Data, key)
+  uniqueFilters[value] = unique(Data, key)
   initialFilters[value] = []
 }
 
@@ -76,8 +76,8 @@ class SpellsTable extends Component {
       <div className={this.state.filterButton === true ? 'filter-dropdown active' : 'filter-dropdown hidden'}>
         <svg width="30" height="30" viewBox="0 0 12 16" className={'filter-close'} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
         <div className={'filter-buttons-wrapper'}>
-          {Object.keys(uniquePars).map((key, index) => (
-            <FilterDataButtons key={index} title={key} values={uniquePars[key]} setFilter={this.setFilter}/>
+          {Object.keys(uniqueFilters).map((key, index) => (
+            <FilterDataButtons key={index} title={key} values={uniqueFilters[key]} setFilter={this.setFilter}/>
           ))}
         </div>
       </div>

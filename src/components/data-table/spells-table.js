@@ -175,7 +175,9 @@ class SpellsTable extends Component {
         for (const key in filters) {
           if (filters[key].length === 0) {
             continue
-          } else if (filters[key].some(c => item[key].includes(c)) === false) {
+          } else if (item[key] instanceof Array && filters[key].some(c => item[key].includes(c)) === false) {
+            return false
+          } else if ((typeof item[key] === 'string' || typeof item[key] === 'boolean') && filters[key].includes(item[key]) === false) {
             return false
           }
         }

@@ -1831,7 +1831,7 @@
       "Druid",
       "Wizard"
     ],
-    "s_description": "<p>You call forth an elemental servant.</p><p>Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends.</p><p>The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions.</p><p>If your concentration is broken, the elemental doesn’t disappear. Instead, you lose control of the elemental, it becom es hostile toward you and your companions, and it might attack. An uncontrolled elemental can’t be dismissed by you, and it disappears 1 hour after you summoned it. The DM has the elemental’s statistics.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.</p>"
+    "s_description": "<p>You call forth an elemental servant.</p><p>Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends.</p><p>The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions.</p><p>If your concentration is broken, the elemental doesn’t disappear. Instead, you lose control of the elemental, it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can’t be dismissed by you, and it disappears 1 hour after you summoned it. The DM has the elemental’s statistics.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.</p>"
   },
   {
     "s_id": 76,
@@ -3099,7 +3099,7 @@
     "s_cast_time": "1 minute",
     "s_range": "Special",
     "s_area": "None",
-    "s_components": "V, S, M (a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins) (a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird)",
+    "s_components": "V, S, M (a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird)",
     "s_duration": "8 hours",
     "s_type": [
       "communication",
@@ -3244,7 +3244,7 @@
     "s_cast_time": "1 action",
     "s_range": "500 feet",
     "s_area": "None",
-    "s_components": "V, S, M (a pinch o f dirt, a piece o f rock, and a lump of clay)",
+    "s_components": "V, S, M (a pinch of dirt, a piece of rock, and a lump of clay)",
     "s_duration": "Concentration, up to 1 minute",
     "s_type": [
       "damage"
@@ -4555,10 +4555,11 @@
     "s_duration": "Until dispelled or triggered",
     "s_type": [
       "damage",
+      "disruption",
       "summoning"
     ],
-    "s_damage_dice": "None",
-    "s_damage_type": "None",
+    "s_damage_dice": "5d8",
+    "s_damage_type": "various",
     "s_upcastable": true,
     "s_class_usage": [
       "Bard",
@@ -5278,7 +5279,11 @@
       "Cleric",
       "Paladin"
     ],
+<<<<<<< HEAD
     "s_description": "<p>You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn’t already a magic weapon, it becomes one for the duration. As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn’t blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</p>"
+=======
+    "s_description": "<p>You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn’t already a magic weapon, it becomes one for the duration. As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet ofyou must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn’t blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</p>"
+>>>>>>> Fix boolean filters and more typos in spells.
   },
   {
     "s_id": 219,
@@ -5895,7 +5900,8 @@
     "s_duration": "8 hours",
     "s_type": [
       "protection",
-      "shelter"
+      "shelter",
+      "light"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -6665,7 +6671,7 @@
       "Wizard",
       "Sorcerer"
     ],
-    "s_description": "<p>You create six tiny meteors in your space. They float in the air and orbit you for the spell’s duration. When you cast the spell-and as a bonus action on each of your turns thereafter-you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd.</p>"
+    "s_description": "<p>You create six tiny meteors in your space. They float in the air and orbit you for the spell’s duration. When you cast the spell - and as a bonus action on each of your turns thereafter - you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd.</p>"
   },
   {
     "s_id": 277,
@@ -10826,7 +10832,12 @@
     "s_components": "V",
     "s_duration": "Instantaneous",
     "s_type": [
-      "resurrection"
+      "resurrection",
+      "construction",
+      "healing",
+      "buff",
+      "disruption"
+
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -10835,7 +10846,7 @@
       "Sorcerer",
       "Wizard"
     ],
-    "s_description": "<p>Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires.</p><p>The basic use of this spell is to duplicate any other spell of 8th level or lower. You don’t need to meet any requirements in that spell, including costly components. The spell simply takes effect.</p><p>Alternatively, you can create one of the following effects of your choice:</p><ul><li>You create one object of up to 25,000 gp in value that isn’t a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.</li><li>You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the greater restoration spell.</li><li>You grant up to ten creatures that you can see resistance to a damage type you choose.</li><li>You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your com panions immune to a lich’s life drain attack.</li><li>You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent’s successful save, a foe’s critical hit, or a friend’s failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll.</li></ul><p>You might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved,or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item’s current owner.</p><p>The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take 1d10 necrotic damage per level of that spell. This damage can’t be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn’t 3 or lower already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast wish ever again if you suffer this stress.</p>"
+    "s_description": "<p>Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires.</p><p>The basic use of this spell is to duplicate any other spell of 8th level or lower. You don’t need to meet any requirements in that spell, including costly components. The spell simply takes effect.</p><p>Alternatively, you can create one of the following effects of your choice:</p><ul><li>You create one object of up to 25,000 gp in value that isn’t a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.</li><li>You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the greater restoration spell.</li><li>You grant up to ten creatures that you can see resistance to a damage type you choose.</li><li>You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a lich’s life drain attack.</li><li>You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent’s successful save, a foe’s critical hit, or a friend’s failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll.</li></ul><p>You might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved,or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item’s current owner.</p><p>The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take 1d10 necrotic damage per level of that spell. This damage can’t be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn’t 3 or lower already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast wish ever again if you suffer this stress.</p>"
   },
   {
     "s_id": 450,

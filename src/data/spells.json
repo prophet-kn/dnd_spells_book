@@ -67,7 +67,9 @@
     "s_class_usage": [
       "Paladin",
       "Cleric",
-      "Artificer"
+      "Artificer",
+      "Ranger",
+      "Bard"
     ],
     "s_description": "<p>Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target’s hit point maximum and current hit points increase by 5 for the duration.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 3rd level or higher, a target’s hit points increase by an additional 5 for each slot level above 2nd.</p>"
   },
@@ -348,7 +350,8 @@
     "s_upcastable": false,
     "s_class_usage": [
       "Druid",
-      "Wizard"
+      "Wizard",
+      "Bard"
     ],
     "s_description": "<p>This spell attracts or repels creatures of your choice.</p><p>You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura’s effect.</p><p><b>Antipathy</b></p><p>The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can’t see the target. If the creature moves more than 60 feet from the target and can’t see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.</p><p><b>Sympathy</b></p><p>The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet o fit, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can’t willingly move away from the target. If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.</p><p><b>Ending the Effect</b></p><p>If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another Wisdom saving throw every 24 hours while the spell persists.</p><p>A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again.</p>"
   },
@@ -509,7 +512,9 @@
     "s_damage_type": "None",
     "s_upcastable": false,
     "s_class_usage": [
-      "Cleric"
+      "Cleric",
+      "Druid",
+      "Wizard"
     ],
     "s_description": "<p>By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The DM chooses from the following possible omens:</p><ul><li>Weal, for good results</li><li>Woe, for bad results</li><li>Weal and woe, for both good and bad results</li><li>Nothing, for results that aren’t especially good or bad</li></ul><p>The spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.</p>"
   },
@@ -532,7 +537,8 @@
     "s_damage_type": "None",
     "s_upcastable": false,
     "s_class_usage": [
-      "Paladin"
+      "Paladin",
+      "Cleric"
     ],
     "s_description": "<p>Life-preserving energy radiates from you in an aura with a 30-foot radius.</p><p>Until the spll ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can’t be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the arua with 0 hit points.</p>"
   },
@@ -554,7 +560,8 @@
     "s_damage_type": "None",
     "s_upcastable": false,
     "s_class_usage": [
-      "Paladin"
+      "Paladin",
+      "Cleric"
     ],
     "s_description": "<p>Purifying energy radiates from you in an aura with a 30-foot radius.</p><p>Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can’t become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: blnded, charmed, deafended, frightened, paralyzed, poisoned, and stunned.</p>"
   },
@@ -576,7 +583,9 @@
     "s_damage_type": "None",
     "s_upcastable": false,
     "s_class_usage": [
-      "Paladin"
+      "Paladin",
+      "Cleric",
+      "Druid"
     ],
     "s_description": "<p>Healing energy radiates from you in an aura with a 30-foot radius.</p><p>Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.</p>"
   },
@@ -1550,7 +1559,8 @@
     "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
-      "Wizard"
+      "Wizard",
+      "Bard"
     ],
     "s_description": "<p>A dazzling array of flashing, colored light springs from your hand.</p><p>Roll 6d10, the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can’t see).</p><p>Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for the creature to be affected.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.</p>"
   },
@@ -1574,7 +1584,8 @@
     "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
-      "Paladin"
+      "Paladin",
+      "Bard"
     ],
     "s_description": "<p>You speak a one-word command to a creature you can see within range.</p><p>The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it. Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can’t follow your command, the spell ends.</p><p>Approach The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><b>Drop</b> The target drops whatever it is holding and then ends its turn.</p><p><b>Flee</b> The target spends its turn moving away from you by the fastest available means.</p><p><b>Grovel</b> The target falls prone and then ends its turn.</p><p><b>Halt</b> The target doesn’t move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>"
   },
@@ -1713,7 +1724,8 @@
     "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
-      "Wizard"
+      "Wizard",
+      "Druid"
     ],
     "s_description": "<p>A blast of cold air erupts from your hands.</p><p>Each creature in a 60-foot cone must make a Constitution saving throw.</p><p>A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>"
   },
@@ -2014,7 +2026,8 @@
     "s_class_usage": [
       "Wizard",
       "Cleric",
-      "Artificer"
+      "Artificer",
+      "Druid"
     ],
     "s_description": "<p>A flame, equivalent in brightness to a torch, springs forth from an object that you touch.</p><p>The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A continual flame can be covered or hidden but not smothered or quenched.</p>"
   },
@@ -2917,7 +2930,8 @@
     "s_damage_type": "None",
     "s_upcastable": false,
     "s_class_usage": [
-      "Cleric"
+      "Cleric",
+      "Wizard"
     ],
     "s_description": "<p>Your magic and an offering put you in contact with a god or a god’s servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.</p><p>The spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.</p><p>If you cast this spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.</p>"
   },
@@ -2988,7 +3002,8 @@
     "s_upcastable": true,
     "s_class_usage": [
       "Druid",
-      "Sorcerer"
+      "Sorcerer",
+      "Ranger"
     ],
     "s_description": "<p>You attempt to beguile a beast that you can see within range.</p><p>It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.</p><p>While the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as 'Attack that creature,' 'Run over there,' or 'Fetch that object.' If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability.</p><p>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</p><p>Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p><p><b>At Higher Levels</b></p><p>When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes.</p><p>When you use a 6th-level spell slot, the duration is concentration, up to 1 hour.</p><p>When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours.</p>"
   },
@@ -3323,7 +3338,9 @@
     "s_damage_type": "various",
     "s_upcastable": true,
     "s_class_usage": [
-      "Paladin"
+      "Paladin",
+      "Druid",
+      "Ranger"
     ],
     "s_description": "<p>A nonmagical weapon you touch becomes a magic weapon.</p><p>Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4.</p><p>When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.</p>"
   },
@@ -3399,7 +3416,9 @@
       "Druid",
       "Cleric",
       "Bard",
-      "Artificer"
+      "Artificer",
+      "Ranger",
+      "Wizard"
     ],
     "s_description": "<p>You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects, the target gains the effect until the spell ends:</p><p><b>Bear’s Endurance</b></p><p>The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.</p><p><b>Bull’s Strength</b></p><p>The target has advantage on Strength checks, and his or her carrying capacity doubles.</p><p><b>Cat’s Grace</b></p><p>The target has advantage on Dexterity checks. It also doesn’t take damage from falling 20 feet or less if it isn’t incapacitated.</p><p><b>Eagle’s Splendor</b></p><p>The target has advantage on Charisma checks.</p><p><b>Fox’s Cunning</b></p><p>The target thas advantage on Intelligence checks.</p><p><b>Owl’s Wisdom</b></p><p>The target has advantage on Wisdom checks.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>"
   },
@@ -3423,7 +3442,9 @@
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
-      "Artificer"
+      "Artificer",
+      "Druid",
+      "Bard"
     ],
     "s_description": "<p>You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</p><p>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</p><p><b>Enlarge</b></p><p>The target’s size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn’t enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target’s weapons also grow to match its new size. While these weapons are enlarged, the target’s attack with them deal 1d4 extra damage.</p><p><b>Reduce</b></p><p>The target’s size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category - from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target’s weapons also shrink to match its new size. While these weapons are reduced, the target’s attacks with them deal 1d4 less damage (this can’t reduce the damage below 1).</p>"
   },
@@ -3468,7 +3489,8 @@
     "s_damage_type": "None",
     "s_upcastable": false,
     "s_class_usage": [
-      "Druid"
+      "Druid",
+      "Ranger"
     ],
     "s_description": "<p>Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For the duration, these plants turn the ground in the area into difficult terrain.</p><p>A creature in the area when you cast the spell must succeed on a Strength saving throw or be restrained by the entangling plants until the spell ends. A creature restrained by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself.</p><p>When the spell ends, the conjured plants wilt away.</p>"
   },
@@ -4004,7 +4026,8 @@
     "s_damage_type": "various",
     "s_upcastable": false,
     "s_class_usage": [
-      "Wizard"
+      "Wizard",
+      "Druid"
     ],
     "s_description": "<p>Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.</p><p>The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.</p><p>In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.</p>"
   },
@@ -4168,7 +4191,8 @@
     "s_upcastable": false,
     "s_class_usage": [
       "Warlock",
-      "Wizard"
+      "Wizard",
+      "Druid"
     ],
     "s_description": "<p>You attempt to turn one creature that you can see within range into stone.</p><p>If the targets body is made of flesh, the creature must make a Constitution saving throw. On a failed save, it is restrained as its flesh begins to harden. On a successful save, the creature isn’t affected.</p><p>A creature restrained by this spell must make another Consititution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails saves three times, it is turned to stone and subjected to the petrified condition for the duration. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.</p><p>If the creature is physically broken while petrified, it suffers from similar deformities if it reverts to its original state. If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed.</p>"
   },
@@ -4469,7 +4493,8 @@
     "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
-      "Wizard"
+      "Wizard",
+      "Paladin"
     ],
     "s_description": "<p>You touch a corpse or other remains. For the duration, the target is protected from decay and can’t become undead.</p><p>The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don’t count against the time limit of spells such as raise dead.</p>"
   },
@@ -4683,7 +4708,8 @@
     "s_class_usage": [
       "Bard",
       "Cleric",
-      "Druid"
+      "Druid",
+      "Ranger"
     ],
     "s_description": "<p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target’s exhaustion level by one, or end one of the following effects on the target:</p><ul><li>One effect that charmed or petrified the target</li><li>One curse, including the target’s attunement to a cursed magic item</li><li>Any reduction to one of the target’s ability scores</li><li>One effect reducing the target’s hit point maximum</li></ul></p>"
   },
@@ -4874,7 +4900,8 @@
     "s_class_usage": [
       "Druid",
       "Sorcerer",
-      "Wizard"
+      "Wizard",
+      "Ranger"
     ],
     "s_description": "<p>A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell’s duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.</p><p>Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p><p>The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.</p><p>As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.</p>"
   },
@@ -5130,7 +5157,8 @@
     "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
-      "Druid"
+      "Druid",
+      "Bard"
     ],
     "s_description": "<p>You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don’t set in until this hour is over. Up to twelve other creatures can partake of the feast.</p><p>A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours.</p>"
   },
@@ -5536,7 +5564,8 @@
     "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
-      "Wizard"
+      "Wizard",
+      "Druid"
     ],
     "s_description": "<p>A swirling cloud of smoke shot through with white-hot embers appears in a 20-foot-radius sphere centered on a point within range.</p><p>The cloud spreads around corners and is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p><p>When the cloud appears, each creature in it must make a Dexterity saving throw. A creature takes 10d8 fire damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or ends its turn there.</p><p>The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns.</p>"
   },
@@ -6409,7 +6438,8 @@
     "s_class_usage": [
       "Paladin",
       "Wizard",
-      "Artificer"
+      "Artificer",
+      "Ranger"
     ],
     "s_description": "<p>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2.</p><p>When you use a spell slot of 6th level or higher, the bonus increases to +3.</p>"
   },
@@ -6502,7 +6532,8 @@
     "s_damage_type": "None",
     "s_upcastable": true,
     "s_class_usage": [
-      "Cleric"
+      "Cleric",
+      "Bard"
     ],
     "s_description": "<p>As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.</p>"
   },
@@ -6620,7 +6651,8 @@
     "s_upcastable": false,
     "s_class_usage": [
       "Cleric",
-      "Druid"
+      "Druid",
+      "Ranger"
     ],
     "s_description": "<p>You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration.</p><p>Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.</p><p>While merged with the stone, you can’t see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the spell. You otherwise can’t move.</p><p>Minor physical damage to the stone doesn’t harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone’s complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.</p>"
   },
@@ -6910,7 +6942,8 @@
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
-      "Wizard"
+      "Wizard",
+      "Bard"
     ],
     "s_description": "<p>Three illusory duplicates of yourself appear in your space.</p><p>Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p><p>Each time a creature targets you with an attack during the spell’s duration, roll a d20 to determine whether the attack instead targets one of your duplicates.</p><p>If you have three duplicates, you must roll a 6 or higher to change the attack’s target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.</p><p>A duplicate’s AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p><p>A creature is unaffected by this spell if it can’t see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>"
   },
@@ -7386,7 +7419,8 @@
     "s_damage_type": "psychic",
     "s_upcastable": true,
     "s_class_usage": [
-      "Wizard"
+      "Wizard",
+      "Bard"
     ],
     "s_description": "<p>You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature.</p><p>The target must make a Wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the end of each of the target’s turns before the spell ends, the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d1O for each slot level above 4th.</p>"
   },
@@ -7579,7 +7613,8 @@
     "s_damage_type": "None",
     "s_upcastable": false,
     "s_class_usage": [
-      "Bard"
+      "Bard",
+      "Cleric"
     ],
     "s_description": "<p>A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.</p>"
   },
@@ -7676,7 +7711,8 @@
     "s_damage_type": "None",
     "s_upcastable": true,
     "s_class_usage": [
-      "Cleric"
+      "Cleric",
+      "Paladin"
     ],
     "s_description": "<p>Up to six creatures of your choice that you can see within range each regain hit points equal to 2d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.</p>"
   },
@@ -7769,7 +7805,8 @@
     "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
-      "Wizard"
+      "Wizard",
+      "Bard"
     ],
     "s_description": "<p>Eight multicolored rays of light flash from your hand. Each ray is a different color and has a different power and purpose. Each creature in a 60-foot cone must make a Dexterity saving throw. For each target, roll a d8 to determine which color ray affects it.</p><p>1. Red. The target takes 10d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>2. Orange. The target takes 10d6 acid damage on a failed save, or half as much damage on a successful one.</p><p>3. Yellow. The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.</p><p>4. Green. The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.</p><p>5. Blue. The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.</p><p>6. Indigo. On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.</p><p>7. Violet. On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM’s choosing and is no longer blinded. (Typically, a creature that is on a plane that isn’t its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)</p><p>8. Special. The target is struck by two rays. Roll twice more, rerolling any 8.</p>"
   },
@@ -7793,7 +7830,8 @@
     "s_damage_type": "various",
     "s_upcastable": false,
     "s_class_usage": [
-      "Wizard"
+      "Wizard",
+      "Bard"
     ],
     "s_description": "<p>A shimmering, multicolored plane of light forms a vertical opaque wall up to 90 feet long, 30 feet high, and 1 inch thick centered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.</p><p>The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or become blinded for 1 minute.</p><p>The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall’s layers. As it passes or reaches through each layer, the creature must make a Dexterity saving throw or be affected by that layer’s properties as described below.</p><p>The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. A rod of cancellation destroys a prismatic wall, but an antimagic field has no effect on it.</p><p>1. Red. The creature takes 10d6 fire damage on a failed save, or half as much damage on a successful one. While this layer is in place, nonmagical ranged attacks can’t pass through the wall. The layer can be destroyed by dealing at least 25 cold damage to it.</p><p>2. Orange. The creature takes 10d6 acid damage on a failed save, or half as much damage on a successful one. While this layer is in place, magical ranged attacks can’t pass through the wall. The layer is destroyed by a strong wind.</p><p>3. Yellow. The creature takes 10d6 lightning damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 60 force damage to it.</p><p>4. Green. The creature takes 10d6 poison damage on a failed save, or half as much damage on a successful one. A passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.</p><p>5. Blue. The creature takes 10d6 cold damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 25 fire damage to it.</p><p>6. Indigo. On a failed save, the creature is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don’t need to be consecutive; keep track of both until the creature collects three of a kind. While this layer is in place, spells can’t be cast through the wall. The layer is destroyed by bright light shed by a daylight spell or a similar spell of equal or higher level.</p><p>7. Violet. On a failed save, the creature is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM’s choosing and is no longer blinded. (Typically, a creature that is on a plane that isn’t its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a dispel magic spell or similar spell of equal or higher level that can end spells and magical effects.</p>"
   },
@@ -7915,7 +7953,8 @@
       "Cleric",
       "Paladin",
       "Warlock",
-      "Wizard"
+      "Wizard",
+      "Druid"
     ],
     "s_description": "<p>Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.</p><p>The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can’t be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</p>"
   },
@@ -8061,7 +8100,8 @@
     "s_damage_type": "None",
     "s_upcastable": false,
     "s_class_usage": [
-      "Wizard"
+      "Wizard",
+      "Bard"
     ],
     "s_description": "<p>You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren’t affected by this spell.</p><p>Until the spell ends, the targets can communicated telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can’t extend to other planes of existence.</p>"
   },
@@ -8297,7 +8337,9 @@
     "s_class_usage": [
       "Cleric",
       "Paladin",
-      "Artificer"
+      "Artificer",
+      "Druid",
+      "Ranger"
     ],
     "s_description": "<p>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts.</p>"
   },
@@ -8441,7 +8483,8 @@
       "Cleric",
       "Druid",
       "Warlock",
-      "Wizard"
+      "Wizard",
+      "Druid"
     ],
     "s_description": "<p>You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you’re casting this spell, it can fail the saving throw voluntarily if it wants to be observed.</p><table><tr><th>Knowledge</th><th>Save Modifier</th></tr><tr><td>Secondhand (you have heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (you have met the target)</td><td>+0</td></tr><tr><td>Familiar (you know the target well)</td><td>-5</td></tr></table><table><tr><th>Connection</th><th>Save Modifier</th></tr><tr><td>Likeness or picture</td><td>-2</td></tr><tr><td>Posession or garment</td><td>-4</td></tr><tr><td>Body part, lock of hair, bit of nail, or the like</td><td>-10</td></tr></table><p>On a successful save, the target isn’t affected, and you can’t use this spell against it again for 24 hours.</p><p>On a failed save, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see invisible objects sees the sensor as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn’t move.</p>"
   },
@@ -8463,7 +8506,8 @@
     "s_damage_type": "fire",
     "s_upcastable": true,
     "s_class_usage": [
-      "Paladin"
+      "Paladin",
+      "Ranger"
     ],
     "s_description": "<p>The next time you hit a creature with a melee weapon attack during the spell’s duration, your weapon flares with white-hot intensitity, and the attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames.</p><p>At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a successful save, the spells ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot.</p>"
   },
@@ -8987,7 +9031,8 @@
     "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
-      "Wizard"
+      "Wizard",
+      "Bard"
     ],
     "s_description": "<p>You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target’s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can’t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature’s abilities or magic items, it can’t make more than one melee or ranged attack during its turn.</p><p>If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn’t take effect until the creature’s next turn, and the creature must use its action on that turn to complete the spell. If it can’t, the spell is wasted.</p><p>A creature affected by this spell makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.</p>"
   },
@@ -9131,7 +9176,8 @@
     "s_upcastable": false,
     "s_class_usage": [
       "Bard",
-      "Cleric"
+      "Cleric",
+      "Wizard"
     ],
     "s_description": "<p>You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can’t be undead. The spell fails if the corpse was the target of this spell within the last 10 days.</p><p>Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events.</p>"
   },
@@ -9514,7 +9560,8 @@
     "s_class_usage": [
       "Druid",
       "Sorcerer",
-      "Wizard"
+      "Wizard",
+      "Cleric"
     ],
     "s_description": "<p>A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-line.</p><p>Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes 6d8 radiant damage and is blinded until your next turn. On a successful save, it takes half as much damage and isn’t blinded by this spell. Undead and oozes have disadvantage on this saving throw.</p><p>You can create a new line of radiance as your action on any turn until the spell ends.</p><p>For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. The light is sunlight.</p>"
   },
@@ -9540,7 +9587,8 @@
     "s_class_usage": [
       "Druid",
       "Sorcerer",
-      "Wizard"
+      "Wizard",
+      "Cleric"
     ],
     "s_description": "<p>Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range.</p><p>Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes 12d6 radiant damage and is blinded for 1 minute. On a successful save, it takes half as much damage and isn’t blinded by this spell. Undead and oozes have disadvantage on this saving throw.</p><p>A creature blinded by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded.</p><p>This spell dispels any darkness in its area that was created by a spell.</p>"
   },
@@ -9613,7 +9661,8 @@
     "s_class_usage": [
       "Bard",
       "Cleric",
-      "Wizard"
+      "Wizard",
+      "Druid"
     ],
     "s_description": "<p>When you cast this spell, you inscribe a harmful glyph either on a surface (such as a section of floor, a wall, or a table) or within an object that can be closed to conceal the glyph (such as a book, a scroll, or a treasure chest).</p><p>If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place; if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.</p><p>The glyph is nearly invisible, requiring an Intelligence (Investigation) check against your spell save DC to find it.</p><p>You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or stepping on the glyph, removing another object covering it, approaching within a certain distance of it, or manipulating the object that holds it. For glyphs inscribed within an object, the most common triggers are opening the object, approaching within a certain distance of it, or seeing or reading the glyph.</p><p>You can further refine the trigger so the spell is activated only under certain circumstances or according to a creature’s physical characteristics (such as height or weight), or physical kind (for example, the ward could be set to affect hags or shapechangers). You can also specify creatures that don’t trigger the glyph, such as those who say a certain password.</p><p>When you inscribe the glyph, choose one of the options below for its effect. Once triggered, the glyph glows, filling a 60-foot-radius sphere with dim light for 10 minutes, after which time the spell ends. Each creature in the sphere when the glyph activates is targeted by its effect, as is a creature that enters the sphere for the first time on a turn or ends its turn there.</p><p><b>Death</b></p><p>Each target must make a Constitution saving throw, taking 10d10 necrotic damage on a failed save, or half as much damage on a successful save.</p><p><b>Discord</b></p><p>Each target must make a Constitution saving throw. On a failed save, a target bickers and argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has disadvantage on attack rolls and ability checks.</p><p><b>Fear</b></p><p>Each target must make a Wisdom saving throw and becomes frightened for 1 minute on a failed save. While frightened, the target drops whatever it is holding and must move at least 20 feet away from the glyph on each of ist turns, if able.</p><p><b>Hopelessness</b></p><p>Each target must make a Charisma saving throw. On a failed save, the target is overwhelmed with despair for 1 minute. During this time, it can’t attack or target any creature with harmful abilities, spells, or other magical effects.</p><p><b>Insanity</b></p><p>Each target must make an Intelligence saving throw. On a failed save, the target is driven insane for 1 minute. An insane creature can’t take actions, can’t understand what other creatures say, can’t read, and speaks only in gibberish. The DM controls its movement, which is erratic.</p><p><b>Pain</b></p><p>Each target must make a Constitution saving throw and becomes incapacitated with excruciating pain for 1 minute on a failed save.</p><p><b>Sleep</b></p><p>Each target must make a Wisdom saving throw and falls unconscious for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.</p><p><b>Stunning</b></p><p>Each target must make a Wisdom saving throw and becomes stunned for 1 minute on a failed save.</p>"
   },
@@ -10591,7 +10640,8 @@
     "s_damage_type": "None",
     "s_upcastable": false,
     "s_class_usage": [
-      "Cleric"
+      "Cleric",
+      "Paladin"
     ],
     "s_description": "<p>This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends.</p><p>While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.</p><p>The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.</p>"
   },

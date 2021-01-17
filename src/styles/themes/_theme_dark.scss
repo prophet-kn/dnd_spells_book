@@ -109,6 +109,48 @@
     color: $dominant-colour;
   }
 
+  // monsters
+  .monster {
+    &-definitions,
+    &-details,
+    &-name {
+      border-color: $light-colour;
+    }
+
+    &-name {
+      &:hover {
+        background-color: $light-colour;
+        color: $dominant-colour;
+
+        svg,
+        path {
+          fill: $dominant-colour;
+        }
+
+        .monster-tooltip {
+          color: $dominant-colour;
+        }
+      }
+    }
+
+    &-undefined,
+    &-tooltip {
+      color: $light-colour;
+    }
+
+    &-pin {
+      fill: $light-colour;
+
+      &:hover {
+        svg,
+        path {
+          fill: $dnd-red;
+        }
+      }
+    }
+  }
+
+  // item
   .item {
     &-definitions,
     &-details,

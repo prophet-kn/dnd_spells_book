@@ -415,6 +415,166 @@
     cursor: no-drop;
   }
 }
+// monster
+.monster {
+  &-top {
+    &-level {
+      display: flex;
+      position: relative;
+    }
+  }
+
+  &-name {
+    border: 2px solid;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    font-size: $medium-size;
+    height: 30px;
+    justify-content: left;
+    line-height: 1.75;
+    margin: 10px 0;
+    padding: 10px;
+    padding-left: 15px;
+
+    .chevron {
+      position: absolute;
+      right: 15px;
+      transform: rotate(90deg);
+      transition: .5s;
+
+      &.opened {
+        transform: rotate(0deg);
+        transition: .5s;
+      }
+    }
+  }
+
+  &-definitions {
+    border: 2px solid;
+    border-radius: 25px;
+    margin: 10px 0;
+    text-align: left;
+    animation: fade-in .5s ease-in-out;
+
+    &-top {
+      &-name {
+        text-align: center;
+        border-bottom: 2px solid;
+        margin-bottom: 10px;
+      }
+
+      &-stats {
+        display: flex;
+        flex-flow: column;
+        text-align: left;
+        padding-left: 10px;
+        padding-bottom: 10px;
+      }
+    }
+
+    &-stats {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      border-bottom: 2px solid;
+      border-top: 2px solid;
+      text-align: center;
+
+      span {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        &:not(:last-child) {
+          border-right: 2px solid;
+        }
+      }
+    }
+
+    &-attributes {
+      &-saving-throws {
+        display: flex;
+        flex-flow: row;
+        text-align: left;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 2px solid;
+
+        span {
+          padding-right: 5px;
+        }
+      }
+
+      &-misc {
+        display: flex;
+        flex-flow: column;
+        text-align: left;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+    }
+
+    &-skills,
+    &-features,
+    &-actions,
+    &-reactions,
+    &-legendary-actions {
+      display: flex;
+      flex-flow: column;
+      text-align: left;
+      padding-left: 10px;
+      border-top: 2px solid;
+      padding-top: 10px;
+
+      &-value {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &-details {
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    margin: 10px 0;
+
+    div {
+      padding: 2px 0;
+    }
+  }
+
+  &-description {
+    line-height: 20px;
+
+    b {
+      line-height: 2.0;
+    }
+  }
+
+  &-undefined {
+    font-size: $medium-size;
+    padding: 25px 0;
+  }
+
+  &-pin {
+    cursor: pointer;
+    left: 6px;
+    position: absolute;
+    top: 8px;
+    z-index: 1;
+  }
+
+  &-dropdown {
+    position: relative;
+  }
+
+  &-tooltip {
+    font-size: $medium-size;
+    opacity: .85;
+    margin-left: auto;
+    padding-right: 40px;
+  }
+}
 
 // item
 .item {

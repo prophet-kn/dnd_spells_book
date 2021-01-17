@@ -7931,7 +7931,8 @@
     "s_components": "V, S",
     "s_duration": "1 hour",
     "s_type": [
-      "protection"
+      "protection",
+      "buff"
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
@@ -11379,5 +11380,362 @@
       "Cleric"
     ],
     "s_description": "<p>You address allies, staff, or innocent bystanders to exhort and inspire them to greatness, whether they have anything to get excited about or not. Choose up to five creatures within range that can hear you. For the duration, each affected creature gains 5 temporary hit points and has advantage on Wisdom saving throws. If an affected creature is hit by an attack, it has advantage on the next attack roll it makes. Once an affected creature loses the temporary hit points granted by this spell, the spell ends for that creature.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 4th level or higher, the temporary hit points increase by 5 for each slot level above 3rd.</p>"
+  },
+  {
+    "s_id": 475,
+    "s_name": "Blade of Disaster",
+    "s_lvl": "9th",
+    "s_school": "Conjuration",
+    "s_ritual": false,
+    "s_cast_time": "1 bonus action",
+    "s_range": "60 feet",
+    "s_components": "V, S",
+    "s_duration": "1 minute",
+    "s_type": [
+      "damage"
+    ],
+    "s_damage_dice": "4d12",
+    "s_damage_type": "force",
+    "s_class_usage": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_description": "<p>You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes 4d12 force damage. This attack scores a critical hit if the number on the d20 is 18 or higher. On a critical hit, the blade deals an extra 8d12 force damage (for a total of 12d12 force damage).</p><p>As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to two melee spell attacks with it again.</p><p>The blade can harmlessly pass through any barrier, including a wall of force.</p>"
+  },
+  {
+    "s_id": 476,
+    "s_name": "Dream of the Blue Veil",
+    "s_lvl": "7th",
+    "s_school": "Conjuration",
+    "s_ritual": false,
+    "s_cast_time": "10 minutes",
+    "s_range": "20 feet",
+    "s_components": "V, S, M (a magic item or a willing creature from the destination world)",
+    "s_duration": "6 hours",
+    "s_type": [
+      "movement"
+    ],
+    "s_damage_dice": "None",
+    "s_damage_type": "None",
+    "s_class_usage": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_description": "<p>You and up to eight willing creatures within range fall unconscious for the spell’s duration and experience visions of another world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If the spell reaches its full duration, the visions conclude with each of you encountering and pulling back a mysterious blue curtain. The spell then ends with you mentally and physically transported to the world that was in the visions.</p><p>To cast this spell, you must have a magic item that originated on the world you wish to reach, and you must be aware of the world’s existence, even if you don’t know the world’s name. Your destination in the other world is a safe location within 1 mile of where the magic item was created. Alternatively, you can cast the spell if one of the affected creatures was born on the other world, which causes your destination to be a safe location within 1 mile of where that creature was born.</p><p>The spell ends early on a creature if that creature takes any damage, and the creature isn’t transported. If you take any damage, the spell ends for you and all the other creatures, with none of you being transported.</p>"
+  },
+  {
+    "s_id": 477,
+    "s_name": "Intellect Fortress",
+    "s_lvl": "3rd",
+    "s_school": "Abjuration",
+    "s_ritual": false,
+    "s_cast_time": "1 action",
+    "s_range": "30 feet",
+    "s_components": "V",
+    "s_duration": "Concentration, up to 1 hour",
+    "s_type": [
+      "buff",
+      "protection"
+    ],
+    "s_damage_dice": "None",
+    "s_damage_type": "None",
+    "s_class_usage": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard",
+      "Artificer"
+    ],
+    "s_description": "<p>For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them.</p>"
+  },
+  {
+    "s_id": 478,
+    "s_name": "Mind Sliver",
+    "s_lvl": "Cantrip",
+    "s_school": "Enchantment",
+    "s_ritual": false,
+    "s_cast_time": "1 action",
+    "s_range": "60 feet",
+    "s_components": "V",
+    "s_duration": "Instantaneous",
+    "s_type": [
+      "damage",
+      "disruption"
+    ],
+    "s_damage_dice": "1d6",
+    "s_damage_type": "psychic",
+    "s_class_usage": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_description": "<p>You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn.</p><p>This spell’s damage increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>"
+  },
+  {
+    "s_id": 479,
+    "s_name": "Spirit Shroud",
+    "s_lvl": "3rd",
+    "s_school": "Necromancy",
+    "s_ritual": false,
+    "s_cast_time": "1 bonus action",
+    "s_range": "Self",
+    "s_components": "V, S",
+    "s_duration": "Concentration, up to 1 minute",
+    "s_type": [
+      "disruption",
+      "damage"
+    ],
+    "s_damage_dice": "1d8",
+    "s_damage_type": "various",
+    "s_class_usage": [
+      "Cleric",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "s_description": "<p>You call forth spirits of the dead, which flit around you for the spell’s duration. The spirits are intangible and invulnerable.</p><p>Until the spell ends, any attack you make deals 1d8 extra damage when you hit a creature within 10 feet of you. This damage is radiant, necrotic, or cold (your choice when you cast the spell). Any creature that takes this damage can’t regain hit points until the start of your next turn.</p><p>In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 3rd.</p>"
+  },
+  {
+    "s_id": 480,
+    "s_name": "Summon Aberration",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": "<p>You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Aberrant Spirit stat block. When you cast the spell, choose Beholderkin, Slaad, or Star Spawn. The creature resembles an aberration of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p><p>The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.</p><p><b>At Higher Levels</b></p><p>When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell’s level appears in the stat block.</p>"
+  },
+  {
+    "s_id": 481,
+    "s_name": "Summon Beast",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 482,
+    "s_name": "Summon Celestial",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 483,
+    "s_name": "Summon Construct",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 484,
+    "s_name": "Summon Elemental",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 485,
+    "s_name": "Summon Fey",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 486,
+    "s_name": "Summon Fiend",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 487,
+    "s_name": "Summon Shadowspawn",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 488,
+    "s_name": "Summon Undead",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 489,
+    "s_name": "Tasha's Caustic Brew",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 490,
+    "s_name": "Tasha's Mind Whip",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
+  },
+  {
+    "s_id": 491,
+    "s_name": "Tasha's Otherworldly Guise",
+    "s_lvl": "",
+    "s_school": "",
+    "s_ritual": false,
+    "s_cast_time": "",
+    "s_range": "",
+    "s_components": "",
+    "s_duration": "",
+    "s_type": [
+      ""
+    ],
+    "s_damage_dice": "",
+    "s_damage_type": "",
+    "s_class_usage": [
+      ""
+    ],
+    "s_description": ""
   }
 ]

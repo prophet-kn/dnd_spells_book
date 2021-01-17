@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import ReactHtmlParser from 'react-html-parser'
 import Icons from '../icons/icons'
+import { MonsterDescription } from './../monster-item/monster-description'
+import monsterData from './../../data/monsters.json'
 import propTypes from 'prop-types'
 
 class SpellItem extends Component {
@@ -21,6 +23,13 @@ class SpellItem extends Component {
     this.setState(spellState)
   }
 
+  getStatBlock(name) {
+    var result = monsterData.find(obj => {
+      return obj.name === name
+    })
+    return result
+  }
+
   spellDescription(spellItem, i) {
     if (this.state.showList === i) {
       return (
@@ -36,6 +45,7 @@ class SpellItem extends Component {
             {spellItem.s_damage_type !== 'None' && <div className={'item-damage'}><b>Damage:</b> {spellItem.s_damage_dice} {spellItem.s_damage_type}</div>}
           </div>
           <div className={'item-description'}>{ReactHtmlParser(spellItem.s_description)}</div>
+          {spellItem.s_stat_block ? <MonsterDescription monsterItem={this.getStatBlock(spellItem.s_stat_block)}/> : null}
           <div className={'item-can-cast'}><i>Classes: {spellItem.s_class_usage.join(', ')}</i></div>
         </div>
       )
@@ -61,7 +71,6 @@ class SpellItem extends Component {
           <div className={'item-tooltip'}>L: {spellItem.s_lvl.slice(0, 1)}</div>
           <svg className={this.state.showList === i ? 'chevron opened' : 'chevron'} width="30" height="30" viewBox="0 0 10 16"><path fillRule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6l-5 5z"></path></svg>
         </div>
-
         <div onClick={this.onPinClick.bind(this)} className={'item-pin'}>
           <svg width="40" height="40" viewBox="0 0 8 16"><path fillRule="evenodd" d="M4 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM4 12a4 4 0 100-8 4 4 0 000 8z"></path></svg>
         </div>

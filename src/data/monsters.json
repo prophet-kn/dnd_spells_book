@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Aberrant Spirit",
+    "alignment": "Any alignment",
+    "size": "Medium",
+    "type": "Humanoid",
+    "AC": 10,
+    "HP": 9,
+    "speed": "30 ft",
+    "stats": [
+      {
+        "Strength": 10,
+        "Dexterity": 10,
+        "Constitution": 10,
+        "Intelligence": 10,
+        "Wisdom": 14,
+        "Charisma": 11
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Medicine": 4,
+        "Religion": 2
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 12,
+    "Language": "Common",
+    "Challenge": "0.25",
+    "Features": [
+      {
+        "Spellcasting": "The acolyte is a 1 st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12 , +4 to hit with spell attacks). The acolyte has following cleric spells prepared: Cantrips (at will): light, sacred flame, thaumaturgy 1 st level (3 slots) : bless, cure wounds, sanctuary"
+      }
+    ],
+    "Actions": [
+      {
+        "Club": "Melee Weapon Attack: + 2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Bestial Spirit",
+    "alignment": "Any alignment",
+    "size": "Medium",
+    "type": "Humanoid",
+    "AC": 10,
+    "HP": 9,
+    "speed": "30 ft",
+    "stats": [
+      {
+        "Strength": 10,
+        "Dexterity": 10,
+        "Constitution": 10,
+        "Intelligence": 10,
+        "Wisdom": 14,
+        "Charisma": 11
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "Medicine": 4,
+        "Religion": 2
+      }
+    ],
+    "damageResistance": "",
+    "passivePerception": 12,
+    "Language": "Common",
+    "Challenge": "0.25",
+    "Features": [
+      {
+        "Spellcasting": "The acolyte is a 1 st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12 , +4 to hit with spell attacks). The acolyte has following cleric spells prepared: Cantrips (at will): light, sacred flame, thaumaturgy 1 st level (3 slots) : bless, cure wounds, sanctuary"
+      }
+    ],
+    "Actions": [
+      {
+        "Club": "Melee Weapon Attack: + 2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  }
+]

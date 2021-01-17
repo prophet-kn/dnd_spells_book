@@ -97,7 +97,7 @@ const MonsterDescription = ({ monsterItem, i }) => {
           <h2>{name}</h2>
         </div>
         <div className={'monster-definitions-top-stats'}>
-          <span><i>{npcSize} {npcType}, {alignment}</i></span>
+          <span><i>{npcSize} {npcType}{alignment ? ', ' : null}{alignment}</i></span>
           <span><strong>Armor Class: </strong> {AC}</span>
           <span><strong>Hit Points: </strong> {HP}</span>
           <span><strong>Speed: </strong> {classSpeed}</span>
@@ -126,8 +126,8 @@ const MonsterDescription = ({ monsterItem, i }) => {
           </div>
           : ''}
         <div className={'monster-definitions-attributes-misc'}>
-          {damageResistances !== '' ? <span><strong>Damage resistance: </strong> {damageResistances}</span> : ''}
-          {passivePerception !== '' ? <span><strong>Passive perception: </strong> {passivePerception}</span> : ''}
+          {damageResistances !== '' ? <span><strong>Damage Resistances: </strong> {damageResistances}</span> : ''}
+          {passivePerception !== '' ? <span><strong>Passive Perception: </strong> {passivePerception}</span> : ''}
           {classLanguage !== '' ? <span><strong>Languages: </strong> {classLanguage}</span> : ''}
           {challengeRating !== '' ? <span><strong>Challenge: </strong> {challengeRating}</span> : ''}
         </div>

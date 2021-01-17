@@ -1,41 +1,43 @@
 [
   {
     "name": "Aberrant Spirit",
-    "alignment": "Any alignment",
+    "alignment": "",
     "size": "Medium",
-    "type": "Humanoid",
-    "AC": 10,
-    "HP": 9,
-    "speed": "30 ft",
+    "type": "Aberration",
+    "AC": "11 + the level of the spell (natural armor)",
+    "HP": "40 + 10 for each spell level above 4th",
+    "speed": "30 feet; fly 30 feet (hover) (Beholderkin only)",
     "stats": [
       {
-        "Strength": 10,
+        "Strength": 16,
         "Dexterity": 10,
-        "Constitution": 10,
-        "Intelligence": 10,
-        "Wisdom": 14,
-        "Charisma": 11
+        "Constitution": 15,
+        "Intelligence": 16,
+        "Wisdom": 10,
+        "Charisma": 6
       }
     ],
     "saving_throws": [],
-    "skills": [
-      {
-        "Medicine": 4,
-        "Religion": 2
-      }
-    ],
+    "skills": [],
     "damageResistance": "",
-    "passivePerception": 12,
-    "Language": "Common",
-    "Challenge": "0.25",
+    "passivePerception": 10,
+    "Language": "Deep Speech, understands the languages you speak",
+    "Challenge": "",
     "Features": [
       {
-        "Spellcasting": "The acolyte is a 1 st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12 , +4 to hit with spell attacks). The acolyte has following cleric spells prepared: Cantrips (at will): light, sacred flame, thaumaturgy 1 st level (3 slots) : bless, cure wounds, sanctuary"
+        "Damage Immunities": "psychic",
+        "Senses": "darkvision 60 feet",
+        "Proficiency Bonus": "equals your bonus",
+        "Regeneration (Slaad Only)": "The aberration regains 5 hit points at the start of its turn if it has at least 1 hit point.",
+        "Whispering Aura (Star Spawn Only)": "At the start of each of the aberration’s turns, each creature within 5 feet of the aberration must succeed on a Wisdom saving throw against your spell save DC or take 2d6 psychic damage, provided that the aberration isn’t incapacitated."
       }
     ],
     "Actions": [
       {
-        "Club": "Melee Weapon Attack: + 2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+        "Multiattack": "The aberration makes a number of attacks equal to half this spell’s level (rounded down).",
+        "Claws (Slaad Only)": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d10 + 3 + the spell’s level slashing damage. If the target is a creature, it can’t regain hit points until the start of the aberration’s next turn.",
+        "Eye Ray (Beholderkin Only)": "Ranged Spell Attack: your spell attack modifier to hit, range 150 ft., one creature. Hit: 1d8 + 3 + the spell’s level psychic damage.",
+        "Psychic Slam (Star Spawn Only)": "Melee Spell Attack: your spell attack modifier to hit, reach 5 ft., one creature. Hit: 1d8 + 3 + the spell’s level psychic damage."
       }
     ],
     "Reactions": [],
@@ -43,41 +45,350 @@
   },
   {
     "name": "Bestial Spirit",
-    "alignment": "Any alignment",
-    "size": "Medium",
-    "type": "Humanoid",
-    "AC": 10,
-    "HP": 9,
-    "speed": "30 ft",
+    "alignment": "",
+    "size": "Small",
+    "type": "Beast",
+    "AC": "11 + the level of the spell (natural armor)",
+    "HP": "20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2nd",
+    "speed": "30 feet; climb 30 feet (Land only); fly 60 feet (Air only); swim 30 feet (Water only)",
     "stats": [
       {
-        "Strength": 10,
-        "Dexterity": 10,
-        "Constitution": 10,
-        "Intelligence": 10,
+        "Strength": 18,
+        "Dexterity": 11,
+        "Constitution": 16,
+        "Intelligence": 4,
         "Wisdom": 14,
-        "Charisma": 11
+        "Charisma": 5
       }
     ],
     "saving_throws": [],
-    "skills": [
-      {
-        "Medicine": 4,
-        "Religion": 2
-      }
-    ],
+    "skills": [],
     "damageResistance": "",
     "passivePerception": 12,
-    "Language": "Common",
-    "Challenge": "0.25",
+    "Language": "understands the languages you speak",
+    "Challenge": "",
     "Features": [
       {
-        "Spellcasting": "The acolyte is a 1 st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12 , +4 to hit with spell attacks). The acolyte has following cleric spells prepared: Cantrips (at will): light, sacred flame, thaumaturgy 1 st level (3 slots) : bless, cure wounds, sanctuary"
+        "Senses": "darkvision 60 feet",
+        "Proficiency Bonus": "equals your bonus",
+        "Flyby (Air Only)": "The beast doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.",
+        "Pack Tactics (Land and Water Only)": "The beast has advantage on an attack roll against a creature if at least one of the beast’s allies is within 5 feet of the creature and the ally isn’t incapacitated.",
+        "Water Breathing (Water Only)": "The beast can breathe only underwater."
       }
     ],
     "Actions": [
       {
-        "Club": "Melee Weapon Attack: + 2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+        "Multiattack": "The beast makes a number of attacks equal to half this spell’s level (rounded down).",
+        "Maul": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 4 + the spell’s level piercing damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Celestial Spirit",
+    "alignment": "",
+    "size": "Large",
+    "type": "Celestial",
+    "AC": "11 + the level of the spell (natural armor) + 2 (Defender only)",
+    "HP": "40 + 10 for each spell level above 5th",
+    "speed": "30 feet, fly 40 feet",
+    "stats": [
+      {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 16,
+        "Intelligence": 10,
+        "Wisdom": 14,
+        "Charisma": 16
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "radiant",
+    "passivePerception": 12,
+    "Language": "Celestial, understands the languages you speak",
+    "Challenge": "",
+    "Features": [
+      {
+        "Condition Immunities": "charmed, frightened",
+        "Senses": "darkvision 60 feet",
+        "Proficiency Bonus": "equals your bonus"
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The celestial makes a number of attacks equal to half this spell’s level (rounded down).",
+        "Radiant Bow (Avenger Only)": "Ranged Weapon Attack: your spell attack modifier to hit, range 150/600 ft., one target. Hit: 2d6 + 2 + the spell’s level radiant damage.",
+        "Radiant Mace (Defender Only)": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d10 + 3 + the spell’s level radiant damage, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 temporary hit points.",
+        "Healing Touch (1/Day)": "The celestial touches another creature. The target magically regains hit points equal to 2d8 + the spell’s level."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Construct Spirit",
+    "alignment": "",
+    "size": "Medium",
+    "type": "Construct",
+    "AC": "13 + the level of the spell (natural armor)",
+    "HP": "40 + 15 for each spell level above 3rd",
+    "speed": "30 feet",
+    "stats": [
+      {
+        "Strength": 18,
+        "Dexterity": 10,
+        "Constitution": 18,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 5
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "poison",
+    "passivePerception": 10,
+    "Language": "understands the languages you speak",
+    "Challenge": "",
+    "Features": [
+      {
+        "Condition Immunities": "charmed, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned",
+        "Senses": "darkvision 60 feet",
+        "Proficiency Bonus": "equals your bonus",
+        "Heated Body (Metal Only)": "A creature that touches the construct or hits it with a melee attack while within 5 feet of it takes 1d10 fire damage.",
+        "Stony Lethargy (Stone Only)": "When a creature the construct can see starts its turn within 10 feet of the construct, the construct can force it to make a Wisdom saving throw against your spell save DC. On a failed save, the target can’t use reactions and its speed is halved until the start of its next turn."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The construct makes a number of attacks equal to half this spell’s level (rounded down).",
+        "Slam": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 4 + the spell’s level bludgeoning damage."
+      }
+    ],
+    "Reactions": [
+      {
+        "Berserk Lashing (Clay Only)": "When the construct takes damage, it makes a slam attack against a random creature within 5 feet of it. If no creature is within reach, the construct moves up to half its speed toward an enemy it can see, without provoking opportunity attacks."
+      }
+    ],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Elemental Spirit",
+    "alignment": "",
+    "size": "Medium",
+    "type": "Elemental",
+    "AC": "11 + the level of the spell (natural armor)",
+    "HP": "50 + 10 for each spell level above 4th",
+    "speed": "40 feet; burrow 40 feet (Earth only); fly 40 feet (hover) (Air only); swim 40 feet (Water only)",
+    "stats": [
+      {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 17,
+        "Intelligence": 4,
+        "Wisdom": 10,
+        "Charisma": 16
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "acid (Water only); lightning and thunder (Air only); piercing and slashing (Earth only)",
+    "passivePerception": 10,
+    "Language": "Primordial, understands the languages you speak",
+    "Challenge": "",
+    "Features": [
+      {
+        "Damage Immunities": "poison; fire (Fire only)",
+        "Condition Immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+        "Senses": "darkvision 60 feet",
+        "Proficiency Bonus": "equals your bonus",
+        "Amorphous Form (Air, Fire, and Water Only)": "The elemental can move through a space as narrow as 1 inch wide without squeezing."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The elemental makes a number of attacks equal to half this spell’s level (rounded down).",
+        "Slam": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d10 + 4 + the spell’s level bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only)."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Fey Spirit",
+    "alignment": "",
+    "size": "Small",
+    "type": "Fey",
+    "AC": "12 + the level of the spell (natural armor)",
+    "HP": "30 + 10 for each spell level above 3rd",
+    "speed": "40 feet",
+    "stats": [
+      {
+        "Strength": 13,
+        "Dexterity": 16,
+        "Constitution": 14,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 16
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "",
+    "passivePerception": 10,
+    "Language": "Sylvan, understands the languages you speak",
+    "Challenge": "",
+    "Features": [
+      {
+        "Condition Immunities": "charmed",
+        "Senses": "darkvision 60 feet",
+        "Proficiency Bonus": "equals your bonus",
+        "Fey Step": "As a bonus action, the fey magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the fey’s chosen mood:",
+        "Fuming": "The fey has advantage on the next attack roll it makes before the end of this turn.",
+        "Mirthful": "The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is charmed by you and the fey for 1 minute or until the target takes any damage.",
+        "Tricksy": "The fey can fill a 5-foot cube within 5 feet of it with magical darkness, which lasts until the end of its next turn."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The fey makes a number of attacks equal to half this spell’s level (rounded down).",
+        "Shortsword": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6 + 3 + the spell’s level piercing damage + 1d6 force damage."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Fiendish Spirit",
+    "alignment": "",
+    "size": "Large",
+    "type": "Fiend",
+    "AC": "12 + the level of the spell (natural armor)",
+    "HP": "50 (Demon only) or 40 (Devil only) or 60 (Yugoloth only) + 15 for each spell level above 6th",
+    "speed": "40 feet; climb 40 feet (Demon only); fly 60 feet (Devil only)",
+    "stats": [
+      {
+        "Strength": 13,
+        "Dexterity": 16,
+        "Constitution": 15,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 16
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "fire",
+    "passivePerception": 10,
+    "Language": "Abyssal, Infernal, telepathy 60 feet",
+    "Challenge": "",
+    "Features": [
+      {
+        "Damage Immunities": "poison",
+        "Condition Immunities": "poisoned",
+        "Senses": "darkvision 60 feet",
+        "Proficiency Bonus": "equals your bonus",
+        "Death Throes (Demon Only)": "When the fiend drops to 0 hit points or the spell ends, the fiend explodes, and each creature within 10 feet of it must make a Dexterity saving throw against your spell save DC. A creature takes 2d10 + this spell’s level fire damage on a failed save, or half as much damage on a successful one.",
+        "Devil’s Sight (Devil Only)": "Magical darkness doesn’t impede the fiend’s darkvision.",
+        "Magic Resistance": "The fiend has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The fiend makes a number of attacks equal to half this spell’s level (rounded down).",
+        "Bite (Demon Only)": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the spell’s level necrotic damage.",
+        "Claws (Yugoloth Only)": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 3 + the spell’s level slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see.",
+        "Hurl Flame (Devil Only)": "Ranged Spell Attack: your spell attack modifier to hit, range 150 ft., one target. Hit: 2d6 + 3 + the spell’s level fire damage. If the target is a flammable object that isn’t being worn or carried, it also catches fire."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Shadow Spirit",
+    "alignment": "",
+    "size": "Medium",
+    "type": "Monstrosity",
+    "AC": "11 + the level of the spell (natural armor)",
+    "HP": "35 + 15 for each spell level above 3rd",
+    "speed": "40 feet",
+    "stats": [
+      {
+        "Strength": 13,
+        "Dexterity": 16,
+        "Constitution": 15,
+        "Intelligence": 4,
+        "Wisdom": 10,
+        "Charisma": 16
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "necrotic",
+    "passivePerception": 10,
+    "Language": "understands the languages you speak",
+    "Challenge": "",
+    "Features": [
+      {
+        "Condition Immunities": "frightened",
+        "Senses": "darkvision 120 feet",
+        "Proficiency Bonus": "equals your bonus",
+        "Terror Frenzy (Fury Only)": "The spirit has advantage on attack rolls against frightened creatures.",
+        "Weight of Sorrow (Despair Only)": "Any creature, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 feet until the start of that creature’s next turn.",
+        "Shadow Stealth (Fear Only)": "As a bonus action, while in dim light or darkness, the spirit takes the Hide action."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The spirit makes a number of attacks equal to half this spell’s level (rounded down).",
+        "Chilling Rend": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the spell’s level cold damage.",
+        "Dreadful Scream (1/Day)": "The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be frightened of the spirit for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      }
+    ],
+    "Reactions": [],
+    "LegendaryActions": []
+  },
+  {
+    "name": "Undead Spirit",
+    "alignment": "",
+    "size": "Medium",
+    "type": "Undead",
+    "AC": "11 + the level of the spell (natural armor)",
+    "HP": "30 (Ghostly and Putrid only) or 20 (Skeletal only) + 10 for each spell level above 3rd",
+    "speed": "30 feet; fly 40 feet (hover) (Ghostly only)",
+    "stats": [
+      {
+        "Strength": 12,
+        "Dexterity": 16,
+        "Constitution": 15,
+        "Intelligence": 4,
+        "Wisdom": 10,
+        "Charisma": 9
+      }
+    ],
+    "saving_throws": [],
+    "skills": [],
+    "damageResistance": "",
+    "passivePerception": 10,
+    "Language": "understands the languages you speak",
+    "Challenge": "",
+    "Features": [
+      {
+        "Damage Immunities": "necrotic, poison",
+        "Condition Immunities": "exhaustion, frightened, paralyzed, poisoned",
+        "Senses": "darkvision 60 feet",
+        "Proficiency Bonus": "equals your bonus",
+        "Festering Aura (Putrid Only)": "Any creature, other than you, that starts its turn within 5 feet of the spirit must succeed on a Constitution saving throw against your spell save DC or be poisoned until the start of its next turn.",
+        "Incorporeal Passage (Ghostly Only)": "The spirit can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 force damage for every 5 feet traveled."
+      }
+    ],
+    "Actions": [
+      {
+        "Multiattack": "The spirit makes a number of attacks equal to half this spell’s level (rounded down).",
+        "Deathly Touch (Ghostly Only)": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one creature. Hit: 1d8 + 3 + the spell’s level necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of the undead until the end of the target’s next turn.",
+        "Grave Bolt (Skeletal Only)": "Ranged Spell Attack: your spell attack modifier to hit, range 150 ft., one target. Hit: 2d4 + 3 + the spell’s level necrotic damage.",
+        "Rotting Claw (Putrid Only)": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6 + 3 + the spell’s level slashing damage. If the target is poisoned, it must succeed on a Constitution saving throw against your spell save DC or be paralyzed until the end of its next turn."
       }
     ],
     "Reactions": [],

@@ -4,6 +4,7 @@ import propTypes from 'prop-types'
 
 class FilterDataButtons extends React.Component {
   onClickButton(filter, value) {
+    window.scrollTo(0, window.pageYOffset)
     this.props.setFilter(this.props.title, filter, value)
   }
 

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47204903ec54deab7a72e720e5f5569c",
+    "revision": "f1d5e05fdc6c78370598c1b7abdfc25d",
     "url": "/dnd_spells_book/index.html"
   },
   {
-    "revision": "3dfeeb39cb1fe929b80e",
-    "url": "/dnd_spells_book/static/css/main.e5a6f60b.chunk.css"
+    "revision": "a2942f5a76df30990f46",
+    "url": "/dnd_spells_book/static/css/main.9aa65268.chunk.css"
   },
   {
-    "revision": "9a34cfc42ab0f843e641",
-    "url": "/dnd_spells_book/static/js/2.21623b90.chunk.js"
+    "revision": "694a10b7a125cf212725",
+    "url": "/dnd_spells_book/static/js/2.783c045e.chunk.js"
   },
   {
-    "revision": "8aa51b52c3f21eb18a6be37c33370560",
-    "url": "/dnd_spells_book/static/js/2.21623b90.chunk.js.LICENSE.txt"
+    "revision": "f1eec8fd0863e9d82ccbea56b3904dd9",
+    "url": "/dnd_spells_book/static/js/2.783c045e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3dfeeb39cb1fe929b80e",
-    "url": "/dnd_spells_book/static/js/main.44997bbe.chunk.js"
+    "revision": "a2942f5a76df30990f46",
+    "url": "/dnd_spells_book/static/js/main.4d91a08a.chunk.js"
   },
   {
     "revision": "6bc7288044a1ab0e12ee",

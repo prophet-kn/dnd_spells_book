@@ -1,8 +1,10 @@
 import React from 'react'
 import ToggleButton from '../toggle-button/toggle-button'
+import propTypes from 'prop-types'
 
 class FilterDataButtons extends React.Component {
   onClickButton(filter, value) {
+    window.scrollTo(0, window.pageYOffset)
     this.props.setFilter(this.props.title, filter, value)
   }
 
@@ -18,6 +20,12 @@ class FilterDataButtons extends React.Component {
       </div>
     )
   }
+}
+
+FilterDataButtons.propTypes = {
+  setFilter: propTypes.func,
+  title: propTypes.string,
+  values: propTypes.array
 }
 
 export default FilterDataButtons

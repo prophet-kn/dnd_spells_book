@@ -3,6 +3,10 @@
   max-width: 600px;
   min-height: 100vh;
 
+  &-body {
+    margin: 0 5px;
+  }
+
   &-footer {
     display: flex;
     flex-flow: column;
@@ -449,7 +453,7 @@
   &-definitions {
     border: 2px solid;
     border-radius: 25px;
-    margin: 0 0 25px;
+    margin: 10px 0;
     text-align: left;
     animation: fade-in .5s ease-in-out;
 
@@ -628,6 +632,7 @@
       padding-top: 10px;
       padding-bottom: 3px;
       border-top: 2px solid;
+      line-height: 20px;
     }
   }
 
@@ -649,6 +654,21 @@
         margin-bottom: 0;
       }
     }
+
+    table {
+      width: 100%;
+      margin-bottom: 10px;
+      border-collapse: collapse;
+
+      th {
+        border-bottom: 1px solid;
+      }
+
+      td:first-child {
+        width: 30%;
+        white-space: nowrap;
+      }
+    }
   }
 
   &-undefined {
@@ -664,8 +684,22 @@
     z-index: 1;
   }
 
-  &-damage-icon {
-    margin-right: 15px;
+  &-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5px;
+  }
+
+  &-icon {
+    margin-right: 5px;
+
+    @media only screen and (max-width: 600px) {
+      display: none;
+
+      &:first-child {
+        display: block;
+      }
+    }
   }
 
   &-dropdown {

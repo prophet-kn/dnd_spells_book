@@ -171,16 +171,16 @@ class NPCRandomizer extends Component {
           const getSavingThrows = getClass.saving_throws[0] !== undefined ? getClass.saving_throws[0] : ''
           // Skills.
           const classSkills = getClass.skills[0]
-          const classSkillsList = classSkills !== undefined ? Object.entries(classSkills): ''
+          const classSkillsList = classSkills !== undefined ? Object.entries(classSkills) : ''
           // Features.
           const classFeatures = getClass.Features[0]
-          const classFeaturesList = classFeatures !== undefined ? Object.entries(classFeatures): ''
+          const classFeaturesList = classFeatures !== undefined ? Object.entries(classFeatures) : ''
           // Actions.
           const classActions = getClass.Actions[0]
-          const classActionsList = classActions !== undefined ? Object.entries(classActions): ''
+          const classActionsList = classActions !== undefined ? Object.entries(classActions) : ''
           // Reactions.
           const classReactions = getClass.Reactions[0]
-          const classReactionsList = classReactions !== undefined ? Object.entries(classReactions): ''
+          const classReactionsList = classReactions !== undefined ? Object.entries(classReactions) : ''
 
           return (
             <div key={i} className={'dndapp-npcrandomizer-choices-card-details-list'}>

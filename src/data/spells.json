@@ -11460,6 +11460,7 @@
     ],
     "s_damage_dice": "4d12",
     "s_damage_type": "force",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -11482,6 +11483,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -11506,6 +11508,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": true,
     "s_class_usage": [
       "Bard",
       "Sorcerer",
@@ -11531,6 +11534,7 @@
     ],
     "s_damage_dice": "1d6",
     "s_damage_type": "psychic",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",
@@ -11554,6 +11558,7 @@
     ],
     "s_damage_dice": "1d8",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Paladin",
@@ -11579,6 +11584,7 @@
     ],
     "s_damage_dice": "",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -11602,6 +11608,7 @@
     ],
     "s_damage_dice": "1d8 + 4 + the spell’s level",
     "s_damage_type": "piercing",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Ranger"
@@ -11627,6 +11634,7 @@
     ],
     "s_damage_dice": "",
     "s_damage_type": "radiant",
+    "s_upcastable": true,
     "s_class_usage": [
       "Cleric",
       "Paladin"
@@ -11651,6 +11659,7 @@
     ],
     "s_damage_dice": "",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Wizard",
       "Artificer"
@@ -11674,6 +11683,7 @@
     ],
     "s_damage_dice": "1d10 + 4 + the spell’s level",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -11699,6 +11709,7 @@
     ],
     "s_damage_dice": "",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Druid",
       "Ranger",
@@ -11724,6 +11735,7 @@
     ],
     "s_damage_dice": "",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -11748,6 +11760,7 @@
     ],
     "s_damage_dice": "1d12 + 3 + the spell’s level",
     "s_damage_type": "cold",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -11772,6 +11785,7 @@
     ],
     "s_damage_dice": "",
     "s_damage_type": "various",
+    "s_upcastable": true,
     "s_class_usage": [
       "Warlock",
       "Wizard"
@@ -11794,6 +11808,7 @@
     ],
     "s_damage_dice": "2d4",
     "s_damage_type": "acid",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard",
@@ -11817,6 +11832,7 @@
     ],
     "s_damage_dice": "3d6",
     "s_damage_type": "psychic",
+    "s_upcastable": true,
     "s_class_usage": [
       "Sorcerer",
       "Wizard"
@@ -11841,6 +11857,7 @@
     ],
     "s_damage_dice": "None",
     "s_damage_type": "None",
+    "s_upcastable": false,
     "s_class_usage": [
       "Sorcerer",
       "Warlock",

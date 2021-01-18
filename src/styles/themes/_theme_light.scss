@@ -310,4 +310,19 @@
       }
     }
   }
+
+  svg.chevron.scroll-top {
+    background-color: $dominant-colour-light;
+
+    &:active,
+    &:hover {
+      background-color: $light-colour-light;
+      color: $dominant-colour-light;
+
+      svg,
+      path {
+        fill: $dominant-colour-light;
+      }
+    }
+  }
 }

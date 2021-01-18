@@ -3,6 +3,10 @@
   max-width: 600px;
   min-height: 100vh;
 
+  &-table {
+    position: relative;
+  }
+
   &-body {
     margin: 0 5px;
   }
@@ -825,6 +829,19 @@ svg {
         z-index: 1;
       }
     }
+  }
+}
+
+svg.chevron.scroll-top {
+  position: sticky;
+  bottom: 0;
+  border: 2px solid;
+  border-radius: 100%;
+  padding: 10px;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
   }
 }
 

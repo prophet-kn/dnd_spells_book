@@ -4,6 +4,7 @@ import _ from 'lodash'
 import FilterDataButtons from '../filter-data-buttons/filter-data-buttons'
 import SpellItem from './../items/spell-item'
 import { unique } from '../helpers/helpers'
+import ScrollToTop from '../nav/scroll-to-top'
 
 var filterNames = {
   's_lvl': 'Level',
@@ -230,6 +231,7 @@ class SpellsTable extends Component {
           {this.filterDropdowns()}
         </div>
         {this.dataTable()}
+        <ScrollToTop />
       </div>
     )
   }

@@ -38,7 +38,10 @@ class ToggleButton extends React.Component {
 
 ToggleButton.propTypes = {
   onClick: propTypes.func,
-  type: propTypes.string
+  type: propTypes.oneOfType([
+    propTypes.string,
+    propTypes.bool
+  ])
 }
 
 export default ToggleButton

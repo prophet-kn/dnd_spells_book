@@ -22,6 +22,15 @@ const uniqueSkillPrerequisite = sortSkillPrerequisite.map(function(prerequisiteS
   .uniq()
   .value()
 
+const sortScoreIncrease = _.chain(Data)
+const uniqueScoreIncrease = sortScoreIncrease.map(function(scoreIncrease) {
+  return scoreIncrease.f_score_increase
+})
+  .flatten()
+  .sort()
+  .uniq()
+  .value()
+
 const thisUrl = new URL(window.location)
 const featParamUrls = new URLSearchParams(thisUrl.searchParams)
 
@@ -39,7 +48,8 @@ class FeatsTable extends Component {
       },
       filters: {
         'Race prerequisite': [],
-        'Skill prerequisite': []
+        'Skill prerequisite': [],
+        'Ability score increase': []
       }
     }
 
@@ -79,6 +89,7 @@ class FeatsTable extends Component {
         <svg width="30" height="30" viewBox="0 0 12 16" className={'filter-close'} onClick={this.onClickFilter.bind(this)}><path fillRule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
         <FilterDataButtons title={'Race prerequisite'} values={uniqueRacePrerequisite} setFilter={this.setFilter} />
         <FilterDataButtons title={'Skill prerequisite'} values={uniqueSkillPrerequisite} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Ability score increase'} values={uniqueScoreIncrease} setFilter={this.setFilter} />
       </div>
     )
   }
@@ -172,6 +183,9 @@ class FeatsTable extends Component {
       })
       .filter((feat) => {
         return sortFilters['Skill prerequisite'].some(c => feat.f_prerequisite_skill.includes(c)) || sortFilters['Skill prerequisite'].length === 0
+      })
+      .filter((feat) => {
+        return sortFilters['Ability score increase'].some(c => feat.f_score_increase.includes(c)) || sortFilters['Ability score increase'].length === 0
       })
       .filter((feat) => {
         return feat.f_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''

@@ -31,6 +31,15 @@ const uniqueScoreIncrease = sortScoreIncrease.map(function(scoreIncrease) {
   .uniq()
   .value()
 
+const sortProficiencyGained = _.chain(Data)
+const uniqueProficiencyGained = sortProficiencyGained.map(function(proficiencyGained) {
+  return proficiencyGained.f_proficiency_gained
+})
+  .flatten()
+  .sort()
+  .uniq()
+  .value()
+
 const thisUrl = new URL(window.location)
 const featParamUrls = new URLSearchParams(thisUrl.searchParams)
 
@@ -49,7 +58,8 @@ class FeatsTable extends Component {
       filters: {
         'Race prerequisite': [],
         'Skill prerequisite': [],
-        'Ability score increase': []
+        'Ability score increase': [],
+        'Proficiency gained': []
       }
     }
 
@@ -90,6 +100,7 @@ class FeatsTable extends Component {
         <FilterDataButtons title={'Race prerequisite'} values={uniqueRacePrerequisite} setFilter={this.setFilter} />
         <FilterDataButtons title={'Skill prerequisite'} values={uniqueSkillPrerequisite} setFilter={this.setFilter} />
         <FilterDataButtons title={'Ability score increase'} values={uniqueScoreIncrease} setFilter={this.setFilter} />
+        <FilterDataButtons title={'Proficiency gained'} values={uniqueProficiencyGained} setFilter={this.setFilter} />
       </div>
     )
   }
@@ -186,6 +197,9 @@ class FeatsTable extends Component {
       })
       .filter((feat) => {
         return sortFilters['Ability score increase'].some(c => feat.f_score_increase.includes(c)) || sortFilters['Ability score increase'].length === 0
+      })
+      .filter((feat) => {
+        return sortFilters['Proficiency gained'].some(c => feat.f_proficiency_gained.includes(c)) || sortFilters['Proficiency gained'].length === 0
       })
       .filter((feat) => {
         return feat.f_name.toLowerCase().includes(this.state.filterSearch.toLowerCase()) || this.state.filterSearch === ''

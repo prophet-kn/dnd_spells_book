@@ -41,7 +41,8 @@ ToggleButton.propTypes = {
   type: propTypes.oneOfType([
     propTypes.string,
     propTypes.bool
-  ])
+  ]),
+  c: propTypes.string
 }
 
 export default ToggleButton

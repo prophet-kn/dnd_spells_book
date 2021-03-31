@@ -17,7 +17,7 @@ class Icon extends React.Component {
   render() {
     return (
       <ReactSVG
-        src = {svgs[this.props.title]}
+        src = {svgs[this.props.title].default}
         className = "item-icon"
         role = "img"
         aria-label = {this.props.title}

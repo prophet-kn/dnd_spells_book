@@ -1,4 +1,5 @@
 import React from 'react'
+import propTypes from 'prop-types'
 
 const MonsterDescription = ({ monsterItem, i }) => {
   const getModifier = (int) => {
@@ -194,6 +195,11 @@ const MonsterDescription = ({ monsterItem, i }) => {
         : null}
     </div>
   )
+}
+
+MonsterDescription.propTypes = {
+  monsterItem: propTypes.object,
+  i: propTypes.func
 }
 
 export { MonsterDescription }

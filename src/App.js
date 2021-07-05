@@ -6,6 +6,7 @@ import FeatsTable from './components/data-table/feats-table'
 import DiceRolls from './components/dice-roll/dice-roll'
 import NPCRandomizer from './components/npc-randomizer/npc-randomizer'
 import Lander from './components/lander/lander'
+import MonsterList from './components/monster-list/monster-list'
 import '../src/compiled/theme.css'
 
 class App extends Component {
@@ -53,6 +54,7 @@ class App extends Component {
                 <Route exact path='/feats-table' component={ FeatsTable } />
                 <Route exact path='/dice-rolls' component={ DiceRolls } />
                 <Route exact path='/npc-randomizer' component={ NPCRandomizer } />
+                <Route exact path='/monster-list' component={ MonsterList } />
               </Switch>
             </div>
           </Router>

@@ -65,6 +65,7 @@ class Nav extends Component {
             <Link to={'/feats-table'}><li onClick={this.toggleMenu.bind(this)}>List of Feats</li></Link>
             <Link to={'/dice-rolls'}><li onClick={this.toggleMenu.bind(this)}>Dice Roll</li></Link>
             <Link to={'/npc-randomizer'}><li onClick={this.toggleMenu.bind(this)}>NPC Randomizer</li></Link>
+            <Link to={'/monster-list'}><li onClick={this.toggleMenu.bind(this)}>List of Monsters</li></Link>
           </ul>
         </div>
       </nav>

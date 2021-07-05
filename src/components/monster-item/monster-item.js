@@ -9,7 +9,6 @@ class MonsterItem extends Component {
     }
 
     this.addClassName = this.addClassName.bind(this)
-    this.getModifier = this.getModifier.bind(this)
   }
 
   addClassName(e, i) {
